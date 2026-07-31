@@ -13,7 +13,11 @@ export default function InstallPrompt() {
   const [showPrompt, setShowPrompt] = useState(false);
 
   useEffect(() => {
-    if (localStorage.getItem("install-prompt-dismissed") === "true") return;
+    const dismissedAt = localStorage.getItem("install-prompt-dismissed");
+    if (dismissedAt) {
+      const t = Number(dismissedAt);
+      if (Number.isFinite(t) && Date.now() - t < 24 * 60 * 60 * 1000) return;
+    }
 
     const handleBeforeInstallPrompt = (e: Event) => {
       e.preventDefault();
@@ -44,7 +48,7 @@ export default function InstallPrompt() {
   };
 
   const handleDismiss = () => {
-    localStorage.setItem("install-prompt-dismissed", "true");
+    localStorage.setItem("install-prompt-dismissed", String(Date.now()));
     setShowPrompt(false);
   };
 
