@@ -1,9 +1,11 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Bebas_Neue, Urbanist } from "next/font/google";
 import "./globals.css";
 import { Toaster } from "sonner";
 import { AuthProvider } from "@/components/AuthContext";
 import { ThemeProvider } from "@/components/ThemeProvider";
+import InstallPrompt from "@/components/InstallPrompt";
+import DevServiceWorkerReset from "@/components/DevServiceWorkerReset";
 
 const bebas = Bebas_Neue({
   subsets: ["latin"],
@@ -21,6 +23,13 @@ const urbanist = Urbanist({
 export const metadata: Metadata = {
   title: "Actirova Admin",
   description: "Actirova AI Tutor admin dashboard",
+  manifest: "/manifest.json",
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  themeColor: "#166534",
 };
 
 export default function RootLayout({
@@ -34,11 +43,14 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
+        <link rel="manifest" href="/manifest.json" />
       </head>
       <body className="font-sans antialiased">
         <ThemeProvider>
           <AuthProvider>{children}</AuthProvider>
         </ThemeProvider>
+        <DevServiceWorkerReset />
+        <InstallPrompt />
         <Toaster position="top-right" richColors />
       </body>
     </html>

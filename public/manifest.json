@@ -1,0 +1,21 @@
+{
+  "name": "Actirova Admin",
+  "short_name": "Actirova Admin",
+  "description": "Actirova AI Tutor admin dashboard",
+  "start_url": "/login",
+  "display": "standalone",
+  "background_color": "#f6f6f2",
+  "theme_color": "#166534",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
