@@ -11,24 +11,14 @@ export default function RequireAdmin({ children }: { children: React.ReactNode }
 
   useEffect(() => {
     if (!loading && !admin) {
-      const t = setTimeout(() => router.replace("/login"), 3000);
-      return () => clearTimeout(t);
+      router.replace("/login");
     }
   }, [loading, admin, router]);
 
-  if (loading) {
+  if (loading || !admin) {
     return (
       <div className="flex h-screen items-center justify-center">
         <Spinner />
-      </div>
-    );
-  }
-
-  if (!admin) {
-    return (
-      <div className="flex h-screen flex-col items-center justify-center gap-3">
-        <p className="text-sm text-ink2">Not signed in.</p>
-        <p className="text-xs text-ink3">Redirecting to login…</p>
       </div>
     );
   }
