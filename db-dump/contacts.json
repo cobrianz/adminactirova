@@ -1,0 +1,72 @@
+[
+  {
+    "_id": "69bb004e83b42d97c94ad365",
+    "name": "Brian Kipkemoi",
+    "email": "briancheruiyot022@gmail.com",
+    "subject": "Account Restriction",
+    "message": "my account was restricted",
+    "category": "general",
+    "status": "resolved",
+    "adminNotes": "\n\n[2026-03-18T20:40:40.645Z] Admin Response: Dear Brian Kipkemoi,\n\nWe are pleased to inform you that your inquiry regarding \"Account Restriction\" has been successfully resolved. We have addressed the points raised in your message and ensured all systems are performing as expected.\n\nPlease let us know if you require any further assistance.\n\nBest regards,\nActinova Support Team\n\n\n[2026-03-18T20:40:42.189Z] Admin Response: Dear Brian Kipkemoi,\n\nWe are pleased to inform you that your inquiry regarding \"Account Restriction\" has been successfully resolved. We have addressed the points raised in your message and ensured all systems are performing as expected.\n\nPlease let us know if you require any further assistance.\n\nBest regards,\nActinova Support Team\n",
+    "createdAt": "2026-03-18T19:43:10.541Z",
+    "updatedAt": "2026-03-24T08:55:22.417Z",
+    "__v": 0,
+    "responseHistory": [
+      {
+        "message": "Dear Brian Kipkemoi,\n\nWe are pleased to inform you that your inquiry regarding \"Account Restriction\" has been successfully resolved. We have addressed the points raised in your message and ensured all systems are performing as expected.\n\nPlease let us know if you require any further assistance.\n\nBest regards,\nActinova Support Team",
+        "timestamp": "2026-03-18T20:40:40.645Z",
+        "sentBy": "admin"
+      },
+      {
+        "message": "Dear Brian Kipkemoi,\n\nWe are pleased to inform you that your inquiry regarding \"Account Restriction\" has been successfully resolved. We have addressed the points raised in your message and ensured all systems are performing as expected.\n\nPlease let us know if you require any further assistance.\n\nBest regards,\nActinova Support Team",
+        "timestamp": "2026-03-18T20:40:41.953Z",
+        "sentBy": "admin"
+      },
+      {
+        "message": "Dear Brian Kipkemoi,\n\nWe are pleased to inform you that your inquiry regarding \"Account Restriction\" has been successfully resolved. We have addressed the points raised in your message and ensured all systems are performing as expected.\n\nPlease let us know if you require any further assistance.\n\nBest regards,\nActinova Support Team",
+        "timestamp": "2026-03-18T20:40:42.189Z",
+        "sentBy": "admin"
+      }
+    ]
+  },
+  {
+    "_id": "69c0fe185a56657d504c6432",
+    "name": "Brian Cheruiyot",
+    "email": "briancheruiyot022@gmail.com",
+    "subject": "Course generation",
+    "message": "There is an issue wirh course generation",
+    "category": "general",
+    "status": "resolved",
+    "adminNotes": "\n\n[2026-03-23T09:28:09.436Z] Admin Response: Dear Brian Cheruiyot,\n\nWe are pleased to inform you that your inquiry regarding \"Course generation\" has been successfully resolved. We have addressed the points raised in your message and ensured all systems are performing as expected.\n\nPlease let us know if you require any further assistance.\n\nBest regards,\nActinova Support Team\n",
+    "createdAt": "2026-03-23T08:47:20.060Z",
+    "updatedAt": "2026-03-24T08:55:26.637Z",
+    "__v": 0,
+    "responseHistory": [
+      {
+        "message": "Dear Brian Cheruiyot,\n\nWe are pleased to inform you that your inquiry regarding \"Course generation\" has been successfully resolved. We have addressed the points raised in your message and ensured all systems are performing as expected.\n\nPlease let us know if you require any further assistance.\n\nBest regards,\nActinova Support Team",
+        "timestamp": "2026-03-23T09:28:09.436Z",
+        "sentBy": "admin"
+      }
+    ]
+  },
+  {
+    "_id": "69cb020f485b81f2fc849eca",
+    "name": "Sonny",
+    "email": "sonny@directory.network",
+    "subject": "Quick idea for Actirova's press",
+    "message": "Saw Actirova on Product Hunt, great to see an AI learning platform like that. There's a service called Directory Network that helps startups get press coverage. They get your product featured across dozens of independent tech publications, each with unique articles. It's a one-time thing, either $49 or $99. Could be a good way to get more eyes on Actirova. No pressure at all.\n\nSonny",
+    "category": "general",
+    "status": "resolved",
+    "adminNotes": "\n\n[2026-03-31T07:30:57.141Z] Admin Response: Dear Sonny,\n\nThank you for reaching out to Actinova AI Tutor. We have received your inquiry regarding \"Quick idea for Actirova's press\" and our team is currently reviewing marketing options because my goal is t sell after reaching certains users and traffic. You can reach me on briancheruiyot022@gmail.com\n\nBest regards,\nActinova Support Team\n",
+    "createdAt": "2026-03-30T23:06:55.828Z",
+    "updatedAt": "2026-03-31T07:31:03.034Z",
+    "__v": 0,
+    "responseHistory": [
+      {
+        "message": "Dear Sonny,\n\nThank you for reaching out to Actinova AI Tutor. We have received your inquiry regarding \"Quick idea for Actirova's press\" and our team is currently reviewing marketing options because my goal is t sell after reaching certains users and traffic. You can reach me on briancheruiyot022@gmail.com\n\nBest regards,\nActinova Support Team",
+        "timestamp": "2026-03-31T07:30:57.141Z",
+        "sentBy": "admin"
+      }
+    ]
+  }
+]

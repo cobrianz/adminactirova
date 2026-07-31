@@ -1,0 +1,56 @@
+[
+  {
+    "_id": "69b83844ef2a26253a4fce7b",
+    "type": "platform",
+    "siteName": "Actinova AI Tutor",
+    "siteUrl": "https://actinova.ai",
+    "supportEmail": "support@actinova.ai",
+    "defaultLanguage": "en",
+    "timezone": "UTC",
+    "maintenanceMode": false,
+    "userRegistration": true,
+    "emailNotifications": true,
+    "rateLimit": 100,
+    "maxRequestsPerUser": 1000,
+    "apiLogging": true,
+    "rateLimiting": true,
+    "basicPrice": 29.99,
+    "proPrice": 49.99,
+    "enterprisePrice": 99.99,
+    "freeTrialEnabled": true,
+    "pushNotifications": false,
+    "weeklyReports": true,
+    "securityAlerts": true,
+    "twoFactorAuth": false,
+    "sessionTimeout": "30",
+    "passwordExpiry": "90",
+    "theme": "system",
+    "compactMode": false,
+    "animations": true,
+    "debugMode": false,
+    "cacheEnabled": true,
+    "email": {
+      "provider": "SendGrid",
+      "fromEmail": "noreply@actinova.ai",
+      "fromName": "Actinova"
+    },
+    "integrations": {
+      "stripe": {
+        "enabled": true,
+        "mode": "test"
+      },
+      "openai": {
+        "enabled": true,
+        "model": "gpt-4"
+      }
+    },
+    "features": {
+      "aiTutor": true,
+      "courseGeneration": true,
+      "flashcards": true,
+      "quizzes": true
+    },
+    "updatedAt": "2026-03-16T17:05:08.522Z",
+    "createdAt": "2026-03-16T17:05:08.522Z"
+  }
+]

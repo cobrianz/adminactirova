@@ -1,0 +1,113 @@
+[
+  {
+    "_id": "694bd982f9ea3b2f7cf5501e",
+    "id": "basic",
+    "name": "Basic",
+    "price": 0,
+    "billing": "month",
+    "status": "active",
+    "color": "gray",
+    "features": [
+      "2 course generations per month",
+      "2 quiz generations per month",
+      "5 flashcard sets per month",
+      "3 comprehensive reports & essays",
+      "20 AI chat messages per month",
+      "Beginner difficulty only",
+      "Community support"
+    ],
+    "limits": {
+      "courses": 2,
+      "quizzes": 2,
+      "flashcards": 5,
+      "reports": 3,
+      "chat": 20,
+      "difficulties": [
+        "beginner"
+      ]
+    },
+    "createdAt": "2025-12-24T12:15:59.772Z",
+    "updatedAt": "2026-03-25T13:18:28.610Z",
+    "discountDescription": null,
+    "originalPrice": 0,
+    "popular": false,
+    "description": "",
+    "featured": false
+  },
+  {
+    "_id": "694bd982f9ea3b2f7cf55020",
+    "id": "enterprise",
+    "name": "Enterprise",
+    "price": 180,
+    "billing": "month",
+    "status": "active",
+    "color": "purple",
+    "features": [
+      "✨ Unlimited everything",
+      "✨ Unlimited courses & modules",
+      "✨ Unlimited quizzes & flashcards",
+      "✨ Unlimited reports & essays",
+      "✨ Unlimited AI chat & context",
+      "✨ Dedicated account manager",
+      "✨ Priority 24/7 support",
+      "✨ Custom career path mapping"
+    ],
+    "limits": {
+      "courses": -1,
+      "quizzes": -1,
+      "flashcards": -1,
+      "reports": -1,
+      "chat": -1,
+      "difficulties": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ]
+    },
+    "createdAt": "2025-12-24T12:15:59.773Z",
+    "updatedAt": "2026-03-31T18:14:28.321Z",
+    "discountDescription": "Enterprise Professional Tier",
+    "originalPrice": 250,
+    "popular": false,
+    "description": "",
+    "featured": false
+  },
+  {
+    "_id": "694bd982f9ea3b2f7cf5501f",
+    "id": "premium",
+    "name": "Premium",
+    "price": 25,
+    "billing": "month",
+    "status": "active",
+    "color": "blue",
+    "features": [
+      "15 course generations per month",
+      "30 quiz generations per month",
+      "30 flashcard sets per month",
+      "25 high-quality reports & essays",
+      "1,000 AI chat messages per month",
+      "All difficulty levels",
+      "Priority email support",
+      "Advanced career tools access"
+    ],
+    "limits": {
+      "courses": 20,
+      "quizzes": 30,
+      "flashcards": 30,
+      "reports": 50,
+      "chat": 1000,
+      "difficulties": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ]
+    },
+    "createdAt": "2025-12-24T12:15:59.773Z",
+    "updatedAt": "2026-04-06T13:03:19.271Z",
+    "description": "",
+    "featured": false,
+    "discountDescription": "Premium Launch Offer",
+    "originalPrice": 59,
+    "popular": true
+  }
+]

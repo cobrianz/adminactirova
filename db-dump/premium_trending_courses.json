@@ -1,0 +1,182 @@
+[
+  {
+    "_id": "6a4066aa5906846dcfca4788",
+    "title": "Digital Photography: Mastering Light & Composition",
+    "description": "Dive into the art of photography by mastering the essential elements of light and composition. Develop your unique style and effectively communicate visual stories through your images.",
+    "category": "Creative Arts",
+    "difficulty": "intermediate",
+    "estimatedDuration": "8 weeks",
+    "tags": [
+      "photography",
+      "light",
+      "composition",
+      "visual storytelling",
+      "creative skills"
+    ],
+    "whyTrending": "With the rise of social media, high-quality visual content is more important than ever.",
+    "learningOutcomes": [
+      "Understand camera settings and functionalities",
+      "Enhance composition skills in photography",
+      "Utilize natural and artificial light effectively",
+      "Edit photos with professional software",
+      "Create a portfolio showcasing your work"
+    ],
+    "targetAudience": "Aspiring photographers looking to refine their skills.",
+    "id": "trending-1782605482905-3",
+    "userId": "global",
+    "isPremium": true,
+    "isTrending": true,
+    "price": 0,
+    "generatedAt": "2026-06-28T00:11:22.905Z"
+  },
+  {
+    "_id": "6a4066aa5906846dcfca478a",
+    "title": "Effective Communication in Remote Teams",
+    "description": "This course equips you with the skills necessary for delivering clear and impactful communication in remote work environments. Enhance your interpersonal skills to help lead productive virtual teams.",
+    "category": "Professional Skills",
+    "difficulty": "intermediate",
+    "estimatedDuration": "6 weeks",
+    "tags": [
+      "communication",
+      "remote work",
+      "leadership",
+      "team collaboration",
+      "interpersonal skills"
+    ],
+    "whyTrending": "As remote work becomes the norm, effective communication skills are essential for team success.",
+    "learningOutcomes": [
+      "Adapt communication strategies for virtual settings",
+      "Utilize digital tools for team collaboration",
+      "Foster a positive team culture remotely",
+      "Resolve conflicts in virtual teams",
+      "Enhance clarity in written and verbal communication"
+    ],
+    "targetAudience": "Professionals and team leaders in remote work settings.",
+    "id": "trending-1782605482905-5",
+    "userId": "global",
+    "isPremium": true,
+    "isTrending": true,
+    "price": 0,
+    "generatedAt": "2026-06-28T00:11:22.905Z"
+  },
+  {
+    "_id": "6a4066aa5906846dcfca4786",
+    "title": "Sustainable Business Strategies",
+    "description": "Explore innovative business models that prioritize sustainability and social responsibility while enhancing profitability. Learn how to integrate eco-friendly practices within your entrepreneurial journey.",
+    "category": "Business & Entrepreneurship",
+    "difficulty": "intermediate",
+    "estimatedDuration": "10 weeks",
+    "tags": [
+      "sustainability",
+      "entrepreneurship",
+      "business strategy",
+      "social responsibility",
+      "eco-friendly"
+    ],
+    "whyTrending": "Consumers increasingly favor businesses that align with their values regarding the environment and community.",
+    "learningOutcomes": [
+      "Develop sustainable business models",
+      "Identify eco-friendly supply chain practices",
+      "Engage stakeholders in sustainability efforts",
+      "Measure sustainability impact",
+      "Create marketing strategies focused on sustainability"
+    ],
+    "targetAudience": "Entrepreneurs and business professionals focused on sustainable growth.",
+    "id": "trending-1782605482905-1",
+    "userId": "global",
+    "isPremium": true,
+    "isTrending": true,
+    "price": 0,
+    "generatedAt": "2026-06-28T00:11:22.905Z"
+  },
+  {
+    "_id": "6a4066aa5906846dcfca4787",
+    "title": "Mindfulness & Mental Wellness Techniques",
+    "description": "This course offers evidence-based techniques to improve mental wellness through mindfulness practices. Learn how to manage stress and enhance emotional resilience for personal and professional growth.",
+    "category": "Health & Wellness",
+    "difficulty": "intermediate",
+    "estimatedDuration": "6 weeks",
+    "tags": [
+      "mindfulness",
+      "mental health",
+      "stress management",
+      "resilience",
+      "wellness techniques"
+    ],
+    "whyTrending": "Growing awareness of mental health has led to increased interest in mindfulness as a self-care tool.",
+    "learningOutcomes": [
+      "Practice daily mindfulness exercises",
+      "Reduce stress through mindful techniques",
+      "Enhance emotional intelligence",
+      "Cultivate a healthier work-life balance",
+      "Implement mindfulness in professional settings"
+    ],
+    "targetAudience": "Individuals seeking to improve their mental health and well-being.",
+    "id": "trending-1782605482905-2",
+    "userId": "global",
+    "isPremium": true,
+    "isTrending": true,
+    "price": 0,
+    "generatedAt": "2026-06-28T00:11:22.905Z"
+  },
+  {
+    "_id": "6a4066aa5906846dcfca4785",
+    "title": "AI Agents: Building Intelligent Systems",
+    "description": "This course teaches you how to design and implement AI agents capable of performing complex tasks autonomously. Gain expertise in AI frameworks and create your own intelligent solutions for real-world problems.",
+    "category": "AI Agents",
+    "difficulty": "intermediate",
+    "estimatedDuration": "8 weeks",
+    "tags": [
+      "artificial intelligence",
+      "automation",
+      "programming",
+      "machine learning",
+      "project-based"
+    ],
+    "whyTrending": "The rising demand for automation and intelligent systems is reshaping various industries.",
+    "learningOutcomes": [
+      "Design AI agents with user-specific functionalities",
+      "Implement machine learning algorithms",
+      "Evaluate the performance of AI systems",
+      "Integrate AI agents into existing applications",
+      "Understand ethical implications of AI"
+    ],
+    "targetAudience": "Intermediate programmers looking to expand their AI skills.",
+    "id": "trending-1782605482905-0",
+    "userId": "global",
+    "isPremium": true,
+    "isTrending": true,
+    "price": 0,
+    "generatedAt": "2026-06-28T00:11:22.905Z"
+  },
+  {
+    "_id": "6a4066aa5906846dcfca4789",
+    "title": "History of Climate Change and Solutions",
+    "description": "Analyze the historical context and development of climate change awareness and activism. Learn about innovative solutions that can be implemented today to combat climate change effectively.",
+    "category": "Humanities",
+    "difficulty": "intermediate",
+    "estimatedDuration": "8 weeks",
+    "tags": [
+      "climate change",
+      "history",
+      "sustainability",
+      "environmental science",
+      "solutions"
+    ],
+    "whyTrending": "Climate change awareness has surged, making it crucial to understand its history and collaborative solutions.",
+    "learningOutcomes": [
+      "Trace the history of climate change discourse",
+      "Evaluate past climate policies and impacts",
+      "Identify modern climate solutions",
+      "Engage in discussions about future trends",
+      "Advocate for sustainable practices in communities"
+    ],
+    "targetAudience": "Students and professionals interested in environmental issues.",
+    "id": "trending-1782605482905-4",
+    "userId": "global",
+    "isPremium": true,
+    "isTrending": true,
+    "price": 0,
+    "generatedAt": "2026-06-28T00:11:22.905Z"
+  }
+]

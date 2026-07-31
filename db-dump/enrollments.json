@@ -1,0 +1,96 @@
+[
+  {
+    "_id": "6a5a973f9cd2c180f7950004",
+    "classroomId": "6a5a863cea82958b8c771eda",
+    "studentId": "694af0021a87e1cd234dcbff",
+    "status": "active",
+    "joinedAt": "2026-07-17T20:57:35.369Z",
+    "createdAt": "2026-07-17T20:57:35.373Z",
+    "updatedAt": "2026-07-17T20:57:35.373Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a5c80411292a20579e1c570",
+    "classroomId": "6a5a863cea82958b8c771eda",
+    "studentId": "69bad374add31135beb0d582",
+    "status": "active",
+    "joinedAt": "2026-07-19T07:44:01.068Z",
+    "createdAt": "2026-07-19T07:44:01.071Z",
+    "updatedAt": "2026-07-19T07:44:01.071Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a5f090a063dea6d1040f2ae",
+    "classroomId": "6a5a863cea82958b8c771eda",
+    "studentId": "69b79e042e57d5ce5576953b",
+    "status": "active",
+    "joinedAt": "2026-07-21T05:52:10.254Z",
+    "createdAt": "2026-07-21T05:52:10.254Z",
+    "updatedAt": "2026-07-21T05:52:10.254Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a5f0920063dea6d1040f2bf",
+    "classroomId": "6a5b0dc645da061786019b7d",
+    "studentId": "69b79e042e57d5ce5576953b",
+    "status": "removed",
+    "joinedAt": "2026-07-21T05:52:32.018Z",
+    "createdAt": "2026-07-21T05:52:32.018Z",
+    "updatedAt": "2026-07-22T17:58:14.990Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a5f8ac3c17bbc76ecb41b97",
+    "classroomId": "6a5b0dc645da061786019b7d",
+    "studentId": "694af0021a87e1cd234dcbff",
+    "status": "removed",
+    "joinedAt": "2026-07-21T15:05:39.490Z",
+    "createdAt": "2026-07-21T15:05:39.493Z",
+    "updatedAt": "2026-07-22T17:58:14.990Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a604fe1b7e6484778a97c33",
+    "courseId": "69d400f0df3e198b138796e0",
+    "type": "marketplace-course",
+    "userId": "6a5a7a7aea82958b8c771e7e",
+    "amount": 0,
+    "createdAt": "2026-07-22T05:06:41.034Z",
+    "currency": "credits",
+    "expiryDate": "2026-08-21T05:06:41.034Z",
+    "reference": "credit_unlock_course_generation",
+    "startedAt": "2026-07-22T05:06:41.034Z",
+    "status": "active",
+    "updatedAt": "2026-07-22T05:06:41.034Z"
+  },
+  {
+    "_id": "6a6111ffd996eed41db4fdf8",
+    "classroomId": "6a610cf3d996eed41db4fbbc",
+    "studentId": "694af0021a87e1cd234dcbff",
+    "status": "active",
+    "joinedAt": "2026-07-22T18:54:55.957Z",
+    "createdAt": "2026-07-22T18:54:55.959Z",
+    "updatedAt": "2026-07-22T18:54:55.959Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a65128321a5d41f93cac8b7",
+    "classroomId": "6a64c617c6a413eec81c3ac5",
+    "studentId": "694af0021a87e1cd234dcbff",
+    "status": "active",
+    "joinedAt": "2026-07-25T19:46:11.888Z",
+    "createdAt": "2026-07-25T19:46:11.892Z",
+    "updatedAt": "2026-07-25T19:46:11.892Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a6782ef8b268d42dfb5e426",
+    "classroomId": "6a64c617c6a413eec81c3ac5",
+    "studentId": "6a65069d1885cd89ba09e70f",
+    "status": "active",
+    "joinedAt": "2026-07-27T16:10:23.809Z",
+    "createdAt": "2026-07-27T16:10:23.810Z",
+    "updatedAt": "2026-07-27T16:10:23.810Z",
+    "__v": 0
+  }
+]

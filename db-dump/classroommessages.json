@@ -1,0 +1,56 @@
+[
+  {
+    "_id": "6a5c7ddc8f5ed5e7cd9ffa1f",
+    "classroomId": "6a5a863cea82958b8c771eda",
+    "senderId": "6a5a7a7aea82958b8c771e7e",
+    "senderName": "Rose Cheruiyot",
+    "senderRole": "instructor",
+    "content": "hey",
+    "createdAt": "2026-07-19T07:33:48.839Z"
+  },
+  {
+    "_id": "6a5c858f8f5ed5e7cd9ffcb1",
+    "classroomId": "6a5a863cea82958b8c771eda",
+    "senderId": "6a5a7a7aea82958b8c771e7e",
+    "senderName": "Rose Cheruiyot",
+    "senderRole": "instructor",
+    "content": "hello",
+    "createdAt": "2026-07-19T08:06:39.554Z"
+  },
+  {
+    "_id": "6a5c86268f5ed5e7cd9ffd35",
+    "classroomId": "6a5a863cea82958b8c771eda",
+    "senderId": "694af0021a87e1cd234dcbff",
+    "senderName": "Brian Cheruiyot",
+    "senderRole": "student",
+    "content": "yes",
+    "createdAt": "2026-07-19T08:09:10.975Z"
+  },
+  {
+    "_id": "6a5c86398f5ed5e7cd9ffd37",
+    "classroomId": "6a5a863cea82958b8c771eda",
+    "senderId": "6a5a7a7aea82958b8c771e7e",
+    "senderName": "Rose Cheruiyot",
+    "senderRole": "instructor",
+    "content": "how a you",
+    "createdAt": "2026-07-19T08:09:29.772Z"
+  },
+  {
+    "_id": "6a5c92fa8f5ed5e7cda0000e",
+    "classroomId": "6a5a863cea82958b8c771eda",
+    "senderId": "6a5a7a7aea82958b8c771e7e",
+    "senderName": "Rose Cheruiyot",
+    "senderRole": "instructor",
+    "content": "hello",
+    "createdAt": "2026-07-19T09:03:54.345Z"
+  },
+  {
+    "_id": "6a5c9d268f5ed5e7cda0034c",
+    "classroomId": "6a5a863cea82958b8c771eda",
+    "senderId": "6a5a7a7aea82958b8c771e7e",
+    "senderName": "Rose Cheruiyot",
+    "senderRole": "instructor",
+    "content": "see mee",
+    "createdAt": "2026-07-19T09:47:18.173Z"
+  }
+]

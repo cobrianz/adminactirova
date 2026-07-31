@@ -1,0 +1,6102 @@
+[
+  {
+    "_id": "69b979835064e60964280777",
+    "name": "Ann Nabwire",
+    "email": "annnabwire02@gmail.com",
+    "password": "$2b$12$tZLv4oQ49u0u8934KS.BmeaJNwUili0gIRiCKegnucCMdCVKrA30W",
+    "role": "student",
+    "status": "active",
+    "emailVerificationToken": null,
+    "emailVerificationCode": null,
+    "emailVerificationExpires": null,
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-04-01T00:00:00.000Z",
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-03-17T15:55:47.658Z",
+    "lastActive": "2026-05-28T18:26:19.809Z",
+    "emailVerified": true,
+    "lastLogin": "2026-05-28T18:26:19.809Z",
+    "loginCount": 3,
+    "lastContentRefresh": "2026-05-28T18:26:20.311Z",
+    "ageGroup": "25-34",
+    "educationLevel": "masters",
+    "goals": [
+      "skill-upgrade",
+      "certification",
+      "teaching",
+      "research"
+    ],
+    "interestCategories": [
+      "Design",
+      "Humanities",
+      "Languages",
+      "Lifestyle",
+      "Business",
+      "Health",
+      "Creative"
+    ],
+    "interests": [
+      "design",
+      "writing",
+      "languages",
+      "cooking",
+      "finance",
+      "health",
+      "project-management",
+      "politics",
+      "fashion"
+    ],
+    "onboardingCompleted": true,
+    "skillLevel": "beginner",
+    "timeCommitment": "4-7",
+    "billingHistory": [],
+    "isPremium": false,
+    "subscription": {
+      "plan": "free",
+      "tier": "free",
+      "status": "inactive",
+      "autoRenew": false
+    }
+  },
+  {
+    "_id": "69bad374add31135beb0d582",
+    "email": "rosecheruiyot445@gmail.com",
+    "name": "rose cheruiyot",
+    "avatar": "https://lh3.googleusercontent.com/a/ACg8ocLU8HPZZnj_e2qcsEDCZd5bXwTzl71495lbCPkAxKchLngkfA=s96-c",
+    "googleId": "114749845368978550206",
+    "emailVerified": true,
+    "status": "active",
+    "role": "student",
+    "onboardingCompleted": true,
+    "isPremium": false,
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-03-18T16:31:48.990Z",
+    "lastLogin": "2026-07-20T08:49:57.059Z",
+    "loginCount": 3,
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-04-01T00:00:00.000Z",
+    "subscription": {
+      "plan": "free",
+      "tier": "free",
+      "status": "inactive",
+      "autoRenew": false
+    },
+    "lastContentRefresh": "2026-07-20T08:49:46.881Z",
+    "ageGroup": "18-24",
+    "educationLevel": "associates",
+    "goals": [
+      "hobby"
+    ],
+    "interestCategories": [
+      "Data Science",
+      "AI & ML"
+    ],
+    "interests": [
+      "data-science",
+      "ai-ml"
+    ],
+    "skillLevel": "intermediate",
+    "timeCommitment": "8-15",
+    "lastLogout": "2026-07-20T08:51:07.078Z",
+    "refreshTokens": [],
+    "billingHistory": [],
+    "lastActive": "2026-07-20T08:49:57.059Z",
+    "dailyLoginStreak": 2,
+    "lastLoginBonus": "2026-07-20",
+    "level": 1,
+    "xp": 10
+  },
+  {
+    "_id": "69b97c285064e609642807a6",
+    "name": "Musa Odende",
+    "email": "musaodende5@gmail.com",
+    "password": "$2b$12$OYyh0UNktmmtICQG.Ohe/ur1/6uZX9tbZUhmbbBvRrptVGAYYBmni",
+    "role": "student",
+    "status": "pending",
+    "emailVerificationToken": "aebbd940-d6b7-480d-a31b-ef2c1cd9b597",
+    "emailVerificationCode": "255929",
+    "emailVerificationExpires": "2026-03-18T16:07:04.923Z",
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-04-01T00:00:00.000Z",
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-03-17T16:07:05.502Z",
+    "lastActive": "2026-03-17T16:07:05.502Z",
+    "billingHistory": [],
+    "isPremium": false,
+    "subscription": {
+      "plan": "free",
+      "tier": "free",
+      "status": "inactive",
+      "autoRenew": false
+    }
+  },
+  {
+    "_id": "69b9818b5064e6096428081d",
+    "name": "Naftali Mbatia",
+    "email": "naftalim675@gmail.com",
+    "password": "$2b$12$DeMNzx1zfrrxf/658Rlo7.cp.8S4vErKaPujxL10QCSBxdHfbIfnm",
+    "role": "student",
+    "status": "active",
+    "emailVerificationToken": null,
+    "emailVerificationCode": null,
+    "emailVerificationExpires": null,
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-04-01T00:00:00.000Z",
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-03-17T16:30:03.866Z",
+    "lastActive": "2026-03-17T16:37:47.861Z",
+    "emailVerified": true,
+    "lastLogin": "2026-03-17T16:37:47.861Z",
+    "loginCount": 2,
+    "lastContentRefresh": "2026-03-17T16:33:02.406Z",
+    "ageGroup": "18-24",
+    "educationLevel": "associates",
+    "goals": [
+      "skill-upgrade",
+      "personal-project",
+      "certification"
+    ],
+    "interestCategories": [
+      "Technology",
+      "AI & ML",
+      "Business",
+      "Design",
+      "Health",
+      "Mathematics"
+    ],
+    "interests": [
+      "programming",
+      "ai-ml",
+      "gaming",
+      "investing",
+      "design",
+      "real-estate",
+      "entrepreneurship",
+      "public-speaking",
+      "project-management",
+      "psychology",
+      "meditation",
+      "finance",
+      "math"
+    ],
+    "onboardingCompleted": true,
+    "skillLevel": "intermediate",
+    "timeCommitment": "15+",
+    "courses": [
+      {
+        "courseId": "69b983485064e60964280830",
+        "progress": 1,
+        "completed": false,
+        "startedAt": "2026-03-17T16:40:01.293Z",
+        "lastUpdated": "2026-03-17T16:40:01.310Z"
+      }
+    ],
+    "billingHistory": [],
+    "isPremium": false,
+    "subscription": {
+      "plan": "free",
+      "tier": "free",
+      "status": "inactive",
+      "autoRenew": false
+    }
+  },
+  {
+    "_id": "69bad3f9add31135beb0d58e",
+    "email": "kibichiibronson@gmail.com",
+    "name": "Bronson Kibichii",
+    "avatar": "https://lh3.googleusercontent.com/a/ACg8ocLtbFaW__HFp2nArp-zK3ncFWYmOBKqXvST4BePFCw8F1O5wzQU=s96-c",
+    "googleId": "103888796576235510447",
+    "emailVerified": true,
+    "status": "active",
+    "role": "student",
+    "onboardingCompleted": true,
+    "isPremium": false,
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-03-18T16:34:01.231Z",
+    "lastLogin": "2026-03-18T16:34:01.231Z",
+    "loginCount": 1,
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-04-01T00:00:00.000Z",
+    "subscription": {
+      "plan": "free",
+      "tier": "free",
+      "status": "inactive",
+      "autoRenew": false
+    },
+    "lastContentRefresh": "2026-03-18T16:34:01.640Z",
+    "ageGroup": "18-24",
+    "educationLevel": "bachelors",
+    "goals": [
+      "skill-upgrade",
+      "personal-project",
+      "startup",
+      "hobby",
+      "research"
+    ],
+    "interestCategories": [
+      "Technology",
+      "Design",
+      "Business",
+      "Data Science",
+      "AI & ML",
+      "Creative",
+      "Humanities",
+      "Languages",
+      "Science",
+      "Mathematics",
+      "Health",
+      "Lifestyle"
+    ],
+    "interests": [
+      "programming",
+      "design",
+      "business",
+      "data-science",
+      "ai-ml",
+      "music",
+      "photography",
+      "gaming",
+      "writing",
+      "languages",
+      "science",
+      "math",
+      "history",
+      "health",
+      "finance",
+      "cooking",
+      "fitness",
+      "meditation",
+      "gardening",
+      "crafts",
+      "psychology",
+      "philosophy"
+    ],
+    "skillLevel": "intermediate",
+    "timeCommitment": "1-3",
+    "billingHistory": []
+  },
+  {
+    "_id": "69c9943f79a30108e8d540b1",
+    "email": "michealscofield64@gmail.com",
+    "name": "Oludare Micheal olajide",
+    "avatar": "https://lh3.googleusercontent.com/a/ACg8ocLjuwfgK8HApnF5u0LiJyEq1c7Rfxofv6vc5dgDqZKzybwDfdJ7=s96-c",
+    "googleId": "110832529947237831887",
+    "emailVerified": true,
+    "status": "active",
+    "role": "student",
+    "onboardingCompleted": true,
+    "isPremium": false,
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-03-29T21:06:07.448Z",
+    "lastLogin": "2026-03-29T21:06:07.448Z",
+    "loginCount": 1,
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-04-01T00:00:00.000Z",
+    "subscription": {
+      "plan": "free",
+      "tier": "free",
+      "status": "inactive",
+      "autoRenew": false
+    },
+    "lastContentRefresh": "2026-03-29T21:06:07.836Z",
+    "ageGroup": "18-24",
+    "educationLevel": "some-college",
+    "goals": [
+      "personal-project"
+    ],
+    "interestCategories": [
+      "Technology"
+    ],
+    "interests": [
+      "programming"
+    ],
+    "skillLevel": "intermediate",
+    "timeCommitment": "4-7",
+    "lastLogout": "2026-03-29T21:07:24.175Z",
+    "refreshTokens": [],
+    "billingHistory": []
+  },
+  {
+    "_id": "69b8d8f567c654b94b637aee",
+    "name": "CONRAD ALUMASI",
+    "email": "conradshieunda1998@gmail.com",
+    "password": "$2b$12$hQU7oLU9WmMgOX0MUrcHs.y4V/UHuH25u2OvDzFULYFzn5RU7Rjda",
+    "role": "student",
+    "status": "active",
+    "emailVerificationToken": null,
+    "emailVerificationCode": null,
+    "emailVerificationExpires": null,
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-04-01T00:00:00.000Z",
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-03-17T04:30:45.953Z",
+    "lastActive": "2026-03-17T04:35:19.683Z",
+    "emailVerified": true,
+    "lastLogin": "2026-03-17T04:35:19.683Z",
+    "loginCount": 2,
+    "lastContentRefresh": "2026-03-17T04:31:19.244Z",
+    "ageGroup": "25-34",
+    "educationLevel": "bachelors",
+    "goals": [
+      "skill-upgrade",
+      "personal-project",
+      "research"
+    ],
+    "interestCategories": [
+      "Technology",
+      "AI & ML",
+      "Data Science"
+    ],
+    "interests": [
+      "programming",
+      "ai-ml",
+      "data-science"
+    ],
+    "onboardingCompleted": true,
+    "skillLevel": "intermediate",
+    "timeCommitment": "4-7",
+    "courses": [
+      {
+        "courseId": "69b8d9ce67c654b94b637af5",
+        "progress": 0,
+        "completed": false,
+        "startedAt": "2026-03-17T04:36:24.623Z",
+        "lastUpdated": "2026-03-17T04:36:24.639Z"
+      }
+    ],
+    "billingHistory": [],
+    "isPremium": false,
+    "subscription": {
+      "plan": "free",
+      "tier": "free",
+      "status": "inactive",
+      "autoRenew": false
+    }
+  },
+  {
+    "_id": "69b97c8e5064e609642807ba",
+    "name": "Brian Otieno",
+    "email": "bo0277195@gmail.com",
+    "password": "$2b$12$a1Akkkhfe0zHQMR7EYHqWOzD28hD/nhrYcgly9eDn0/TxptPuTEAS",
+    "role": "student",
+    "status": "active",
+    "emailVerificationToken": null,
+    "emailVerificationCode": null,
+    "emailVerificationExpires": null,
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-04-01T00:00:00.000Z",
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-03-17T16:08:47.291Z",
+    "lastActive": "2026-03-17T16:13:48.147Z",
+    "emailVerified": true,
+    "lastLogin": "2026-03-17T16:13:48.147Z",
+    "loginCount": 1,
+    "lastContentRefresh": "2026-03-19T09:45:31.737Z",
+    "ageGroup": "18-24",
+    "educationLevel": "bachelors",
+    "goals": [
+      "skill-upgrade",
+      "personal-project",
+      "teaching",
+      "research",
+      "certification",
+      "startup"
+    ],
+    "interestCategories": [
+      "Technology",
+      "Humanities",
+      "Data Science",
+      "Business",
+      "Health",
+      "Science",
+      "Lifestyle",
+      "Languages",
+      "Mathematics",
+      "AI & ML",
+      "Creative",
+      "Design"
+    ],
+    "interests": [
+      "programming",
+      "writing",
+      "data-science",
+      "finance",
+      "fitness",
+      "psychology",
+      "marketing",
+      "project-management",
+      "leadership",
+      "public-speaking",
+      "investing",
+      "agriculture",
+      "environmental",
+      "geography",
+      "entrepreneurship",
+      "gardening",
+      "meditation",
+      "languages",
+      "science",
+      "math",
+      "business",
+      "ai-ml",
+      "music",
+      "design",
+      "veterinary",
+      "nutrition"
+    ],
+    "onboardingCompleted": true,
+    "skillLevel": "intermediate",
+    "timeCommitment": "1-3",
+    "billingHistory": [],
+    "isPremium": false,
+    "subscription": {
+      "plan": "free",
+      "tier": "free",
+      "status": "inactive",
+      "autoRenew": false
+    }
+  },
+  {
+    "_id": "69b992bc5bafea68c7e74095",
+    "name": "Paddy Mamwacha",
+    "email": "paddymamwacha@gmail.com",
+    "password": "$2b$12$IwHu/UPXbkzfF/1Q12nTGuO7B4TafqjIev18U/9UKKs01KjrvREdi",
+    "role": "student",
+    "status": "active",
+    "emailVerificationToken": null,
+    "emailVerificationCode": null,
+    "emailVerificationExpires": null,
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-04-01T00:00:00.000Z",
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-03-17T17:43:25.121Z",
+    "lastActive": "2026-03-17T20:00:32.873Z",
+    "emailVerified": true,
+    "lastLogin": "2026-03-17T20:00:32.873Z",
+    "loginCount": 2,
+    "lastContentRefresh": "2026-03-17T17:44:16.490Z",
+    "ageGroup": "18-24",
+    "educationLevel": "bachelors",
+    "goals": [
+      "teaching",
+      "research",
+      "personal-project",
+      "skill-upgrade",
+      "startup"
+    ],
+    "interestCategories": [
+      "Technology",
+      "Data Science",
+      "AI & ML",
+      "Mathematics",
+      "Business",
+      "Health",
+      "Humanities"
+    ],
+    "interests": [
+      "programming",
+      "data-science",
+      "ai-ml",
+      "math",
+      "public-speaking",
+      "psychology",
+      "meditation",
+      "finance",
+      "sociology",
+      "automotive",
+      "politics",
+      "accounting",
+      "law"
+    ],
+    "onboardingCompleted": true,
+    "skillLevel": "advanced",
+    "timeCommitment": "4-7",
+    "courses": [
+      {
+        "courseId": "69b994275bafea68c7e74097",
+        "progress": 1,
+        "completed": false,
+        "startedAt": "2026-03-17T17:51:11.954Z",
+        "lastUpdated": "2026-03-17T17:51:11.968Z"
+      },
+      {
+        "courseId": "69b9b3153dfb63b63edd5459",
+        "progress": 1,
+        "completed": false,
+        "startedAt": "2026-03-17T20:02:24.440Z",
+        "lastUpdated": "2026-03-17T20:02:24.458Z"
+      },
+      {
+        "courseId": "69ba6b9d2972a748be6f1346",
+        "progress": 1,
+        "completed": false,
+        "startedAt": "2026-03-18T09:09:29.396Z",
+        "lastUpdated": "2026-03-18T09:09:29.415Z"
+      }
+    ],
+    "billingHistory": [],
+    "isPremium": false,
+    "subscription": {
+      "plan": "free",
+      "tier": "free",
+      "status": "inactive",
+      "autoRenew": false
+    }
+  },
+  {
+    "_id": "69b9a6c4573ea3208785db4d",
+    "name": "Samuel Simiyu",
+    "email": "simiyumasika602@gmail.com",
+    "password": "$2b$12$BYDH9kzLbSzgvmAj7PUCFu..a9kNf57U3Qh3NVkMauQYl0m8IDwZa",
+    "role": "student",
+    "status": "active",
+    "emailVerificationToken": null,
+    "emailVerificationCode": null,
+    "emailVerificationExpires": null,
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-04-01T00:00:00.000Z",
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-03-17T19:08:52.428Z",
+    "lastActive": "2026-06-06T07:32:45.011Z",
+    "emailVerified": true,
+    "lastLogin": "2026-06-06T07:32:45.011Z",
+    "loginCount": 3,
+    "lastContentRefresh": "2026-06-06T07:32:45.798Z",
+    "ageGroup": "18-24",
+    "educationLevel": "bachelors",
+    "goals": [
+      "research",
+      "startup",
+      "certification",
+      "personal-project",
+      "career-change"
+    ],
+    "interestCategories": [
+      "Technology",
+      "AI & ML",
+      "Creative",
+      "Health",
+      "Business",
+      "Humanities"
+    ],
+    "interests": [
+      "programming",
+      "ai-ml",
+      "photography",
+      "health",
+      "marketing",
+      "public-speaking",
+      "writing"
+    ],
+    "onboardingCompleted": true,
+    "skillLevel": "beginner",
+    "timeCommitment": "4-7",
+    "courses": [
+      {
+        "courseId": "69b9a8ef573ea3208785db56",
+        "progress": 1,
+        "completed": false,
+        "startedAt": "2026-03-17T19:20:12.246Z",
+        "lastUpdated": "2026-03-17T19:20:12.292Z"
+      },
+      {
+        "courseId": "69bae73d983234c16e6bfcd4",
+        "progress": 1,
+        "completed": false,
+        "startedAt": "2026-03-18T17:57:10.462Z",
+        "lastUpdated": "2026-03-18T17:57:10.499Z"
+      }
+    ],
+    "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjUO_qpCRYY5pZJ0wO4BsmgAoa2AjSiYP_XIqpbUEQgLrCr1T3QRIT1TPmLy_J9C3Ao0tNT9aQHOeG0uGBR6Hw32CWZlwmU04Zm8RaWSpFXnLgysfPI6QlMVdEFdymvOl-5A1RGUG3r5NCpNVxinNxYgNI2T3fCSNL1imOtAtW3-lzh6ys1vfoi-VYFULSSDghcFfZystyHu8xFo5-wPR3ukyUWcX2dKhx9LmIFhx4pd_JNIGmKAkjge7-vjY4JQt8UyrYmDNc8QZTl1jdpPJBT5VAADQ8gYu67DaDLU9-nizk8ClKuqw5GHX9FOKpArw1GlFt_EvU3r27IhRJt1vGC5a2SWXXn65ChJ_WBHV6PWyx_c39YmaaThcJUpF2XICzwQAbofl04xuRANpQw8QEOY2dJ-HzbhxAH5pEK6GHlToP6d6X3qkTW8gE9z-rbmZM8Zd3BPddEb-8XxOcO-bPamu8gBNUjJaiDnriq0PZKWfVglIb0ulyTM6D5UVXyHMABdd2GAPCJNg2-ostALTni9gEwLpjcYyCFX7CeNLZBzU0CGpAn9j4wUW0bYTYWznPrxhmPhgJlOSqxGHvU2hEz0sWRpFtlnUIbF3DSR6PHhlyWk_jZfYrt7YJstZbgzoDA6Qi6bS0G1Gexc17Q-9gbPlg3t03WHGdAa9lzEbTaySv6VJferAxftZ8ZsIPFhqXJWADmFe_RNxIBIUd82JRAkb3BcRcmXizK9snafG6cQ9ubRoaCIRTdFjUaj0qki8Y_QXt-B-XHfA0vkNgxQYPESdWljH2mXYA_g-p_lt-TxqOoJVWBHGbXXZTG5w9qc3wYtBMNmllMXesI0_pa2lZDTbf82HetGIym4Y6XEiiuBOs6vtiDXoTrGSelX2Ip_mMVr256KBHjfiFd-DsyrwsncvaZvMGO3X3LXTWaWv4PZ8JSVm8tN-NUWeB8rRd7xlRuqBdD0BNo5FQ15bVtyH8VgGjH9Y2asHQXvwcB7O1t3N9dpoReJQyuBP5jtAPQIyoKEKNbmecNWlEzDkbB12XFlUAFzNhs45Kl8IPEKSW593HUj5ogE=s96-c",
+    "googleId": "102460720017542260419",
+    "billingHistory": [],
+    "isPremium": false,
+    "subscription": {
+      "plan": "free",
+      "tier": "free",
+      "status": "inactive",
+      "autoRenew": false
+    }
+  },
+  {
+    "_id": "69c03b2fab4c3ed8b6be7612",
+    "email": "deememsy@gmail.com",
+    "name": "Dianah",
+    "avatar": "https://lh3.googleusercontent.com/a/ACg8ocKtzAl-xID3NpKzAS-eY9udRwlDFAbnUJO5FjBS0Hho7e4y=s96-c",
+    "googleId": "113056432704924881445",
+    "emailVerified": true,
+    "status": "active",
+    "role": "student",
+    "onboardingCompleted": true,
+    "isPremium": false,
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-03-22T18:55:43.058Z",
+    "lastLogin": "2026-03-22T18:55:43.058Z",
+    "loginCount": 1,
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-04-01T00:00:00.000Z",
+    "subscription": {
+      "plan": "free",
+      "tier": "free",
+      "status": "inactive",
+      "autoRenew": false
+    },
+    "lastContentRefresh": "2026-03-22T18:55:43.538Z",
+    "ageGroup": "18-24",
+    "educationLevel": "bachelors",
+    "goals": [
+      "hobby",
+      "certification",
+      "career-change",
+      "skill-upgrade"
+    ],
+    "interestCategories": [
+      "Creative"
+    ],
+    "interests": [
+      "dance"
+    ],
+    "skillLevel": "beginner",
+    "timeCommitment": "4-7",
+    "billingHistory": []
+  },
+  {
+    "_id": "69c28be82f442a141e27a7b0",
+    "email": "mercylinenyaboke08@gmail.com",
+    "name": "Mercyline Nyaboke",
+    "avatar": "https://lh3.googleusercontent.com/a/ACg8ocLX10qSfkQPoVUiyqvzU7iVxPoErL-s1-Plgo6t_h_FiBUWh2EJ=s96-c",
+    "googleId": "117345642360819041804",
+    "emailVerified": true,
+    "status": "active",
+    "role": "student",
+    "onboardingCompleted": true,
+    "isPremium": false,
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-03-24T13:04:40.383Z",
+    "lastLogin": "2026-05-29T06:00:30.098Z",
+    "loginCount": 2,
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-04-01T00:00:00.000Z",
+    "subscription": {
+      "plan": "free",
+      "tier": "free",
+      "status": "inactive",
+      "autoRenew": false
+    },
+    "lastContentRefresh": "2026-05-29T06:00:30.999Z",
+    "ageGroup": "18-24",
+    "educationLevel": "associates",
+    "goals": [
+      "career-change",
+      "skill-upgrade",
+      "personal-project",
+      "certification",
+      "teaching",
+      "research"
+    ],
+    "interestCategories": [
+      "Technology",
+      "Design",
+      "Data Science",
+      "AI & ML",
+      "Creative",
+      "Business"
+    ],
+    "interests": [
+      "programming",
+      "design",
+      "data-science",
+      "ai-ml",
+      "music",
+      "leadership",
+      "public-speaking",
+      "art-history"
+    ],
+    "skillLevel": "intermediate",
+    "timeCommitment": "1-3",
+    "billingHistory": [],
+    "lastActive": "2026-05-29T06:00:30.098Z"
+  },
+  {
+    "_id": "69b97b7df5e4da6998ef6df8",
+    "name": "Purity Adhiambo",
+    "email": "adhiambopurity735@gmail.com",
+    "password": "$2b$12$QRJyV4TizLVEKLI.t59pzOZNHTH38KdIjkAOFV2BbQ6LDpNoUJK8O",
+    "role": "student",
+    "status": "active",
+    "emailVerificationToken": null,
+    "emailVerificationCode": null,
+    "emailVerificationExpires": null,
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-04-01T00:00:00.000Z",
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-03-17T16:04:13.923Z",
+    "lastActive": "2026-03-17T16:10:23.201Z",
+    "emailVerified": true,
+    "lastLogin": "2026-03-17T16:10:23.201Z",
+    "loginCount": 1,
+    "lastContentRefresh": "2026-03-17T16:10:23.619Z",
+    "ageGroup": "18-24",
+    "educationLevel": "self-taught",
+    "goals": [
+      "skill-upgrade",
+      "certification",
+      "hobby",
+      "startup"
+    ],
+    "interestCategories": [
+      "Design",
+      "Business",
+      "Languages",
+      "Creative"
+    ],
+    "interests": [
+      "design",
+      "business",
+      "languages",
+      "fashion",
+      "finance",
+      "crafts",
+      "economics",
+      "marketing",
+      "entrepreneurship",
+      "interior-design"
+    ],
+    "onboardingCompleted": true,
+    "skillLevel": "intermediate",
+    "timeCommitment": "1-3",
+    "billingHistory": [],
+    "isPremium": false,
+    "subscription": {
+      "plan": "free",
+      "tier": "free",
+      "status": "inactive",
+      "autoRenew": false
+    }
+  },
+  {
+    "_id": "69ba4920edb1eb44051e4696",
+    "name": "Everlyn Sifunjo",
+    "email": "sumupyear@gmail.com",
+    "password": "$2b$12$iEkTevJwZEj.vKUkRIlyJOA0D9EBrSVgsxncrN6N811szudej45ha",
+    "role": "student",
+    "status": "active",
+    "emailVerificationToken": null,
+    "emailVerificationCode": null,
+    "emailVerificationExpires": null,
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-04-01T00:00:00.000Z",
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-03-18T06:41:36.739Z",
+    "lastActive": "2026-03-18T06:42:35.985Z",
+    "emailVerified": true,
+    "lastLogin": "2026-03-18T06:42:35.985Z",
+    "loginCount": 1,
+    "lastContentRefresh": "2026-03-18T06:42:36.683Z",
+    "ageGroup": "18-24",
+    "educationLevel": "bachelors",
+    "goals": [
+      "career-change",
+      "skill-upgrade",
+      "certification",
+      "personal-project",
+      "startup",
+      "teaching",
+      "hobby",
+      "research"
+    ],
+    "interestCategories": [
+      "Technology",
+      "Business",
+      "Data Science",
+      "AI & ML",
+      "Creative",
+      "Humanities",
+      "Lifestyle"
+    ],
+    "interests": [
+      "programming",
+      "business",
+      "data-science",
+      "ai-ml",
+      "photography",
+      "writing",
+      "cooking",
+      "gardening",
+      "project-management",
+      "public-speaking"
+    ],
+    "onboardingCompleted": true,
+    "skillLevel": "intermediate",
+    "timeCommitment": "4-7",
+    "billingHistory": [],
+    "isPremium": false,
+    "subscription": {
+      "plan": "free",
+      "tier": "free",
+      "status": "inactive",
+      "autoRenew": false
+    }
+  },
+  {
+    "_id": "69bacaf67964192ae84b570c",
+    "name": "Vikram Kumar",
+    "email": "sbmyajqkix@oemails.com",
+    "password": "$2b$12$yvw2hOpnvGq8ozJyRSm2sOEYNWTqiwCC2wKW0RzD5/VUSTABfkikW",
+    "role": "student",
+    "status": "active",
+    "emailVerificationToken": null,
+    "emailVerificationCode": null,
+    "emailVerificationExpires": null,
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-04-01T00:00:00.000Z",
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-03-18T15:55:34.881Z",
+    "lastActive": "2026-03-18T16:05:29.592Z",
+    "emailVerified": true,
+    "lastLogin": "2026-03-18T16:05:29.592Z",
+    "loginCount": 2,
+    "lastContentRefresh": "2026-03-20T08:54:39.160Z",
+    "ageGroup": "25-34",
+    "educationLevel": "self-taught",
+    "goals": [
+      "career-change"
+    ],
+    "interestCategories": [
+      "Design",
+      "Business",
+      "Creative",
+      "Humanities",
+      "Languages",
+      "Lifestyle",
+      "Technology"
+    ],
+    "interests": [
+      "design",
+      "business",
+      "photography",
+      "writing",
+      "languages",
+      "finance",
+      "cooking",
+      "crafts",
+      "marketing",
+      "project-management",
+      "leadership",
+      "public-speaking",
+      "art-history",
+      "interior-design",
+      "electrician"
+    ],
+    "onboardingCompleted": true,
+    "skillLevel": "beginner",
+    "timeCommitment": "1-3",
+    "courses": [
+      {
+        "courseId": "69baccac0fb5104f78547ed6",
+        "progress": 2,
+        "completed": false,
+        "startedAt": "2026-03-18T16:06:41.714Z",
+        "lastUpdated": "2026-03-18T16:08:06.283Z"
+      }
+    ],
+    "billingHistory": [],
+    "isPremium": false,
+    "subscription": {
+      "plan": "free",
+      "tier": "free",
+      "status": "inactive",
+      "autoRenew": false
+    }
+  },
+  {
+    "_id": "69b569b2ef668c8fb0055311",
+    "name": "Brian Cheruiyot",
+    "email": "briankipkemoi808@gmail.com",
+    "password": "$2b$12$tP8lQfE8QqjtAe43eOQEYe3Ji9rXuvw/oECFd76fJ.PUMXic6FmgS",
+    "role": "student",
+    "status": "active",
+    "emailVerificationToken": null,
+    "emailVerificationCode": null,
+    "emailVerificationExpires": null,
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-03-31T21:00:00.000Z",
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-03-14T13:59:14.929Z",
+    "lastActive": "2026-06-09T19:09:44.659Z",
+    "emailVerified": true,
+    "lastLogin": "2026-06-09T19:09:44.659Z",
+    "loginCount": 43,
+    "lastContentRefresh": "2026-07-03T21:22:06.520Z",
+    "ageGroup": "18-24",
+    "educationLevel": "some-college",
+    "goals": [
+      "skill-upgrade"
+    ],
+    "interestCategories": [
+      "Health"
+    ],
+    "interests": [
+      "nursing",
+      "medicine",
+      "nutrition"
+    ],
+    "onboardingCompleted": true,
+    "skillLevel": "intermediate",
+    "timeCommitment": "4-7",
+    "updatedAt": "2026-03-15T07:41:20.856Z",
+    "lastPasswordChange": "2026-03-15T07:46:14.170Z",
+    "courses": [
+      {
+        "courseId": "69b70d2fa8bb91bf91901278",
+        "progress": 2,
+        "completed": false,
+        "startedAt": "2026-03-15T19:52:15.474Z",
+        "lastUpdated": "2026-03-18T05:10:22.756Z"
+      },
+      {
+        "courseId": "69bcfeb7d5a36a4e5b2e1e0f",
+        "progress": 1,
+        "completed": false,
+        "startedAt": "2026-03-20T22:15:35.980Z",
+        "lastUpdated": "2026-03-21T16:46:45.909Z",
+        "completedLessons": [
+          "1-2"
+        ]
+      }
+    ],
+    "lastLogout": "2026-07-03T21:22:23.683Z",
+    "refreshTokens": [],
+    "avatar": "https://lh3.googleusercontent.com/a/ACg8ocKd0YpinCceFreytR3bdm4VPUdZR3SBpfq_Y7pShwBJvOsz0Rn1=s96-c",
+    "googleId": "108824278156423444259",
+    "billingHistory": [],
+    "isPremium": false,
+    "subscription": {
+      "plan": "free",
+      "tier": "free",
+      "status": "inactive",
+      "autoRenew": false
+    }
+  },
+  {
+    "_id": "69b97c105064e60964280798",
+    "name": "Samuel Otieno",
+    "email": "odhiambosammiesto@gmail.com",
+    "password": "$2b$12$RbCkaXgfPKnZIOBfvYVLwOta2Y2qwLGtv1tAvAEbq6yqfAr82mksK",
+    "role": "student",
+    "status": "active",
+    "emailVerificationToken": null,
+    "emailVerificationCode": null,
+    "emailVerificationExpires": null,
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-04-01T00:00:00.000Z",
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-03-17T16:06:41.364Z",
+    "lastActive": "2026-03-17T16:07:52.468Z",
+    "emailVerified": true,
+    "lastLogin": "2026-03-17T16:07:52.468Z",
+    "loginCount": 1,
+    "lastContentRefresh": "2026-03-17T16:07:52.858Z",
+    "ageGroup": "18-24",
+    "educationLevel": "bachelors",
+    "goals": [
+      "skill-upgrade"
+    ],
+    "interestCategories": [
+      "Humanities",
+      "Health",
+      "Business",
+      "Lifestyle"
+    ],
+    "interests": [
+      "politics",
+      "religion",
+      "nutrition",
+      "investing",
+      "entrepreneurship",
+      "public-speaking",
+      "psychology",
+      "cooking"
+    ],
+    "onboardingCompleted": true,
+    "skillLevel": "beginner",
+    "timeCommitment": "1-3",
+    "courses": [
+      {
+        "courseId": "69b97d4b5064e609642807f0",
+        "progress": 1,
+        "completed": false,
+        "startedAt": "2026-03-17T16:12:48.134Z",
+        "lastUpdated": "2026-03-17T16:12:48.158Z"
+      },
+      {
+        "courseId": "69b991ea5bafea68c7e74092",
+        "progress": 1,
+        "completed": false,
+        "startedAt": "2026-03-17T17:40:50.605Z",
+        "lastUpdated": "2026-03-17T17:40:50.623Z"
+      },
+      {
+        "courseId": "69b994865064e6096428087e",
+        "progress": 1,
+        "completed": false,
+        "startedAt": "2026-03-17T17:51:51.164Z",
+        "lastUpdated": "2026-03-17T17:51:51.185Z"
+      }
+    ],
+    "generatedCardSets": [
+      {
+        "setId": "69b991995bafea68c7e74084",
+        "title": "Introduction to Nutrition",
+        "topic": "I want to learn about nutrition today",
+        "difficulty": "beginner",
+        "generatedAt": "2026-03-17T17:38:33.850Z",
+        "cardCount": 8
+      }
+    ],
+    "billingHistory": [],
+    "isPremium": false,
+    "subscription": {
+      "plan": "free",
+      "tier": "free",
+      "status": "inactive",
+      "autoRenew": false
+    }
+  },
+  {
+    "_id": "69b97c4c5064e609642807a9",
+    "name": "Brily Brian",
+    "email": "brilybrian978@gmail.com",
+    "password": "$2b$12$9ofA/eyOzqY08CIIxqQ5c.49EeDp203r/cwLKSU/UIHyLN.XKx10S",
+    "role": "student",
+    "status": "active",
+    "emailVerificationToken": null,
+    "emailVerificationCode": null,
+    "emailVerificationExpires": null,
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-04-01T00:00:00.000Z",
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-03-17T16:07:40.565Z",
+    "lastActive": "2026-03-17T16:11:13.217Z",
+    "emailVerified": true,
+    "lastLogin": "2026-03-17T16:11:13.217Z",
+    "loginCount": 1,
+    "lastContentRefresh": "2026-03-17T16:11:13.699Z",
+    "ageGroup": "25-34",
+    "educationLevel": "bachelors",
+    "goals": [
+      "skill-upgrade"
+    ],
+    "interestCategories": [
+      "Technology",
+      "Humanities",
+      "Business",
+      "Data Science",
+      "Languages",
+      "Health",
+      "Science"
+    ],
+    "interests": [
+      "programming",
+      "history",
+      "project-management",
+      "data-science",
+      "business",
+      "languages",
+      "finance",
+      "meditation",
+      "marketing",
+      "economics",
+      "psychology",
+      "philosophy",
+      "investing",
+      "entrepreneurship",
+      "politics",
+      "agriculture",
+      "environmental",
+      "automotive"
+    ],
+    "onboardingCompleted": true,
+    "skillLevel": "advanced",
+    "timeCommitment": "4-7",
+    "billingHistory": [],
+    "isPremium": false,
+    "subscription": {
+      "plan": "free",
+      "tier": "free",
+      "status": "inactive",
+      "autoRenew": false
+    }
+  },
+  {
+    "_id": "69c2c5eeca87aba9bff78cdb",
+    "email": "gkaka8775@gmail.com",
+    "name": "Kaka G",
+    "avatar": "https://lh3.googleusercontent.com/a/ACg8ocIEiR8HKEgGdDECUSExRT35cFkluqsxuQxJHMLw0KqjwDdWoA=s96-c",
+    "googleId": "111268343028103518424",
+    "emailVerified": true,
+    "status": "active",
+    "role": "student",
+    "onboardingCompleted": true,
+    "isPremium": false,
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-03-24T17:12:14.726Z",
+    "lastLogin": "2026-03-24T17:12:14.726Z",
+    "loginCount": 1,
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-04-01T00:00:00.000Z",
+    "subscription": {
+      "plan": "free",
+      "tier": "free",
+      "status": "inactive",
+      "autoRenew": false
+    },
+    "lastContentRefresh": "2026-03-24T17:12:15.215Z",
+    "ageGroup": "25-34",
+    "educationLevel": "high-school",
+    "goals": [
+      "career-change",
+      "skill-upgrade",
+      "certification",
+      "startup"
+    ],
+    "interestCategories": [
+      "Languages",
+      "Creative",
+      "Humanities",
+      "Technology"
+    ],
+    "interests": [
+      "languages",
+      "music",
+      "law",
+      "politics",
+      "sociology",
+      "construction",
+      "electrician",
+      "plumbing"
+    ],
+    "skillLevel": "intermediate",
+    "timeCommitment": "1-3",
+    "billingHistory": []
+  },
+  {
+    "_id": "69fdf151166a9b66cf602e54",
+    "email": "silayoungp@gmail.com",
+    "name": "peter",
+    "avatar": "https://lh3.googleusercontent.com/a/ACg8ocJCWCPdIW2yYqzV8W3p6jv4eVu25P9wEKyIKVo-AG3Hc_D-YQ=s96-c",
+    "googleId": "104517574724656287473",
+    "emailVerified": true,
+    "status": "active",
+    "role": "student",
+    "onboardingCompleted": true,
+    "isPremium": false,
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-05-08T14:21:05.688Z",
+    "lastLogin": "2026-05-08T14:21:05.688Z",
+    "loginCount": 1,
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-06-01T00:00:00.000Z",
+    "subscription": {
+      "tier": "free",
+      "status": "none"
+    },
+    "lastContentRefresh": "2026-05-23T11:13:17.365Z",
+    "ageGroup": "18-24",
+    "educationLevel": "bachelors",
+    "goals": [
+      "skill-upgrade"
+    ],
+    "interestCategories": [
+      "Technology"
+    ],
+    "interests": [
+      "programming"
+    ],
+    "skillLevel": "intermediate",
+    "timeCommitment": "4-7"
+  },
+  {
+    "_id": "6a522efbd7c3a9c53996c4eb",
+    "email": "bcheruiyot.h@gmail.com",
+    "name": "Brian",
+    "avatar": "https://lh3.googleusercontent.com/a/ACg8ocKvb5tKBTuiDETCiaQVO0w_eBiYSs1x0udwoeU0tO-s1H2GHQ=s96-c",
+    "googleId": "116905055302783144814",
+    "emailVerified": true,
+    "status": "active",
+    "role": "student",
+    "onboardingCompleted": true,
+    "isPremium": false,
+    "streak": 0,
+    "totalLearningTime": 0,
+    "credits": 10,
+    "purchasedItems": [],
+    "achievements": [],
+    "createdAt": "2026-07-11T11:54:35.308Z",
+    "lastLogin": "2026-07-14T07:45:59.607Z",
+    "loginCount": 2,
+    "lastContentRefresh": "2026-07-14T07:46:00.009Z",
+    "ageGroup": "18-24",
+    "educationLevel": "bachelors",
+    "goals": [
+      "skill-upgrade"
+    ],
+    "interestCategories": [
+      "Business"
+    ],
+    "interests": [
+      "finance",
+      "economics",
+      "project-management",
+      "entrepreneurship",
+      "investing",
+      "accounting"
+    ],
+    "skillLevel": "intermediate",
+    "timeCommitment": "4-7",
+    "lastLogout": "2026-07-11T20:54:12.115Z",
+    "refreshTokens": [],
+    "lastActive": "2026-07-14T07:45:59.607Z",
+    "dailyLoginStreak": 1,
+    "lastLoginBonus": "2026-07-14",
+    "level": 1,
+    "xp": 5
+  },
+  {
+    "_id": "694af0021a87e1cd234dcbff",
+    "name": "Brian Cheruiyot",
+    "email": "briancheruiyot022@gmail.com",
+    "password": "$2b$12$GM0OVQdxAezJFd26gL.UGeJoywVCZItYKMRthpih0mIBXkqbJW0Lm",
+    "role": "student",
+    "status": "active",
+    "emailVerificationToken": null,
+    "emailVerificationCode": null,
+    "emailVerificationExpires": null,
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-03-31T21:00:00.000Z",
+    "streak": {
+      "current": 2,
+      "longest": 5,
+      "lastActiveDate": "2026-07-31",
+      "activeDates": [
+        "2026-07-11",
+        "2026-07-12",
+        "2026-07-13",
+        "2026-07-14",
+        "2026-07-15",
+        "2026-07-17",
+        "2026-07-20",
+        "2026-07-21",
+        "2026-07-23",
+        "2026-07-24",
+        "2026-07-26",
+        "2026-07-30",
+        "2026-07-31"
+      ]
+    },
+    "totalLearningTime": 0,
+    "achievements": [
+      {
+        "badgeId": "daily-grinder",
+        "name": "Daily Grinder",
+        "description": "Earn 50+ XP in a single day",
+        "icon": "21",
+        "rarity": "common",
+        "earnedAt": "2026-07-13T21:35:02.906Z"
+      },
+      {
+        "badgeId": "xp-500",
+        "name": "XP Hunter",
+        "description": "Earn 500 total XP",
+        "icon": "18",
+        "rarity": "common",
+        "earnedAt": "2026-07-26T22:20:30.598Z"
+      }
+    ],
+    "createdAt": "2025-12-23T19:39:47.329Z",
+    "lastActive": "2026-07-31T10:48:30.564Z",
+    "emailVerified": true,
+    "lastLogin": "2026-07-31T10:48:30.564Z",
+    "loginCount": 349,
+    "ageGroup": "18-24",
+    "educationLevel": "bachelors",
+    "goals": [
+      "career-change",
+      "startup",
+      "teaching",
+      "research"
+    ],
+    "interestCategories": [
+      "Business"
+    ],
+    "interests": [
+      "investing",
+      "accounting",
+      "entrepreneurship",
+      "marketing",
+      "economics",
+      "real-estate"
+    ],
+    "learningStyle": "reading",
+    "onboardingCompleted": true,
+    "skillLevel": "intermediate",
+    "timeCommitment": "8-15",
+    "billingHistory": [
+      {
+        "type": "subscription",
+        "description": "Subscription: premium",
+        "plan": "premium",
+        "billingCycle": "monthly",
+        "amount": 25,
+        "currency": "USD",
+        "reference": "9pdv1knphb",
+        "transactionId": 6022923636,
+        "status": "success",
+        "paymentMethod": "card",
+        "gateway": "paystack",
+        "gatewayResponse": "Successful",
+        "paidAt": "2026-04-10T08:01:11.000Z",
+        "metadata": {
+          "userId": "694af0021a87e1cd234dcbff",
+          "paymentMethod": "card",
+          "usdAmount": "25",
+          "purchaseType": "subscription",
+          "plan": "premium",
+          "billingCycle": "monthly",
+          "referrer": "http://localhost:3000/",
+          "authorization_code": "AUTH_ps7g4t4hza",
+          "card_type": "visa ",
+          "last4": "4081"
+        }
+      },
+      {
+        "type": "one-time",
+        "description": "Premium course generation: Data structures and Algorithms In Java",
+        "plan": "premium-generation",
+        "billingCycle": "monthly",
+        "amount": 6,
+        "currency": "USD",
+        "reference": "ib02zdi1t6",
+        "transactionId": 6199129479,
+        "status": "success",
+        "paymentMethod": "card",
+        "gateway": "paystack",
+        "gatewayResponse": "Successful",
+        "paidAt": "2026-05-29T10:12:55.000Z",
+        "metadata": {
+          "userId": "694af0021a87e1cd234dcbff",
+          "paymentMethod": "multi_channel",
+          "usdAmount": "6",
+          "purchaseType": "premium-generation",
+          "topic": "Data structures and Algorithms In Java",
+          "difficulty": "beginner",
+          "referrer": "http://localhost:3000/",
+          "authorization_code": "AUTH_sgx0u95qzz",
+          "card_type": "visa ",
+          "last4": "4081"
+        }
+      },
+      {
+        "type": "one-time",
+        "description": "Purchase: course_generation",
+        "plan": "item",
+        "billingCycle": "monthly",
+        "amount": 8,
+        "currency": "USD",
+        "reference": "nf56hpu142",
+        "transactionId": 6300306597,
+        "status": "success",
+        "paymentMethod": "card",
+        "gateway": "paystack",
+        "gatewayResponse": "Successful",
+        "paidAt": "2026-06-26T07:05:18.000Z",
+        "metadata": {
+          "userId": "694af0021a87e1cd234dcbff",
+          "paymentMethod": "card",
+          "usdAmount": "8",
+          "purchaseType": "item",
+          "itemType": "course_generation",
+          "referrer": "http://localhost:3000/",
+          "authorization_code": "AUTH_5ltdjtatss",
+          "card_type": "visa ",
+          "last4": "4081"
+        }
+      },
+      {
+        "type": "one-time",
+        "description": "Credit purchase: 120 credits",
+        "plan": "credit-purchase",
+        "billingCycle": "monthly",
+        "amount": 20,
+        "currency": "USD",
+        "reference": "79orp7o023",
+        "transactionId": 6304607877,
+        "status": "success",
+        "paymentMethod": "card",
+        "gateway": "paystack",
+        "gatewayResponse": "Successful",
+        "paidAt": "2026-06-27T15:06:54.000Z",
+        "metadata": {
+          "userId": "694af0021a87e1cd234dcbff",
+          "paymentMethod": "card",
+          "usdAmount": "20",
+          "purchaseType": "credit-purchase",
+          "packId": "credits_120",
+          "credits": "120",
+          "referrer": "http://localhost:3000/",
+          "authorization_code": "AUTH_7rqya164xq",
+          "card_type": "visa ",
+          "last4": "4081"
+        }
+      },
+      {
+        "type": "credit_purchase",
+        "amount": 6458,
+        "currency": "KES",
+        "paymentMethod": "mpesa",
+        "credits": 500,
+        "packId": "pro",
+        "reference": "uhr8e2n5hj",
+        "createdAt": "2026-07-12T20:54:13.587Z"
+      },
+      {
+        "type": "credit_purchase",
+        "amount": 1292,
+        "currency": "KES",
+        "paymentMethod": "mpesa",
+        "credits": 50,
+        "packId": "starter",
+        "reference": "buubc5q7zt",
+        "createdAt": "2026-07-14T18:44:39.219Z"
+      },
+      {
+        "type": "credit_purchase",
+        "amount": 1292,
+        "currency": "KES",
+        "paymentMethod": "mpesa",
+        "credits": 50,
+        "packId": "starter",
+        "reference": "buubc5q7zt",
+        "createdAt": "2026-07-14T18:52:33.662Z"
+      },
+      {
+        "type": "credit_usage",
+        "itemType": "classroom_ai_generation",
+        "creditsSpent": 10,
+        "createdAt": "2026-07-26T04:25:54.081Z"
+      }
+    ],
+    "subscription": {
+      "plan": "premium",
+      "tier": "free",
+      "status": "expired",
+      "autoRenew": true,
+      "billingCycle": "monthly",
+      "currentPeriodEnd": null,
+      "currentPeriodStart": "2026-04-10T08:01:17.298Z",
+      "expiresAt": null,
+      "expiryDate": null,
+      "lastPaymentDate": "2026-04-10T08:01:17.298Z",
+      "paystackCustomerCode": "CUS_dbtfypgzwabnrrc",
+      "paystackReference": "9pdv1knphb",
+      "renewalReminderSent": true,
+      "renewalReminderSentAt": "2026-05-04T00:21:57.668Z",
+      "downgradedAt": "2026-05-10T14:29:53.897Z"
+    },
+    "updatedAt": "2026-07-03T20:44:09.519Z",
+    "generatedPersonalizedCourses": [
+      {
+        "id": "entrepreneurship101",
+        "title": "Entrepreneurship: From Idea to Startup",
+        "description": "A comprehensive course teaching the fundamentals of entrepreneurship, from identifying a viable business idea, to startup creation, and scaling.",
+        "category": "Entrepreneurship",
+        "difficulty": "intermediate",
+        "duration": "10 weeks",
+        "modules": 10,
+        "projects": 3,
+        "tags": [
+          "Entrepreneurship",
+          "Startup",
+          "Business"
+        ],
+        "learningOutcomes": [
+          "Develop a business idea",
+          "Understand startup creation process",
+          "Learn about scaling businesses"
+        ],
+        "prerequisites": [
+          "Intro to Business"
+        ],
+        "personalized": true,
+        "generatedAt": "2025-12-23T20:10:12.611Z",
+        "featured": true
+      },
+      {
+        "id": "real-estate-investing",
+        "title": "Real Estate Investment Strategies",
+        "description": "Learn about the different strategies in real estate investing, including flipping, rentals, commercial real estate, and real estate investment trusts.",
+        "category": "Real Estate",
+        "difficulty": "intermediate",
+        "duration": "12 weeks",
+        "modules": 8,
+        "projects": 2,
+        "tags": [
+          "Real Estate",
+          "Investing"
+        ],
+        "learningOutcomes": [
+          "Understand different investment strategies",
+          "Learn about real estate market",
+          "Practical application with real estate projects"
+        ],
+        "prerequisites": [
+          "Intro to Real Estate"
+        ],
+        "personalized": true,
+        "generatedAt": "2025-12-23T20:10:12.611Z",
+        "featured": false
+      },
+      {
+        "id": "accounting-principles",
+        "title": "Accounting Principles for Entrepreneurs",
+        "description": "A course tailored to entrepreneurs, focusing on accounting principles that will help manage and grow businesses.",
+        "category": "Accounting",
+        "difficulty": "intermediate",
+        "duration": "10 weeks",
+        "modules": 10,
+        "projects": 3,
+        "tags": [
+          "Accounting",
+          "Entrepreneurship"
+        ],
+        "learningOutcomes": [
+          "Understand basic accounting principles",
+          "Learn about accounting in business context",
+          "Apply accounting principles in a business"
+        ],
+        "prerequisites": [
+          "Intro to Accounting"
+        ],
+        "personalized": true,
+        "generatedAt": "2025-12-23T20:10:12.611Z",
+        "featured": false
+      },
+      {
+        "id": "marketing-strategies",
+        "title": "Marketing Strategies for Startups",
+        "description": "Comprehensive course on marketing strategies with a focus on applying them in a startup context.",
+        "category": "Marketing",
+        "difficulty": "intermediate",
+        "duration": "8 weeks",
+        "modules": 8,
+        "projects": 2,
+        "tags": [
+          "Marketing",
+          "Startup"
+        ],
+        "learningOutcomes": [
+          "Understand various marketing strategies",
+          "Learn how to apply strategies in startup context",
+          "Develop marketing plans for startups"
+        ],
+        "prerequisites": [
+          "Intro to Marketing"
+        ],
+        "personalized": true,
+        "generatedAt": "2025-12-23T20:10:12.611Z",
+        "featured": false
+      },
+      {
+        "id": "microeconomics",
+        "title": "Microeconomics for Entrepreneurs",
+        "description": "A course focusing on microeconomics principles and their application in business scenarios.",
+        "category": "Economics",
+        "difficulty": "intermediate",
+        "duration": "10 weeks",
+        "modules": 10,
+        "projects": 3,
+        "tags": [
+          "Economics",
+          "Entrepreneurship"
+        ],
+        "learningOutcomes": [
+          "Understand microeconomics principles",
+          "Learn about application of economics in business",
+          "Apply microeconomics principles in business scenarios"
+        ],
+        "prerequisites": [
+          "Intro to Economics"
+        ],
+        "personalized": true,
+        "generatedAt": "2025-12-23T20:10:12.611Z",
+        "featured": false
+      },
+      {
+        "id": "macroeconomics",
+        "title": "Macroeconomics for Entrepreneurs",
+        "description": "A course focusing on macroeconomics principles and their application in business scenarios.",
+        "category": "Economics",
+        "difficulty": "intermediate",
+        "duration": "10 weeks",
+        "modules": 10,
+        "projects": 3,
+        "tags": [
+          "Economics",
+          "Entrepreneurship"
+        ],
+        "learningOutcomes": [
+          "Understand macroeconomics principles",
+          "Learn about application of economics in business",
+          "Apply macroeconomics principles in business scenarios"
+        ],
+        "prerequisites": [
+          "Intro to Economics"
+        ],
+        "personalized": true,
+        "generatedAt": "2025-12-23T20:10:12.611Z",
+        "featured": false
+      },
+      {
+        "id": "investing-strategies",
+        "title": "Investing Strategies for Entrepreneurs",
+        "description": "Comprehensive course on investing strategies with a focus on applying them in a startup context.",
+        "category": "Investing",
+        "difficulty": "intermediate",
+        "duration": "8 weeks",
+        "modules": 8,
+        "projects": 2,
+        "tags": [
+          "Investing",
+          "Startup"
+        ],
+        "learningOutcomes": [
+          "Understand different investing strategies",
+          "Learn how to apply strategies in startup context",
+          "Develop investment plans for startups"
+        ],
+        "prerequisites": [
+          "Intro to Investing"
+        ],
+        "personalized": true,
+        "generatedAt": "2025-12-23T20:10:12.611Z",
+        "featured": false
+      },
+      {
+        "id": "entrepreneurship-teaching",
+        "title": "Teaching Entrepreneurship: A Practical Approach",
+        "description": "This course prepares you for teaching entrepreneurship, focusing on practical, real-world applications and teaching methods.",
+        "category": "Teaching",
+        "difficulty": "intermediate",
+        "duration": "12 weeks",
+        "modules": 8,
+        "projects": 2,
+        "tags": [
+          "Teaching",
+          "Entrepreneurship"
+        ],
+        "learningOutcomes": [
+          "Understand teaching methods for entrepreneurship",
+          "Learn how to create engaging course content",
+          "Gain practical teaching experience"
+        ],
+        "prerequisites": [
+          "Entrepreneurship: From Idea to Startup"
+        ],
+        "personalized": true,
+        "generatedAt": "2025-12-23T20:10:12.611Z",
+        "featured": false
+      },
+      {
+        "id": "research-methods",
+        "title": "Research Methods for Business",
+        "description": "Learn key research methods for business, with focus on entrepreneurship, economics, and marketing.",
+        "category": "Research",
+        "difficulty": "intermediate",
+        "duration": "10 weeks",
+        "modules": 10,
+        "projects": 3,
+        "tags": [
+          "Research",
+          "Business",
+          "Entrepreneurship"
+        ],
+        "learningOutcomes": [
+          "Understand key research methods",
+          "Learn to apply research methods in a business context",
+          "Conduct a business research project"
+        ],
+        "prerequisites": [
+          "Intro to Research Methods"
+        ],
+        "personalized": true,
+        "generatedAt": "2025-12-23T20:10:12.611Z",
+        "featured": false
+      },
+      {
+        "id": "startup-finance",
+        "title": "Startup Finance: Funding and Investment",
+        "description": "Master the essentials of financial planning, budgeting, and fundraising for startups.",
+        "category": "Finance",
+        "difficulty": "intermediate",
+        "duration": "10 weeks",
+        "modules": 10,
+        "projects": 3,
+        "tags": [
+          "Finance",
+          "Startup",
+          "Investment"
+        ],
+        "learningOutcomes": [
+          "Understand financial planning for startups",
+          "Learn about fundraising strategies",
+          "Apply financial planning in a startup scenario"
+        ],
+        "prerequisites": [
+          "Entrepreneurship: From Idea to Startup"
+        ],
+        "personalized": true,
+        "generatedAt": "2025-12-23T20:10:12.611Z",
+        "featured": false
+      },
+      {
+        "id": "digital-marketing",
+        "title": "Digital Marketing for Startups",
+        "description": "Explore the key concepts of digital marketing and how to apply them to a startup context.",
+        "category": "Marketing",
+        "difficulty": "intermediate",
+        "duration": "8 weeks",
+        "modules": 8,
+        "projects": 2,
+        "tags": [
+          "Digital Marketing",
+          "Startup"
+        ],
+        "learningOutcomes": [
+          "Understand key concepts of digital marketing",
+          "Learn to apply digital marketing strategies in a startup context",
+          "Develop a digital marketing plan"
+        ],
+        "prerequisites": [
+          "Marketing Strategies for Startups"
+        ],
+        "personalized": true,
+        "generatedAt": "2025-12-23T20:10:12.611Z",
+        "featured": false
+      },
+      {
+        "id": "business-law",
+        "title": "Business Law for Entrepreneurs",
+        "description": "This course covers the main areas of the law as they relate to business and entrepreneurship.",
+        "category": "Business Law",
+        "difficulty": "intermediate",
+        "duration": "12 weeks",
+        "modules": 8,
+        "projects": 2,
+        "tags": [
+          "Business Law",
+          "Entrepreneurship"
+        ],
+        "learningOutcomes": [
+          "Understand key concepts of business law",
+          "Learn how business law affects entrepreneurs",
+          "Apply knowledge of law in business scenarios"
+        ],
+        "prerequisites": [
+          "Entrepreneurship: From Idea to Startup"
+        ],
+        "personalized": true,
+        "generatedAt": "2025-12-23T20:10:12.611Z",
+        "featured": false
+      }
+    ],
+    "personalizedCoursesGeneratedAt": "2025-12-23T20:10:12.611Z",
+    "courses": [
+      {
+        "courseId": "694af99947f017f58f8a497b",
+        "progress": 1,
+        "completed": false,
+        "startedAt": "2025-12-23T20:23:44.275Z",
+        "lastUpdated": "2025-12-23T20:23:44.275Z",
+        "title": "Financial Literacy for Individuals with Poor Spending Habits"
+      },
+      {
+        "courseId": "694b043d823af218ec38c325",
+        "progress": 1,
+        "completed": false,
+        "startedAt": "2025-12-23T21:16:15.521Z",
+        "lastUpdated": "2025-12-23T21:16:15.521Z",
+        "title": "Data Structures and Algorithms in Java: A Beginner's Guide"
+      },
+      {
+        "courseId": "694b45038dbdcaf149bf7127",
+        "progress": 1,
+        "completed": false,
+        "startedAt": "2025-12-24T10:28:15.438Z",
+        "lastUpdated": "2025-12-24T10:28:42.763Z",
+        "title": "Behavioral Economics in Business"
+      },
+      {
+        "courseId": "694bf61ed9932ad7e978e3a0",
+        "progress": 1,
+        "completed": false,
+        "startedAt": "2025-12-24T14:21:43.502Z",
+        "lastUpdated": "2025-12-24T14:21:43.502Z",
+        "title": "Data Structures and Algorithms in Java: A Beginner's Guide"
+      },
+      {
+        "courseId": "69512e9ac3c959782eacf879",
+        "progress": 0,
+        "completed": false,
+        "startedAt": "2025-12-28T13:22:41.096Z",
+        "lastUpdated": "2025-12-28T13:22:41.096Z",
+        "title": "Data Structures and Algorithms in Java: A Beginner's Guide"
+      },
+      {
+        "courseId": "694f9b85112b155fde481472",
+        "progress": 2,
+        "completed": false,
+        "startedAt": "2025-12-28T13:39:28.677Z",
+        "lastUpdated": "2025-12-28T14:00:22.539Z",
+        "title": "Data Structures and Algorithms in Java: A Beginner's Guide"
+      },
+      {
+        "courseId": "69511b43c3c959782eacf868",
+        "progress": 9,
+        "completed": false,
+        "startedAt": "2025-12-28T15:51:02.643Z",
+        "lastUpdated": "2025-12-28T17:58:52.289Z",
+        "title": "Data Structures and Algorithms in Java: A Beginner's Guide"
+      },
+      {
+        "courseId": "695275107b37caa7e32c11cd",
+        "progress": 0,
+        "completed": false,
+        "startedAt": "2025-12-29T21:50:40.170Z",
+        "lastUpdated": "2025-12-29T21:50:40.170Z",
+        "title": "Data Structures and Algorithms in Java: A Beginner's Guide"
+      },
+      {
+        "courseId": "696e5309ccab6c95d98fa24b",
+        "progress": 1,
+        "completed": false,
+        "startedAt": "2026-01-19T15:53:54.267Z",
+        "lastUpdated": "2026-01-19T15:53:54.267Z",
+        "title": "Data Structures and Algorithms in Java: A Beginner's Guide"
+      },
+      {
+        "courseId": "696e8e95ee4b3c4c4998ccc6",
+        "progress": 1,
+        "completed": false,
+        "startedAt": "2026-01-19T20:15:43.825Z",
+        "lastUpdated": "2026-01-19T20:15:43.825Z",
+        "title": "Data Structures and Algorithms in Java: A Beginner's Guide"
+      },
+      {
+        "courseId": "69a0696f324fd354fa08d93f",
+        "progress": 1,
+        "completed": false,
+        "startedAt": "2026-03-04T08:27:54.933Z",
+        "lastUpdated": "2026-03-04T08:27:56.093Z",
+        "title": "Data Structures and Algorithms in Java: A Beginner's Guide"
+      },
+      {
+        "courseId": "69a7f2ec99150b555eb8ccfb",
+        "progress": 1,
+        "completed": false,
+        "startedAt": "2026-03-04T09:14:00.910Z",
+        "lastUpdated": "2026-03-04T09:14:02.029Z",
+        "title": "Data Structures and Algorithms in Java: A Beginner's Guide"
+      },
+      {
+        "courseId": "69a95c3958fbaaa35afe17e2",
+        "progress": 1,
+        "completed": false,
+        "startedAt": "2026-03-07T07:24:14.704Z",
+        "lastUpdated": "2026-03-07T07:24:14.720Z",
+        "title": "Data Structures and Algorithms in Java: A Beginner's Guide"
+      },
+      {
+        "courseId": "69aef63e8a5e5578070cb2cb",
+        "progress": 1,
+        "completed": false,
+        "startedAt": "2026-03-09T16:37:26.198Z",
+        "lastUpdated": "2026-03-09T16:37:26.224Z",
+        "title": "Data Structures and Algorithms in Java: A Beginner's Guide"
+      },
+      {
+        "courseId": "69aefdbaf77aed2330b82128",
+        "progress": 2,
+        "completed": false,
+        "startedAt": "2026-03-14T10:35:51.975Z",
+        "lastUpdated": "2026-03-14T13:52:39.574Z",
+        "title": "Data Structures and Algorithms in Java: A Beginner's Guide"
+      },
+      {
+        "courseId": "69b6a9cd20fa1ac120d49cce",
+        "progress": 1,
+        "completed": false,
+        "startedAt": "2026-03-15T12:46:06.902Z",
+        "lastUpdated": "2026-03-15T12:47:38.422Z",
+        "title": "Mathematical Measurements Fundamentals"
+      },
+      {
+        "courseId": "69b6e1a2a8bb91bf919011f4",
+        "progress": 2,
+        "completed": false,
+        "startedAt": "2026-03-17T08:41:13.060Z",
+        "lastUpdated": "2026-03-17T09:08:39.598Z",
+        "title": "Mathematical Measurements Fundamentals"
+      },
+      {
+        "courseId": "69b6fe86a8bb91bf91901250",
+        "progress": 7,
+        "completed": false,
+        "startedAt": "2026-03-19T10:30:28.488Z",
+        "lastUpdated": "2026-03-19T19:15:18.364Z",
+        "title": "Mathematical Measurements Fundamentals"
+      },
+      {
+        "courseId": "69bc15993d81a78f034482d7",
+        "progress": 1,
+        "completed": false,
+        "startedAt": "2026-03-19T16:50:12.697Z",
+        "lastUpdated": "2026-03-19T16:50:13.818Z",
+        "title": "Mathematical Measurements Fundamentals"
+      },
+      {
+        "courseId": "69bcfeb7d5a36a4e5b2e1e0f",
+        "progress": 1,
+        "completed": false,
+        "startedAt": "2026-03-20T09:11:32.759Z",
+        "lastUpdated": "2026-03-21T18:32:08.063Z",
+        "completedLessons": [
+          "1-2"
+        ],
+        "title": "Mathematical Measurements Fundamentals"
+      },
+      {
+        "courseId": "69bf029faf2e7dbda396df3d",
+        "progress": 7,
+        "completed": false,
+        "startedAt": "2026-03-27T19:53:56.744Z",
+        "lastUpdated": "2026-07-13T21:35:02.896Z",
+        "completedLessons": [
+          "2-2",
+          "1-5",
+          "2-1",
+          "2-3",
+          "2-4",
+          "2-5",
+          "3-2"
+        ],
+        "title": "Mathematical Measurements Fundamentals"
+      },
+      {
+        "courseId": "69c8de269ddc496e08c24b1d",
+        "progress": 1,
+        "completed": false,
+        "startedAt": "2026-03-30T12:28:09.091Z",
+        "lastUpdated": "2026-03-30T12:28:09.096Z",
+        "completedLessons": [
+          "1-0"
+        ],
+        "title": "Human Anatomy Fundamentals"
+      },
+      {
+        "courseId": "69c963861ec41a781908f5ac",
+        "progress": 0,
+        "completed": false,
+        "startedAt": "2026-03-30T13:09:03.045Z",
+        "lastUpdated": "2026-03-30T13:09:04.214Z",
+        "title": "Human Anatomy Fundamentals"
+      },
+      {
+        "courseId": "69c197b155391258a3a5b2fa",
+        "progress": 41,
+        "completed": false,
+        "startedAt": "2026-04-09T14:18:10.961Z",
+        "lastUpdated": "2026-07-31T11:56:59.685Z",
+        "completedLessons": [
+          "4-2",
+          "4-3",
+          "4-4",
+          "4-5",
+          "5-1",
+          "5-3",
+          "5-5",
+          "6-1",
+          "1-1",
+          "1-2",
+          "1-3",
+          "1-4",
+          "1-5",
+          "2-1",
+          "2-2",
+          "2-3",
+          "2-4",
+          "2-5",
+          "3-3",
+          "3-5",
+          "4-1",
+          "5-2",
+          "6-2",
+          "6-3",
+          "6-4",
+          "6-5",
+          "7-1",
+          "7-2",
+          "7-3",
+          "7-4",
+          "7-5",
+          "8-1",
+          "8-2",
+          "8-3",
+          "8-5",
+          "19-1",
+          "13-1",
+          "13-2",
+          "13-3",
+          "13-4",
+          "13-5"
+        ],
+        "title": "Data Structures and Algorithms in Java: A Beginner's Guide"
+      },
+      {
+        "courseId": "69d55bf13dc3eb04d6801edc",
+        "progress": 3,
+        "completed": false,
+        "startedAt": "2026-04-09T14:33:53.588Z",
+        "lastUpdated": "2026-04-09T14:45:49.743Z",
+        "completedLessons": [
+          "4-1",
+          "10-1",
+          "4-5"
+        ],
+        "title": "Data Structures and Algorithms in Java: A Beginner's Guide"
+      },
+      {
+        "courseId": "69d7e5d8def61cd9c0fb0a62",
+        "progress": 5,
+        "completed": false,
+        "startedAt": "2026-04-09T17:47:54.211Z",
+        "lastUpdated": "2026-04-16T14:27:06.020Z",
+        "completedLessons": [
+          "3-1",
+          "3-2",
+          "1-1",
+          "1-2",
+          "2-2"
+        ],
+        "title": "Data Structures and Algorithms in Java: A Beginner's Guide"
+      },
+      {
+        "courseId": "69d8b1dc95f6b52f4ff78116",
+        "progress": 1,
+        "completed": false,
+        "startedAt": "2026-04-10T08:17:56.885Z",
+        "lastUpdated": "2026-04-10T08:17:56.896Z",
+        "completedLessons": [
+          "1-1"
+        ],
+        "title": "Data Structures and Algorithms in Java: A Beginner's Guide"
+      },
+      {
+        "courseId": "69d92a1b37c67866eeac9e0b",
+        "progress": 1,
+        "completed": false,
+        "startedAt": "2026-04-10T16:50:50.976Z",
+        "lastUpdated": "2026-04-10T16:50:50.982Z",
+        "completedLessons": [
+          "1-1"
+        ],
+        "title": "Data Structures and Algorithms in Java: A Beginner's Guide"
+      },
+      {
+        "courseId": "69db7336879763f82ebf7875",
+        "progress": 3,
+        "completed": false,
+        "startedAt": "2026-04-12T10:26:55.772Z",
+        "lastUpdated": "2026-04-12T10:36:14.098Z",
+        "completedLessons": [
+          "1-1",
+          "4-1",
+          "4-5"
+        ],
+        "title": "Data Structures and Algorithms in Java: A Beginner's Guide"
+      },
+      {
+        "courseId": "69dc630db325918a54e5f48e",
+        "progress": 2,
+        "completed": false,
+        "startedAt": "2026-04-13T03:30:07.614Z",
+        "lastUpdated": "2026-04-13T03:30:55.467Z",
+        "completedLessons": [
+          "1-5",
+          "2-1"
+        ],
+        "title": "Data Structures and Algorithms in Java: A Beginner's Guide"
+      },
+      {
+        "courseId": "69d7d0f27f9e0b3941cd567e",
+        "progress": 1,
+        "completed": false,
+        "startedAt": "2026-04-13T15:40:30.862Z",
+        "lastUpdated": "2026-04-13T15:40:30.868Z",
+        "completedLessons": [
+          "1-1"
+        ],
+        "title": "Data Structures and Algorithms in Java: A Beginner's Guide"
+      },
+      {
+        "courseId": "69e0f15055acdad21cfa9d4e",
+        "progress": 1,
+        "completed": false,
+        "startedAt": "2026-04-16T14:26:14.024Z",
+        "lastUpdated": "2026-04-16T14:26:14.029Z",
+        "completedLessons": [
+          "15-1"
+        ],
+        "title": "Data Structures and Algorithms in Java: A Beginner's Guide"
+      },
+      {
+        "courseId": "69e0f1c755acdad21cfa9d4f",
+        "progress": 1,
+        "completed": false,
+        "startedAt": "2026-04-16T14:28:03.659Z",
+        "lastUpdated": "2026-04-16T14:28:03.666Z",
+        "completedLessons": [
+          "7-4"
+        ],
+        "title": "Data Structures and Algorithms in Java: A Beginner's Guide"
+      },
+      {
+        "courseId": "69ef7c6f75e4b6f61661a463",
+        "progress": 1,
+        "completed": false,
+        "startedAt": "2026-04-27T15:11:29.065Z",
+        "lastUpdated": "2026-04-27T15:11:29.070Z",
+        "completedLessons": [
+          "1-1"
+        ],
+        "title": "Data Structures and Algorithms in Java: A Beginner's Guide"
+      },
+      {
+        "courseId": "69f1b9938f8dc831b3e146cd",
+        "progress": 9,
+        "completed": false,
+        "startedAt": "2026-04-29T08:07:30.288Z",
+        "lastUpdated": "2026-07-24T18:44:09.290Z",
+        "completedLessons": [
+          "2-2",
+          "1-1",
+          "1-2",
+          "1-3",
+          "1-4",
+          "1-5",
+          "2-1",
+          "5-1",
+          "6-1"
+        ],
+        "title": "Data Structures and Algorithms in Java: A Beginner's Guide"
+      },
+      {
+        "courseId": "69d7e5d7def61cd9c0fb0a61",
+        "progress": 1,
+        "completed": false,
+        "startedAt": "2026-05-09T19:01:59.780Z",
+        "lastUpdated": "2026-05-09T19:01:59.785Z",
+        "completedLessons": [
+          "1-1"
+        ]
+      },
+      {
+        "courseId": "6a19548ebbb5f056a13c7299",
+        "progress": 1,
+        "completed": false,
+        "startedAt": "2026-05-29T09:03:20.871Z",
+        "lastUpdated": "2026-05-29T09:03:20.877Z",
+        "completedLessons": [
+          "1-1"
+        ]
+      },
+      {
+        "courseId": "6a3d75120867cdf1462b5cbf",
+        "progress": 1,
+        "completed": false,
+        "startedAt": "2026-06-26T18:19:05.381Z",
+        "lastUpdated": "2026-06-26T18:19:05.386Z",
+        "completedLessons": [
+          "1-1"
+        ]
+      },
+      {
+        "courseId": "6a4016fc76d7b136a4981ad6",
+        "progress": 1,
+        "completed": false,
+        "startedAt": "2026-06-27T19:44:19.194Z",
+        "lastUpdated": "2026-06-27T19:44:19.200Z",
+        "completedLessons": [
+          "1-1"
+        ]
+      },
+      {
+        "courseId": "6a4828bf20ebd744a11f5482",
+        "progress": 12,
+        "completed": false,
+        "startedAt": "2026-07-03T21:26:11.151Z",
+        "lastUpdated": "2026-07-12T18:36:01.803Z",
+        "completedLessons": [
+          "1-1",
+          "1-2",
+          "1-3",
+          "1-4",
+          "1-5",
+          "2-1",
+          "2-2",
+          "2-3",
+          "2-5",
+          "2-4",
+          "3-1",
+          "3-2"
+        ]
+      },
+      {
+        "courseId": "6a4b770506baba845eca6f59",
+        "progress": 1,
+        "completed": false,
+        "startedAt": "2026-07-06T09:37:01.480Z",
+        "lastUpdated": "2026-07-06T09:37:01.486Z",
+        "completedLessons": [
+          "7-1"
+        ]
+      },
+      {
+        "courseId": "6a4bd10867a2098eea55d9b3",
+        "progress": 1,
+        "completed": false,
+        "startedAt": "2026-07-06T16:00:59.870Z",
+        "lastUpdated": "2026-07-06T16:00:59.875Z",
+        "completedLessons": [
+          "1-2"
+        ]
+      },
+      {
+        "courseId": "6a53cbf6559caa9d3433107c",
+        "progress": 1,
+        "completed": false,
+        "startedAt": "2026-07-12T17:17:42.600Z",
+        "lastUpdated": "2026-07-12T17:17:42.904Z",
+        "completedLessons": [
+          "1-1"
+        ]
+      },
+      {
+        "courseId": "6a63615bbc8c917f3f8fee76",
+        "title": "Mathematical Measurements Fundamentals",
+        "progress": 7,
+        "completed": false,
+        "startedAt": "2026-07-24T12:59:39.341Z",
+        "lastUpdated": "2026-07-24T17:43:14.676Z",
+        "completedLessons": [
+          "1-1",
+          "3-1",
+          "7-1",
+          "1-5",
+          "7-2",
+          "7-3",
+          "9-2"
+        ]
+      }
+    ],
+    "lastLogout": "2026-07-26T13:43:01.518Z",
+    "refreshTokens": [],
+    "generatedCardSets": [
+      {
+        "setId": "694bc57d65b8405926a6a184",
+        "title": "Data Science",
+        "topic": "Data Science",
+        "difficulty": "beginner",
+        "generatedAt": "2025-12-24T10:50:38.142Z",
+        "cardCount": 40
+      },
+      {
+        "setId": "694e48a1e321bc6f597eeb56",
+        "title": "AI-Powered Marketing Strategies",
+        "topic": "AI-Powered Marketing Strategies",
+        "difficulty": "beginner",
+        "generatedAt": "2025-12-26T08:34:41.805Z",
+        "cardCount": 40
+      },
+      {
+        "setId": "694fba522bef9f6d1affdb75",
+        "title": "Social Impact Business Models",
+        "topic": "Social Impact Business Models",
+        "difficulty": "beginner",
+        "generatedAt": "2025-12-27T10:52:02.697Z",
+        "cardCount": 40
+      },
+      {
+        "setId": "69aad9d6282c92fbeddeaba0",
+        "title": "Blockchain in Supply Chain",
+        "topic": "Blockchain in Supply Chain",
+        "difficulty": "beginner",
+        "generatedAt": "2026-03-06T13:42:47.745Z",
+        "cardCount": 40
+      },
+      {
+        "setId": "69b978b01dd67fc0881231b4",
+        "title": "Digital Real Estate Trends",
+        "topic": "Digital Real Estate Trends",
+        "difficulty": "beginner",
+        "generatedAt": "2026-03-17T15:52:16.435Z",
+        "cardCount": 40
+      },
+      {
+        "setId": "69ce8cecdd7d3d93303463d4",
+        "title": "Financial Literacy in Education",
+        "topic": "Financial Literacy in Education",
+        "difficulty": "beginner",
+        "generatedAt": "2026-04-02T15:36:12.331Z",
+        "cardCount": 40
+      },
+      {
+        "setId": "69db727fc43c116675683eb3",
+        "title": "Mastering AI Prompting and Vibe Coding",
+        "topic": "Mastering AI prompting and Vibe Coding",
+        "difficulty": "beginner",
+        "generatedAt": "2026-04-12T10:22:55.766Z",
+        "cardCount": 40
+      }
+    ],
+    "isPremium": false,
+    "settings": {
+      "notifications": {
+        "email": true,
+        "marketing": true,
+        "courseUpdates": true,
+        "push": false
+      },
+      "preferences": {
+        "theme": "light",
+        "language": "en",
+        "difficulty": "adaptive",
+        "dailyGoal": 25
+      },
+      "privacy": {
+        "profileVisible": true,
+        "progressVisible": false,
+        "achievementsVisible": false
+      },
+      "updatedAt": "2025-12-28T07:52:34.335Z"
+    },
+    "lastPasswordChange": "2026-01-19T15:30:50.853Z",
+    "usage": {
+      "lastGeneratedAt": "2026-02-27T18:20:24.008Z",
+      "presentations": 5,
+      "generate-course": 4,
+      "generate-study-plan": 5,
+      "quiz": 1,
+      "career-interview": 2,
+      "generate-report-outline": 6,
+      "pdf-chat": 14,
+      "ai-tutor-chat": 4,
+      "document_import": 1
+    },
+    "lastContentRefresh": "2026-07-30T14:50:00.090Z",
+    "avatar": "https://lh3.googleusercontent.com/a/ACg8ocJlDOtuyCye4PCOBDo3uTU1cPi0SRajzicmBpZf4odlXLpkdZHi=s96-c",
+    "googleId": "118007185194590169521",
+    "passwordResetCode": "$2b$12$cP.T9WP3JHHVsnYr9ELMF.r4VtkGqNleXXwelysnvFPMmhEx/HKpC",
+    "passwordResetExpires": "2026-07-03T20:59:09.510Z",
+    "purchasedItems": [
+      {
+        "itemType": "course_generation",
+        "purchaseDate": "2026-06-26T07:05:21.462Z",
+        "reference": "nf56hpu142"
+      }
+    ],
+    "credits": 49940,
+    "lastActivity": "2026-07-31T13:05:59.631Z",
+    "dailyXp": 60,
+    "dailyXpDate": "2026-07-31",
+    "level": 3,
+    "xp": 635,
+    "dailyLoginStreak": 2,
+    "lastLoginBonus": "2026-07-31"
+  },
+  {
+    "_id": "69b979565064e60964280776",
+    "name": "Alex Okello",
+    "email": "freeeh38@gmail.com",
+    "password": "$2b$12$uhevgTIgs0.cR4GNN1BPiuAxoratyn6.xxfYcpy4pgGevdEPGYJ7O",
+    "role": "student",
+    "status": "pending",
+    "emailVerificationToken": "face107d-d967-4dc7-a647-1d72f4168e0c",
+    "emailVerificationCode": "232675",
+    "emailVerificationExpires": "2026-03-18T15:55:02.739Z",
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-04-01T00:00:00.000Z",
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-03-17T15:55:03.204Z",
+    "lastActive": "2026-03-17T15:55:03.204Z",
+    "billingHistory": [],
+    "isPremium": false,
+    "subscription": {
+      "plan": "free",
+      "tier": "free",
+      "status": "inactive",
+      "autoRenew": false
+    }
+  },
+  {
+    "_id": "69ba5f4ed8a380143269b7c8",
+    "name": "Wasonga Denis",
+    "email": "wasongadenis085@gmail.com",
+    "password": "$2b$12$KOdqxyzujN40gZQ91JoX7.tQxpPn7blM8YqOAgHQK7lbBTfiekzDq",
+    "role": "student",
+    "status": "active",
+    "emailVerificationToken": null,
+    "emailVerificationCode": null,
+    "emailVerificationExpires": null,
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-04-01T00:00:00.000Z",
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-03-18T08:16:14.811Z",
+    "lastActive": "2026-03-18T08:16:59.251Z",
+    "emailVerified": true,
+    "lastLogin": "2026-03-18T08:16:59.251Z",
+    "loginCount": 1,
+    "lastContentRefresh": "2026-03-18T08:16:59.747Z",
+    "ageGroup": "18-24",
+    "educationLevel": "some-college",
+    "goals": [
+      "personal-project",
+      "skill-upgrade",
+      "certification"
+    ],
+    "interestCategories": [
+      "Technology",
+      "Business",
+      "Humanities",
+      "Health",
+      "Design"
+    ],
+    "interests": [
+      "programming",
+      "business",
+      "writing",
+      "health",
+      "public-speaking",
+      "politics",
+      "interior-design",
+      "design",
+      "philosophy"
+    ],
+    "onboardingCompleted": true,
+    "skillLevel": "advanced",
+    "timeCommitment": "8-15",
+    "courses": [
+      {
+        "courseId": "69ba60cf0c1a56e17ab3aaa7",
+        "progress": 1,
+        "completed": false,
+        "startedAt": "2026-03-18T08:24:38.538Z",
+        "lastUpdated": "2026-03-18T08:24:38.559Z"
+      }
+    ],
+    "billingHistory": [],
+    "isPremium": false,
+    "subscription": {
+      "plan": "free",
+      "tier": "free",
+      "status": "inactive",
+      "autoRenew": false
+    },
+    "passwordResetCode": "$2b$12$5CGRw0S4HQ9NKs7wvAK9FespwZgQ1BGgyGo7Q0mvgRuUbPemqHmsS",
+    "passwordResetExpires": "2026-05-28T19:16:55.216Z",
+    "updatedAt": "2026-05-28T19:01:55.216Z"
+  },
+  {
+    "_id": "69baca6b7964192ae84b5709",
+    "name": "Henry Ogweno",
+    "email": "ogwenohenry27@gmail.com",
+    "password": "$2b$12$x6IKJuDLSObsI4bpxYShNOantgUDx9.3MzS1tHtFOWyacRPr0.C.m",
+    "role": "student",
+    "status": "active",
+    "emailVerificationToken": null,
+    "emailVerificationCode": null,
+    "emailVerificationExpires": null,
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-04-01T00:00:00.000Z",
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-03-18T15:53:15.418Z",
+    "lastActive": "2026-03-18T15:53:54.319Z",
+    "emailVerified": true,
+    "lastLogin": "2026-03-18T15:53:54.319Z",
+    "loginCount": 1,
+    "lastContentRefresh": "2026-03-18T15:53:54.687Z",
+    "ageGroup": "18-24",
+    "educationLevel": "bachelors",
+    "goals": [
+      "skill-upgrade",
+      "personal-project",
+      "career-change",
+      "startup",
+      "teaching",
+      "certification",
+      "research"
+    ],
+    "interestCategories": [
+      "Data Science",
+      "AI & ML",
+      "Technology",
+      "Business",
+      "Science",
+      "Mathematics",
+      "Design"
+    ],
+    "interests": [
+      "data-science",
+      "ai-ml",
+      "programming",
+      "gaming",
+      "project-management",
+      "engineering",
+      "investing",
+      "entrepreneurship",
+      "math",
+      "science",
+      "design",
+      "business",
+      "finance",
+      "automotive"
+    ],
+    "onboardingCompleted": true,
+    "skillLevel": "intermediate",
+    "timeCommitment": "4-7",
+    "billingHistory": [],
+    "isPremium": false,
+    "subscription": {
+      "plan": "free",
+      "tier": "free",
+      "status": "inactive",
+      "autoRenew": false
+    }
+  },
+  {
+    "_id": "69b976fe67cea1bf4754cfd5",
+    "name": "Abe Lemeria",
+    "email": "abelemeria@gmail.com",
+    "password": "$2b$12$Wp1oSYYhvEqSqtRjn4NND.rDvz0Te3SF0VqKnsL74HVYHgdYFz1VO",
+    "role": "student",
+    "status": "active",
+    "emailVerificationToken": null,
+    "emailVerificationCode": null,
+    "emailVerificationExpires": null,
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-04-01T00:00:00.000Z",
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-03-17T15:45:03.202Z",
+    "lastActive": "2026-03-17T15:49:22.840Z",
+    "emailVerified": true,
+    "lastLogin": "2026-03-17T15:49:22.840Z",
+    "loginCount": 2,
+    "lastContentRefresh": "2026-03-17T15:45:33.956Z",
+    "ageGroup": "18-24",
+    "educationLevel": "bachelors",
+    "goals": [
+      "career-change",
+      "skill-upgrade",
+      "personal-project"
+    ],
+    "interestCategories": [
+      "AI & ML",
+      "Business",
+      "Health",
+      "Design"
+    ],
+    "interests": [
+      "ai-ml",
+      "finance",
+      "meditation",
+      "psychology",
+      "investing",
+      "design"
+    ],
+    "onboardingCompleted": true,
+    "skillLevel": "beginner",
+    "timeCommitment": "1-3",
+    "billingHistory": [],
+    "isPremium": false,
+    "subscription": {
+      "plan": "free",
+      "tier": "free",
+      "status": "inactive",
+      "autoRenew": false
+    }
+  },
+  {
+    "_id": "69ba531b3e8e518b9c0e0dbe",
+    "name": "Octovian Ochieng",
+    "email": "octovianochieng93@gmail.com",
+    "password": "$2b$12$KEWmJ7xsgv4SXu0ZeHvd4eUyG63gNDyMBa3UVKcnDKyWn9tU8JqgG",
+    "role": "student",
+    "status": "active",
+    "emailVerificationToken": null,
+    "emailVerificationCode": null,
+    "emailVerificationExpires": null,
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-04-01T00:00:00.000Z",
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-03-18T07:24:11.810Z",
+    "lastActive": "2026-03-18T07:24:44.305Z",
+    "emailVerified": true,
+    "lastLogin": "2026-03-18T07:24:44.305Z",
+    "loginCount": 1,
+    "lastContentRefresh": "2026-03-18T07:24:44.742Z",
+    "ageGroup": "18-24",
+    "educationLevel": "bachelors",
+    "goals": [
+      "career-change",
+      "skill-upgrade",
+      "research"
+    ],
+    "interestCategories": [
+      "Business"
+    ],
+    "interests": [
+      "marketing",
+      "entrepreneurship"
+    ],
+    "onboardingCompleted": true,
+    "skillLevel": "beginner",
+    "timeCommitment": "8-15",
+    "courses": [
+      {
+        "courseId": "69ba53fd3e8e518b9c0e0dc0",
+        "progress": 1,
+        "completed": false,
+        "startedAt": "2026-03-18T07:28:59.812Z",
+        "lastUpdated": "2026-03-18T07:28:59.842Z"
+      }
+    ],
+    "billingHistory": [],
+    "isPremium": false,
+    "subscription": {
+      "plan": "free",
+      "tier": "free",
+      "status": "inactive",
+      "autoRenew": false
+    }
+  },
+  {
+    "_id": "69da81c682e8e8ae0ef59d89",
+    "name": "Abdulai Yussif",
+    "email": "yussiforiginal@gmail.com",
+    "password": "$2b$12$hAIXqAP.D3TEVher1FL6hug2uDtAMKr4SM5Lup64CdmfbAY5bnAk6",
+    "role": "student",
+    "status": "active",
+    "emailVerificationToken": null,
+    "emailVerificationCode": null,
+    "emailVerificationExpires": null,
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-05-01T00:00:00.000Z",
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-04-11T17:15:50.795Z",
+    "lastActive": "2026-04-11T17:16:45.801Z",
+    "emailVerified": true,
+    "lastLogin": "2026-04-11T17:16:45.801Z",
+    "loginCount": 1,
+    "lastContentRefresh": "2026-04-11T17:16:46.273Z",
+    "ageGroup": "under-18",
+    "educationLevel": "high-school",
+    "goals": [
+      "career-change",
+      "skill-upgrade",
+      "personal-project",
+      "certification",
+      "startup",
+      "teaching",
+      "research"
+    ],
+    "interestCategories": [
+      "Technology",
+      "Design",
+      "Data Science",
+      "AI & ML",
+      "Creative",
+      "Humanities",
+      "Languages",
+      "Business",
+      "Health",
+      "Science"
+    ],
+    "interests": [
+      "programming",
+      "design",
+      "data-science",
+      "ai-ml",
+      "photography",
+      "writing",
+      "gaming",
+      "languages",
+      "finance",
+      "psychology",
+      "philosophy",
+      "economics",
+      "public-speaking",
+      "real-estate",
+      "investing",
+      "accounting",
+      "law",
+      "politics",
+      "engineering",
+      "nursing",
+      "nutrition"
+    ],
+    "onboardingCompleted": true,
+    "skillLevel": "beginner",
+    "timeCommitment": "1-3"
+  },
+  {
+    "_id": "69b8887ca91e682980b7931d",
+    "name": "Rex John",
+    "email": "bauert627@gmail.com",
+    "password": "$2b$12$z7pS2iKE.V8gwdns.AJ5temedoRaQvKDZWutr76DMLW8UibvCnC.K",
+    "role": "student",
+    "status": "active",
+    "emailVerificationToken": null,
+    "emailVerificationCode": null,
+    "emailVerificationExpires": null,
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-04-01T00:00:00.000Z",
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-03-16T22:47:24.628Z",
+    "lastActive": "2026-03-16T22:47:56.435Z",
+    "emailVerified": true,
+    "lastLogin": "2026-03-16T22:47:56.435Z",
+    "loginCount": 1,
+    "lastContentRefresh": "2026-03-16T22:47:56.880Z",
+    "ageGroup": "25-34",
+    "educationLevel": "bachelors",
+    "goals": [
+      "career-change",
+      "personal-project"
+    ],
+    "interestCategories": [
+      "Technology",
+      "AI & ML"
+    ],
+    "interests": [
+      "programming",
+      "ai-ml"
+    ],
+    "onboardingCompleted": true,
+    "skillLevel": "beginner",
+    "timeCommitment": "1-3",
+    "courses": [
+      {
+        "courseId": "69b8890a1c92be00f9825e89",
+        "progress": 2,
+        "completed": false,
+        "startedAt": "2026-03-16T22:50:27.490Z",
+        "lastUpdated": "2026-03-16T22:52:51.629Z"
+      }
+    ],
+    "billingHistory": [],
+    "isPremium": false,
+    "subscription": {
+      "plan": "free",
+      "tier": "free",
+      "status": "inactive",
+      "autoRenew": false
+    }
+  },
+  {
+    "_id": "69b978141dd67fc0881231b2",
+    "name": "Tony Murith",
+    "email": "antonymuridhi@gmail.com",
+    "password": "$2b$12$cjq.kmRAF.f8jGiGLnu7SOExLma9/yV1qu4tDqqRtY69hWlQhEIay",
+    "role": "student",
+    "status": "pending",
+    "emailVerificationToken": "7229ea16-bc81-40df-93d5-c111a1f421ab",
+    "emailVerificationCode": "598940",
+    "emailVerificationExpires": "2026-03-18T15:54:05.890Z",
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-04-01T00:00:00.000Z",
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-03-17T15:49:41.145Z",
+    "lastActive": "2026-03-17T15:49:41.145Z",
+    "billingHistory": [],
+    "isPremium": false,
+    "subscription": {
+      "plan": "free",
+      "tier": "free",
+      "status": "inactive",
+      "autoRenew": false
+    }
+  },
+  {
+    "_id": "69b97a08f5e4da6998ef6dd8",
+    "name": "VINCENT MBWA",
+    "email": "vincentmbwa57@gmail.com",
+    "password": "$2b$12$620MBaeCiwysZcl6NVGbHOkfmYsX6xb/k.vBKfj78c627vBrDpsZq",
+    "role": "student",
+    "status": "active",
+    "emailVerificationToken": null,
+    "emailVerificationCode": null,
+    "emailVerificationExpires": null,
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-04-01T00:00:00.000Z",
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-03-17T15:58:01.123Z",
+    "lastActive": "2026-03-17T15:58:31.373Z",
+    "emailVerified": true,
+    "lastLogin": "2026-03-17T15:58:31.373Z",
+    "loginCount": 1,
+    "lastContentRefresh": "2026-03-17T15:58:31.807Z",
+    "ageGroup": "18-24",
+    "educationLevel": "bachelors",
+    "goals": [
+      "research",
+      "personal-project"
+    ],
+    "interestCategories": [
+      "AI & ML",
+      "Science",
+      "Mathematics",
+      "Health"
+    ],
+    "interests": [
+      "ai-ml",
+      "science",
+      "math",
+      "health"
+    ],
+    "onboardingCompleted": true,
+    "skillLevel": "intermediate",
+    "timeCommitment": "4-7",
+    "billingHistory": [],
+    "isPremium": false,
+    "subscription": {
+      "plan": "free",
+      "tier": "free",
+      "status": "inactive",
+      "autoRenew": false
+    }
+  },
+  {
+    "_id": "69b98b345064e6096428086f",
+    "name": "kevin Bouvians",
+    "email": "kevbouvians@gmail.com",
+    "password": "$2b$12$bUXtBHPdg0QlgQ/6KhsarODPI6sZNajYr3Bx0NktkIUU8P8w2UJJS",
+    "role": "student",
+    "status": "active",
+    "emailVerificationToken": null,
+    "emailVerificationCode": null,
+    "emailVerificationExpires": null,
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-04-01T00:00:00.000Z",
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-03-17T17:11:17.082Z",
+    "lastActive": "2026-03-17T17:13:32.848Z",
+    "emailVerified": true,
+    "lastLogin": "2026-03-17T17:13:32.848Z",
+    "loginCount": 1,
+    "lastContentRefresh": "2026-03-17T17:13:33.232Z",
+    "ageGroup": "25-34",
+    "educationLevel": "bachelors",
+    "goals": [
+      "hobby",
+      "research",
+      "teaching",
+      "certification",
+      "skill-upgrade"
+    ],
+    "interestCategories": [
+      "Creative",
+      "Languages",
+      "Health",
+      "Business"
+    ],
+    "interests": [
+      "music",
+      "languages",
+      "fitness",
+      "meditation",
+      "project-management",
+      "leadership",
+      "nursing",
+      "medicine"
+    ],
+    "onboardingCompleted": true,
+    "skillLevel": "intermediate",
+    "timeCommitment": "1-3",
+    "courses": [
+      {
+        "courseId": "69b98d6b5064e60964280878",
+        "progress": 1,
+        "completed": false,
+        "startedAt": "2026-03-17T17:22:30.106Z",
+        "lastUpdated": "2026-03-17T17:22:30.138Z"
+      }
+    ],
+    "billingHistory": [],
+    "isPremium": false,
+    "subscription": {
+      "plan": "free",
+      "tier": "free",
+      "status": "inactive",
+      "autoRenew": false
+    }
+  },
+  {
+    "_id": "69ba5f8bd8a380143269b7cc",
+    "name": "Pixel Melchzedeck",
+    "email": "melchzedeckokiri3556@gmail.com",
+    "password": "$2b$12$kaHiYcybFKBXfoqHgacKzO3tFDPrzMVd.XYwxAksMnxo2Qmy5H/D.",
+    "role": "student",
+    "status": "active",
+    "emailVerificationToken": null,
+    "emailVerificationCode": null,
+    "emailVerificationExpires": null,
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-04-01T00:00:00.000Z",
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-03-18T08:17:16.338Z",
+    "lastActive": "2026-03-18T08:17:45.469Z",
+    "emailVerified": true,
+    "lastLogin": "2026-03-18T08:17:45.469Z",
+    "loginCount": 1,
+    "lastContentRefresh": "2026-03-18T08:17:45.868Z",
+    "ageGroup": "18-24",
+    "educationLevel": "bachelors",
+    "goals": [
+      "teaching",
+      "research",
+      "startup",
+      "hobby",
+      "personal-project",
+      "certification",
+      "career-change",
+      "skill-upgrade"
+    ],
+    "interestCategories": [
+      "Technology",
+      "Design",
+      "Business",
+      "Data Science",
+      "AI & ML",
+      "Creative",
+      "Humanities",
+      "Languages",
+      "Science",
+      "Health",
+      "Lifestyle",
+      "Mathematics"
+    ],
+    "interests": [
+      "programming",
+      "design",
+      "business",
+      "data-science",
+      "ai-ml",
+      "music",
+      "photography",
+      "gaming",
+      "writing",
+      "languages",
+      "woodworking",
+      "welding",
+      "plumbing",
+      "electrician",
+      "construction",
+      "automotive",
+      "aviation",
+      "agriculture",
+      "environmental",
+      "geology",
+      "astronomy",
+      "veterinary",
+      "nutrition",
+      "nursing",
+      "engineering",
+      "architecture",
+      "medicine",
+      "interior-design",
+      "fashion",
+      "theater",
+      "dance",
+      "art-history",
+      "religion",
+      "geography",
+      "sociology",
+      "politics",
+      "law",
+      "accounting",
+      "investing",
+      "real-estate",
+      "entrepreneurship",
+      "public-speaking",
+      "leadership",
+      "project-management",
+      "marketing",
+      "economics",
+      "philosophy",
+      "psychology",
+      "crafts",
+      "gardening",
+      "meditation",
+      "fitness",
+      "cooking",
+      "finance",
+      "health",
+      "history",
+      "math",
+      "science"
+    ],
+    "onboardingCompleted": true,
+    "skillLevel": "intermediate",
+    "timeCommitment": "4-7",
+    "courses": [
+      {
+        "courseId": "69ba6063d8a380143269b7d1",
+        "progress": 1,
+        "completed": false,
+        "startedAt": "2026-03-18T08:22:03.812Z",
+        "lastUpdated": "2026-03-18T08:22:03.835Z"
+      }
+    ],
+    "billingHistory": [],
+    "isPremium": false,
+    "subscription": {
+      "plan": "free",
+      "tier": "free",
+      "status": "inactive",
+      "autoRenew": false
+    }
+  },
+  {
+    "_id": "69bb9de4165ce938584f4f6a",
+    "email": "dickensopendu@gmail.com",
+    "name": "Dickens Opendu",
+    "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjXdwzZL5VTVfhUo7boPadlAIljMfeBYqM1CsdxRkBifqrzox9c8dceOC2PMnX77XHIJFUz9BJktMyMNy1TbhQz_LKe72gd4gdVqbt3GAowB3_XR1HEvCCVrdV9TVnl-nhNE39Jel17coftlffG-Ib839dGUk9imRhwpMO3wyrfKNnTMb6MJeU15E9zUvki0CuPqBuVZzCkFsKoIj6EiHdydRzqRI_0a27Peg5ai6OlvlgCjk0toS4RdqzrxBP4yJcn7BGMOOP-bNcvAW_84meiGS0FcEF3H1aeJh0D3I13yQO2uLF1-YMg175JBZwEJ7MJNBS_ihPx1SRfrToU_5i_TI5opkBBxeO_aYgLARYGER-F0cd4w7E9TE_96Hn1n4NDb-sOXQ4V-MiPRVPOYqLQH-qnaxEJaLrSbrWAfVc-oV97xUOePl3gKq3SyisW2rDhrEQARpOZPQTAMZjT_1TZ6gKM6B3FKYnxsEC7RaBwhhR6Btj27VZm33lK8H4TIal1_pm2_1_b3G9g3Jfz34dzx3prGqvoIUM0rLT05HljUneWrrtXNUadjJxssXudW3AHR7MGUKboL3fWw_DFaJJfia_pWnc7CwMfS40MVM8N-oxTnwJojoSRhw_moHEk01jVq6wZYg-l_sUHIgY1VtRi2v3kf6-E1tLKqyN1hJq62JrDIkyAFEQDDk8HH0Ma7Osl2c7gIEV1y97PQYsZSG0YHkTAnjyfyKCXmVRrMG9jSI9gdyDfKfbV22RHu3YS7G_epXS2Dso9M-dp6r1LZeWr_af2nbvKGKIBU_3bv00zaUcNPGR-1gl5ZlGH61U7U1sAZ7augc_gNrcrE2Qu5g0V4a1F1KwokMyJgrisYLNG0633L7gasDdUG038q8T0iG7Z8ZoyANW46VALh6Js9xzrMVgL7YzV-aS0bTo4JlUvrQL4pbZ4j4ktN6OhxZldZUSGdPRCwDfK5t84NCdXW7VTWKjaO5qehPoHcSgHBVRjtiyDcQP5k2kvd9nFc4Q8DYKssqybfNtDpncFIl0AS_pKsYdb-e-9sr6kwH62FuLtu0Iq4vw=s96-c",
+    "googleId": "107538733351051074838",
+    "emailVerified": true,
+    "status": "active",
+    "role": "student",
+    "onboardingCompleted": true,
+    "isPremium": false,
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-03-19T06:55:32.049Z",
+    "lastLogin": "2026-03-19T06:55:32.049Z",
+    "loginCount": 1,
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-04-01T00:00:00.000Z",
+    "subscription": {
+      "plan": "free",
+      "tier": "free",
+      "status": "inactive",
+      "autoRenew": false
+    },
+    "lastContentRefresh": "2026-03-21T04:27:09.175Z",
+    "ageGroup": "18-24",
+    "educationLevel": "bachelors",
+    "goals": [
+      "skill-upgrade",
+      "hobby",
+      "personal-project",
+      "research",
+      "startup"
+    ],
+    "interestCategories": [
+      "Business",
+      "Technology",
+      "Creative",
+      "Languages",
+      "Science",
+      "Mathematics",
+      "Humanities",
+      "Lifestyle",
+      "Design",
+      "Health"
+    ],
+    "interests": [
+      "business",
+      "programming",
+      "music",
+      "languages",
+      "science",
+      "math",
+      "history",
+      "finance",
+      "cooking",
+      "gardening",
+      "crafts",
+      "philosophy",
+      "economics",
+      "project-management",
+      "entrepreneurship",
+      "accounting",
+      "law",
+      "politics",
+      "sociology",
+      "geography",
+      "religion",
+      "dance",
+      "architecture",
+      "interior-design",
+      "astronomy",
+      "geology",
+      "medicine",
+      "engineering",
+      "agriculture",
+      "automotive",
+      "construction",
+      "plumbing",
+      "welding",
+      "woodworking",
+      "electrician"
+    ],
+    "skillLevel": "beginner",
+    "timeCommitment": "4-7",
+    "billingHistory": []
+  },
+  {
+    "_id": "69b9791e5064e60964280775",
+    "name": "Evans Genga",
+    "email": "gengaevans81@gmail.com",
+    "password": "$2b$12$fDIJlWf0GQVjuIoO7Q4O1.yWxB.8JzaMMh/yPUISDq2srRXmLrURK",
+    "role": "student",
+    "status": "active",
+    "emailVerificationToken": null,
+    "emailVerificationCode": null,
+    "emailVerificationExpires": null,
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-04-01T00:00:00.000Z",
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-03-17T15:54:06.913Z",
+    "lastActive": "2026-03-17T16:01:45.346Z",
+    "emailVerified": true,
+    "lastLogin": "2026-03-17T16:01:45.346Z",
+    "loginCount": 1,
+    "lastContentRefresh": "2026-03-17T16:01:46.284Z",
+    "billingHistory": [],
+    "isPremium": false,
+    "subscription": {
+      "plan": "free",
+      "tier": "free",
+      "status": "inactive",
+      "autoRenew": false
+    }
+  },
+  {
+    "_id": "69b97be8f5e4da6998ef6dfb",
+    "name": "Terry Hazael",
+    "email": "te099hazael@gmail.com",
+    "password": "$2b$12$Lc4iESTul44V.5RSFX.Ej..PL0Oo1UOmUFyAWvPLA85z2ir00rEgG",
+    "role": "student",
+    "status": "active",
+    "emailVerificationToken": null,
+    "emailVerificationCode": null,
+    "emailVerificationExpires": null,
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-04-01T00:00:00.000Z",
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-03-17T16:06:00.810Z",
+    "lastActive": "2026-03-17T16:38:40.890Z",
+    "emailVerified": true,
+    "lastLogin": "2026-03-17T16:38:40.890Z",
+    "loginCount": 2,
+    "lastContentRefresh": "2026-03-31T03:22:56.638Z",
+    "ageGroup": "18-24",
+    "educationLevel": "self-taught",
+    "goals": [
+      "skill-upgrade"
+    ],
+    "interestCategories": [
+      "Technology",
+      "AI & ML",
+      "Creative",
+      "Languages",
+      "Business"
+    ],
+    "interests": [
+      "programming",
+      "ai-ml",
+      "music",
+      "languages",
+      "finance",
+      "marketing"
+    ],
+    "onboardingCompleted": true,
+    "skillLevel": "beginner",
+    "timeCommitment": "1-3",
+    "billingHistory": [],
+    "isPremium": false,
+    "subscription": {
+      "plan": "free",
+      "tier": "free",
+      "status": "inactive",
+      "autoRenew": false
+    }
+  },
+  {
+    "_id": "69ca1eaac3bdff50401f2b90",
+    "email": "njorogeanto33@gmail.com",
+    "name": "ANTONY NJOROGE NYAMBURA",
+    "avatar": "https://lh3.googleusercontent.com/a/ACg8ocKyCD49ygGFqcili8Ixia6BnA-FtDvZEQ6w81vUUCzsgMoo4w=s96-c",
+    "googleId": "102080596403535994006",
+    "emailVerified": true,
+    "status": "active",
+    "role": "student",
+    "onboardingCompleted": true,
+    "isPremium": false,
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-03-30T06:56:42.774Z",
+    "lastLogin": "2026-03-30T06:56:42.774Z",
+    "loginCount": 1,
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-04-01T00:00:00.000Z",
+    "subscription": {
+      "plan": "free",
+      "tier": "free",
+      "status": "inactive",
+      "autoRenew": false
+    },
+    "lastContentRefresh": "2026-03-30T06:56:43.165Z",
+    "ageGroup": "18-24",
+    "educationLevel": "bachelors",
+    "goals": [
+      "skill-upgrade",
+      "personal-project",
+      "hobby"
+    ],
+    "interestCategories": [
+      "Business",
+      "Data Science",
+      "AI & ML",
+      "Creative",
+      "Humanities",
+      "Languages",
+      "Science",
+      "Mathematics",
+      "Health",
+      "Lifestyle",
+      "Technology"
+    ],
+    "interests": [
+      "business",
+      "data-science",
+      "ai-ml",
+      "photography",
+      "writing",
+      "languages",
+      "science",
+      "math",
+      "history",
+      "health",
+      "finance",
+      "meditation",
+      "gardening",
+      "psychology",
+      "philosophy",
+      "economics",
+      "marketing",
+      "project-management",
+      "leadership",
+      "public-speaking",
+      "entrepreneurship",
+      "real-estate",
+      "investing",
+      "accounting",
+      "law",
+      "politics",
+      "sociology",
+      "geography",
+      "religion",
+      "art-history",
+      "engineering",
+      "medicine",
+      "nursing",
+      "nutrition",
+      "astronomy",
+      "automotive",
+      "aviation",
+      "environmental",
+      "geology",
+      "electrician",
+      "welding",
+      "woodworking"
+    ],
+    "skillLevel": "beginner",
+    "timeCommitment": "4-7",
+    "billingHistory": []
+  },
+  {
+    "_id": "69df5c781d0176fa3153bac4",
+    "name": "Braison Wabwire",
+    "email": "wabwirebraison0@gmail.com",
+    "password": "$2b$12$kGwpCwuROz7HXxa9QWOy4O/3F3RBidTI98B9yyGuad9w71BB.uNae",
+    "role": "student",
+    "status": "active",
+    "emailVerificationToken": null,
+    "emailVerificationCode": null,
+    "emailVerificationExpires": null,
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-05-01T00:00:00.000Z",
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-04-15T09:38:00.812Z",
+    "lastActive": "2026-05-23T10:01:13.498Z",
+    "emailVerified": true,
+    "lastLogin": "2026-05-23T10:01:13.498Z",
+    "loginCount": 2,
+    "lastContentRefresh": "2026-05-23T10:01:13.982Z",
+    "ageGroup": "18-24",
+    "educationLevel": "bachelors",
+    "goals": [
+      "startup"
+    ],
+    "interestCategories": [
+      "Technology"
+    ],
+    "interests": [
+      "programming"
+    ],
+    "onboardingCompleted": true,
+    "skillLevel": "beginner",
+    "timeCommitment": "8-15",
+    "courses": [
+      {
+        "courseId": "69df5d271d0176fa3153bacb",
+        "progress": 1,
+        "completed": false,
+        "startedAt": "2026-04-15T09:41:40.348Z",
+        "lastUpdated": "2026-04-15T09:41:40.355Z",
+        "completedLessons": [
+          "1-1"
+        ]
+      },
+      {
+        "courseId": "6a117b2ac3f94a3a909f2f46",
+        "progress": 1,
+        "completed": false,
+        "startedAt": "2026-05-23T10:03:04.144Z",
+        "lastUpdated": "2026-05-23T10:03:04.150Z",
+        "completedLessons": [
+          "1-1"
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "69b977a767cea1bf4754d000",
+    "name": "Vivian Atieno",
+    "email": "avadiilcaavvi@gmail.com",
+    "password": "$2b$12$bfAL7l5PyxWtefNTW2sL0..sDlVCSGH02AtU2CUyjoEDmN32EK8Ee",
+    "role": "student",
+    "status": "active",
+    "emailVerificationToken": null,
+    "emailVerificationCode": null,
+    "emailVerificationExpires": null,
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-04-01T00:00:00.000Z",
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-03-17T15:47:51.366Z",
+    "lastActive": "2026-03-17T15:58:24.784Z",
+    "emailVerified": true,
+    "lastLogin": "2026-03-17T15:58:24.784Z",
+    "loginCount": 1,
+    "lastContentRefresh": "2026-03-17T15:58:25.275Z",
+    "ageGroup": "18-24",
+    "educationLevel": "associates",
+    "goals": [
+      "skill-upgrade",
+      "hobby",
+      "teaching",
+      "startup",
+      "personal-project",
+      "research"
+    ],
+    "interestCategories": [
+      "Design",
+      "Technology",
+      "Business",
+      "Data Science",
+      "AI & ML",
+      "Creative",
+      "Humanities",
+      "Languages",
+      "Science",
+      "Health",
+      "Lifestyle"
+    ],
+    "interests": [
+      "design",
+      "programming",
+      "business",
+      "data-science",
+      "ai-ml",
+      "music",
+      "photography",
+      "gaming",
+      "writing",
+      "languages",
+      "science",
+      "health",
+      "finance",
+      "cooking",
+      "fitness",
+      "crafts",
+      "gardening",
+      "psychology",
+      "real-estate"
+    ],
+    "onboardingCompleted": true,
+    "skillLevel": "beginner",
+    "timeCommitment": "4-7",
+    "courses": [
+      {
+        "courseId": "69b980dd2308e3eea6982714",
+        "progress": 2,
+        "completed": false,
+        "startedAt": "2026-03-17T16:27:55.607Z",
+        "lastUpdated": "2026-03-17T16:32:19.744Z"
+      }
+    ],
+    "billingHistory": [],
+    "isPremium": false,
+    "subscription": {
+      "plan": "free",
+      "tier": "free",
+      "status": "inactive",
+      "autoRenew": false
+    }
+  },
+  {
+    "_id": "69b979875064e6096428077a",
+    "name": "Evans Genga",
+    "email": "awitievans160@gmail.com",
+    "password": "$2b$12$d.OClI0me5cFVCBaaurFneWNySCkUu67Ba5VDSaA5izjtTunryHSO",
+    "role": "student",
+    "status": "pending",
+    "emailVerificationToken": "ac40e039-467d-49c3-8cef-b8a0a7443fb2",
+    "emailVerificationCode": "462997",
+    "emailVerificationExpires": "2026-03-18T15:55:51.912Z",
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-04-01T00:00:00.000Z",
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-03-17T15:55:52.396Z",
+    "lastActive": "2026-03-17T15:55:52.396Z",
+    "billingHistory": [],
+    "isPremium": false,
+    "subscription": {
+      "plan": "free",
+      "tier": "free",
+      "status": "inactive",
+      "autoRenew": false
+    }
+  },
+  {
+    "_id": "69b97f26f5e4da6998ef6e36",
+    "name": "Mode Mwalimu",
+    "email": "mwalimumwanza254@gmail.com",
+    "password": "$2b$12$MbiHE3YPtaXgRqXHZ542Sexbg/p5gV/ThuAnLsElNdNL1ouAfHztq",
+    "role": "student",
+    "status": "active",
+    "emailVerificationToken": null,
+    "emailVerificationCode": null,
+    "emailVerificationExpires": null,
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-04-01T00:00:00.000Z",
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-03-17T16:19:50.564Z",
+    "lastActive": "2026-03-17T16:21:07.390Z",
+    "emailVerified": true,
+    "lastLogin": "2026-03-17T16:21:07.390Z",
+    "loginCount": 2,
+    "lastContentRefresh": "2026-03-17T16:21:07.786Z",
+    "ageGroup": "18-24",
+    "educationLevel": "bachelors",
+    "goals": [
+      "career-change",
+      "skill-upgrade",
+      "personal-project",
+      "teaching",
+      "research",
+      "certification",
+      "startup",
+      "hobby"
+    ],
+    "interestCategories": [
+      "Technology",
+      "AI & ML",
+      "Humanities",
+      "Business",
+      "Health",
+      "Creative",
+      "Languages",
+      "Lifestyle",
+      "Science",
+      "Design"
+    ],
+    "interests": [
+      "programming",
+      "ai-ml",
+      "politics",
+      "project-management",
+      "fitness",
+      "health",
+      "music",
+      "gaming",
+      "languages",
+      "cooking",
+      "leadership",
+      "engineering",
+      "aviation",
+      "automotive",
+      "interior-design",
+      "architecture",
+      "religion",
+      "geography"
+    ],
+    "onboardingCompleted": true,
+    "skillLevel": "intermediate",
+    "timeCommitment": "8-15",
+    "courses": [
+      {
+        "courseId": "69b980b131116848f67e03d0",
+        "progress": 1,
+        "completed": false,
+        "startedAt": "2026-03-17T16:27:57.282Z",
+        "lastUpdated": "2026-03-17T16:27:57.305Z"
+      }
+    ],
+    "billingHistory": [],
+    "isPremium": false,
+    "subscription": {
+      "plan": "free",
+      "tier": "free",
+      "status": "inactive",
+      "autoRenew": false
+    }
+  },
+  {
+    "_id": "69ba411db1b4e349431086cd",
+    "name": "Raymond Moturi",
+    "email": "raymondmoturi337@gmail.com",
+    "password": "$2b$12$aIufFw0XNsi7ksheAgpvb.wnMGSSyaiw0VbQV5l98rjbtaNIPHJk2",
+    "role": "student",
+    "status": "active",
+    "emailVerificationToken": null,
+    "emailVerificationCode": null,
+    "emailVerificationExpires": null,
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-04-01T00:00:00.000Z",
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-03-18T06:07:25.845Z",
+    "lastActive": "2026-03-25T20:09:42.435Z",
+    "emailVerified": true,
+    "lastLogin": "2026-03-25T20:09:42.435Z",
+    "loginCount": 2,
+    "lastContentRefresh": "2026-04-08T11:38:15.954Z",
+    "ageGroup": "18-24",
+    "educationLevel": "some-college",
+    "goals": [
+      "certification",
+      "skill-upgrade",
+      "teaching",
+      "research",
+      "startup"
+    ],
+    "interestCategories": [
+      "Technology",
+      "Business",
+      "Data Science",
+      "AI & ML",
+      "Science",
+      "Health",
+      "Design",
+      "Creative"
+    ],
+    "interests": [
+      "programming",
+      "business",
+      "data-science",
+      "ai-ml",
+      "marketing",
+      "project-management",
+      "entrepreneurship",
+      "real-estate",
+      "investing",
+      "automotive",
+      "agriculture",
+      "meditation",
+      "fitness",
+      "gaming",
+      "design",
+      "music"
+    ],
+    "onboardingCompleted": true,
+    "skillLevel": "intermediate",
+    "timeCommitment": "4-7",
+    "billingHistory": [],
+    "isPremium": false,
+    "subscription": {
+      "plan": "free",
+      "tier": "free",
+      "status": "inactive",
+      "autoRenew": false
+    }
+  },
+  {
+    "_id": "69ba551b3e8e518b9c0e0dc2",
+    "name": "Glennox Orlando",
+    "email": "glennoxorlando@gmail.com",
+    "password": "$2b$12$V3QglihvxdbPEn6wCWXgTebXEiw.q4TFjbUrPbMLpMSGmXYC8x232",
+    "role": "student",
+    "status": "active",
+    "emailVerificationToken": null,
+    "emailVerificationCode": null,
+    "emailVerificationExpires": null,
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-04-01T00:00:00.000Z",
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-03-18T07:32:44.197Z",
+    "lastActive": "2026-03-18T07:33:35.501Z",
+    "emailVerified": true,
+    "lastLogin": "2026-03-18T07:33:35.501Z",
+    "loginCount": 2,
+    "lastContentRefresh": "2026-03-18T07:33:36.000Z",
+    "ageGroup": "under-18",
+    "educationLevel": "high-school",
+    "goals": [
+      "career-change"
+    ],
+    "interestCategories": [
+      "Business"
+    ],
+    "interests": [
+      "investing"
+    ],
+    "onboardingCompleted": true,
+    "skillLevel": "beginner",
+    "timeCommitment": "1-3",
+    "billingHistory": [],
+    "isPremium": false,
+    "subscription": {
+      "plan": "free",
+      "tier": "free",
+      "status": "inactive",
+      "autoRenew": false
+    }
+  },
+  {
+    "_id": "69bb895e1c330a574d80f0c6",
+    "email": "linusnamusole@gmail.com",
+    "name": "linus namusole",
+    "avatar": "https://lh3.googleusercontent.com/a/ACg8ocJxPBnZ63Pu1vK9c4Sw6lpvtIHfFxZIPqdkmURBEbWvRrXHp7s=s96-c",
+    "googleId": "110902389679067538348",
+    "emailVerified": true,
+    "status": "active",
+    "role": "student",
+    "onboardingCompleted": true,
+    "isPremium": false,
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-03-19T05:27:58.222Z",
+    "lastLogin": "2026-03-19T05:27:58.222Z",
+    "loginCount": 1,
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-04-01T00:00:00.000Z",
+    "subscription": {
+      "plan": "free",
+      "tier": "free",
+      "status": "inactive",
+      "autoRenew": false
+    },
+    "lastContentRefresh": "2026-03-19T05:27:58.682Z",
+    "ageGroup": "18-24",
+    "educationLevel": "some-college",
+    "goals": [
+      "skill-upgrade",
+      "personal-project",
+      "research",
+      "certification"
+    ],
+    "interestCategories": [
+      "Technology",
+      "Business",
+      "Data Science"
+    ],
+    "interests": [
+      "programming",
+      "business",
+      "data-science",
+      "economics",
+      "project-management",
+      "leadership",
+      "public-speaking"
+    ],
+    "skillLevel": "beginner",
+    "timeCommitment": "1-3",
+    "courses": [
+      {
+        "courseId": "69bb8a7f986301ffe3197ccb",
+        "progress": 1,
+        "completed": false,
+        "startedAt": "2026-03-19T05:33:45.878Z",
+        "lastUpdated": "2026-03-19T05:33:45.898Z"
+      }
+    ],
+    "billingHistory": []
+  },
+  {
+    "_id": "69d52f44d3cfea73c682a564",
+    "name": "Kiprono Mutai",
+    "email": "kipronomutai976@gmail.com",
+    "password": "$2b$12$tV/wC661/1fyY3SpnqiRLOIGSzIIbtMYzcV53xQ6U58uZ0jmn8f02",
+    "role": "student",
+    "status": "active",
+    "emailVerificationToken": null,
+    "emailVerificationCode": null,
+    "emailVerificationExpires": null,
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-05-01T00:00:00.000Z",
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-04-07T16:22:29.377Z",
+    "lastActive": "2026-04-07T16:22:54.084Z",
+    "emailVerified": true,
+    "lastLogin": "2026-04-07T16:22:54.084Z",
+    "loginCount": 1,
+    "lastContentRefresh": "2026-04-07T16:22:54.504Z",
+    "ageGroup": "25-34",
+    "educationLevel": "associates",
+    "goals": [
+      "research"
+    ],
+    "interestCategories": [
+      "Health"
+    ],
+    "interests": [
+      "veterinary"
+    ],
+    "onboardingCompleted": true,
+    "skillLevel": "intermediate",
+    "timeCommitment": "8-15",
+    "billingHistory": [],
+    "isPremium": false,
+    "subscription": {
+      "plan": "free",
+      "tier": "free",
+      "status": "inactive",
+      "autoRenew": false
+    }
+  },
+  {
+    "_id": "6a39552402e6716740fd23e5",
+    "email": "opubaabraham@gmail.com",
+    "name": "Opuba Abraham",
+    "avatar": "https://lh3.googleusercontent.com/a/ACg8ocJUCvTYa7eQbSJt20AjdsBHIbMDAQxrEO9DWlVfEZ3P05TPWA=s96-c",
+    "googleId": "111355772522439239182",
+    "emailVerified": true,
+    "status": "active",
+    "role": "student",
+    "onboardingCompleted": true,
+    "isPremium": false,
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-06-22T15:30:44.972Z",
+    "lastLogin": "2026-06-22T15:30:44.972Z",
+    "loginCount": 1,
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-07-01T00:00:00.000Z",
+    "subscription": {
+      "tier": "free",
+      "status": "none"
+    },
+    "lastContentRefresh": "2026-07-07T07:41:32.107Z",
+    "ageGroup": "18-24",
+    "educationLevel": "associates",
+    "goals": [
+      "certification"
+    ],
+    "interestCategories": [
+      "Humanities",
+      "Creative",
+      "Languages",
+      "Health"
+    ],
+    "interests": [
+      "religion",
+      "art-history",
+      "fashion",
+      "theater",
+      "languages",
+      "health",
+      "law"
+    ],
+    "skillLevel": "advanced",
+    "timeCommitment": "15+",
+    "courses": [
+      {
+        "courseId": "6a398b8cc626d5b205633234",
+        "progress": 1,
+        "completed": false,
+        "startedAt": "2026-06-22T19:23:45.756Z",
+        "lastUpdated": "2026-06-22T19:23:45.761Z",
+        "completedLessons": [
+          "1-2"
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "6a4a8fd290357ce6a4c4324d",
+    "email": "rosecheruiyot1968@gmail.com",
+    "name": "Rose Cheruiyot",
+    "avatar": "https://lh3.googleusercontent.com/a/ACg8ocJAmoIWl43dNei-oVpfd2QzxI_g21x08ycFEeXhJcIsUatkOg=s96-c",
+    "googleId": "105354884670035986229",
+    "emailVerified": true,
+    "status": "active",
+    "role": "student",
+    "onboardingCompleted": true,
+    "isPremium": false,
+    "streak": 0,
+    "totalLearningTime": 0,
+    "credits": 20,
+    "purchasedItems": [],
+    "achievements": [],
+    "createdAt": "2026-07-05T17:09:38.483Z",
+    "lastLogin": "2026-07-08T15:40:33.640Z",
+    "loginCount": 2,
+    "subscription": {
+      "tier": "free",
+      "status": "none"
+    },
+    "lastContentRefresh": "2026-07-19T07:41:40.692Z",
+    "ageGroup": "18-24",
+    "educationLevel": "high-school",
+    "goals": [
+      "skill-upgrade"
+    ],
+    "interestCategories": [
+      "Business",
+      "AI & ML",
+      "Data Science",
+      "Lifestyle",
+      "Humanities"
+    ],
+    "interests": [
+      "business",
+      "ai-ml",
+      "data-science",
+      "gardening",
+      "religion"
+    ],
+    "skillLevel": "intermediate",
+    "timeCommitment": "8-15",
+    "courses": [
+      {
+        "courseId": "6a4a90bab651430b34c7f152",
+        "progress": 1,
+        "completed": false,
+        "startedAt": "2026-07-05T17:14:31.110Z",
+        "lastUpdated": "2026-07-05T17:14:31.116Z",
+        "completedLessons": [
+          "1-1"
+        ]
+      }
+    ],
+    "lastLogout": "2026-07-19T07:43:28.406Z",
+    "refreshTokens": [],
+    "lastActive": "2026-07-08T15:40:33.640Z",
+    "dailyLoginStreak": 1,
+    "lastLoginBonus": "2026-07-19",
+    "level": 1,
+    "xp": 5
+  },
+  {
+    "_id": "69b97cb25064e609642807cc",
+    "name": "Michael Ochieng",
+    "email": "ochiengmichael1930@gmail.com",
+    "password": "$2b$12$meIHXlcRy0XNAEWQd7AsdeSJ4xBbvFLyuay/uFphgrKdhH1ChkyHe",
+    "role": "student",
+    "status": "active",
+    "emailVerificationToken": null,
+    "emailVerificationCode": null,
+    "emailVerificationExpires": null,
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-04-01T00:00:00.000Z",
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-03-17T16:09:22.777Z",
+    "lastActive": "2026-03-17T16:16:54.280Z",
+    "emailVerified": true,
+    "lastLogin": "2026-03-17T16:16:54.280Z",
+    "loginCount": 1,
+    "lastContentRefresh": "2026-03-17T16:16:59.568Z",
+    "ageGroup": "18-24",
+    "educationLevel": "bachelors",
+    "goals": [
+      "career-change",
+      "skill-upgrade",
+      "certification"
+    ],
+    "interestCategories": [
+      "Technology",
+      "AI & ML",
+      "Data Science",
+      "Business"
+    ],
+    "interests": [
+      "programming",
+      "ai-ml",
+      "data-science",
+      "business"
+    ],
+    "onboardingCompleted": true,
+    "skillLevel": "intermediate",
+    "timeCommitment": "4-7",
+    "billingHistory": [],
+    "isPremium": false,
+    "subscription": {
+      "plan": "free",
+      "tier": "free",
+      "status": "inactive",
+      "autoRenew": false
+    }
+  },
+  {
+    "_id": "69b97f555064e60964280810",
+    "name": "MICHAEL WANJALA",
+    "email": "wanjalam285@gmail.com",
+    "password": "$2b$12$urXNULvKQz4/6PiBp1LiUe2nlNH/CUZlsK1D29cq70I5KRSfL4yre",
+    "role": "student",
+    "status": "pending",
+    "emailVerificationToken": "deeca682-7b94-40e4-b52b-ddc1eb5c87ad",
+    "emailVerificationCode": "137959",
+    "emailVerificationExpires": "2026-03-18T16:22:18.448Z",
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-04-01T00:00:00.000Z",
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-03-17T16:20:37.950Z",
+    "lastActive": "2026-03-17T16:20:37.950Z",
+    "billingHistory": [],
+    "isPremium": false,
+    "subscription": {
+      "plan": "free",
+      "tier": "free",
+      "status": "inactive",
+      "autoRenew": false
+    }
+  },
+  {
+    "_id": "69c0bd32c474457c68473349",
+    "email": "eugenemungayi@gmail.com",
+    "name": "Eugene Mungayi",
+    "avatar": "https://lh3.googleusercontent.com/a/ACg8ocJTHLcyJ_auMxrVi0q4W2qAjxuuiI13P1XjjcKCPQYmc_8GlQ=s96-c",
+    "googleId": "114926471983362177243",
+    "emailVerified": true,
+    "status": "active",
+    "role": "student",
+    "onboardingCompleted": true,
+    "isPremium": false,
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-03-23T04:10:26.901Z",
+    "lastLogin": "2026-03-23T04:10:26.901Z",
+    "loginCount": 1,
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-04-01T00:00:00.000Z",
+    "subscription": {
+      "plan": "free",
+      "tier": "free",
+      "status": "inactive",
+      "autoRenew": false
+    },
+    "lastContentRefresh": "2026-03-23T04:10:27.417Z",
+    "ageGroup": "25-34",
+    "educationLevel": "bachelors",
+    "goals": [
+      "career-change",
+      "skill-upgrade",
+      "certification",
+      "startup",
+      "teaching"
+    ],
+    "interestCategories": [
+      "Design",
+      "Business",
+      "AI & ML"
+    ],
+    "interests": [
+      "design",
+      "accounting",
+      "investing",
+      "entrepreneurship",
+      "public-speaking",
+      "finance",
+      "ai-ml",
+      "business"
+    ],
+    "skillLevel": "intermediate",
+    "timeCommitment": "8-15",
+    "billingHistory": []
+  },
+  {
+    "_id": "69b97ba7f5e4da6998ef6dfa",
+    "name": "Mercyline Wasike",
+    "email": "wasikemercy25@gmail.com",
+    "password": "$2b$12$wAGt2NaCCMlv5p7TQdhBruAWRncugtTiPrOQ5.E17/8g6/ukPbXBe",
+    "role": "student",
+    "status": "active",
+    "emailVerificationToken": null,
+    "emailVerificationCode": null,
+    "emailVerificationExpires": null,
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-04-01T00:00:00.000Z",
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-03-17T16:04:56.327Z",
+    "lastActive": "2026-03-17T16:05:40.401Z",
+    "emailVerified": true,
+    "lastLogin": "2026-03-17T16:05:40.401Z",
+    "loginCount": 1,
+    "lastContentRefresh": "2026-03-17T16:05:41.438Z",
+    "billingHistory": [],
+    "isPremium": false,
+    "subscription": {
+      "plan": "free",
+      "tier": "free",
+      "status": "inactive",
+      "autoRenew": false
+    }
+  },
+  {
+    "_id": "69b980542308e3eea6982707",
+    "name": "Cindy Cyacy",
+    "email": "cindycyacy@gmail.com",
+    "password": "$2b$12$cWMzDJsjJKwdeZkVtv.DQusIonF1zta1rjUm5x98BlJWu8.x1E9Jm",
+    "role": "student",
+    "status": "pending",
+    "emailVerificationToken": "a72d06c7-339e-4795-84f7-efdb603bf7a7",
+    "emailVerificationCode": "983345",
+    "emailVerificationExpires": "2026-03-18T16:25:47.247Z",
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-04-01T00:00:00.000Z",
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-03-17T16:24:52.789Z",
+    "lastActive": "2026-03-17T16:24:52.789Z",
+    "billingHistory": [],
+    "isPremium": false,
+    "subscription": {
+      "plan": "free",
+      "tier": "free",
+      "status": "inactive",
+      "autoRenew": false
+    }
+  },
+  {
+    "_id": "69b981152308e3eea6982716",
+    "name": "Diana Momanyi",
+    "email": "momanyidiana21@gmail.com",
+    "password": "$2b$12$lFGoblal8HrWYlSc70IClu/88XZva.6/kJ/xp1qMSmn0A6C3oMbla",
+    "role": "student",
+    "status": "active",
+    "emailVerificationToken": null,
+    "emailVerificationCode": null,
+    "emailVerificationExpires": null,
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-04-01T00:00:00.000Z",
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-03-17T16:28:06.156Z",
+    "lastActive": "2026-03-17T16:29:18.351Z",
+    "emailVerified": true,
+    "lastLogin": "2026-03-17T16:29:18.351Z",
+    "loginCount": 1,
+    "lastContentRefresh": "2026-03-17T16:29:18.727Z",
+    "ageGroup": "18-24",
+    "educationLevel": "some-college",
+    "goals": [
+      "skill-upgrade",
+      "personal-project",
+      "startup"
+    ],
+    "interestCategories": [
+      "Languages",
+      "Creative",
+      "Business"
+    ],
+    "interests": [
+      "languages",
+      "music",
+      "crafts",
+      "finance",
+      "dance",
+      "fashion"
+    ],
+    "onboardingCompleted": true,
+    "skillLevel": "beginner",
+    "timeCommitment": "8-15",
+    "courses": [
+      {
+        "courseId": "69b982b42308e3eea6982721",
+        "progress": 1,
+        "completed": false,
+        "startedAt": "2026-03-17T16:35:35.906Z",
+        "lastUpdated": "2026-03-17T16:38:29.651Z"
+      }
+    ],
+    "billingHistory": [],
+    "isPremium": false,
+    "subscription": {
+      "plan": "free",
+      "tier": "free",
+      "status": "inactive",
+      "autoRenew": false
+    }
+  },
+  {
+    "_id": "69c026a511c351c90fa4a8e5",
+    "email": "timwafula239@gmail.com",
+    "name": "Bunyasi Tim Brian",
+    "avatar": "https://lh3.googleusercontent.com/a/ACg8ocLXNXbT6MqN_31Oz4U3x_xqQm8uU2xK-FE46xC0kitqe9oIEZ_ARQ=s96-c",
+    "googleId": "113444441087740941001",
+    "emailVerified": true,
+    "status": "active",
+    "role": "student",
+    "onboardingCompleted": true,
+    "isPremium": false,
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-03-22T17:28:05.555Z",
+    "lastLogin": "2026-03-22T17:28:05.556Z",
+    "loginCount": 1,
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-04-01T00:00:00.000Z",
+    "subscription": {
+      "plan": "free",
+      "tier": "free",
+      "status": "inactive",
+      "autoRenew": false
+    },
+    "lastContentRefresh": "2026-03-22T17:28:06.029Z",
+    "ageGroup": "25-34",
+    "educationLevel": "bachelors",
+    "goals": [
+      "career-change",
+      "skill-upgrade",
+      "certification"
+    ],
+    "interestCategories": [
+      "Data Science",
+      "Health"
+    ],
+    "interests": [
+      "data-science",
+      "health"
+    ],
+    "skillLevel": "beginner",
+    "timeCommitment": "4-7",
+    "billingHistory": []
+  },
+  {
+    "_id": "69eb3b49dda711ed5fc53023",
+    "name": "Diana Wambugha",
+    "email": "dianawambugha21@gmail.com",
+    "password": "$2b$12$zJGCo1Gvk94kGUcOrGk7L.faknwf9LMS4cVvUqdnPXvb0ZXhqiC0u",
+    "role": "student",
+    "status": "active",
+    "emailVerificationToken": null,
+    "emailVerificationCode": null,
+    "emailVerificationExpires": null,
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-05-01T00:00:00.000Z",
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-04-24T09:43:37.903Z",
+    "lastActive": "2026-04-24T09:44:14.415Z",
+    "emailVerified": true,
+    "lastLogin": "2026-04-24T09:44:14.415Z",
+    "loginCount": 1,
+    "lastContentRefresh": "2026-04-24T09:44:14.865Z",
+    "ageGroup": "25-34",
+    "educationLevel": "bachelors",
+    "goals": [
+      "skill-upgrade",
+      "personal-project",
+      "certification",
+      "hobby",
+      "career-change"
+    ],
+    "interestCategories": [
+      "Data Science",
+      "Design",
+      "AI & ML",
+      "Business",
+      "Health",
+      "Science",
+      "Lifestyle",
+      "Creative",
+      "Humanities",
+      "Mathematics"
+    ],
+    "interests": [
+      "data-science",
+      "design",
+      "ai-ml",
+      "public-speaking",
+      "investing",
+      "interior-design",
+      "nutrition",
+      "agriculture",
+      "fitness",
+      "meditation",
+      "cooking",
+      "finance",
+      "photography",
+      "writing",
+      "math",
+      "health",
+      "music",
+      "philosophy",
+      "economics",
+      "leadership",
+      "psychology",
+      "geography",
+      "fashion",
+      "architecture"
+    ],
+    "onboardingCompleted": true,
+    "skillLevel": "intermediate",
+    "timeCommitment": "1-3"
+  },
+  {
+    "_id": "69b977cd67cea1bf4754d003",
+    "name": "odhiambo evance",
+    "email": "odhiamboevance435@gmail.com",
+    "password": "$2b$12$QfREOWIyhqAJBcBr0gZvPO7Fa4cDltXGWaVAOXp0Bx4TChZbOwUMq",
+    "role": "student",
+    "status": "active",
+    "emailVerificationToken": null,
+    "emailVerificationCode": null,
+    "emailVerificationExpires": null,
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-04-01T00:00:00.000Z",
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-03-17T15:48:29.822Z",
+    "lastActive": "2026-03-17T15:50:56.047Z",
+    "emailVerified": true,
+    "lastLogin": "2026-03-17T15:50:56.047Z",
+    "loginCount": 2,
+    "lastContentRefresh": "2026-03-17T15:50:56.593Z",
+    "ageGroup": "18-24",
+    "educationLevel": "bachelors",
+    "goals": [
+      "skill-upgrade",
+      "personal-project",
+      "certification",
+      "startup",
+      "teaching",
+      "research",
+      "career-change"
+    ],
+    "interestCategories": [
+      "Design",
+      "Technology",
+      "Business",
+      "AI & ML",
+      "Creative",
+      "Humanities",
+      "Health",
+      "Science"
+    ],
+    "interests": [
+      "design",
+      "programming",
+      "business",
+      "ai-ml",
+      "music",
+      "history",
+      "meditation",
+      "marketing",
+      "project-management",
+      "politics",
+      "art-history",
+      "fashion",
+      "interior-design",
+      "geology",
+      "investing",
+      "public-speaking",
+      "leadership"
+    ],
+    "onboardingCompleted": true,
+    "skillLevel": "beginner",
+    "timeCommitment": "1-3",
+    "courses": [
+      {
+        "courseId": "69b9799a3767cbd2042b5c3e",
+        "progress": 1,
+        "completed": false,
+        "startedAt": "2026-03-17T15:57:16.715Z",
+        "lastUpdated": "2026-03-17T15:57:16.753Z"
+      }
+    ],
+    "billingHistory": [],
+    "isPremium": false,
+    "subscription": {
+      "plan": "free",
+      "tier": "free",
+      "status": "inactive",
+      "autoRenew": false
+    }
+  },
+  {
+    "_id": "69b987275064e60964280853",
+    "name": "Anselm Ancestor",
+    "email": "anselimancestor33@gmail.com",
+    "password": "$2b$12$cWGTTGYbbHVllfGcHHQLqO4bz/mFngJpbZmofjSx9HjxsfVyzA8sy",
+    "role": "student",
+    "status": "active",
+    "emailVerificationToken": null,
+    "emailVerificationCode": null,
+    "emailVerificationExpires": null,
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-04-01T00:00:00.000Z",
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-03-17T16:54:00.170Z",
+    "lastActive": "2026-03-17T17:10:52.049Z",
+    "emailVerified": true,
+    "lastLogin": "2026-03-17T17:10:52.049Z",
+    "loginCount": 2,
+    "lastContentRefresh": "2026-03-17T16:58:58.097Z",
+    "ageGroup": "25-34",
+    "educationLevel": "associates",
+    "goals": [
+      "personal-project",
+      "certification"
+    ],
+    "interestCategories": [
+      "Technology",
+      "Design",
+      "Data Science"
+    ],
+    "interests": [
+      "electrician",
+      "programming",
+      "design",
+      "data-science"
+    ],
+    "onboardingCompleted": true,
+    "skillLevel": "beginner",
+    "timeCommitment": "4-7",
+    "courses": [
+      {
+        "courseId": "69b98b4c5064e60964280870",
+        "progress": 1,
+        "completed": false,
+        "startedAt": "2026-03-17T17:13:08.263Z",
+        "lastUpdated": "2026-03-17T17:13:08.291Z"
+      },
+      {
+        "courseId": "69b98c302308e3eea698272b",
+        "progress": 1,
+        "completed": false,
+        "startedAt": "2026-03-17T17:16:28.293Z",
+        "lastUpdated": "2026-03-17T17:16:28.311Z"
+      }
+    ],
+    "billingHistory": [],
+    "isPremium": false,
+    "subscription": {
+      "plan": "free",
+      "tier": "free",
+      "status": "inactive",
+      "autoRenew": false
+    }
+  },
+  {
+    "_id": "69ba50bf3e8e518b9c0e0db6",
+    "name": "Joe Kim",
+    "email": "mayakamorara582@gmail.com",
+    "password": "$2b$12$g7yEEbJ6Tzm2JqqL27kggegGoMzmRkbM/gye6ErBrFgthOsbGKRFW",
+    "role": "student",
+    "status": "active",
+    "emailVerificationToken": null,
+    "emailVerificationCode": null,
+    "emailVerificationExpires": null,
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-04-01T00:00:00.000Z",
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-03-18T07:14:07.557Z",
+    "lastActive": "2026-03-18T07:21:56.780Z",
+    "emailVerified": true,
+    "lastLogin": "2026-03-18T07:21:56.780Z",
+    "loginCount": 2,
+    "lastContentRefresh": "2026-03-19T17:33:10.269Z",
+    "ageGroup": "18-24",
+    "educationLevel": "bachelors",
+    "goals": [
+      "teaching",
+      "career-change"
+    ],
+    "interestCategories": [
+      "Technology"
+    ],
+    "interests": [
+      "programming"
+    ],
+    "onboardingCompleted": true,
+    "skillLevel": "intermediate",
+    "timeCommitment": "1-3",
+    "billingHistory": [],
+    "isPremium": false,
+    "subscription": {
+      "plan": "free",
+      "tier": "free",
+      "status": "inactive",
+      "autoRenew": false
+    }
+  },
+  {
+    "_id": "69baf58d37132f5c5cb0c011",
+    "email": "jaysonmarura@gmail.com",
+    "name": "jayson marura",
+    "avatar": "https://lh3.googleusercontent.com/a/ACg8ocIoVXudc1bpliSf4mbhu6jRNH1qNSsLwkRD25qjnq78_i2eRQ=s96-c",
+    "googleId": "110416185693308243496",
+    "emailVerified": true,
+    "status": "active",
+    "role": "student",
+    "onboardingCompleted": true,
+    "isPremium": false,
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-03-18T18:57:17.754Z",
+    "lastLogin": "2026-03-18T18:57:17.754Z",
+    "loginCount": 1,
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-04-01T00:00:00.000Z",
+    "subscription": {
+      "plan": "free",
+      "tier": "free",
+      "status": "inactive",
+      "autoRenew": false
+    },
+    "lastContentRefresh": "2026-06-02T17:16:37.916Z",
+    "ageGroup": "25-34",
+    "educationLevel": "associates",
+    "goals": [
+      "skill-upgrade",
+      "personal-project",
+      "hobby",
+      "startup"
+    ],
+    "interestCategories": [
+      "Design",
+      "Business",
+      "Data Science",
+      "Creative",
+      "Humanities",
+      "Languages",
+      "Health",
+      "Lifestyle",
+      "Science"
+    ],
+    "interests": [
+      "design",
+      "business",
+      "data-science",
+      "photography",
+      "writing",
+      "languages",
+      "history",
+      "health",
+      "finance",
+      "fitness",
+      "meditation",
+      "gardening",
+      "crafts",
+      "psychology",
+      "philosophy",
+      "economics",
+      "leadership",
+      "project-management",
+      "public-speaking",
+      "entrepreneurship",
+      "law",
+      "politics",
+      "geography",
+      "religion",
+      "art-history",
+      "dance",
+      "fashion",
+      "interior-design",
+      "architecture",
+      "engineering"
+    ],
+    "skillLevel": "intermediate",
+    "timeCommitment": "1-3",
+    "courses": [
+      {
+        "courseId": "69baf66637132f5c5cb0c014",
+        "progress": 1,
+        "completed": false,
+        "startedAt": "2026-04-09T19:47:37.233Z",
+        "lastUpdated": "2026-04-09T19:47:37.239Z",
+        "completedLessons": [
+          "1-1"
+        ]
+      },
+      {
+        "courseId": "69fdc3393e6ee19b38d8cd73",
+        "progress": 7,
+        "completed": false,
+        "startedAt": "2026-05-08T11:05:17.760Z",
+        "lastUpdated": "2026-06-02T17:31:38.053Z",
+        "completedLessons": [
+          "1-1",
+          "1-3",
+          "1-4",
+          "1-5",
+          "2-1",
+          "2-2",
+          "2-3"
+        ]
+      }
+    ],
+    "billingHistory": []
+  },
+  {
+    "_id": "69c0482f4a9a71e2599a3576",
+    "email": "sylviaroshni2030@gmail.com",
+    "name": "Sylvia",
+    "avatar": "https://lh3.googleusercontent.com/a/ACg8ocJMjbqfo_0Q-a7vPowAXXc4cdG3KpEmYS2nWc0NOf_nEdjSxsM=s96-c",
+    "googleId": "114878806514123816625",
+    "emailVerified": true,
+    "status": "active",
+    "role": "student",
+    "onboardingCompleted": true,
+    "isPremium": false,
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-03-22T19:51:11.325Z",
+    "lastLogin": "2026-03-22T19:51:11.325Z",
+    "loginCount": 1,
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-04-01T00:00:00.000Z",
+    "subscription": {
+      "plan": "free",
+      "tier": "free",
+      "status": "inactive",
+      "autoRenew": false
+    },
+    "lastContentRefresh": "2026-03-22T19:51:11.874Z",
+    "ageGroup": "18-24",
+    "educationLevel": "some-college",
+    "goals": [
+      "skill-upgrade",
+      "teaching",
+      "startup",
+      "certification"
+    ],
+    "interestCategories": [
+      "AI & ML",
+      "Business",
+      "Humanities",
+      "Health"
+    ],
+    "interests": [
+      "ai-ml",
+      "business",
+      "writing",
+      "finance",
+      "psychology",
+      "project-management",
+      "public-speaking",
+      "investing",
+      "real-estate",
+      "entrepreneurship"
+    ],
+    "skillLevel": "beginner",
+    "timeCommitment": "4-7",
+    "billingHistory": []
+  },
+  {
+    "_id": "69c3e2fd41b5b490517777dd",
+    "email": "losspren3@gmail.com",
+    "name": "Loss Pren",
+    "avatar": "https://lh3.googleusercontent.com/a/ACg8ocJLkBPReM84Knan6ofGiKcu1xf-cip4-okkKfWCmFqnOQw9ig=s96-c",
+    "googleId": "104045249412588683579",
+    "emailVerified": true,
+    "status": "active",
+    "role": "student",
+    "onboardingCompleted": true,
+    "isPremium": false,
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-03-25T13:28:29.027Z",
+    "lastLogin": "2026-03-25T13:28:29.027Z",
+    "loginCount": 1,
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-04-01T00:00:00.000Z",
+    "subscription": {
+      "plan": "free",
+      "tier": "free",
+      "status": "inactive",
+      "autoRenew": false
+    },
+    "lastContentRefresh": "2026-03-25T13:28:29.387Z",
+    "ageGroup": "18-24",
+    "educationLevel": "bachelors",
+    "goals": [
+      "certification"
+    ],
+    "interestCategories": [
+      "Science"
+    ],
+    "interests": [
+      "astronomy"
+    ],
+    "skillLevel": "intermediate",
+    "timeCommitment": "1-3",
+    "billingHistory": []
+  },
+  {
+    "_id": "69f125147f59f7e84f279313",
+    "email": "wise.wiser254@gmail.com",
+    "name": "wise",
+    "avatar": "https://lh3.googleusercontent.com/a/ACg8ocKv02H3DJmiV2PcQspW3yrJx-YeNFKVUHjbw5cMJHGr8gpDJA=s96-c",
+    "googleId": "117204210814053695875",
+    "emailVerified": true,
+    "status": "active",
+    "role": "student",
+    "onboardingCompleted": true,
+    "isPremium": false,
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-04-28T21:22:28.311Z",
+    "lastLogin": "2026-04-28T21:22:28.311Z",
+    "loginCount": 1,
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-05-01T00:00:00.000Z",
+    "subscription": {
+      "tier": "free",
+      "status": "none"
+    },
+    "lastContentRefresh": "2026-04-28T21:22:28.793Z",
+    "ageGroup": "18-24",
+    "educationLevel": "bachelors",
+    "goals": [
+      "skill-upgrade",
+      "startup"
+    ],
+    "interestCategories": [
+      "Business"
+    ],
+    "interests": [
+      "business"
+    ],
+    "skillLevel": "intermediate",
+    "timeCommitment": "4-7"
+  },
+  {
+    "_id": "69b9774267cea1bf4754cfe3",
+    "name": "Seth Odongo",
+    "email": "sethwandera2@gmail.com",
+    "password": "$2b$12$YR2naP6E1eQtedMOQxJHieOoNZClnzPMixMgL.I8uDfEMz36b5eGy",
+    "role": "student",
+    "status": "active",
+    "emailVerificationToken": null,
+    "emailVerificationCode": null,
+    "emailVerificationExpires": null,
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-04-01T00:00:00.000Z",
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-03-17T15:46:10.556Z",
+    "lastActive": "2026-03-17T15:46:50.761Z",
+    "emailVerified": true,
+    "lastLogin": "2026-03-17T15:46:50.761Z",
+    "loginCount": 1,
+    "lastContentRefresh": "2026-03-17T15:46:51.178Z",
+    "ageGroup": "18-24",
+    "educationLevel": "bachelors",
+    "goals": [
+      "skill-upgrade",
+      "startup",
+      "teaching",
+      "research",
+      "career-change"
+    ],
+    "interestCategories": [
+      "Creative",
+      "Business",
+      "Technology",
+      "AI & ML",
+      "Humanities",
+      "Languages"
+    ],
+    "interests": [
+      "photography",
+      "public-speaking",
+      "programming",
+      "ai-ml",
+      "writing",
+      "languages",
+      "history",
+      "finance",
+      "philosophy",
+      "economics",
+      "marketing",
+      "project-management"
+    ],
+    "onboardingCompleted": true,
+    "skillLevel": "beginner",
+    "timeCommitment": "4-7",
+    "billingHistory": [],
+    "isPremium": false,
+    "subscription": {
+      "plan": "free",
+      "tier": "free",
+      "status": "inactive",
+      "autoRenew": false
+    }
+  },
+  {
+    "_id": "69b9bee8989e5f30236b9102",
+    "name": "Benard Mulwa",
+    "email": "mulwabenard9507@gmail.com",
+    "password": "$2b$12$pbogMigiAQOEmH51gRNn1Okqecxd13G41ZKGelTSwsYLL2xqXk4J.",
+    "role": "student",
+    "status": "active",
+    "emailVerificationToken": null,
+    "emailVerificationCode": null,
+    "emailVerificationExpires": null,
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-04-01T00:00:00.000Z",
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-03-17T20:51:53.311Z",
+    "lastActive": "2026-03-17T20:54:18.098Z",
+    "emailVerified": true,
+    "lastLogin": "2026-03-17T20:54:18.098Z",
+    "loginCount": 1,
+    "lastContentRefresh": "2026-03-17T20:54:19.077Z",
+    "billingHistory": [],
+    "isPremium": false,
+    "subscription": {
+      "plan": "free",
+      "tier": "free",
+      "status": "inactive",
+      "autoRenew": false
+    }
+  },
+  {
+    "_id": "69c02f612f06ef145fa48e04",
+    "email": "otienodevis013@gmail.com",
+    "name": "Devis Brian Otieno Okoth",
+    "avatar": "https://lh3.googleusercontent.com/a/ACg8ocLiuUjQyJmly2zAmCoiJrlcLhVJ0czjQXOA25KUJLXg-hiMeA=s96-c",
+    "googleId": "107691645652743378548",
+    "emailVerified": true,
+    "status": "active",
+    "role": "student",
+    "onboardingCompleted": true,
+    "isPremium": false,
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-03-22T18:05:21.745Z",
+    "lastLogin": "2026-03-22T18:05:21.745Z",
+    "loginCount": 1,
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-04-01T00:00:00.000Z",
+    "subscription": {
+      "plan": "free",
+      "tier": "free",
+      "status": "inactive",
+      "autoRenew": false
+    },
+    "lastContentRefresh": "2026-03-22T18:05:22.444Z",
+    "ageGroup": "18-24",
+    "educationLevel": "associates",
+    "goals": [
+      "skill-upgrade",
+      "research"
+    ],
+    "interestCategories": [
+      "Health",
+      "Business"
+    ],
+    "interests": [
+      "medicine",
+      "investing",
+      "entrepreneurship"
+    ],
+    "skillLevel": "beginner",
+    "timeCommitment": "1-3",
+    "billingHistory": []
+  },
+  {
+    "_id": "69b97ca25064e609642807bb",
+    "name": "KELVIN BAHATI",
+    "email": "kelvinbahati9030@gmail.com",
+    "password": "$2b$12$.DWOaCu1X8WNZqhk2oSfTe4XP4ziOTdtlXwhE4LaesH9wON8Ct2S.",
+    "role": "student",
+    "status": "pending",
+    "emailVerificationToken": "28004835-0359-4293-8307-c5b9c88f2e0d",
+    "emailVerificationCode": "131977",
+    "emailVerificationExpires": "2026-03-18T16:09:06.532Z",
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-04-01T00:00:00.000Z",
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-03-17T16:09:06.991Z",
+    "lastActive": "2026-03-17T16:09:06.991Z",
+    "billingHistory": [],
+    "isPremium": false,
+    "subscription": {
+      "plan": "free",
+      "tier": "free",
+      "status": "inactive",
+      "autoRenew": false
+    }
+  },
+  {
+    "_id": "69b97f855064e60964280813",
+    "name": "Milton Ebei",
+    "email": "ebeimilton@gmail.com",
+    "password": "$2b$12$KopUwM0LOYcqRXtlGOvY1.kspX81REcg7WcynSnvNOVNnJycYZJhi",
+    "role": "student",
+    "status": "active",
+    "emailVerificationToken": null,
+    "emailVerificationCode": null,
+    "emailVerificationExpires": null,
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-04-01T00:00:00.000Z",
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-03-17T16:21:25.977Z",
+    "lastActive": "2026-05-29T07:28:33.220Z",
+    "billingHistory": [],
+    "isPremium": false,
+    "subscription": {
+      "plan": "free",
+      "tier": "free",
+      "status": "inactive",
+      "autoRenew": false
+    },
+    "emailVerified": true,
+    "lastLogin": "2026-05-29T07:28:33.220Z",
+    "loginCount": 1,
+    "lastContentRefresh": "2026-05-29T07:28:33.697Z",
+    "ageGroup": "18-24",
+    "educationLevel": "bachelors",
+    "goals": [
+      "personal-project",
+      "skill-upgrade",
+      "career-change"
+    ],
+    "interestCategories": [
+      "AI & ML",
+      "Business",
+      "Humanities",
+      "Mathematics",
+      "Health"
+    ],
+    "interests": [
+      "ai-ml",
+      "business",
+      "writing",
+      "math",
+      "fitness",
+      "meditation"
+    ],
+    "onboardingCompleted": true,
+    "skillLevel": "beginner",
+    "timeCommitment": "1-3",
+    "courses": [
+      {
+        "courseId": "6a1940911ee5fe8293a5ab51",
+        "progress": 1,
+        "completed": false,
+        "startedAt": "2026-05-29T07:31:15.973Z",
+        "lastUpdated": "2026-05-29T07:31:15.978Z",
+        "completedLessons": [
+          "1-1"
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "69c28ac6c2f60363d28c625f",
+    "email": "josephchacha0794@gmail.com",
+    "name": "Joseph Chacha",
+    "avatar": "https://lh3.googleusercontent.com/a/ACg8ocJssnt5wBWC0hTWLh5XTuhwsyAVOT9asJ-aoBf0pA9Y5szfsw=s96-c",
+    "googleId": "106317889655400262437",
+    "emailVerified": true,
+    "status": "active",
+    "role": "student",
+    "onboardingCompleted": false,
+    "isPremium": false,
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-03-24T12:59:50.835Z",
+    "lastLogin": "2026-03-24T12:59:50.835Z",
+    "loginCount": 1,
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-04-01T00:00:00.000Z",
+    "subscription": {
+      "plan": "free",
+      "tier": "free",
+      "status": "inactive",
+      "autoRenew": false
+    },
+    "lastContentRefresh": "2026-03-24T12:59:51.323Z",
+    "billingHistory": []
+  },
+  {
+    "_id": "69c39c225bac5c35fb465ca0",
+    "email": "accssus@gmail.com",
+    "name": "Acc Ssus",
+    "avatar": "https://lh3.googleusercontent.com/a/ACg8ocJR3SsIeg2WNxZCY5MC6A7AexYTalO30N2OOX6Ism1p8drRLQ=s96-c",
+    "googleId": "105929498380094436470",
+    "emailVerified": true,
+    "status": "active",
+    "role": "student",
+    "onboardingCompleted": true,
+    "isPremium": false,
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-03-25T08:26:10.493Z",
+    "lastLogin": "2026-03-25T08:26:10.493Z",
+    "loginCount": 1,
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-04-01T00:00:00.000Z",
+    "subscription": {
+      "plan": "free",
+      "tier": "free",
+      "status": "inactive",
+      "autoRenew": false
+    },
+    "lastContentRefresh": "2026-05-06T13:06:36.033Z",
+    "ageGroup": "18-24",
+    "educationLevel": "bachelors",
+    "goals": [
+      "career-change",
+      "skill-upgrade"
+    ],
+    "interestCategories": [
+      "Technology",
+      "Humanities",
+      "AI & ML"
+    ],
+    "interests": [
+      "programming",
+      "writing",
+      "ai-ml"
+    ],
+    "skillLevel": "advanced",
+    "timeCommitment": "4-7",
+    "billingHistory": [],
+    "courses": [
+      {
+        "courseId": "69c3a0f2f2e89f06a40acbd5",
+        "progress": 4,
+        "completed": false,
+        "startedAt": "2026-04-19T19:17:53.869Z",
+        "lastUpdated": "2026-05-06T16:55:48.567Z",
+        "completedLessons": [
+          "1-2",
+          "1-4",
+          "1-5",
+          "1-3"
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "69c994fa84d1dd28fa339449",
+    "email": "tech565sphereskills@gmail.com",
+    "name": "Tech565 Sphere skills",
+    "avatar": "https://lh3.googleusercontent.com/a/ACg8ocLWRQEGInYW1a9TpF6gTEDzoSn9hGIQhP4Cb22smlvFzBp_AN4=s96-c",
+    "googleId": "113316047208296416050",
+    "emailVerified": true,
+    "status": "active",
+    "role": "student",
+    "onboardingCompleted": true,
+    "isPremium": false,
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-03-29T21:09:14.593Z",
+    "lastLogin": "2026-03-29T21:09:14.593Z",
+    "loginCount": 1,
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-04-01T00:00:00.000Z",
+    "subscription": {
+      "plan": "free",
+      "tier": "free",
+      "status": "inactive",
+      "autoRenew": false
+    },
+    "lastContentRefresh": "2026-03-29T21:09:14.951Z",
+    "ageGroup": "under-18",
+    "educationLevel": "high-school",
+    "goals": [
+      "research"
+    ],
+    "interestCategories": [
+      "Technology"
+    ],
+    "interests": [
+      "programming"
+    ],
+    "skillLevel": "intermediate",
+    "timeCommitment": "4-7",
+    "lastLogout": "2026-03-29T21:13:59.005Z",
+    "refreshTokens": [],
+    "billingHistory": []
+  },
+  {
+    "_id": "69cea4e31d5afd32288664d0",
+    "email": "maatoluka@gmail.com",
+    "name": "Luka Maato",
+    "avatar": "https://lh3.googleusercontent.com/a/ACg8ocKjq142BSyIBkeyCehLmBbM4e9Gt5H8QeWYe0eRIHOX9VypUw=s96-c",
+    "googleId": "106211760802989894502",
+    "emailVerified": true,
+    "status": "active",
+    "role": "student",
+    "onboardingCompleted": true,
+    "isPremium": false,
+    "streak": 0,
+    "totalLearningTime": 0,
+    "achievements": [],
+    "createdAt": "2026-04-02T17:18:27.772Z",
+    "lastLogin": "2026-04-02T17:18:27.772Z",
+    "loginCount": 1,
+    "monthlyUsage": 0,
+    "usageResetDate": "2026-05-01T00:00:00.000Z",
+    "subscription": {
+      "plan": "free",
+      "tier": "free",
+      "status": "inactive",
+      "autoRenew": false
+    },
+    "lastContentRefresh": "2026-04-02T17:18:28.377Z",
+    "ageGroup": "18-24",
+    "educationLevel": "some-college",
+    "goals": [
+      "teaching"
+    ],
+    "interestCategories": [
+      "Languages",
+      "Technology",
+      "Business"
+    ],
+    "interests": [
+      "languages",
+      "programming",
+      "finance"
+    ],
+    "skillLevel": "beginner",
+    "timeCommitment": "1-3",
+    "billingHistory": []
+  },
+  {
+    "_id": "6a55c8bc498c9e4769e2ab58",
+    "name": "Shadrack Okodoi",
+    "email": "shadrackkdoi@gmail.com",
+    "password": "$2b$12$KO/fwjiuXuRFQ0H/cqvdjOMXzaaC.T81KgAi9qM6cnmHzmPkSiw5a",
+    "role": "student",
+    "status": "pending",
+    "emailVerificationToken": "db852f03-72a3-4722-bf16-bd94d05238db",
+    "emailVerificationCode": "996525",
+    "emailVerificationExpires": "2026-07-15T05:27:24.273Z",
+    "streak": 0,
+    "totalLearningTime": 0,
+    "credits": 60,
+    "purchasedItems": [],
+    "achievements": [],
+    "createdAt": "2026-07-14T05:27:24.659Z",
+    "lastActive": "2026-07-14T05:28:44.335Z",
+    "avatar": "https://lh3.googleusercontent.com/a/ACg8ocLljrUv3G7vWSQw_0QLA2jRRpygQEGJgJnj9IIhggdGnJDd-w=s96-c",
+    "googleId": "108596359900197187533",
+    "lastLogin": "2026-07-14T05:28:44.335Z",
+    "loginCount": 2
+  },
+  {
+    "_id": "6a5a7a7aea82958b8c771e7e",
+    "name": "Brian Cheruiyot",
+    "email": "dominickipyegon254@gmail.com",
+    "password": "$2b$12$dcxKN5j9TVmKvreGjQeg5OmOySIyudYuJeG6XY0yZiS61owLZXVPK",
+    "role": "instructor",
+    "status": "active",
+    "emailVerificationToken": null,
+    "emailVerificationCode": null,
+    "emailVerificationExpires": null,
+    "streak": {
+      "current": 1,
+      "longest": 9,
+      "lastActiveDate": "2026-07-28",
+      "activeDates": [
+        "2026-07-18",
+        "2026-07-19",
+        "2026-07-20",
+        "2026-07-21",
+        "2026-07-22",
+        "2026-07-23",
+        "2026-07-24",
+        "2026-07-25",
+        "2026-07-26",
+        "2026-07-28"
+      ]
+    },
+    "totalLearningTime": 0,
+    "credits": 49290,
+    "purchasedItems": [],
+    "achievements": [
+      {
+        "badgeId": "daily-grinder",
+        "name": "Daily Grinder",
+        "description": "Earn 50+ XP in a single day",
+        "icon": "21",
+        "rarity": "common",
+        "earnedAt": "2026-07-24T13:25:24.675Z"
+      },
+      {
+        "badgeId": "xp-500",
+        "name": "XP Hunter",
+        "description": "Earn 500 total XP",
+        "icon": "18",
+        "rarity": "common",
+        "earnedAt": "2026-07-25T05:19:01.137Z"
+      }
+    ],
+    "createdAt": "2026-07-17T18:54:51.297Z",
+    "lastActive": "2026-07-27T19:04:17.498Z",
+    "emailVerified": true,
+    "lastLogin": "2026-07-27T19:04:17.498Z",
+    "loginCount": 34,
+    "lastContentRefresh": "2026-07-30T18:25:39.406Z",
+    "ageGroup": "",
+    "goals": [
+      "content",
+      "assessments",
+      "manage-classrooms",
+      "create-courses",
+      "collaborate"
+    ],
+    "interestCategories": [],
+    "interests": [],
+    "onboardingCompleted": true,
+    "skillLevel": "",
+    "timeCommitment": "",
+    "dailyLoginStreak": 2,
+    "lastLoginBonus": "2026-07-31",
+    "level": 4,
+    "xp": 1080,
+    "lastActivity": "2026-07-28T11:26:18.396Z",
+    "usage": {
+      "generate-course": 18,
+      "quiz": 2,
+      "career-trending": 1,
+      "ai-tutor-chat": 12,
+      "generate-report-outline": 3
+    },
+    "courses": [
+      {
+        "courseId": "6a5bfc412dfb76c5f126fd36",
+        "title": "Introduction to Programming",
+        "progress": 2,
+        "completed": false,
+        "startedAt": "2026-07-18T22:22:01.796Z",
+        "lastUpdated": "2026-07-19T09:27:06.407Z",
+        "completedLessons": [
+          "1-1",
+          "1-2"
+        ]
+      },
+      {
+        "courseId": "6a5e98866f3335d5d2e1908d",
+        "title": "Human Anatomy",
+        "progress": 35,
+        "completed": false,
+        "startedAt": "2026-07-20T21:52:35.694Z",
+        "lastUpdated": "2026-07-28T11:19:49.150Z",
+        "completedLessons": [
+          "1-1",
+          "1-2",
+          "5-2",
+          "4-1",
+          "5-1",
+          "2-1",
+          "2-5",
+          "6-1",
+          "8-1",
+          "5-3",
+          "5-4",
+          "5-5",
+          "1-3",
+          "1-4",
+          "1-5",
+          "6-4",
+          "2-2",
+          "3-1",
+          "3-2",
+          "6-2",
+          "6-3",
+          "6-5",
+          "7-1",
+          "7-4",
+          "7-3",
+          "7-2",
+          "8-2",
+          "8-3",
+          "2-3",
+          "2-4",
+          "7-5",
+          "13-1",
+          "12-1",
+          "12-2",
+          "12-3"
+        ]
+      },
+      {
+        "courseId": "6a5f0cc09daaacc6a4f23d75",
+        "title": "Data Structures",
+        "progress": 2,
+        "completed": false,
+        "startedAt": "2026-07-21T06:08:50.145Z",
+        "lastUpdated": "2026-07-21T06:09:32.594Z",
+        "completedLessons": [
+          "1-1",
+          "1-2"
+        ]
+      },
+      {
+        "courseId": "6a604ffef23fc66eb3e1d4ab",
+        "title": "Data Analytics with Excel, SQL, and Power BI",
+        "progress": 3,
+        "completed": false,
+        "startedAt": "2026-07-22T05:08:23.196Z",
+        "lastUpdated": "2026-07-26T18:23:23.293Z",
+        "completedLessons": [
+          "1-1",
+          "1-2",
+          "4-2"
+        ]
+      },
+      {
+        "courseId": "6a6287340d00d365f34261e2",
+        "title": "Online Marketing for SaaS Projects",
+        "progress": 3,
+        "completed": false,
+        "startedAt": "2026-07-23T21:27:41.075Z",
+        "lastUpdated": "2026-07-24T07:53:21.802Z",
+        "completedLessons": [
+          "1-1",
+          "1-2",
+          "1-3"
+        ]
+      },
+      {
+        "courseId": "6a631b3cf5e92afa7848668e",
+        "title": "Biology for Kenyan Secondary Schools",
+        "progress": 4,
+        "completed": false,
+        "startedAt": "2026-07-24T12:09:27.243Z",
+        "lastUpdated": "2026-07-24T18:31:42.937Z",
+        "completedLessons": [
+          "2-1",
+          "9-1",
+          "2-3",
+          "2-4"
+        ]
+      },
+      {
+        "courseId": "6a63afd912dafeff29640e92",
+        "title": "Chemistry for Kenyan Curriculum",
+        "progress": 4,
+        "completed": false,
+        "startedAt": "2026-07-24T18:33:24.567Z",
+        "lastUpdated": "2026-07-24T18:35:08.981Z",
+        "completedLessons": [
+          "3-1",
+          "3-2",
+          "3-3",
+          "4-2"
+        ]
+      },
+      {
+        "courseId": "6a6498a51adb858ef3302cec",
+        "title": "Physics",
+        "progress": 12,
+        "completed": false,
+        "startedAt": "2026-07-25T11:07:21.526Z",
+        "lastUpdated": "2026-07-25T14:11:28.328Z",
+        "completedLessons": [
+          "2-2",
+          "1-1",
+          "1-2",
+          "1-3",
+          "1-4",
+          "1-5",
+          "15-1",
+          "12-4",
+          "12-5",
+          "2-1",
+          "2-3",
+          "2-4"
+        ]
+      },
+      {
+        "courseId": "6a64c6d22cf56b1aae33b12f",
+        "title": "Parasitology",
+        "progress": 1,
+        "completed": false,
+        "startedAt": "2026-07-25T14:23:56.970Z",
+        "lastUpdated": "2026-07-25T14:23:56.978Z",
+        "completedLessons": [
+          "12-1"
+        ]
+      },
+      {
+        "courseId": "6a64c7968b4c8dbbf4a815a9",
+        "title": "Histology",
+        "progress": 3,
+        "completed": false,
+        "startedAt": "2026-07-25T14:27:01.713Z",
+        "lastUpdated": "2026-07-25T14:30:00.174Z",
+        "completedLessons": [
+          "16-2",
+          "16-3",
+          "16-4"
+        ]
+      },
+      {
+        "courseId": "6a65029e30175096dfe42401",
+        "title": "Clinical Chemistry",
+        "progress": 5,
+        "completed": false,
+        "startedAt": "2026-07-25T18:38:50.959Z",
+        "lastUpdated": "2026-07-26T04:37:18.640Z",
+        "completedLessons": [
+          "1-1",
+          "1-2",
+          "1-3",
+          "1-4",
+          "1-5"
+        ]
+      },
+      {
+        "courseId": "6a6502f730175096dfe42416",
+        "title": "Hematology",
+        "progress": 5,
+        "completed": false,
+        "startedAt": "2026-07-25T18:40:21.630Z",
+        "lastUpdated": "2026-07-25T18:43:47.978Z",
+        "completedLessons": [
+          "1-1",
+          "1-2",
+          "1-3",
+          "3-3",
+          "15-1"
+        ]
+      },
+      {
+        "courseId": "6a665d41d7af198856a90eca",
+        "title": "Microbiology and Biotechnology",
+        "progress": 2,
+        "completed": false,
+        "startedAt": "2026-07-26T19:17:55.961Z",
+        "lastUpdated": "2026-07-26T19:18:28.253Z",
+        "completedLessons": [
+          "1-1",
+          "1-2"
+        ]
+      }
+    ],
+    "dailyXp": 30,
+    "dailyXpDate": "2026-07-28",
+    "lastLogout": "2026-07-31T10:47:54.685Z",
+    "refreshTokens": [],
+    "billingHistory": [
+      {
+        "type": "credit_purchase",
+        "amount": 90,
+        "currency": "USD",
+        "paymentMethod": "card",
+        "credits": 500,
+        "packId": "pro",
+        "reference": "v2xq8xe3wz",
+        "createdAt": "2026-07-20T21:34:09.642Z"
+      },
+      {
+        "type": "credit_usage",
+        "itemType": "course_generation",
+        "creditsSpent": 40,
+        "createdAt": "2026-07-22T05:06:40.721Z"
+      },
+      {
+        "type": "credit_usage",
+        "itemType": "classroom_ai_generation",
+        "creditsSpent": 10,
+        "createdAt": "2026-07-22T13:52:32.203Z"
+      },
+      {
+        "type": "credit_usage",
+        "itemType": "classroom_ai_generation",
+        "creditsSpent": 10,
+        "createdAt": "2026-07-22T14:09:47.121Z"
+      },
+      {
+        "type": "credit_usage",
+        "itemType": "classroom_ai_generation",
+        "creditsSpent": 10,
+        "createdAt": "2026-07-22T14:10:02.889Z"
+      },
+      {
+        "type": "credit_usage",
+        "itemType": "classroom_ai_generation",
+        "creditsSpent": 10,
+        "createdAt": "2026-07-22T14:16:47.853Z"
+      },
+      {
+        "type": "credit_usage",
+        "itemType": "classroom_ai_generation",
+        "creditsSpent": 10,
+        "createdAt": "2026-07-22T14:22:59.303Z"
+      },
+      {
+        "type": "credit_usage",
+        "itemType": "classroom_ai_generation",
+        "creditsSpent": 10,
+        "createdAt": "2026-07-22T14:23:14.320Z"
+      },
+      {
+        "type": "credit_usage",
+        "itemType": "classroom_ai_generation",
+        "creditsSpent": 10,
+        "createdAt": "2026-07-22T15:05:57.643Z"
+      },
+      {
+        "type": "credit_usage",
+        "itemType": "classroom_ai_generation",
+        "creditsSpent": 10,
+        "createdAt": "2026-07-22T15:13:19.123Z"
+      },
+      {
+        "type": "credit_usage",
+        "itemType": "classroom_ai_generation",
+        "creditsSpent": 10,
+        "createdAt": "2026-07-22T15:18:02.376Z"
+      },
+      {
+        "type": "credit_usage",
+        "itemType": "classroom_ai_generation",
+        "creditsSpent": 10,
+        "createdAt": "2026-07-22T15:19:59.970Z"
+      },
+      {
+        "type": "credit_usage",
+        "itemType": "classroom_ai_generation",
+        "creditsSpent": 10,
+        "createdAt": "2026-07-22T15:21:19.276Z"
+      },
+      {
+        "type": "credit_usage",
+        "itemType": "classroom_ai_generation",
+        "creditsSpent": 10,
+        "createdAt": "2026-07-22T15:59:23.080Z"
+      },
+      {
+        "type": "credit_usage",
+        "itemType": "classroom_ai_generation",
+        "creditsSpent": 10,
+        "createdAt": "2026-07-22T18:10:09.852Z"
+      },
+      {
+        "type": "credit_usage",
+        "itemType": "classroom_creation",
+        "creditsSpent": 25,
+        "createdAt": "2026-07-22T18:10:36.328Z"
+      },
+      {
+        "type": "credit_usage",
+        "itemType": "classroom_creation",
+        "creditsSpent": 25,
+        "createdAt": "2026-07-22T18:33:22.815Z"
+      },
+      {
+        "type": "credit_usage",
+        "itemType": "classroom_ai_generation",
+        "creditsSpent": 10,
+        "createdAt": "2026-07-22T18:33:37.727Z"
+      },
+      {
+        "type": "credit_purchase",
+        "amount": 90,
+        "currency": "USD",
+        "paymentMethod": "card",
+        "credits": 500,
+        "packId": "pro",
+        "reference": "q25r2buh9x",
+        "createdAt": "2026-07-22T18:39:39.099Z"
+      },
+      {
+        "type": "credit_usage",
+        "itemType": "classroom_ai_generation",
+        "creditsSpent": 10,
+        "createdAt": "2026-07-22T18:41:47.541Z"
+      },
+      {
+        "type": "credit_usage",
+        "itemType": "classroom_ai_generation",
+        "creditsSpent": 10,
+        "createdAt": "2026-07-22T20:46:40.471Z"
+      },
+      {
+        "type": "credit_usage",
+        "itemType": "classroom_ai_generation",
+        "creditsSpent": 10,
+        "createdAt": "2026-07-22T20:54:41.603Z"
+      },
+      {
+        "type": "credit_usage",
+        "itemType": "classroom_ai_generation",
+        "creditsSpent": 10,
+        "createdAt": "2026-07-22T21:37:16.203Z"
+      },
+      {
+        "type": "credit_usage",
+        "itemType": "classroom_ai_generation",
+        "creditsSpent": 10,
+        "createdAt": "2026-07-22T21:37:45.311Z"
+      },
+      {
+        "type": "credit_usage",
+        "itemType": "classroom_ai_generation",
+        "creditsSpent": 10,
+        "createdAt": "2026-07-22T21:57:22.812Z"
+      },
+      {
+        "type": "credit_usage",
+        "itemType": "classroom_ai_generation",
+        "creditsSpent": 10,
+        "createdAt": "2026-07-22T21:57:33.819Z"
+      },
+      {
+        "type": "credit_usage",
+        "itemType": "classroom_ai_generation",
+        "creditsSpent": 10,
+        "createdAt": "2026-07-23T07:29:14.772Z"
+      },
+      {
+        "type": "credit_usage",
+        "itemType": "classroom_ai_generation",
+        "creditsSpent": 10,
+        "createdAt": "2026-07-23T07:39:06.016Z"
+      },
+      {
+        "type": "credit_usage",
+        "itemType": "classroom_ai_generation",
+        "creditsSpent": 10,
+        "createdAt": "2026-07-23T11:13:59.097Z"
+      },
+      {
+        "type": "credit_usage",
+        "itemType": "classroom_ai_generation",
+        "creditsSpent": 10,
+        "createdAt": "2026-07-23T11:14:16.777Z"
+      },
+      {
+        "type": "credit_usage",
+        "itemType": "classroom_ai_generation",
+        "creditsSpent": 10,
+        "createdAt": "2026-07-23T19:24:22.660Z"
+      },
+      {
+        "type": "credit_usage",
+        "itemType": "classroom_creation",
+        "creditsSpent": 25,
+        "createdAt": "2026-07-23T21:24:03.830Z"
+      },
+      {
+        "type": "credit_usage",
+        "itemType": "classroom_ai_generation",
+        "creditsSpent": 10,
+        "createdAt": "2026-07-23T21:24:13.691Z"
+      },
+      {
+        "type": "credit_usage",
+        "itemType": "classroom_ai_generation",
+        "creditsSpent": 10,
+        "createdAt": "2026-07-23T21:26:06.212Z"
+      },
+      {
+        "type": "credit_usage",
+        "itemType": "classroom_ai_generation",
+        "creditsSpent": 10,
+        "createdAt": "2026-07-23T21:30:07.390Z"
+      },
+      {
+        "type": "credit_usage",
+        "itemType": "classroom_creation",
+        "creditsSpent": 25,
+        "createdAt": "2026-07-24T07:55:58.752Z"
+      },
+      {
+        "type": "credit_usage",
+        "itemType": "classroom_creation",
+        "creditsSpent": 25,
+        "createdAt": "2026-07-25T14:20:07.122Z"
+      },
+      {
+        "type": "credit_usage",
+        "itemType": "classroom_ai_generation",
+        "creditsSpent": 10,
+        "createdAt": "2026-07-25T14:32:05.389Z"
+      },
+      {
+        "type": "credit_usage",
+        "itemType": "classroom_ai_generation",
+        "creditsSpent": 10,
+        "createdAt": "2026-07-25T14:32:40.037Z"
+      },
+      {
+        "type": "credit_usage",
+        "itemType": "classroom_ai_generation",
+        "creditsSpent": 10,
+        "createdAt": "2026-07-25T14:33:55.894Z"
+      },
+      {
+        "type": "credit_usage",
+        "itemType": "classroom_ai_generation",
+        "creditsSpent": 10,
+        "createdAt": "2026-07-25T18:45:36.869Z"
+      },
+      {
+        "type": "credit_usage",
+        "itemType": "classroom_ai_generation",
+        "creditsSpent": 10,
+        "createdAt": "2026-07-25T18:47:10.953Z"
+      },
+      {
+        "type": "credit_usage",
+        "itemType": "classroom_ai_generation",
+        "creditsSpent": 10,
+        "createdAt": "2026-07-25T18:47:41.070Z"
+      },
+      {
+        "type": "credit_usage",
+        "itemType": "classroom_ai_generation",
+        "creditsSpent": 10,
+        "createdAt": "2026-07-25T19:03:12.215Z"
+      },
+      {
+        "type": "credit_usage",
+        "itemType": "classroom_ai_generation",
+        "creditsSpent": 10,
+        "createdAt": "2026-07-25T19:04:48.711Z"
+      },
+      {
+        "type": "credit_usage",
+        "itemType": "classroom_ai_generation",
+        "creditsSpent": 10,
+        "createdAt": "2026-07-25T19:08:17.736Z"
+      },
+      {
+        "type": "credit_usage",
+        "itemType": "classroom_ai_generation",
+        "creditsSpent": 10,
+        "createdAt": "2026-07-25T19:14:04.349Z"
+      },
+      {
+        "type": "credit_usage",
+        "itemType": "classroom_ai_generation",
+        "creditsSpent": 10,
+        "createdAt": "2026-07-25T19:23:31.402Z"
+      },
+      {
+        "type": "credit_usage",
+        "itemType": "classroom_ai_generation",
+        "creditsSpent": 10,
+        "createdAt": "2026-07-25T19:23:34.920Z"
+      },
+      {
+        "type": "credit_usage",
+        "itemType": "classroom_ai_generation",
+        "creditsSpent": 10,
+        "createdAt": "2026-07-25T19:24:07.791Z"
+      },
+      {
+        "type": "credit_usage",
+        "itemType": "classroom_ai_generation",
+        "creditsSpent": 10,
+        "createdAt": "2026-07-25T19:24:35.324Z"
+      },
+      {
+        "type": "credit_usage",
+        "itemType": "classroom_ai_generation",
+        "creditsSpent": 10,
+        "createdAt": "2026-07-25T19:25:15.763Z"
+      },
+      {
+        "type": "credit_usage",
+        "itemType": "classroom_ai_generation",
+        "creditsSpent": 10,
+        "createdAt": "2026-07-25T19:28:39.845Z"
+      },
+      {
+        "type": "credit_usage",
+        "itemType": "classroom_ai_generation",
+        "creditsSpent": 10,
+        "createdAt": "2026-07-25T19:29:15.058Z"
+      },
+      {
+        "type": "credit_usage",
+        "itemType": "classroom_ai_generation",
+        "creditsSpent": 10,
+        "createdAt": "2026-07-25T19:30:14.211Z"
+      },
+      {
+        "type": "credit_usage",
+        "itemType": "classroom_ai_generation",
+        "creditsSpent": 10,
+        "createdAt": "2026-07-27T17:01:25.820Z"
+      },
+      {
+        "type": "credit_usage",
+        "itemType": "classroom_ai_generation",
+        "creditsSpent": 10,
+        "createdAt": "2026-07-27T17:01:30.028Z"
+      },
+      {
+        "type": "credit_usage",
+        "itemType": "classroom_ai_generation",
+        "creditsSpent": 10,
+        "createdAt": "2026-07-27T17:41:57.151Z"
+      },
+      {
+        "type": "credit_usage",
+        "itemType": "classroom_ai_generation",
+        "creditsSpent": 10,
+        "createdAt": "2026-07-27T17:41:58.477Z"
+      },
+      {
+        "type": "credit_usage",
+        "itemType": "classroom_ai_generation",
+        "creditsSpent": 10,
+        "createdAt": "2026-07-27T17:48:30.651Z"
+      },
+      {
+        "type": "credit_usage",
+        "itemType": "classroom_ai_generation",
+        "creditsSpent": 10,
+        "createdAt": "2026-07-27T17:49:21.946Z"
+      }
+    ]
+  },
+  {
+    "_id": "6a5e5fa6e21a30e3f113a108",
+    "email": "kipsangcyrus1@gmail.com",
+    "name": "Cyrus Kipsang",
+    "avatar": "https://lh3.googleusercontent.com/a/ACg8ocIJQfLLJs9rtwdVbJs0-Qal_0xLfXMUl-kmdExpvl9jlKJXuJXr=s96-c",
+    "googleId": "114305787154097217636",
+    "emailVerified": true,
+    "status": "active",
+    "role": "student",
+    "onboardingCompleted": false,
+    "isPremium": false,
+    "streak": 0,
+    "totalLearningTime": 0,
+    "credits": 60,
+    "purchasedItems": [],
+    "achievements": [],
+    "createdAt": "2026-07-20T17:49:26.569Z",
+    "lastLogin": "2026-07-20T17:49:29.221Z",
+    "loginCount": 2,
+    "lastContentRefresh": "2026-07-24T15:25:17.286Z",
+    "lastActive": "2026-07-20T17:49:29.221Z",
+    "dailyLoginStreak": 1,
+    "lastLoginBonus": "2026-07-25",
+    "level": 1,
+    "xp": 5
+  },
+  {
+    "_id": "6a65069d1885cd89ba09e70f",
+    "name": "COLLYNCE TREVOR TREVOR",
+    "email": "sangcollins879@gmail.com",
+    "password": "$2b$12$JRo1hcu1wDNzfiVF9jJocufCEbl48qecDYj2fcxT49TvAX35qAPVK",
+    "role": "student",
+    "status": "active",
+    "emailVerificationToken": null,
+    "emailVerificationCode": null,
+    "emailVerificationExpires": null,
+    "streak": 0,
+    "totalLearningTime": 0,
+    "credits": 500,
+    "purchasedItems": [],
+    "achievements": [],
+    "createdAt": "2026-07-25T18:55:26.231Z",
+    "lastActive": "2026-07-27T16:07:29.552Z",
+    "emailVerified": true,
+    "lastLogin": "2026-07-27T16:07:29.552Z",
+    "loginCount": 6,
+    "lastContentRefresh": "2026-07-27T16:06:54.889Z",
+    "dailyLoginStreak": 1,
+    "lastLoginBonus": "2026-07-27",
+    "level": 1,
+    "xp": 10,
+    "ageGroup": "18-24",
+    "goals": [
+      "career-change",
+      "skill-upgrade",
+      "research"
+    ],
+    "interestCategories": [
+      "Health",
+      "Data Science",
+      "Science",
+      "Business"
+    ],
+    "interests": [
+      "health",
+      "data-science",
+      "science",
+      "business"
+    ],
+    "onboardingCompleted": true,
+    "skillLevel": "advanced",
+    "timeCommitment": "4-7"
+  },
+  {
+    "_id": "6a65a073d82c29e6c4eb0efb",
+    "name": "Rose Cheruiyot",
+    "email": "rosecheruiyot4450@gmail.com",
+    "password": "$2b$12$IpHXnHOOqQtLTZlRkNL/Nev16urrtWhNZfx1sTf1Jg6Bd.tmBG/Dy",
+    "role": "student",
+    "status": "active",
+    "emailVerificationToken": null,
+    "emailVerificationCode": null,
+    "emailVerificationExpires": null,
+    "streak": {
+      "current": 1,
+      "longest": 1,
+      "lastActiveDate": "2026-07-26",
+      "activeDates": [
+        "2026-07-26"
+      ]
+    },
+    "totalLearningTime": 0,
+    "credits": 20,
+    "purchasedItems": [],
+    "achievements": [],
+    "createdAt": "2026-07-26T05:51:48.073Z",
+    "lastActive": "2026-07-26T05:57:14.352Z",
+    "emailVerified": true,
+    "lastLogin": "2026-07-26T05:57:14.352Z",
+    "loginCount": 1,
+    "lastContentRefresh": "2026-07-26T05:57:15.069Z",
+    "dailyLoginStreak": 1,
+    "lastLoginBonus": "2026-07-26",
+    "level": 1,
+    "xp": 35,
+    "ageGroup": "25-34",
+    "goals": [
+      "certification"
+    ],
+    "interestCategories": [
+      "Technology",
+      "Mathematics",
+      "Science"
+    ],
+    "interests": [
+      "programming",
+      "math",
+      "engineering"
+    ],
+    "onboardingCompleted": true,
+    "skillLevel": "intermediate",
+    "timeCommitment": "8-15",
+    "lastActivity": "2026-07-26T06:10:57.491Z",
+    "usage": {
+      "generate-course": 2
+    },
+    "courses": [
+      {
+        "courseId": "6a65a4f1d82c29e6c4eb0f3f",
+        "title": "Cryptocurrency Investment Strategies",
+        "progress": 3,
+        "completed": false,
+        "startedAt": "2026-07-26T06:11:34.798Z",
+        "lastUpdated": "2026-07-26T06:14:19.270Z",
+        "completedLessons": [
+          "1-1",
+          "1-2",
+          "1-3"
+        ]
+      }
+    ],
+    "dailyXp": 30,
+    "dailyXpDate": "2026-07-26",
+    "lastLogout": "2026-07-26T07:16:47.039Z",
+    "refreshTokens": []
+  },
+  {
+    "_id": "6a6cbc3e80b0352a61bf1dd5",
+    "firstName": "Actirova",
+    "lastName": "Admin",
+    "email": "admin@actirova.com",
+    "password": "$2b$12$fJcAMUK1v3QcTL9i7BXUb.bkZm2jwPXhAhnVpkXfMUkffSKo4fOKS",
+    "role": "admin",
+    "status": "active",
+    "emailVerified": true,
+    "onboardingCompleted": true,
+    "credits": 0,
+    "xp": 0,
+    "level": 1,
+    "streak": {
+      "current": 0,
+      "longest": 0,
+      "lastActiveDate": null,
+      "activeDates": []
+    },
+    "usage": {},
+    "settings": {
+      "notifications": {
+        "email": true,
+        "push": false,
+        "marketing": false,
+        "courseUpdates": true
+      },
+      "privacy": {
+        "profileVisible": true,
+        "progressVisible": false,
+        "achievementsVisible": true
+      },
+      "preferences": {
+        "theme": "light",
+        "language": "en",
+        "difficulty": "advanced",
+        "learningStyle": "visual",
+        "dailyGoal": 30
+      }
+    },
+    "createdAt": "2026-07-31T15:16:14.125Z",
+    "updatedAt": "2026-07-31T15:16:14.125Z"
+  }
+]

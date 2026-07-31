@@ -1,0 +1,32 @@
+[
+  {
+    "_id": "6a5bb5807738b2689beab769",
+    "classroomId": "6a5a863cea82958b8c771eda",
+    "createdBy": "6a5a7a7aea82958b8c771e7e",
+    "title": "Java Programming",
+    "description": "**Discussion Prompt: The Impact of Object-Oriented Programming in Java**\n\nMain Question: How has the object-oriented programming paradigm, as implemented in Java, influenced software development practices and the design of modern applications?\n\nFollow-Up Questions:\n1. In what ways do you think object-oriented principles (encapsulation, inheritance, and polymorphism) enhance code reusability and maintainability in Java?\n2. Can you identify a specific project or application where Java's object-oriented features proved to be more beneficial than procedural programming approaches? What challenges did you encounter, if any?\n3. As we look towards emerging programming paradigms, do you think Java's object-oriented nature still holds relevance, or should new developers prioritize learning languages that adopt other paradigms like functional programming? Why? \n\nFeel free to share your experiences, insights, and research as we explore the significance of Java's design philosophy in today’s technology landscape.",
+    "isPinned": false,
+    "isClosed": false,
+    "postCount": 5,
+    "weekNumber": 0,
+    "lastActivityAt": "2026-07-20T22:06:22.050Z",
+    "createdAt": "2026-07-18T17:18:56.193Z",
+    "updatedAt": "2026-07-20T22:06:22.051Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a62880cc0f54b2ad66adf6f",
+    "classroomId": "6a628673c741c97831efc41c",
+    "createdBy": "6a5a7a7aea82958b8c771e7e",
+    "title": "Week 1 Discussion assignment",
+    "description": "### Discussion Prompt: The Role of Online Marketing in Driving SaaS Growth\n\n**Main Question:**  \nHow does effective online marketing influence the growth and sustainability of SaaS (Software as a Service) companies, and what specific strategies are most effective in this sector?\n\n**Follow-Up Questions:**  \n1. In what ways do customer acquisition costs and lifetime value metrics shape online marketing strategies for SaaS businesses?  \n2. Considering the rapid evolution of digital marketing tools, how should SaaS companies adapt their strategies to meet changing consumer behaviors and technology trends?  \n3. What ethical considerations should SaaS marketers keep in mind when employing data analytics and targeted advertising to engage potential customers?  \n\nFeel free to share your insights, real-life examples, or case studies that illustrate the impact of marketing strategies on SaaS growth!",
+    "isPinned": false,
+    "isClosed": false,
+    "postCount": 0,
+    "weekNumber": 0,
+    "lastActivityAt": "2026-07-23T21:30:52.473Z",
+    "createdAt": "2026-07-23T21:30:52.481Z",
+    "updatedAt": "2026-07-23T21:30:52.481Z",
+    "__v": 0
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "_id": "69b889ba125a0dafa8a60500",
+    "lessonId": "1-1",
+    "itemId": "69b8890a1c92be00f9825e89",
+    "userId": "69b8887ca91e682980b7931d",
+    "itemType": "course",
+    "content": "Thank uku",
+    "createdAt": "2026-03-16T22:52:42.786Z",
+    "title": "Importance of General Knowledge",
+    "updatedAt": "2026-03-16T22:52:53.584Z"
+  },
+  {
+    "_id": "69c2dc56125a0dafa8a88861",
+    "itemId": "69c197b155391258a3a5b2fa",
+    "userId": "694af0021a87e1cd234dcbff",
+    "lessonId": "1-0",
+    "itemType": "course",
+    "content": "import java.util.Stack;\n\nclass QueueUsingStacks {\n    Stack<Integer> stack1 = new Stack<>();\n    Stack<Integer> stack2 = new Stack<>();\n\n    public void enqueue(int value) {\n        stack1.push(value);\n    }\n\n    public int dequeue() {\n        if (stack2.isEmpty()) {\n            while (!stack1.isEmpty()) {\n                stack2.push(stack1.pop());\n            }\n        }\n        if (stack2.isEmpty()) {\n            throw new RuntimeException(\"Queue is empty\");\n        }\n        return stack2.pop();\n    }\n\n    public static void main(String[] args) {\n        QueueUsingStacks queue = new QueueUsingStacks();\n        queue.enqueue(10);\n        queue.enqueue(20);\n        System.out.println(\"Dequeued element: \" + queue.dequeue()); // 10\n        queue.enqueue(30);\n        System.out.println(\"Dequeued element: \" + queue.dequeue()); // 20\n    }\n}",
+    "createdAt": "2026-03-24T18:47:50.081Z",
+    "title": "What are Data Structures?",
+    "updatedAt": "2026-03-24T18:47:50.081Z"
+  },
+  {
+    "_id": "69bd1194125a0dafa8a723a4",
+    "itemType": "course",
+    "itemId": "69bcfeb7d5a36a4e5b2e1e0f",
+    "userId": "694af0021a87e1cd234dcbff",
+    "lessonId": "1-0",
+    "content": "let globalVar = \"I am a global variable\";\n\nfunction globalFunc() {\n    console.log(globalVar); // Accessible here\n}\n\nglobalFunc(); // Output: I am a global variable\nconsole.log(globalVar); // Output: I am a global variable",
+    "createdAt": "2026-03-20T09:21:26.270Z",
+    "title": "Understanding Closures and Scope",
+    "updatedAt": "2026-03-20T09:21:36.348Z"
+  },
+  {
+    "_id": "69d8b232b9cb57f92672de23",
+    "itemId": "69d8b1dc95f6b52f4ff78116",
+    "itemType": "course",
+    "userId": "694af0021a87e1cd234dcbff",
+    "lessonId": "1-0",
+    "content": "This are notes",
+    "createdAt": "2026-04-10T08:17:54.298Z",
+    "title": "What is Software Engineering?",
+    "updatedAt": "2026-04-10T08:17:59.094Z"
+  },
+  {
+    "_id": "6a187f4b699fb18c51471bf3",
+    "itemId": "69c197b155391258a3a5b2fa",
+    "userId": "694af0021a87e1cd234dcbff",
+    "lessonId": "1-1",
+    "itemType": "course",
+    "content": "Impact of Data Structures on Algorithm Performance\nThe choice of a data structure can have significant implications for algorithm performance. Here are some points to consider:\n\n1. Time Complexity: Different data structures provide different time complexities for operations. For example, searching in an unsorted array has a time complexity of O(n), while searching in a balanced binary search tree has a time complexity of O(log n).\n2. Space Complexity: Data structures also impact memory usage. Choosing a linked list over an array can save space when the number of elements varies, but it can also lead to increased memory overhead because of the additional pointers.\n3. Trade-offs: Often, there are trade-offs between time and space. For example, a hash table offers fast lookups but can consume more memory than a list.",
+    "createdAt": "2026-05-28T17:45:47.249Z",
+    "title": "Importance of Data Structures in Java",
+    "updatedAt": "2026-05-28T17:46:52.480Z"
+  },
+  {
+    "_id": "6a187fc4699fb18c51471c92",
+    "itemId": "69c197b155391258a3a5b2fa",
+    "itemType": "course",
+    "lessonId": "1-2",
+    "userId": "694af0021a87e1cd234dcbff",
+    "content": "Impact of Data Structures on Algorithm Performance\nThe choice of a data structure can have significant implications for algorithm performance. Here are some points to consider:\n\n1. Time Complexity: Different data structures provide different time complexities for operations. For example, searching in an unsorted array has a time complexity of O(n), while searching in a balanced binary search tree has a time complexity of O(log n).\n2. Space Complexity: Data structures also impact memory usage. Choosing a linked list over an array can save space when the number of elements varies, but it can also lead to increased memory overhead because of the additional pointers.\n3. Trade-offs: Often, there are trade-offs between time and space. For example, a hash table offers fast lookups but can consume more memory than a list.",
+    "createdAt": "2026-05-28T17:47:48.041Z",
+    "title": "Types of Data Structures",
+    "updatedAt": "2026-05-28T17:47:48.041Z"
+  }
+]

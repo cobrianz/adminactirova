@@ -1,0 +1,72 @@
+[
+  {
+    "_id": "6a5bb5b67738b2689beab772",
+    "discussionId": "6a5bb5807738b2689beab769",
+    "classroomId": "6a5a863cea82958b8c771eda",
+    "authorId": "6a5a7a7aea82958b8c771e7e",
+    "content": "Ensure Everyone answers",
+    "parentPostId": null,
+    "isEdited": false,
+    "reactions": [],
+    "createdAt": "2026-07-18T17:19:50.188Z",
+    "updatedAt": "2026-07-23T19:09:39.399Z",
+    "__v": 0,
+    "feedback": "",
+    "gradedAt": "2026-07-23T19:09:39.396Z",
+    "gradedBy": "6a5a7a7aea82958b8c771e7e",
+    "maxScore": 100,
+    "score": 0
+  },
+  {
+    "_id": "6a5bb6067738b2689beab77a",
+    "discussionId": "6a5bb5807738b2689beab769",
+    "classroomId": "6a5a863cea82958b8c771eda",
+    "authorId": "6a5a7a7aea82958b8c771e7e",
+    "content": "okay",
+    "parentPostId": "6a5bb5b67738b2689beab772",
+    "isEdited": false,
+    "reactions": [],
+    "createdAt": "2026-07-18T17:21:10.820Z",
+    "updatedAt": "2026-07-18T17:21:10.820Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a5bb6097738b2689beab780",
+    "discussionId": "6a5bb5807738b2689beab769",
+    "classroomId": "6a5a863cea82958b8c771eda",
+    "authorId": "6a5a7a7aea82958b8c771e7e",
+    "content": "okay",
+    "parentPostId": "6a5bb5b67738b2689beab772",
+    "isEdited": false,
+    "reactions": [],
+    "createdAt": "2026-07-18T17:21:13.915Z",
+    "updatedAt": "2026-07-18T17:21:13.915Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a5c793bbd2f2486051d7702",
+    "discussionId": "6a5bb5807738b2689beab769",
+    "classroomId": "6a5a863cea82958b8c771eda",
+    "authorId": "694af0021a87e1cd234dcbff",
+    "content": "we get if",
+    "parentPostId": "6a5bb5b67738b2689beab772",
+    "isEdited": false,
+    "reactions": [],
+    "createdAt": "2026-07-19T07:14:03.659Z",
+    "updatedAt": "2026-07-19T07:14:03.659Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a5e9bde9b94565baecdcd43",
+    "discussionId": "6a5bb5807738b2689beab769",
+    "classroomId": "6a5a863cea82958b8c771eda",
+    "authorId": "6a5a7a7aea82958b8c771e7e",
+    "content": "Okay",
+    "parentPostId": "6a5c793bbd2f2486051d7702",
+    "isEdited": false,
+    "reactions": [],
+    "createdAt": "2026-07-20T22:06:22.029Z",
+    "updatedAt": "2026-07-20T22:06:22.029Z",
+    "__v": 0
+  }
+]

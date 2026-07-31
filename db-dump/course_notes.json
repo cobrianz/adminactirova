@@ -1,0 +1,32 @@
+[
+  {
+    "_id": "6a549b467608650c070699ab",
+    "lessonId": "1-1",
+    "userId": "694af0021a87e1cd234dcbff",
+    "courseId": "69c197b155391258a3a5b2fa",
+    "bookmarked": true,
+    "createdAt": "2026-07-13T08:01:14.192Z",
+    "note": "hey",
+    "updatedAt": "2026-07-13T08:01:42.525Z"
+  },
+  {
+    "_id": "6a549bc67608650c070699cb",
+    "lessonId": "2-1",
+    "userId": "694af0021a87e1cd234dcbff",
+    "courseId": "69c197b155391258a3a5b2fa",
+    "bookmarked": true,
+    "createdAt": "2026-07-13T08:03:21.344Z",
+    "note": "",
+    "updatedAt": "2026-07-13T08:03:21.344Z"
+  },
+  {
+    "_id": "6a665d6f67489a215c13d1c4",
+    "courseId": "6a665d41d7af198856a90eca",
+    "userId": "6a5a7a7aea82958b8c771e7e",
+    "lessonId": "1-1",
+    "bookmarked": true,
+    "createdAt": "2026-07-26T19:18:07.735Z",
+    "note": "",
+    "updatedAt": "2026-07-26T19:18:07.735Z"
+  }
+]

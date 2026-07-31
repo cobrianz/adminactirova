@@ -1,0 +1,20 @@
+[
+  {
+    "_id": "6a5e76014c5938a2f4d172a5",
+    "classroomId": "6a5a863cea82958b8c771eda",
+    "uploadedBy": "6a5a7a7aea82958b8c771e7e",
+    "title": "Introduction to Programming",
+    "description": "The document provides an introduction to computer programming, defining key terms like source code and programs, explaining the differences between low-level and high-level languages",
+    "type": "link",
+    "url": "https://www.scribd.com/document/430873095/Module-1-Intro-to-Programming",
+    "fileName": "",
+    "fileSize": 0,
+    "weekNumber": 1,
+    "category": "Reading",
+    "isRequired": true,
+    "aiSummary": "",
+    "createdAt": "2026-07-20T19:24:49.072Z",
+    "updatedAt": "2026-07-20T19:24:49.072Z",
+    "__v": 0
+  }
+]

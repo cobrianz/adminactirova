@@ -1,0 +1,1435 @@
+[
+  {
+    "_id": "69c4f61b125a0dafa8a910d3",
+    "type": "resume",
+    "title": "Jacqueline Zuniga",
+    "userId": "694af0021a87e1cd234dcbff",
+    "__v": 0,
+    "createdAt": "2026-03-26T09:02:19.618Z",
+    "data": {
+      "personalInfo": {
+        "fullName": "Jacqueline Zuniga",
+        "name": "undefined undefined",
+        "jobTitle": "AI Data Annotator",
+        "title": "AI Data Annotator",
+        "email": "zunigaja@usc.edu",
+        "phone": "+1 (818) 744-0368",
+        "location": "California, USA",
+        "website": "",
+        "linkedin": "",
+        "github": "GitHub",
+        "summary": "Detail-oriented and analytically driven Master of Social Work (MSW) candidate with a solid foundation in data handling, communication, and human behavior analysis. Proficient in evaluating complex information while maintaining accuracy and applying structured guidelines. Well-prepared for AI training and data annotation roles that require consistency, critical thinking, and meticulous attention to detail."
+      },
+      "summary": "Detail-oriented and analytically driven Master of Social Work (MSW) candidate with a solid foundation in data handling, communication, and human behavior analysis. Proficient in evaluating complex information while maintaining accuracy and applying structured guidelines. Well-prepared for AI training and data annotation roles that require consistency, critical thinking, and meticulous attention to detail.",
+      "experience": [
+        {
+          "title": "Security Personnel",
+          "company": "UPS",
+          "location": "",
+          "startDate": "",
+          "endDate": "",
+          "dateRange": "La Mirada, California",
+          "description": "Monitored environments with acute attention to detail and situational awareness.\nDocumented incidents accurately in written reports to maintain operational integrity.\nIdentified irregular patterns and responded effectively to ensure safety protocols.\nFollowed strict procedures and maintained reliability in daily operations."
+        },
+        {
+          "title": "Data Annotation Intern (Simulated)",
+          "company": "AI Data Annotation and Evaluation Project",
+          "location": "",
+          "startDate": "",
+          "endDate": "",
+          "dateRange": "Dates Not Specified",
+          "description": "Conducted text annotation tasks including sentiment analysis and intent classification.\nEvaluated AI-generated outputs for accuracy, relevance, and clarity.\nIdentified errors and inconsistencies while providing structured feedback.\nMaintained high accuracy and consistency across repetitive tasks."
+        }
+      ],
+      "education": [
+        {
+          "school": "University of Southern California (USC)",
+          "degree": "Master of Social Work (MSW)",
+          "location": "",
+          "startDate": "",
+          "endDate": "",
+          "dateRange": "In Progress",
+          "description": ""
+        },
+        {
+          "school": "California State University, Long Beach (CSULB)",
+          "degree": "Bachelor’s Degree in Social Science",
+          "location": "",
+          "startDate": "",
+          "endDate": "",
+          "dateRange": "Graduation Year Not Specified",
+          "description": ""
+        },
+        {
+          "school": "Rio Hondo College",
+          "degree": "Diploma in Social and Community Studies",
+          "location": "",
+          "startDate": "",
+          "endDate": "",
+          "dateRange": "Graduation Year Not Specified",
+          "description": ""
+        }
+      ],
+      "skills": [
+        "Data annotation and labeling (text)",
+        "Content evaluation and quality assurance",
+        "Pattern recognition and classification",
+        "Guideline adherence and consistency",
+        "Accuracy in repetitive tasks",
+        "Microsoft Excel (data organization)",
+        "Python (basic data handling)",
+        "Fast and accurate typing",
+        "Written and verbal communication",
+        "Critical thinking and analytical reasoning",
+        "Time management and organization",
+        "Independent work and accountability",
+        "Adaptability in structured environments"
+      ],
+      "projects": [],
+      "certifications": [],
+      "awards": [],
+      "languages": [
+        "language",
+        "level"
+      ],
+      "customSections": []
+    },
+    "metadata": {
+      "jobDescription": "AI Data Annotator"
+    },
+    "updatedAt": "2026-03-26T09:02:19.618Z"
+  },
+  {
+    "_id": "69c55caa125a0dafa8a92f34",
+    "type": "resume",
+    "userId": "694af0021a87e1cd234dcbff",
+    "title": "Christy Eddington",
+    "__v": 0,
+    "createdAt": "2026-03-26T16:19:54.499Z",
+    "data": {
+      "personalInfo": {
+        "fullName": "Christy Eddington",
+        "name": "undefined undefined",
+        "jobTitle": "Publications and Policy Specialist",
+        "title": "Publications and Policy Specialist",
+        "email": "Christye99@yahoo.com",
+        "phone": "254-289-3835 ",
+        "location": "Antlata, GA",
+        "website": "Website",
+        "linkedin": "linkedin.com/in/christy-eddington-850530a6",
+        "github": "",
+        "summary": "Detail-oriented Publications and Policy Specialist with over 20 years of experience in documentation, compliance, and policy development. Former U.S. Army Warrant Officer and Information Assurance Manager with a robust ability to lead policy initiatives, manage publication revisions, and ensure quality assurance in regulated environments. Demonstrated expertise in analyzing changes, consolidating inputs, and coordinating cross-functional approvals to maintain alignment with safety and regulatory standards. Currently pursuing a Bachelor of Science in Healthcare Information Management with a focus on data integrity and compliance."
+      },
+      "summary": "Detail-oriented Publications and Policy Specialist with over 20 years of experience in documentation, compliance, and policy development. Former U.S. Army Warrant Officer and Information Assurance Manager with a robust ability to lead policy initiatives, manage publication revisions, and ensure quality assurance in regulated environments. Demonstrated expertise in analyzing changes, consolidating inputs, and coordinating cross-functional approvals to maintain alignment with safety and regulatory standards. Currently pursuing a Bachelor of Science in Healthcare Information Management with a focus on data integrity and compliance.",
+      "experience": [
+        {
+          "title": "Email Customer Support Representative (Omnichannel)",
+          "company": "HCLTech – Nestlé Account",
+          "location": "",
+          "startDate": "",
+          "endDate": "",
+          "dateRange": "Sep 2025 – Present",
+          "description": "Review and respond to customer inquiries utilizing approved documentation and standardized content guidelines.\nEnsure written communications align with established policies and maintain accuracy and compliance.\nUtilize CRM systems for case documentation, tracking updates, and ensuring resolution accuracy.\nCollaborate with internal teams to clarify updates and maintain data security and confidentiality."
+        },
+        {
+          "title": "Customer Service Representative",
+          "company": "Hilton Reservations",
+          "location": "",
+          "startDate": "",
+          "endDate": "",
+          "dateRange": "Apr 2019 – Oct 2019",
+          "description": "Delivered accurate, policy-compliant information in a high-paced customer service environment.\nDocumented customer interactions meticulously, adhering to standardized procedures."
+        },
+        {
+          "title": "Information Services Technician / Warrant Officer (255A)",
+          "company": "United States Army",
+          "location": "",
+          "startDate": "",
+          "endDate": "",
+          "dateRange": "Mar 1998 – May 2019",
+          "description": "Authored, reviewed, and maintained enterprise-level policies and controlled publications as Information Assurance Manager.\nLed documentation revision cycles, ensuring timely coordination of approvals and quality assurance reviews.\nConducted compliance audits and risk assessments, maintaining strict version control for all publications."
+        }
+      ],
+      "education": [
+        {
+          "school": "University Name",
+          "degree": "Bachelor of Science in Healthcare Information Management",
+          "location": "",
+          "startDate": "",
+          "endDate": "",
+          "dateRange": "2026",
+          "description": ""
+        }
+      ],
+      "skills": [
+        "Publications & Manual Revision Control",
+        "Policy Development & Governance",
+        "Change Management & Version Control",
+        "Compliance & Safety Documentation",
+        "Quality Assurance Reviews",
+        "Cross-Functional Coordination",
+        "Risk Assessment Support",
+        "Technical & Operational Writing",
+        "Microsoft Word",
+        "Adobe",
+        "Smartsheet",
+        "Confidential Information Handling"
+      ],
+      "projects": [],
+      "certifications": [],
+      "awards": [],
+      "languages": [],
+      "customSections": []
+    },
+    "metadata": {
+      "jobDescription": "Publications and Policy Specialist"
+    },
+    "updatedAt": "2026-03-26T16:23:17.454Z"
+  },
+  {
+    "_id": "69de40f8b9cb57f92674db1f",
+    "type": "resume",
+    "title": "Augustine Ombati Okachi",
+    "userId": "694af0021a87e1cd234dcbff",
+    "__v": 0,
+    "createdAt": "2026-04-14T13:28:24.691Z",
+    "data": {
+      "personalInfo": {
+        "fullName": "Augustine Ombati Okachi",
+        "name": "Augustine Ombati Okachi",
+        "jobTitle": "Accountant",
+        "title": "Accountant",
+        "email": "ombati.okachi@gmail.com",
+        "phone": "0727978531",
+        "location": "",
+        "website": "",
+        "linkedin": "",
+        "github": "",
+        "summary": "Detail-oriented finance professional with a proven track record in Accounting and Financial Management. Highly skilled in financial analysis, reporting, and ensuring compliance with regulatory standards. Known for fostering team collaboration and consistently delivering results in dynamic environments. Adaptable to changing business needs with a focus on accuracy and reliability."
+      },
+      "summary": "Detail-oriented finance professional with a proven track record in Accounting and Financial Management. Highly skilled in financial analysis, reporting, and ensuring compliance with regulatory standards. Known for fostering team collaboration and consistently delivering results in dynamic environments. Adaptable to changing business needs with a focus on accuracy and reliability.",
+      "experience": [
+        {
+          "title": "Assistant Accountant",
+          "company": "New Kenya Co-operative Creameries Ltd",
+          "location": "",
+          "startDate": "",
+          "endDate": "",
+          "dateRange": "January 2025 - Present",
+          "description": "Prepare payment vouchers for suppliers and process vendor payment vouchers.\nVerify postings of payments and receipts in the cashbook to ensure accuracy.\nManage statutory deductions and ensure timely remittance.\nGenerate sales invoices and liaise with customers for billing inquiries.\nConduct monthly bank account reconciliations and maintain accurate financial records."
+        },
+        {
+          "title": "Reconciliation/Stores Clerk",
+          "company": "New Kenya Co-operative Creameries Ltd",
+          "location": "",
+          "startDate": "",
+          "endDate": "",
+          "dateRange": "January 2022 - December 2024",
+          "description": "Reconcile stocks, wages, and banking activities to ensure financial accuracy.\nMaintain up-to-date records of stock levels in both SAP system and physical inventories.\nConduct physical stock-taking and generate daily stock summary reports."
+        },
+        {
+          "title": "Schools Auditor",
+          "company": "Ministry of Education",
+          "location": "",
+          "startDate": "",
+          "endDate": "",
+          "dateRange": "January 2020 - January 2021",
+          "description": "Executed various audit programs and collected evidence on audit issues.\nReviewed internal control systems in public educational institutions.\nVerified assets and liabilities and wrote comprehensive audit reports."
+        },
+        {
+          "title": "Payables Accountant (Part-time)",
+          "company": "Twiga Foods",
+          "location": "",
+          "startDate": "",
+          "endDate": "",
+          "dateRange": "April 2017 - October 2019",
+          "description": "Reviewed supplier accounts for accuracy and consistency with the general ledger.\nPrepared reconciliation schedules to explain variances and discrepancies."
+        },
+        {
+          "title": "Finance Intern",
+          "company": "Nairobi City County",
+          "location": "",
+          "startDate": "",
+          "endDate": "",
+          "dateRange": "November 2014 - January 2015",
+          "description": "Audited payment documents to ensure validity for processing.\nConducted bank reconciliations and assisted in report writing for discrepancies.\nResponded to queries from suppliers and employees regarding payment processing."
+        }
+      ],
+      "education": [
+        {
+          "school": "University of Nairobi",
+          "degree": "Master of Science (Finance)",
+          "location": "",
+          "startDate": "",
+          "endDate": "",
+          "dateRange": "2023-2026 (Expected)",
+          "description": ""
+        },
+        {
+          "school": "University of Nairobi",
+          "degree": "Bachelor of Commerce (Accounting Option)",
+          "location": "",
+          "startDate": "",
+          "endDate": "",
+          "dateRange": "2012-2016",
+          "description": ""
+        },
+        {
+          "school": "KASNEB: Professional Certification Board",
+          "degree": "Certified Public Accounts (CPA)",
+          "location": "",
+          "startDate": "",
+          "endDate": "",
+          "dateRange": "2013-2015",
+          "description": ""
+        },
+        {
+          "school": "St. Peters Kerera High School",
+          "degree": "KCSE",
+          "location": "",
+          "startDate": "",
+          "endDate": "",
+          "dateRange": "2007-2010",
+          "description": ""
+        },
+        {
+          "school": "Prisquilla Primary School",
+          "degree": "KCPE",
+          "location": "",
+          "startDate": "",
+          "endDate": "",
+          "dateRange": "1999-2006",
+          "description": ""
+        }
+      ],
+      "skills": [
+        "Financial Analysis",
+        "Team Building",
+        "Organizational Skills",
+        "Communication",
+        "Interpersonal Skills",
+        "Presentation",
+        "Analytical Skills",
+        "Problem Solving",
+        "Financial Planning",
+        "ERP Systems (SAP, IFMIS, QuickBooks)",
+        "Investment Analysis"
+      ],
+      "projects": [],
+      "certifications": [],
+      "awards": [],
+      "languages": [],
+      "customSections": []
+    },
+    "metadata": {
+      "jobDescription": "Accountant"
+    },
+    "updatedAt": "2026-04-14T13:42:15.518Z"
+  },
+  {
+    "_id": "69c162ecda0e7f3645fe3833",
+    "userId": "694af0021a87e1cd234dcbff",
+    "type": "network",
+    "title": "Calvins Otieno",
+    "data": {
+      "messages": [
+        {
+          "title": "Casual",
+          "content": "Subject: Quick Hello! \n\nHi Calvins, \n\nI hope this message finds you well! I came across your profile and noticed your expertise in computer science. I'm really excited about the upcoming AI webinar and thought it would be great to connect. Perhaps we could share some insights or thoughts about it? Looking forward to hearing from you! \n\nBest, \n[Your Name]"
+        },
+        {
+          "title": "Professional",
+          "content": "Subject: Opportunity to Connect on AI Trends \n\nDear Calvins, \n\nI hope this email finds you well. I recently learned about the upcoming AI webinar and, given your expertise in computer science, I believe there could be mutual benefits in connecting. I am particularly interested in discussing emerging trends and applications in AI. I would greatly appreciate your insights and would love to explore potential collaboration areas. \n\nThank you for considering my request! \n\nBest regards, \n[Your Name]"
+        },
+        {
+          "title": "Advice Seeker",
+          "content": "Subject: Seeking Guidance on AI Developments \n\nDear Calvins, \n\nI hope you're doing well. As someone deeply interested in computer science and the advancements in AI, I am reaching out to seek your advice. I noticed the upcoming AI webinar and would love to hear your thoughts on its implications. Your expertise would be invaluable as I navigate my own learning path in this exciting field. Would you be open to a brief conversation? \n\nThank you for your time! \n\nSincerely, \n[Your Name]"
+        }
+      ],
+      "tips": [
+        "Best time to send: Tuesday or Thursday morning, when professionals are most likely to check their emails.",
+        "Follow-up strategy: If you don't hear back within a week, send a polite follow-up message reiterating your interest in connecting."
+      ]
+    },
+    "metadata": {
+      "subMode": "outreach",
+      "targetPerson": {
+        "name": "Calvins Otieno",
+        "role": "Computer Scient",
+        "company": "",
+        "context": "Want to connect about upcoming ai webnar"
+      },
+      "userSkills": "",
+      "careerGoals": "",
+      "platform": "email"
+    },
+    "createdAt": "2026-03-23T15:57:32.754Z",
+    "updatedAt": "2026-03-23T15:57:32.754Z",
+    "__v": 0
+  },
+  {
+    "_id": "69d8b2e7b9cb57f92672de53",
+    "title": "Cover Letter for Fullstack Developer",
+    "type": "cover-letter",
+    "userId": "694af0021a87e1cd234dcbff",
+    "__v": 0,
+    "createdAt": "2026-04-10T08:20:55.388Z",
+    "data": {
+      "content": "Brian Kipkemoi Cheruiyot\nNairobi, Kenya\nbriancheruiyot022@gmail.com\n+254702764907\n\n[Date]\n\n[Employer's Name]\n[Company's Name]\n[Company's Address]\n\nDear [Employer's Name],\n\nI am writing to express my interest in the Fullstack Developer position at [Company's Name], as advertised. As a motivated Computer Science graduate from Maseno University, I have honed my skills in developing scalable web applications and AI-driven solutions using the MERN stack, JavaScript, and Python. My experience as a freelance web developer has equipped me with the ability to build responsive applications that meet client specifications and deliver innovative features.\n\nDuring my recent internship at the Judiciary Law Courts, I supported IT operations, assisting in software installations and system maintenance. This experience, combined with my strong analytical and problem-solving skills, has prepared me to effectively collaborate with cross-functional teams and contribute to enhancing project workflows through agile methodologies. My projects, such as the Actirova AI Tutor and Medcore Hospital System, showcase my ability to create user-centric solutions that improve engagement and operational efficiency.\n\nI am excited about the opportunity to bring my technical expertise and passion for software development to [Company's Name]. I am confident that my background and skills align well with the requirements of your team. I look forward to the possibility of discussing how I can contribute to your innovative projects.\n\nThank you for considering my application. I hope to hear from you soon.\n\nSincerely,\n\nBrian Kipkemoi Cheruiyot",
+      "company": ""
+    },
+    "metadata": {
+      "jobDescription": "Fullstack Developer",
+      "resumeId": "69ce9d72125a0dafa8ab9f5a"
+    },
+    "updatedAt": "2026-04-10T08:20:55.388Z"
+  },
+  {
+    "_id": "6a4caef8bb618d757f50b69f",
+    "title": "John Doe",
+    "type": "resume",
+    "userId": "6a39552402e6716740fd23e5",
+    "__v": 0,
+    "createdAt": "2026-07-07T07:47:04.748Z",
+    "data": {
+      "personalInfo": {
+        "fullName": "John Doe",
+        "name": "John Doe",
+        "jobTitle": "Health Care Compliance Specialist",
+        "title": "Health Care Compliance Specialist",
+        "email": "opubaabraham@gmail.com",
+        "phone": "",
+        "location": "",
+        "website": "",
+        "linkedin": "",
+        "github": "",
+        "summary": "Detail-oriented Health Care Compliance Specialist with over 5 years of experience in ensuring adherence to federal and state regulations within the healthcare sector. Proven track record in compliance auditing, policy development, and risk management. Strong analytical skills complemented by a comprehensive understanding of healthcare laws and regulations, including HIPAA and HITECH. Committed to promoting ethical practices and continuous improvement in compliance processes."
+      },
+      "summary": "Detail-oriented Health Care Compliance Specialist with over 5 years of experience in ensuring adherence to federal and state regulations within the healthcare sector. Proven track record in compliance auditing, policy development, and risk management. Strong analytical skills complemented by a comprehensive understanding of healthcare laws and regulations, including HIPAA and HITECH. Committed to promoting ethical practices and continuous improvement in compliance processes.",
+      "experience": [
+        {
+          "title": "Compliance Analyst",
+          "company": "Health Systems Inc.",
+          "location": "",
+          "startDate": "",
+          "endDate": "",
+          "dateRange": "June 2019 - Present",
+          "description": "Conducted comprehensive compliance audits resulting in a 30% reduction in compliance violations over 2 years.\nDeveloped and implemented training programs for staff on HIPAA regulations, enhancing employee understanding and adherence by 40%.\nCollaborated with legal and operational teams to ensure alignment with regulatory changes and best practices."
+        },
+        {
+          "title": "Compliance Coordinator",
+          "company": "Wellness Group",
+          "location": "",
+          "startDate": "",
+          "endDate": "",
+          "dateRange": "January 2017 - May 2019",
+          "description": "Assisted in the development of compliance policies and procedures that increased operational efficiency by 25%.\nMonitored and reported on compliance issues, ensuring timely resolution and mitigation of risks.\nFacilitated compliance training sessions for over 100 staff members, resulting in improved compliance ratings during audits."
+        }
+      ],
+      "education": [
+        {
+          "school": "State University",
+          "degree": "Bachelor of Science in Health Care Administration",
+          "location": "",
+          "startDate": "",
+          "endDate": "",
+          "dateRange": "2016",
+          "description": ""
+        }
+      ],
+      "skills": [
+        "Regulatory Compliance",
+        "Risk Management",
+        "HIPAA and HITECH Regulations",
+        "Auditing and Monitoring",
+        "Policy Development",
+        "Training and Education",
+        "Data Analysis",
+        "Communication Skills"
+      ],
+      "projects": [],
+      "certifications": [],
+      "awards": [],
+      "languages": [],
+      "customSections": []
+    },
+    "metadata": {
+      "jobDescription": "Health Care Compliance Specialist"
+    },
+    "updatedAt": "2026-07-07T07:47:04.748Z"
+  },
+  {
+    "_id": "69b97775125a0dafa8a63bf1",
+    "title": "Brian Cheruiyot",
+    "type": "resume",
+    "userId": "694af0021a87e1cd234dcbff",
+    "__v": 0,
+    "createdAt": "2026-03-17T15:47:01.453Z",
+    "data": {
+      "personalInfo": {
+        "name": "undefined undefined",
+        "email": "briancheruiyot022@gmail.com",
+        "title": "Fullstack Developer",
+        "fullName": "Brian Cheruiyot",
+        "github": "GitHub.com/cobrianz",
+        "summary": "Dynamic Fullstack Developer with over 5 years of experience in building responsive web applications using modern technologies. Proficient in both front-end and back-end development, with a strong focus on delivering high-quality user experiences. A collaborative team player with excellent problem-solving skills and a passion for learning new technologies.",
+        "jobTitle": "Fullstack Developer",
+        "phone": "0702764907",
+        "linkedin": "linkedin.com/in/briankcheruiyot",
+        "website": "briankcheruiyot.netlify.app",
+        "location": "Antlata, GA"
+      },
+      "experience": [
+        {
+          "company": "Tech Innovations Inc.",
+          "position": "Senior Fullstack Developer",
+          "duration": "June 2021 - Present",
+          "highlights": [
+            "Led the development of a scalable web application, enhancing user engagement by 40%.",
+            "Implemented RESTful APIs using Node.js and Express, streamlining data retrieval processes.",
+            "Collaborated with UX/UI designers to enhance application interfaces, resulting in a 30% increase in customer satisfaction."
+          ],
+          "description": "Dynamic Fullstack Developer with over 5 years of experience in building responsive web applications using modern technologies. Proficient in both front-end and back-end development, with a strong focus on delivering high-quality user experiences. A collaborative team player with excellent problem-solving skills and a passion for learning new technologies."
+        },
+        {
+          "company": "Creative Solutions Ltd.",
+          "position": "Fullstack Developer",
+          "duration": "January 2018 - May 2021",
+          "highlights": [
+            "Developed and maintained client-side applications using React, Redux, and TypeScript.",
+            "Worked with SQL and NoSQL databases to manage and optimize data storage solutions.",
+            "Participated in code reviews and mentoring of junior developers, fostering a collaborative team environment."
+          ],
+          "description": "Dynamic Fullstack Developer with over 5 years of experience in building responsive web applications using modern technologies. Proficient in both front-end and back-end development, with a strong focus on delivering high-quality user experiences. A collaborative team player with excellent problem-solving skills and a passion for learning new technologies."
+        },
+        {
+          "company": "WebDev Co.",
+          "position": "Junior Developer",
+          "duration": "September 2016 - December 2017",
+          "highlights": [
+            "Assisted in the development of e-commerce websites, achieving a 25% increase in sales.",
+            "Utilized HTML, CSS, and JavaScript to create responsive front-end solutions.",
+            "Supported back-end development efforts using PHP and MySQL for dynamic content generation."
+          ],
+          "description": "Dynamic Fullstack Developer with over 5 years of experience in building responsive web applications using modern technologies. Proficient in both front-end and back-end development, with a strong focus on delivering high-quality user experiences. A collaborative team player with excellent problem-solving skills and a passion for learning new technologies."
+        }
+      ],
+      "education": [
+        {
+          "school": "State University",
+          "degree": "Bachelor of Science in Computer Science",
+          "year": "2016",
+          "dateRange": "2021–2025"
+        }
+      ],
+      "skills": [
+        "JavaScript",
+        "Node.js",
+        "React",
+        "HTML/CSS",
+        "SQL/NoSQL",
+        "RESTful APIs",
+        "Git/GitHub",
+        "Agile Methodologies"
+      ],
+      "projects": [
+        {
+          "name": "Collaborative Code Editor",
+          "description": "Develop a web-based code editor that allows multiple users to write and collaborate on code in real-time. Featuring syntax highlighting and version control, this application can enhance team productivity and streamline the coding process for remote teams.",
+          "technologies": "React, Node.js, WebSocket"
+        },
+        {
+          "name": "Virtual Event Platform",
+          "description": "Create a comprehensive platform for organizing and attending virtual events. With features such as live streaming, chat, and networking opportunities, this project can significantly improve user engagement and connectivity for remote attendees.",
+          "technologies": "React, Node.js, WebRTC"
+        },
+        {
+          "name": "E-Learning Management System",
+          "description": "Design a robust e-learning platform that allows educators to create courses, track student progress, and facilitate discussions. This application can enhance the learning experience, making education more accessible and engaging for students worldwide.",
+          "technologies": "React, Node.js, PostgreSQL"
+        }
+      ],
+      "certifications": [],
+      "awards": [],
+      "languages": [],
+      "customSections": [],
+      "template": "classic",
+      "summary": "Dynamic Fullstack Developer with over 5 years of experience in building responsive web applications using modern technologies. Proficient in both front-end and back-end development, with a strong focus on delivering high-quality user experiences. A collaborative team player with excellent problem-solving skills and a passion for learning new technologies."
+    },
+    "metadata": {
+      "jobDescription": "Fullstack Developer"
+    },
+    "updatedAt": "2026-03-29T17:50:57.519Z"
+  },
+  {
+    "_id": "69de5b5eb9cb57f92674e50a",
+    "type": "application-letter",
+    "title": "Application Letter for Kippra",
+    "userId": "694af0021a87e1cd234dcbff",
+    "__v": 0,
+    "createdAt": "2026-04-14T15:21:02.903Z",
+    "data": {
+      "content": "Augustine Ombati Okachi  \nEmail: ombati.okachi@gmail.com  \nPhone: 0727978531  \n\n[Date]  \nHiring Manager  \nKippra  \n[Company Address]  \n\nDear Hiring Manager,  \n\nI am writing to express my interest in the Accountant position at Kippra. With a Master of Science in Finance from the University of Nairobi and extensive experience in accounting and financial management, I am confident in my ability to contribute effectively to your esteemed organization. Currently, as an Assistant Accountant at New Kenya Co-operative Creameries Ltd, I have honed my skills in financial analysis, reporting, and compliance, which are critical for delivering accurate financial insights and supporting strategic decision-making.  \n\nMy experience includes managing statutory deductions, conducting monthly bank reconciliations, and preparing payment vouchers, demonstrating my attention to detail and commitment to accuracy. I am adept at using ERP systems such as SAP, which I believe will enhance my efficiency in managing Kippra's financial operations. Additionally, my previous role as a Schools Auditor with the Ministry of Education has equipped me with a deep understanding of internal controls and audit processes, aligning perfectly with Kippra's commitment to maintaining financial integrity.  \n\nI am excited about the opportunity to bring my expertise in financial planning, team collaboration, and problem-solving to Kippra. I look forward to the possibility of discussing how my background, skills, and enthusiasms align with the goals of your team. Thank you for considering my application.  \n\nSincerely,  \nAugustine Ombati Okachi",
+      "company": "Kippra"
+    },
+    "metadata": {
+      "jobDescription": "Accountant",
+      "resumeId": "69ce9d72125a0dafa8ab9f5a"
+    },
+    "updatedAt": "2026-04-14T15:21:02.903Z"
+  },
+  {
+    "_id": "69e67473b9cb57f926797977",
+    "title": "VINCENT CONSTANT KIPLANGAT",
+    "type": "resume",
+    "userId": "694af0021a87e1cd234dcbff",
+    "__v": 0,
+    "createdAt": "2026-04-20T18:46:11.134Z",
+    "data": {
+      "personalInfo": {
+        "fullName": "VINCENT CONSTANT KIPLANGAT",
+        "name": "VINCENT CONSTANT KIPLANGAT",
+        "jobTitle": "Medical Representative",
+        "title": "Medical Representative",
+        "email": "vincetal355@gmail.com",
+        "phone": "",
+        "location": "",
+        "website": "",
+        "linkedin": "",
+        "github": "",
+        "summary": "Results-oriented healthcare professional with a BSc and ongoing MSc in Microbiology & Biotechnology and over 4 years of combined experience in pharmaceutical dispensing, scientific compliance, and laboratory science. Proven ability to communicate complex clinical information clearly to healthcare providers, build productive stakeholder relationships, and drive outcomes through data-driven decision-making. Adept at territory planning, regulatory compliance, and leveraging analytics to identify opportunities and develop next-best-action plans. Passionate about improving patient lives and well positioned to translate deep disease-state knowledge into impactful territory performance for a science-led organization like Pfizer."
+      },
+      "summary": "Results-oriented healthcare professional with a BSc and ongoing MSc in Microbiology & Biotechnology and over 4 years of combined experience in pharmaceutical dispensing, scientific compliance, and laboratory science. Proven ability to communicate complex clinical information clearly to healthcare providers, build productive stakeholder relationships, and drive outcomes through data-driven decision-making. Adept at territory planning, regulatory compliance, and leveraging analytics to identify opportunities and develop next-best-action plans. Passionate about improving patient lives and well positioned to translate deep disease-state knowledge into impactful territory performance for a science-led organization like Pfizer.",
+      "experience": [
+        {
+          "title": "Pharmacist (Casual)",
+          "company": "Nairobi, Kenya",
+          "location": "",
+          "startDate": "",
+          "endDate": "",
+          "dateRange": "Jan 2021 – Aug 2022",
+          "description": "Consulted with patients to interpret physician prescriptions ensuring legal compliance and appropriate medication selection.\nEducated patients on product usage, side effects, and medication adherence, enhancing brand awareness and patient trust.\nBuilt relationships with prescribers, facilitating information exchange that positively influenced prescribing decisions.\nDelivered targeted health education on disease management, supporting unbranded disease-state awareness.\nMaintained accurate patient medication records, demonstrating attention to detail and proficiency in CRM tools."
+        },
+        {
+          "title": "Food Hygiene Technician",
+          "company": "Diversey East & Central Africa | Kenya Breweries Limited",
+          "location": "",
+          "startDate": "",
+          "endDate": "",
+          "dateRange": "Jan 2020 – Jan 2021",
+          "description": "Managed compliance monitoring across Critical Control Points and HACCP protocols in a regulated environment.\nProduced performance and compliance reports for senior management, developing critical reporting and communication skills.\nConducted regular microbiological analysis and quality inspections, enhancing evidence-based problem-solving skills.\nCollaborated with cross-functional teams to implement process improvements reflecting teamwork and coordination.\nMaintained an Excel-based inventory database, showcasing organizational proficiency for territory planning."
+        },
+        {
+          "title": "Medical Laboratory Technologist Intern",
+          "company": "Africa Medical Research Foundation (AMREF), Nairobi, Kenya",
+          "location": "",
+          "startDate": "",
+          "endDate": "",
+          "dateRange": "Jul 2016 – Feb 2017",
+          "description": "Conducted microscopic identification of infectious disease pathogens, building clinical expertise aligned with Pfizer's portfolio.\nCommunicated scientific compliance information clearly to stakeholders, aiding in regulatory and product messaging.\nExecuted equipment calibration and quality inspections to meet laboratory accreditation standards.\nTracked inventory management, reflecting strong organizational and analytical skills for resource management.\nDeveloped SOPs for workflows, optimizing complex operational processes."
+        },
+        {
+          "title": "Chemistry Teacher",
+          "company": "St. Tito Girls High School, Kiambu, Kenya",
+          "location": "",
+          "startDate": "",
+          "endDate": "",
+          "dateRange": "Jun 2015 – Feb 2018",
+          "description": "Simplified complex scientific concepts for diverse audiences, enhancing communication skills critical for HCP engagement.\nDesigned individualized lesson strategies to meet unique student needs, reflecting a customer-centric approach.\nManaged instructional schedules and assessments, demonstrating strong planning and time management abilities.\nConducted parent-teacher conferences, illustrating stakeholder management and communication skills.\nSupervised practical sessions, reinforcing safety protocols and attention to procedural compliance."
+        }
+      ],
+      "education": [
+        {
+          "school": "University of Nairobi",
+          "degree": "Master of Science in Microbiology",
+          "location": "",
+          "startDate": "",
+          "endDate": "",
+          "dateRange": "In Progress",
+          "description": ""
+        },
+        {
+          "school": "University of Nairobi",
+          "degree": "Bachelor of Science in Microbiology & Biotechnology",
+          "location": "",
+          "startDate": "",
+          "endDate": "",
+          "dateRange": "2016",
+          "description": ""
+        },
+        {
+          "school": "WorldQuant University",
+          "degree": "Data Science Certificate",
+          "location": "",
+          "startDate": "",
+          "endDate": "",
+          "dateRange": "Online",
+          "description": ""
+        },
+        {
+          "school": "Kajiado East Technical & Vocational Training College",
+          "degree": "Computer Packages Training",
+          "location": "",
+          "startDate": "",
+          "endDate": "",
+          "dateRange": "2021",
+          "description": ""
+        },
+        {
+          "school": "Kenya National Examinations Council",
+          "degree": "Kenya Certificate of Secondary Education (KCSE)",
+          "location": "",
+          "startDate": "",
+          "endDate": "",
+          "dateRange": "2010",
+          "description": ""
+        },
+        {
+          "school": "Kenya National Examinations Council",
+          "degree": "Kenya Certificate of Primary Education (KCPE)",
+          "location": "",
+          "startDate": "",
+          "endDate": "",
+          "dateRange": "2006",
+          "description": ""
+        }
+      ],
+      "skills": [
+        "Disease-State & Clinical Knowledge",
+        "Pharmaceutical Product Knowledge",
+        "HCP Relationship Management",
+        "Territory Planning & Prioritization",
+        "Data-Driven Decision Making",
+        "CRM & Digital Tools (Veeva-ready)",
+        "Regulatory & Compliance Awareness",
+        "Cross-Functional Collaboration",
+        "Patient Education & Counseling",
+        "Scientific Communication",
+        "Analytical & Problem-Solving Skills",
+        "SPSS & Statistical Analysis",
+        "Microsoft Office Suite (Excel, Word, PowerPoint)",
+        "Report Writing",
+        "Inventory & Resource Management",
+        "Mentoring & Leadership",
+        "Adaptability to New Technologies"
+      ],
+      "projects": [],
+      "certifications": [],
+      "awards": [],
+      "languages": [],
+      "customSections": []
+    },
+    "metadata": {
+      "jobDescription": "Medical Representative"
+    },
+    "updatedAt": "2026-07-23T17:20:53.114Z"
+  },
+  {
+    "_id": "6a4caf33bb618d757f50b6b0",
+    "title": "Cover Letter for Health Care Compliance Specialist",
+    "type": "cover-letter",
+    "userId": "6a39552402e6716740fd23e5",
+    "__v": 0,
+    "createdAt": "2026-07-07T07:48:03.131Z",
+    "data": {
+      "content": "John Doe\n[Your Address]\n[City, State, Zip Code]\n[Date]\n\n[Hiring Manager's Name]\n[Company Name]\n[Company Address]\n[City, State, Zip Code]\n\nDear [Hiring Manager's Name],\n\nI am writing to express my interest in the Health Care Compliance Specialist position at [Company Name], as advertised. With over five years of dedicated experience in compliance auditing, policy development, and risk management within the healthcare sector, I am well-prepared to contribute to your team and ensure adherence to federal and state regulations.\n\nIn my current role as a Compliance Analyst at Health Systems Inc., I successfully conducted comprehensive compliance audits that resulted in a 30% reduction in compliance violations over a two-year period. My ability to develop and implement training programs on HIPAA regulations led to a 40% enhancement in employee understanding and adherence. I pride myself on my strong analytical skills and comprehensive knowledge of healthcare laws, including HIPAA and HITECH, which I believe will be invaluable in promoting ethical practices and continuous improvement in compliance processes at [Company Name].\n\nI am excited about the opportunity to leverage my skills in regulatory compliance and risk management for [Company Name]. I look forward to the possibility of discussing how my background, skills, and enthusiasms align with the goals of your organization. Thank you for considering my application. \n\nSincerely,\n\nJohn Doe\nopubaabraham@gmail.com",
+      "company": ""
+    },
+    "metadata": {
+      "jobDescription": "Health Care Compliance Specialist",
+      "resumeId": "6a4caef8bb618d757f50b69f"
+    },
+    "updatedAt": "2026-07-07T07:48:03.131Z"
+  },
+  {
+    "_id": "69e66e72b9cb57f926797808",
+    "title": "Cover Letter for KIPPRA",
+    "type": "cover-letter",
+    "userId": "694af0021a87e1cd234dcbff",
+    "__v": 0,
+    "createdAt": "2026-04-20T18:20:34.822Z",
+    "data": {
+      "content": "Brian Kipkemoi Cheruiyot\nNairobi, Kenya  \nbriancheruiyot022@gmail.com  \n0702764907  \n[Date]  \n\n[Hiring Manager's Name]  \nKIPPRA  \n[Company Address]  \n[City, State, Zip Code]  \n\nDear [Hiring Manager's Name],\n\nI am writing to express my interest in the ICT Officer position at KIPPRA. With a Bachelor’s degree in Computer Science from Maseno University and hands-on experience in ICT systems administration and enterprise application development, I am excited about the opportunity to contribute to your organization. My recent role as an ICT Intern at the Judiciary Law Courts honed my skills in software installations, application deployment, and user training, ensuring reliable IT operations in a dynamic environment.\n\nAs a freelance Fullstack Developer, I have successfully designed and deployed enterprise web applications using the MERN stack, Python/Django, and Laravel. My ability to analyze system requirements and implement robust technical documentation has consistently resulted in improved system performance and user satisfaction. Furthermore, my proficiency in data analytics and agile methodologies allows me to deliver high-quality solutions efficiently.\n\nI am particularly drawn to KIPPRA’s commitment to leveraging technology for policy research and capacity building. I am eager to bring my strong technical foundation, problem-solving skills, and commitment to excellence to your team. Thank you for considering my application. I look forward to the possibility of discussing how I can contribute to KIPPRA’s mission.\n\nSincerely,\n\nBrian Kipkemoi Cheruiyot",
+      "company": "KIPPRA"
+    },
+    "metadata": {
+      "jobDescription": "ICT OFFICER",
+      "resumeId": "69ce9d72125a0dafa8ab9f5a"
+    },
+    "updatedAt": "2026-04-20T18:20:34.822Z"
+  },
+  {
+    "_id": "69d577dcb9cb57f92671ecbc",
+    "type": "resume",
+    "userId": "69b569b2ef668c8fb0055311",
+    "title": "Brian Cheruiyot ",
+    "__v": 0,
+    "createdAt": "2026-04-07T21:32:15.211Z",
+    "data": {
+      "personalInfo": {
+        "fullName": "Brian Cheruiyot ",
+        "name": "Your Name",
+        "jobTitle": "Fullstack Developer",
+        "title": "Fullstack Developer",
+        "email": "briankipkemoi808@gmail.com",
+        "phone": "Phone",
+        "location": "",
+        "website": "",
+        "linkedin": "",
+        "github": "github.com/GitHub",
+        "summary": "Results-driven Full Stack Developer with over 5 years of experience in building responsive web applications. Proficient in both front-end and back-end development, leveraging modern technologies to deliver high-quality user experiences. Adept at collaborating in team environments, solving complex problems, and committed to continuous learning and professional growth."
+      },
+      "summary": "Results-driven Full Stack Developer with over 5 years of experience in building responsive web applications. Proficient in both front-end and back-end development, leveraging modern technologies to deliver high-quality user experiences. Adept at collaborating in team environments, solving complex problems, and committed to continuous learning and professional growth.",
+      "experience": [
+        {
+          "title": "Fullstack Developer",
+          "company": "Tech Innovations Inc.",
+          "location": "",
+          "startDate": "",
+          "endDate": "",
+          "dateRange": "2018 - Present",
+          "description": "Developed and maintained scalable web applications using React, Node.js, and PostgreSQL, enhancing user engagement by 30%.\nCollaborated with cross-functional teams to define, design, and ship new features, improving overall functionality and user experience.\nImplemented RESTful APIs and integrated third-party services, streamlining application performance and reducing load times."
+        },
+        {
+          "title": "Fullstack Developer",
+          "company": "Creative Solutions Ltd.",
+          "location": "",
+          "startDate": "",
+          "endDate": "",
+          "dateRange": "2016 - 2018",
+          "description": "Designed and developed a variety of web applications, ensuring responsive design and cross-browser compatibility.\nOptimized existing codebase, improving application speed and reliability by implementing best practices in coding and testing.\nParticipated in Agile development processes, contributing to sprint planning, daily stand-ups, and retrospectives."
+        },
+        {
+          "title": "Fullstack Developer",
+          "company": "WebDev Co.",
+          "location": "",
+          "startDate": "",
+          "endDate": "",
+          "dateRange": "2015 - 2016",
+          "description": "Built dynamic user interfaces using React and Redux, resulting in a more intuitive user experience.\nConducted code reviews and provided mentorship to junior developers, fostering a collaborative team environment.\nEnhanced database performance through effective SQL and NoSQL management, ensuring data integrity and accessibility."
+        }
+      ],
+      "education": [
+        {
+          "school": "State University",
+          "degree": "Bachelor of Science in Computer Science",
+          "location": "",
+          "startDate": "",
+          "endDate": "",
+          "dateRange": "2021 - 2025",
+          "description": ""
+        }
+      ],
+      "skills": [
+        "JavaScript",
+        "Node.js",
+        "React",
+        "HTML/CSS",
+        "SQL/NoSQL",
+        "RESTful APIs",
+        "Git/GitHub",
+        "Agile Methodologies"
+      ],
+      "projects": [
+        {
+          "name": "Collaborative Code Editor",
+          "description": "Developed a web-based code editor that allows multiple users to write and collaborate on code in real-time, featuring syntax highlighting and version control, enhancing team productivity for remote teams.",
+          "technologies": "React, Node.js, WebSocket",
+          "startDate": "",
+          "endDate": "",
+          "dateRange": ""
+        },
+        {
+          "name": "Virtual Event Platform",
+          "description": "Created a comprehensive platform for organizing and attending virtual events with features like live streaming, chat, and networking opportunities, significantly improving user engagement for remote attendees.",
+          "technologies": "React, Node.js, WebRTC",
+          "startDate": "",
+          "endDate": "",
+          "dateRange": ""
+        },
+        {
+          "name": "E-Learning Management System",
+          "description": "Designed a robust e-learning platform enabling educators to create courses, track student progress, and facilitate discussions, making education more accessible and engaging for students worldwide.",
+          "technologies": "React, Node.js, PostgreSQL",
+          "startDate": "",
+          "endDate": "",
+          "dateRange": ""
+        }
+      ],
+      "certifications": [],
+      "awards": [],
+      "languages": [],
+      "customSections": []
+    },
+    "metadata": {
+      "jobDescription": "Fullstack Developer",
+      "resumeId": "69d577dcb9cb57f92671ecbc"
+    },
+    "updatedAt": "2026-04-08T13:57:21.517Z"
+  },
+  {
+    "_id": "69de4668b9cb57f92674dd86",
+    "type": "cover-letter",
+    "title": "Cover Letter for Kenya Institute of Public Policy Research and Analysis",
+    "userId": "694af0021a87e1cd234dcbff",
+    "__v": 0,
+    "createdAt": "2026-04-14T13:51:36.526Z",
+    "data": {
+      "content": "Augustine Ombati Okachi\n[Your Address]\n[City, State, Zip]\nombati.okachi@gmail.com\n0727978531\n[Date]\n\nHiring Manager\nKenya Institute of Public Policy Research and Analysis\n[Institute Address]\n[City, State, Zip]\n\nDear Hiring Manager,\n\nI am writing to express my interest in the Accountant position at the Kenya Institute of Public Policy Research and Analysis. With a Master of Science in Finance (expected 2026) and a Bachelor of Commerce (Accounting Option), I possess a solid academic foundation complemented by extensive practical experience in both public and private sectors, particularly in financial analysis, reporting, and compliance.\n\nIn my current role as an Assistant Accountant at New Kenya Co-operative Creameries Ltd, I excel in preparing payment vouchers, managing statutory deductions, and conducting meticulous bank reconciliations. My previous experience as a Schools Auditor with the Ministry of Education has honed my skills in reviewing internal control systems and producing comprehensive audit reports. I am adept at using ERP systems such as SAP, which enhances my ability to deliver precise financial management in dynamic settings.\n\nI am particularly drawn to the Kenya Institute of Public Policy Research and Analysis due to its commitment to fostering informed policy decisions through rigorous research. I am eager to contribute my expertise in financial planning and analysis to support your mission and ensure the financial integrity of your projects.\n\nThank you for considering my application. I look forward to the opportunity to discuss how my skills and experiences align with the goals of the Kenya Institute of Public Policy Research and Analysis.\n\nSincerely,\n\nAugustine Ombati Okachi",
+      "company": "Kenya Institute of Public Policy Research and Analysis"
+    },
+    "metadata": {
+      "jobDescription": "Accountant",
+      "resumeId": "69de40f8b9cb57f92674db1f"
+    },
+    "updatedAt": "2026-04-14T13:51:36.526Z"
+  },
+  {
+    "_id": "69e66bacb9cb57f9267976ac",
+    "title": "BRIAN KIPKEMOI CHERUIYOT",
+    "userId": "694af0021a87e1cd234dcbff",
+    "type": "resume",
+    "__v": 0,
+    "createdAt": "2026-04-20T18:08:44.529Z",
+    "data": {
+      "personalInfo": {
+        "fullName": "BRIAN KIPKEMOI CHERUIYOT",
+        "name": "BRIAN KIPKEMOI CHERUIYOT",
+        "jobTitle": "ICT OFFICER",
+        "title": "ICT OFFICER",
+        "email": "briancheruiyot022@gmail.com",
+        "phone": "",
+        "location": "",
+        "website": "",
+        "linkedin": "",
+        "github": "",
+        "summary": "Detail-oriented Computer Science graduate from Maseno University with hands-on experience in ICT systems administration, network support, enterprise application development, and end-user training. Demonstrated ability to maintain technical documentation, troubleshoot system issues, and develop scalable web applications. Experienced in supporting IT operations at Judiciary Law Courts and delivering software solutions as a freelance developer. Adept at data analytics, system design, and applying agile methodologies. Seeking to leverage a strong technical foundation and problem-solving skills in the ICT Officer role."
+      },
+      "summary": "Detail-oriented Computer Science graduate from Maseno University with hands-on experience in ICT systems administration, network support, enterprise application development, and end-user training. Demonstrated ability to maintain technical documentation, troubleshoot system issues, and develop scalable web applications. Experienced in supporting IT operations at Judiciary Law Courts and delivering software solutions as a freelance developer. Adept at data analytics, system design, and applying agile methodologies. Seeking to leverage a strong technical foundation and problem-solving skills in the ICT Officer role.",
+      "experience": [
+        {
+          "title": "ICT Intern",
+          "company": "Judiciary Law Courts",
+          "location": "",
+          "startDate": "",
+          "endDate": "",
+          "dateRange": "Jan 2024 – Apr 2024",
+          "description": "Supported IT operations including software installations, application deployment, and hardware maintenance in a professional government environment.\nAssisted in maintaining technical documentation for ICT equipment, software, and support systems.\nCollected user feedback and recommended process improvements to enhance system reliability and user satisfaction.\nTrained end-users on ICT systems and equipment, contributing to improved operational efficiency.\nWorked with IT teams to troubleshoot and resolve technical issues, maintaining system uptime and reliability.\nAssisted in maintaining a register of network and data center equipment."
+        },
+        {
+          "title": "Fullstack Developer (Freelance)",
+          "company": "Self-Employed",
+          "location": "",
+          "startDate": "",
+          "endDate": "",
+          "dateRange": "2022 – Present",
+          "description": "Designed, developed, and deployed enterprise web applications using MERN stack, Python/Django, and Laravel, meeting diverse client requirements.\nAnalyzed system and user requirements to produce optimal system designs and technical documentation including user manuals.\nImplemented RESTful APIs and integrated secure authentication mechanisms across multiple platforms.\nPerformed data analytics and data engineering tasks, generating insights and reports for clients.\nApplied agile methodologies to manage project workflows, ensuring timely delivery and quality standards."
+        }
+      ],
+      "education": [
+        {
+          "school": "Maseno University",
+          "degree": "Bachelor of Science in Computer Science",
+          "location": "",
+          "startDate": "",
+          "endDate": "",
+          "dateRange": "Sep 2021 – Nov 2025",
+          "description": ""
+        }
+      ],
+      "skills": [
+        "Server Administration",
+        "Network Configuration",
+        "JavaScript",
+        "TypeScript",
+        "Python",
+        "PHP",
+        "Java",
+        "React",
+        "Next.js",
+        "Node.js",
+        "Express.js",
+        "Django",
+        "Laravel",
+        "MySQL",
+        "PostgreSQL",
+        "MongoDB",
+        "AWS",
+        "Google Cloud",
+        "Git",
+        "CI/CD Pipelines",
+        "Data Engineering",
+        "Technical Writing"
+      ],
+      "projects": [
+        {
+          "name": "Edubora Management System",
+          "description": "Comprehensive educational platform with automated student enrollment, course scheduling, grade tracking, and real-time analytics; implemented secure user authentication and role-based access control.",
+          "technologies": "",
+          "startDate": "",
+          "endDate": "",
+          "dateRange": ""
+        },
+        {
+          "name": "Medcore Hospital System",
+          "description": "Scalable hospital management system covering patient records, appointment scheduling, and medical data management — demonstrating experience in enterprise-level system design and deployment.",
+          "technologies": "",
+          "startDate": "",
+          "endDate": "",
+          "dateRange": ""
+        },
+        {
+          "name": "Actirova AI Tutor",
+          "description": "AI-driven educational platform integrating machine learning models to personalize learning, deliver real-time feedback, and improve educational outcomes at scale.",
+          "technologies": "",
+          "startDate": "",
+          "endDate": "",
+          "dateRange": ""
+        }
+      ],
+      "certifications": [
+        "AWS Cloud Foundations – Amazon Web Services (Foundational)",
+        "Google Cloud Platform – Core Services (Foundational)",
+        "Currently pursuing: CompTIA A+ / CCNA (in progress)"
+      ],
+      "awards": [],
+      "languages": [],
+      "customSections": []
+    },
+    "metadata": {
+      "jobDescription": "ICT OFFICER"
+    },
+    "updatedAt": "2026-04-20T18:08:44.529Z"
+  },
+  {
+    "_id": "69c4f5f5125a0dafa8a910c8",
+    "type": "cover-letter",
+    "userId": "694af0021a87e1cd234dcbff",
+    "title": "Cover Letter for Google",
+    "__v": 0,
+    "createdAt": "2026-03-26T09:01:40.878Z",
+    "data": {
+      "content": "Jacqueline Zuniga  \nCalifornia, USA  \n+1 (818) 744-0368  \nzunigaja@usc.edu  \n[Date]  \n\nHiring Manager  \nGoogle  \n[Company Address]  \n[City, State, Zip]  \n\nDear Hiring Manager,  \n\nI am writing to express my interest in the AI Data Annotator position at Google. As a detail-oriented Master of Social Work (MSW) candidate with a strong foundation in data handling and human behavior analysis, I am excited about the opportunity to contribute to Google's innovative AI initiatives. My experience in data annotation and evaluation, particularly during my internship with the AI Data Annotation and Evaluation Project, has equipped me with the skills necessary to maintain high accuracy and consistency in data labeling, while also ensuring adherence to structured guidelines.\n\nIn my role as a Security Personnel at UPS, I honed my critical thinking and analytical reasoning abilities by monitoring environments with acute attention to detail and documenting incidents accurately. This experience, combined with my proficiency in evaluating AI-generated outputs for clarity and relevance, positions me as an ideal candidate to support Google’s commitment to delivering high-quality AI solutions. I am adept at identifying patterns, providing structured feedback, and ensuring operational integrity in fast-paced environments.\n\nI am eager to bring my strong work ethic, adaptability, and analytical skills to the AI Data Annotator role at Google. I believe that my background and dedication to accuracy will significantly contribute to your team’s success. Thank you for considering my application. I look forward to the opportunity to discuss how I can add value to Google’s AI projects.\n\nSincerely,  \nJacqueline Zuniga",
+      "company": "Google"
+    },
+    "metadata": {
+      "jobDescription": "AI Data Annotator"
+    },
+    "updatedAt": "2026-03-26T09:01:40.878Z"
+  },
+  {
+    "_id": "6a4caf51bb618d757f50b6bb",
+    "title": "Portfolio Prompts: Health Care Compliance Specialist",
+    "type": "portfolio",
+    "userId": "6a39552402e6716740fd23e5",
+    "__v": 0,
+    "createdAt": "2026-07-07T07:48:33.718Z",
+    "data": {
+      "prompts": [
+        {
+          "title": "Comprehensive Compliance Audit Framework",
+          "description": "Developed a robust audit framework that automated compliance checks for healthcare practices, leading to a 30% reduction in violations within two years. The project included risk assessment tools and a reporting dashboard for stakeholders to enhance visibility on compliance status.",
+          "difficulty": "intermediate",
+          "technologies": [
+            "Excel",
+            "SQL",
+            "Power BI"
+          ]
+        },
+        {
+          "title": "HIPAA Training Program Development",
+          "description": "Created an engaging training program focused on HIPAA regulations for healthcare staff, utilizing interactive e-learning modules. This initiative improved employee understanding and adherence to HIPAA laws by 40%, significantly reducing compliance risks.",
+          "difficulty": "intermediate",
+          "technologies": [
+            "Articulate Storyline",
+            "Adobe Captivate",
+            "LMS"
+          ]
+        },
+        {
+          "title": "Policy Development for Regulatory Changes",
+          "description": "Led a project to revise compliance policies in response to new state regulations, collaborating with legal teams to ensure alignment. The updated policies improved operational efficiency by 25% and reduced compliance-related incidents.",
+          "difficulty": "intermediate",
+          "technologies": [
+            "Google Docs",
+            "SharePoint",
+            "Compliance Management Software"
+          ]
+        },
+        {
+          "title": "Compliance Monitoring and Reporting System",
+          "description": "Designed a comprehensive monitoring system that tracks compliance issues in real-time and generates weekly reports for management. This system enabled proactive resolution of potential compliance breaches and improved audit outcomes.",
+          "difficulty": "intermediate",
+          "technologies": [
+            "Tableau",
+            "Python",
+            "Microsoft Access"
+          ]
+        },
+        {
+          "title": "Risk Management Assessment Tool",
+          "description": "Developed a risk management assessment tool that quantifies compliance risks using data analytics. This tool provided insights that helped prioritize compliance initiatives and led to a strategic 40% decrease in overall risk exposure.",
+          "difficulty": "intermediate",
+          "technologies": [
+            "R",
+            "Excel",
+            "Risk Management Software"
+          ]
+        }
+      ]
+    },
+    "metadata": {
+      "jobDescription": "Health Care Compliance Specialist",
+      "resumeId": "6a4caef8bb618d757f50b69f"
+    },
+    "updatedAt": "2026-07-07T07:48:33.718Z"
+  },
+  {
+    "_id": "69b97798125a0dafa8a63bfd",
+    "type": "portfolio",
+    "userId": "694af0021a87e1cd234dcbff",
+    "title": "Portfolio Prompts: Fullstack Developer",
+    "__v": 0,
+    "createdAt": "2026-03-17T15:47:36.474Z",
+    "data": {
+      "prompts": [
+        {
+          "title": "Dynamic Personal Finance Tracker",
+          "description": "Create a fullstack application that helps users track their income, expenses, and savings goals. With real-time data visualization and personalized insights, this tool can empower users to make informed financial decisions, potentially increasing their savings by 20%.",
+          "difficulty": "intermediate",
+          "technologies": [
+            "React",
+            "Node.js",
+            "MongoDB"
+          ]
+        },
+        {
+          "title": "Collaborative Code Editor",
+          "description": "Develop a web-based code editor that allows multiple users to write and collaborate on code in real-time. Featuring syntax highlighting and version control, this application can enhance team productivity and streamline the coding process for remote teams.",
+          "difficulty": "intermediate",
+          "technologies": [
+            "React",
+            "Node.js",
+            "WebSocket"
+          ]
+        },
+        {
+          "title": "Smart Recipe Generator",
+          "description": "Build an intelligent web application that generates recipes based on the ingredients users have at home. By leveraging an external API and a user-friendly interface, this project can inspire users to reduce food waste and enhance their cooking experience.",
+          "difficulty": "intermediate",
+          "technologies": [
+            "React",
+            "Node.js",
+            "API Integration"
+          ]
+        },
+        {
+          "title": "Virtual Event Platform",
+          "description": "Create a comprehensive platform for organizing and attending virtual events. With features such as live streaming, chat, and networking opportunities, this project can significantly improve user engagement and connectivity for remote attendees.",
+          "difficulty": "intermediate",
+          "technologies": [
+            "React",
+            "Node.js",
+            "WebRTC"
+          ]
+        },
+        {
+          "title": "E-Learning Management System",
+          "description": "Design a robust e-learning platform that allows educators to create courses, track student progress, and facilitate discussions. This application can enhance the learning experience, making education more accessible and engaging for students worldwide.",
+          "difficulty": "intermediate",
+          "technologies": [
+            "React",
+            "Node.js",
+            "PostgreSQL"
+          ]
+        }
+      ]
+    },
+    "metadata": {
+      "jobDescription": "Fullstack Developer",
+      "resumeId": "69b97775125a0dafa8a63bf1"
+    },
+    "updatedAt": "2026-03-17T15:47:36.474Z"
+  },
+  {
+    "_id": "69ce9d72125a0dafa8ab9f5a",
+    "type": "resume",
+    "title": "Brian Kipkemoi Cheruiyot",
+    "userId": "694af0021a87e1cd234dcbff",
+    "__v": 0,
+    "createdAt": "2026-04-02T16:46:43.001Z",
+    "data": {
+      "personalInfo": {
+        "fullName": "Brian Kipkemoi Cheruiyot",
+        "name": "undefined undefined",
+        "jobTitle": "Fullstack Developer",
+        "title": "Fullstack Developer",
+        "email": "briancheruiyot022@gmail.com",
+        "phone": "+254702764907",
+        "location": "Nairobi, Kenya",
+        "website": "https://briankcheruiyot.netlify.app/",
+        "linkedin": "https://www.linkedin.com/in/cheruiyotbrian/",
+        "github": "Github.com/cobrianz",
+        "summary": "Results-driven Computer Science graduate from Maseno University specializing in software engineering, with expertise in scalable web and cross-platform applications and AI solutions. Proficient in the MERN stack (MongoDB, Express.js, React, Node.js), JavaScript, and Python for dynamic user interfaces. Experienced in designing RESTful APIs, conducting unit testing, and applying agile methodologies to enhance project workflows. Completed freelance projects and an ICT internship, collaborating with cross-functional teams to deliver innovative software solutions. Recognized for strong analytical and problem-solving skills, ready to contribute to forward-thinking software development teams."
+      },
+      "summary": "Motivated Computer Science graduate from Maseno University with a passion for software engineering. Proficient in building scalable web applications and AI-driven solutions using the MERN stack, React, JavaScript, and Python. Experienced in RESTful API design, unit testing, and agile methodologies through freelance projects and an ICT internship. Adept at problem-solving and eager to contribute technical expertise to innovative software development teams.",
+      "experience": [
+        {
+          "title": "Fullstack Developer",
+          "company": "Freelance Web Developer",
+          "location": "",
+          "startDate": "",
+          "endDate": "",
+          "dateRange": "2022 – PRESENT",
+          "description": "Developed and delivered custom web applications for clients using modern frameworks and tools.\nBuilt responsive applications with the MERN stack and Tailwind CSS, consistently meeting client specifications.\nCollaborated with clients to gather requirements, implement features, and ensure timely project delivery."
+        },
+        {
+          "title": "ICT Intern",
+          "company": "Judiciary Law Courts",
+          "location": "",
+          "startDate": "",
+          "endDate": "",
+          "dateRange": "Jan 2024 – Apr 2024",
+          "description": "Supported IT operations and system maintenance in a professional environment.\nAssisted in software installations, application deployment, and system troubleshooting.\nWorked with IT teams to resolve technical issues, enhancing system reliability and user satisfaction."
+        }
+      ],
+      "education": [
+        {
+          "school": "Maseno University",
+          "degree": "Bachelor of Science in Computer Science",
+          "location": "",
+          "startDate": "",
+          "endDate": "",
+          "dateRange": "SEP 2021-NOV 2025",
+          "description": ""
+        }
+      ],
+      "skills": [
+        "Java",
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "PHP",
+        "React",
+        "Next.js",
+        "Express.js",
+        "Laravel",
+        "Django",
+        "Git",
+        "GitHub",
+        "VS Code",
+        "MySQL",
+        "MongoDB",
+        "PostgreSQL",
+        "RESTful APIs",
+        "Material UI",
+        "Tailwind CSS",
+        "Agile Development",
+        "Unit Testing",
+        "Google Cloud",
+        "AWS (Foundational)"
+      ],
+      "projects": [
+        {
+          "name": "Actirova",
+          "description": "Actirova AI Tutor is an AI-driven educational platform that personalizes learning by analyzing individual student needs and learning styles. It delivers customized instructional materials, interactive lessons, and real-time feedback, enhancing engagement and improving educational outcomes.",
+          "technologies": "React, Tailwind CSS, LangChain, Gemini API, OpenAI GPT",
+          "startDate": "",
+          "endDate": "",
+          "dateRange": ""
+        },
+        {
+          "name": "Edubora Management System",
+          "description": "Edubora Management System is a comprehensive educational platform that optimizes administrative tasks through automated student enrollment, course scheduling, grade tracking, and communication tools. It enhances operational efficiency and supports data-driven decision-making with real-time analytics, all within a secure, user-friendly interface.",
+          "technologies": "MERN Stack",
+          "startDate": "",
+          "endDate": "",
+          "dateRange": ""
+        },
+        {
+          "name": "Medcore Hospital System\n\n",
+          "description": "Developed a scalable hospital management system enhancing patient care, appointment scheduling, and medical record management using modern web technologies.",
+          "technologies": "MERN Stack, TypeScript, Tailwind CSS",
+          "startDate": "",
+          "endDate": "",
+          "dateRange": ""
+        },
+        {
+          "name": "Personal Portfolio Website",
+          "description": "Personal portfolio website featuring a curated collection of design projects and coding samples. Showcases my expertise in web development, graphic design, and project management through detailed project descriptions, client testimonials, and industry insights.",
+          "technologies": "React, Tailwind CSS, Framer Motion, TypeScript, Vite",
+          "startDate": "",
+          "endDate": "",
+          "dateRange": ""
+        }
+      ],
+      "certifications": [],
+      "awards": [],
+      "languages": [],
+      "customSections": [],
+      "template": "classic"
+    },
+    "metadata": {
+      "jobDescription": "Fullstack Developer"
+    },
+    "updatedAt": "2026-04-02T17:06:58.917Z"
+  },
+  {
+    "_id": "69e66eddb9cb57f926797830",
+    "type": "application-letter",
+    "title": "Application Letter for KIPPRA",
+    "userId": "694af0021a87e1cd234dcbff",
+    "__v": 0,
+    "createdAt": "2026-04-20T18:22:21.398Z",
+    "data": {
+      "content": "Brian Kipkemoi Cheruiyot\nNairobi, Kenya\n0702764907\nbriancheruiyot022@gmail.com\n[Date]\n\nHiring Manager\nKIPPRA\n[Company Address]\n\nDear Hiring Manager,\n\nI am writing to express my interest in the ICT Officer position at KIPPRA. As a detail-oriented Computer Science graduate from Maseno University, I bring hands-on experience in ICT systems administration, network support, and enterprise application development, gained through my internship at the Judiciary Law Courts and my freelance work as a Fullstack Developer. My technical acumen in server administration, network configuration, and software deployment ensures that I can contribute significantly to KIPPRA's ICT operations.\n\nDuring my tenure at the Judiciary Law Courts, I supported IT operations by maintaining technical documentation, troubleshooting system issues, and training end-users, which improved operational efficiency. Additionally, my freelance projects, including the Edubora Management System and the Medcore Hospital System, showcase my ability to design and implement scalable solutions that meet diverse client needs. I am adept in various technologies such as JavaScript, Python, and cloud services, which I believe align perfectly with KIPPRA's objectives.\n\nI am eager to leverage my strong technical foundation and problem-solving skills to enhance KIPPRA's ICT initiatives. I look forward to the opportunity to discuss how my background, skills, and enthusiasms align with the needs of your team.\n\nThank you for considering my application. I hope to speak with you soon.\n\nSincerely,\n\nBrian Kipkemoi Cheruiyot",
+      "company": "KIPPRA"
+    },
+    "metadata": {
+      "jobDescription": "ICT OFFICER",
+      "resumeId": "69ce9d72125a0dafa8ab9f5a"
+    },
+    "updatedAt": "2026-04-20T18:22:21.398Z"
+  },
+  {
+    "_id": "69d0b83eb9cb57f92670bf1a",
+    "type": "resume",
+    "userId": "694af0021a87e1cd234dcbff",
+    "title": "Joseph Karanja Njeru",
+    "__v": 0,
+    "createdAt": "2026-04-04T07:05:34.763Z",
+    "data": {
+      "personalInfo": {
+        "fullName": "Joseph Karanja Njeru",
+        "name": "undefined undefined",
+        "jobTitle": "Economic Statistics",
+        "title": "Economic Statistics",
+        "email": "jellowjoseph@gmail.com",
+        "phone": "0798028679",
+        "location": "Nairobi, Kenya",
+        "website": "",
+        "linkedin": "linkedin.com/in/linkedin",
+        "github": "",
+        "summary": "Detail-oriented and analytical Economics and Statistics student with a strong foundation in data analysis and IT applications. Proficient in R programming and Microsoft Excel, with practical experience in financial operations and statistical analysis. Demonstrated ability to collaborate effectively in team settings and communicate insights clearly. Passionate about leveraging statistical methods for impactful economic research."
+      },
+      "summary": "Detail-oriented and analytical Economics and Statistics student with a strong foundation in data analysis and IT applications. Proficient in R programming and Microsoft Excel, with practical experience in financial operations and statistical analysis. Demonstrated ability to collaborate effectively in team settings and communicate insights clearly. Passionate about leveraging statistical methods for impactful economic research.",
+      "experience": [
+        {
+          "title": "Industrial Attachment Trainee",
+          "company": "Muki Sacco Limited, Geta Branch",
+          "location": "",
+          "startDate": "",
+          "endDate": "",
+          "dateRange": "May 2025 – August 2025",
+          "description": "Performed data entry, cleaning, and analysis using Microsoft Excel, enhancing data accuracy and supporting informed decision-making.\nAssisted in preparing and organizing financial reports and member records, ensuring timely and precise documentation.\nManaged customer account processes, including verification and updating member information to uphold data integrity.\nMaintained effective record-keeping and documentation systems in compliance with SACCO policies.\nCollaborated with branch staff on daily operations, gaining hands-on experience in cooperative financial management."
+        }
+      ],
+      "education": [
+        {
+          "school": "Maseno University",
+          "degree": "Bachelor’s Degree in Economics and Statistics with IT",
+          "location": "",
+          "startDate": "",
+          "endDate": "",
+          "dateRange": "2022 – Present",
+          "description": ""
+        },
+        {
+          "school": "Geta Secondary School",
+          "degree": "Kenya Certificate of Secondary Education (KCSE)",
+          "location": "",
+          "startDate": "",
+          "endDate": "",
+          "dateRange": "2018 – 2021",
+          "description": ""
+        },
+        {
+          "school": "Gathuthi Primary School",
+          "degree": "Kenya Certificate of Primary Education (KCPE)",
+          "location": "",
+          "startDate": "",
+          "endDate": "",
+          "dateRange": "2010 – 2017",
+          "description": ""
+        }
+      ],
+      "skills": [
+        "Data Analysis & Interpretation",
+        "Statistical Software: R",
+        "IT Proficiency & Microsoft Excel",
+        "Research & Report Writing",
+        "Problem-Solving & Critical Thinking",
+        "Communication & Teamwork"
+      ],
+      "projects": [],
+      "certifications": [],
+      "awards": [],
+      "languages": [
+        "English (Fluent)",
+        "level"
+      ],
+      "customSections": []
+    },
+    "metadata": {
+      "jobDescription": "Economic statistics"
+    },
+    "updatedAt": "2026-04-04T07:09:30.505Z"
+  },
+  {
+    "_id": "6a5615b03255061e690c23d9",
+    "userId": "694af0021a87e1cd234dcbff",
+    "type": "interview",
+    "title": "Fullstack Java Developer",
+    "data": {
+      "score": 10,
+      "feedback": "The candidate did not provide any relevant information or insights regarding the implementation of microservices architecture, leading to a very low score.",
+      "technicalAccuracy": "The response lacks any technical correctness as no information was presented.",
+      "communicationStyle": "The candidate's answer was very brief and did not convey any confidence or clarity due to the lack of content.",
+      "strengths": [],
+      "improvedAnswer": "To implement a microservices architecture using Spring Boot, I would start by breaking down the application into smaller, independent services, each responsible for a specific business capability. Each microservice would be developed using Spring Boot for rapid development and deployment. For inter-service communication, I would use RESTful APIs or messaging systems like RabbitMQ or Kafka, depending on the use case. To manage data consistency across services, I would implement the Saga pattern for distributed transactions or use eventual consistency principles along with a centralized configuration management system like Spring Cloud Config. Additionally, I would leverage tools like Spring Cloud Gateway for API management and service discovery, and utilize database per service approach to ensure that each service is decoupled.",
+      "followUpQuestions": [
+        "Can you explain the differences between synchronous and asynchronous communication in microservices?",
+        "What are some strategies for handling failures in a microservices architecture?",
+        "How would you approach service discovery in a microservices environment?"
+      ]
+    },
+    "metadata": {
+      "question": "Describe how you would implement a microservices architecture using Spring Boot and how you would manage inter-service communication and data consistency across services.",
+      "difficulty": "advanced"
+    },
+    "createdAt": "2026-07-14T10:55:44.706Z",
+    "updatedAt": "2026-07-14T10:55:44.706Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a5615b23255061e690c23dc",
+    "userId": "694af0021a87e1cd234dcbff",
+    "type": "interview",
+    "title": "Fullstack Java Developer Interview — Q1",
+    "data": {
+      "question": "Describe how you would implement a microservices architecture using Spring Boot and how you would manage inter-service communication and data consistency across services.",
+      "answer": "I don't know",
+      "feedback": {
+        "score": 10,
+        "feedback": "The candidate did not provide any relevant information or insights regarding the implementation of microservices architecture, leading to a very low score.",
+        "technicalAccuracy": "The response lacks any technical correctness as no information was presented.",
+        "communicationStyle": "The candidate's answer was very brief and did not convey any confidence or clarity due to the lack of content.",
+        "strengths": [],
+        "improvedAnswer": "To implement a microservices architecture using Spring Boot, I would start by breaking down the application into smaller, independent services, each responsible for a specific business capability. Each microservice would be developed using Spring Boot for rapid development and deployment. For inter-service communication, I would use RESTful APIs or messaging systems like RabbitMQ or Kafka, depending on the use case. To manage data consistency across services, I would implement the Saga pattern for distributed transactions or use eventual consistency principles along with a centralized configuration management system like Spring Cloud Config. Additionally, I would leverage tools like Spring Cloud Gateway for API management and service discovery, and utilize database per service approach to ensure that each service is decoupled.",
+        "followUpQuestions": [
+          "Can you explain the differences between synchronous and asynchronous communication in microservices?",
+          "What are some strategies for handling failures in a microservices architecture?",
+          "How would you approach service discovery in a microservices environment?"
+        ]
+      }
+    },
+    "metadata": {
+      "role": "Fullstack Java Developer",
+      "difficulty": "advanced",
+      "questionIdx": 0
+    },
+    "createdAt": "2026-07-14T10:55:46.081Z",
+    "updatedAt": "2026-07-14T10:55:46.081Z",
+    "__v": 0
+  }
+]

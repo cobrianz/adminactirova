@@ -1,0 +1,610 @@
+[
+  {
+    "_id": "6a4caee7cc862f34a25b83d1",
+    "userId": "6a39552402e6716740fd23e5",
+    "trendingCareers": [
+      {
+        "title": "Art Curator",
+        "growth": "15%",
+        "description": "With the rise of digital art and virtual exhibitions, art curators are in demand to create engaging experiences in both physical and online spaces.",
+        "averageSalary": "$50,000 - $80,000",
+        "skills": [
+          "art history",
+          "project management"
+        ],
+        "industry": "Arts and Culture",
+        "_id": "6a4caee7cc862f34a25b83d2"
+      },
+      {
+        "title": "Health Care Compliance Specialist",
+        "growth": "18%",
+        "description": "As the healthcare sector grows, so does the need for professionals ensuring regulatory compliance, particularly with new laws and standards.",
+        "averageSalary": "$60,000 - $90,000",
+        "skills": [
+          "law",
+          "regulatory knowledge"
+        ],
+        "industry": "Healthcare",
+        "_id": "6a4caee7cc862f34a25b83d3"
+      },
+      {
+        "title": "Theater Production Manager",
+        "growth": "12%",
+        "description": "With the resurgence of live performances post-pandemic, the role of production managers is crucial for organizing and executing theater productions.",
+        "averageSalary": "$40,000 - $70,000",
+        "skills": [
+          "project management",
+          "communication"
+        ],
+        "industry": "Entertainment",
+        "_id": "6a4caee7cc862f34a25b83d4"
+      },
+      {
+        "title": "Fashion Sustainability Consultant",
+        "growth": "20%",
+        "description": "As the fashion industry moves toward sustainability, consultants help brands implement eco-friendly practices, making this role increasingly vital.",
+        "averageSalary": "$55,000 - $85,000",
+        "skills": [
+          "sustainability knowledge",
+          "fashion design"
+        ],
+        "industry": "Fashion",
+        "_id": "6a4caee7cc862f34a25b83d5"
+      },
+      {
+        "title": "Digital Language Specialist",
+        "growth": "14%",
+        "description": "With globalization and digital communication, specialists are needed to bridge language gaps for businesses and content creators.",
+        "averageSalary": "$45,000 - $75,000",
+        "skills": [
+          "language proficiency",
+          "translation"
+        ],
+        "industry": "Education/Translation",
+        "_id": "6a4caee7cc862f34a25b83d6"
+      },
+      {
+        "title": "Telehealth Coordinator",
+        "growth": "22%",
+        "description": "The expansion of telehealth services has led to increased demand for coordinators to manage operations and patient interactions.",
+        "averageSalary": "$50,000 - $80,000",
+        "skills": [
+          "healthcare knowledge",
+          "customer service"
+        ],
+        "industry": "Healthcare",
+        "_id": "6a4caee7cc862f34a25b83d7"
+      }
+    ],
+    "trendingSkills": [
+      {
+        "skill": "Digital Marketing",
+        "demand": "high",
+        "description": "Essential for promoting products and services effectively in a digital world.",
+        "relatedCareers": [
+          "Art Curator",
+          "Fashion Sustainability Consultant"
+        ],
+        "learningResources": "Online courses (Coursera, LinkedIn Learning)",
+        "_id": "6a4caee7cc862f34a25b83d8"
+      },
+      {
+        "skill": "Regulatory Compliance",
+        "demand": "critical",
+        "description": "Understanding and adhering to laws is crucial in sectors like healthcare and finance.",
+        "relatedCareers": [
+          "Health Care Compliance Specialist"
+        ],
+        "learningResources": "Certification programs (Compliance Certification Board)",
+        "_id": "6a4caee7cc862f34a25b83d9"
+      },
+      {
+        "skill": "Project Management",
+        "demand": "medium",
+        "description": "Organizational skills are vital for successfully leading projects, especially in creative industries.",
+        "relatedCareers": [
+          "Theater Production Manager"
+        ],
+        "learningResources": "PMI certification, online courses",
+        "_id": "6a4caee7cc862f34a25b83da"
+      },
+      {
+        "skill": "Sustainability Practices",
+        "demand": "high",
+        "description": "With growing environmental concerns, knowledge of sustainable practices is increasingly sought after.",
+        "relatedCareers": [
+          "Fashion Sustainability Consultant"
+        ],
+        "learningResources": "Sustainability courses (edX, Coursera)",
+        "_id": "6a4caee7cc862f34a25b83db"
+      },
+      {
+        "skill": "Language Proficiency",
+        "demand": "high",
+        "description": "Fluency in multiple languages is valuable for communication in global markets.",
+        "relatedCareers": [
+          "Digital Language Specialist"
+        ],
+        "learningResources": "Language learning apps (Duolingo, Rosetta Stone)",
+        "_id": "6a4caee7cc862f34a25b83dc"
+      },
+      {
+        "skill": "Customer Service",
+        "demand": "medium",
+        "description": "Excellent customer service skills are essential in healthcare and service-oriented roles.",
+        "relatedCareers": [
+          "Telehealth Coordinator"
+        ],
+        "learningResources": "Customer service training programs",
+        "_id": "6a4caee7cc862f34a25b83dd"
+      }
+    ],
+    "marketInsights": "The job market is increasingly leaning towards roles that blend creativity, technology, and sustainability, reflecting societal shifts and advancements in various sectors.",
+    "emergingFields": [
+      "Digital Arts",
+      "Sustainable Fashion",
+      "Telehealth Services"
+    ],
+    "expiresAt": "2026-08-06T07:46:47.536Z",
+    "createdAt": "2026-07-07T07:46:47.550Z",
+    "updatedAt": "2026-07-07T07:46:47.550Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a4016b976d7b136a4981a5a",
+    "userId": "694af0021a87e1cd234dcbff",
+    "trendingCareers": [
+      {
+        "title": "Data Scientist",
+        "growth": "30%",
+        "description": "As businesses continue to leverage data for decision-making, the demand for data scientists who can analyze complex data sets is surging.",
+        "averageSalary": "$95,000 - $130,000",
+        "skills": [
+          "statistical analysis",
+          "machine learning"
+        ],
+        "industry": "Technology",
+        "_id": "6a4016b976d7b136a4981a5b"
+      },
+      {
+        "title": "Financial Analyst",
+        "growth": "25%",
+        "description": "With the increasing complexity of markets, financial analysts are needed to evaluate investment opportunities and provide insights.",
+        "averageSalary": "$70,000 - $90,000",
+        "skills": [
+          "financial modeling",
+          "data analysis"
+        ],
+        "industry": "Finance",
+        "_id": "6a4016b976d7b136a4981a5c"
+      },
+      {
+        "title": "Digital Marketing Specialist",
+        "growth": "28%",
+        "description": "With the rise of e-commerce and online branding, digital marketing specialists are essential for businesses to reach their audience effectively.",
+        "averageSalary": "$60,000 - $80,000",
+        "skills": [
+          "SEO",
+          "content marketing"
+        ],
+        "industry": "Marketing",
+        "_id": "6a4016b976d7b136a4981a5d"
+      },
+      {
+        "title": "Real Estate Analyst",
+        "growth": "20%",
+        "description": "As real estate markets evolve, analysts are needed to assess property values and investment potential, making this career highly relevant.",
+        "averageSalary": "$65,000 - $85,000",
+        "skills": [
+          "market analysis",
+          "financial modeling"
+        ],
+        "industry": "Real Estate",
+        "_id": "6a4016b976d7b136a4981a5e"
+      },
+      {
+        "title": "AI Ethics Consultant",
+        "growth": "35%",
+        "description": "With the rise of AI in various sectors, the need for professionals who can ensure ethical usage and compliance is increasingly critical.",
+        "averageSalary": "$90,000 - $120,000",
+        "skills": [
+          "ethical analysis",
+          "policy development"
+        ],
+        "industry": "Technology",
+        "_id": "6a4016b976d7b136a4981a5f"
+      },
+      {
+        "title": "Entrepreneurial Coach",
+        "growth": "15%",
+        "description": "As more individuals seek to start their businesses, coaches who can provide guidance and mentorship are becoming highly sought after.",
+        "averageSalary": "$50,000 - $70,000",
+        "skills": [
+          "business strategy",
+          "mentorship"
+        ],
+        "industry": "Education/Consulting",
+        "_id": "6a4016b976d7b136a4981a60"
+      }
+    ],
+    "trendingSkills": [
+      {
+        "skill": "Data Analysis",
+        "demand": "critical",
+        "description": "The ability to analyze data is vital for decision-making across industries, especially in finance and marketing.",
+        "relatedCareers": [
+          "Data Scientist",
+          "Financial Analyst"
+        ],
+        "learningResources": "Coursera, Udacity",
+        "_id": "6a4016b976d7b136a4981a61"
+      },
+      {
+        "skill": "Digital Marketing",
+        "demand": "high",
+        "description": "As businesses shift online, digital marketing skills are essential for reaching target audiences effectively.",
+        "relatedCareers": [
+          "Digital Marketing Specialist",
+          "Entrepreneurial Coach"
+        ],
+        "learningResources": "HubSpot Academy, Google Digital Garage",
+        "_id": "6a4016b976d7b136a4981a62"
+      },
+      {
+        "skill": "Financial Modeling",
+        "demand": "high",
+        "description": "Critical for anyone in finance, financial modeling is essential for predicting business outcomes and investment analysis.",
+        "relatedCareers": [
+          "Financial Analyst",
+          "Real Estate Analyst"
+        ],
+        "learningResources": "LinkedIn Learning, Investopedia",
+        "_id": "6a4016b976d7b136a4981a63"
+      },
+      {
+        "skill": "Machine Learning",
+        "demand": "critical",
+        "description": "As AI becomes more prevalent, understanding machine learning techniques is crucial for tech-related careers.",
+        "relatedCareers": [
+          "Data Scientist",
+          "AI Ethics Consultant"
+        ],
+        "learningResources": "Coursera, edX",
+        "_id": "6a4016b976d7b136a4981a64"
+      },
+      {
+        "skill": "Ethical Analysis",
+        "demand": "medium",
+        "description": "With the growing concern over AI and technology ethics, this skill is becoming increasingly important in tech sectors.",
+        "relatedCareers": [
+          "AI Ethics Consultant"
+        ],
+        "learningResources": "edX, various university courses",
+        "_id": "6a4016b976d7b136a4981a65"
+      },
+      {
+        "skill": "Business Strategy",
+        "demand": "medium",
+        "description": "Essential for entrepreneurs and business professionals to create effective plans and navigate market challenges.",
+        "relatedCareers": [
+          "Entrepreneurial Coach"
+        ],
+        "learningResources": "Harvard Business School Online, Skillshare",
+        "_id": "6a4016b976d7b136a4981a66"
+      }
+    ],
+    "marketInsights": "The current job market is heavily influenced by technological advancements, especially in data and AI, alongside a growing demand for financial and marketing expertise. Entrepreneurship is also on the rise, with individuals seeking guidance and resources to start their own businesses.",
+    "emergingFields": [
+      "AI Ethics",
+      "Sustainable Investing",
+      "Digital Entrepreneurship"
+    ],
+    "expiresAt": "2026-07-27T18:30:17.176Z",
+    "createdAt": "2026-06-27T18:30:17.188Z",
+    "updatedAt": "2026-06-27T18:30:17.188Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a5e3a4dbcffb538af2ba9d6",
+    "userId": "69b79e042e57d5ce5576953b",
+    "trendingCareers": [
+      {
+        "title": "Data Scientist",
+        "growth": "31%",
+        "description": "With the increasing reliance on data-driven decision making, data scientists are in high demand to analyze complex data sets and provide actionable insights.",
+        "averageSalary": "$95,000 - $130,000",
+        "skills": [
+          "statistical analysis",
+          "machine learning"
+        ],
+        "industry": "Technology & Finance",
+        "_id": "6a5e3a4dbcffb538af2ba9d7"
+      },
+      {
+        "title": "Health Coach",
+        "growth": "24%",
+        "description": "As more individuals prioritize wellness and preventive health measures, health coaches are sought after to guide clients in achieving their health goals.",
+        "averageSalary": "$40,000 - $70,000",
+        "skills": [
+          "nutrition expertise",
+          "motivational interviewing"
+        ],
+        "industry": "Health & Wellness",
+        "_id": "6a5e3a4dbcffb538af2ba9d8"
+      },
+      {
+        "title": "UX/UI Designer",
+        "growth": "22%",
+        "description": "In a digital-first world, companies need UX/UI designers to create user-friendly and visually appealing interfaces, making this role more essential than ever.",
+        "averageSalary": "$70,000 - $110,000",
+        "skills": [
+          "user research",
+          "prototyping"
+        ],
+        "industry": "Technology & Design",
+        "_id": "6a5e3a4dbcffb538af2ba9d9"
+      },
+      {
+        "title": "Sustainability Consultant",
+        "growth": "20%",
+        "description": "As businesses strive to meet environmental regulations and improve their sustainability practices, consultants in this field are increasingly valuable.",
+        "averageSalary": "$60,000 - $100,000",
+        "skills": [
+          "environmental science",
+          "regulatory knowledge"
+        ],
+        "industry": "Environmental & Consultancy",
+        "_id": "6a5e3a4dbcffb538af2ba9da"
+      },
+      {
+        "title": "Content Strategist",
+        "growth": "19%",
+        "description": "With the explosion of digital content, organizations are looking for professionals who can create and manage effective content strategies.",
+        "averageSalary": "$55,000 - $90,000",
+        "skills": [
+          "content creation",
+          "SEO"
+        ],
+        "industry": "Marketing & Communications",
+        "_id": "6a5e3a4dbcffb538af2ba9db"
+      },
+      {
+        "title": "Nurse Practitioner",
+        "growth": "45%",
+        "description": "With an increasing focus on accessible healthcare, nurse practitioners are becoming vital in providing primary and specialized care.",
+        "averageSalary": "$90,000 - $120,000",
+        "skills": [
+          "clinical assessment",
+          "patient care"
+        ],
+        "industry": "Healthcare",
+        "_id": "6a5e3a4dbcffb538af2ba9dc"
+      }
+    ],
+    "trendingSkills": [
+      {
+        "skill": "Data Analysis",
+        "demand": "critical",
+        "description": "The ability to interpret and derive insights from data is essential across numerous industries.",
+        "relatedCareers": [
+          "Data Scientist",
+          "Content Strategist"
+        ],
+        "learningResources": "Coursera, edX, DataCamp",
+        "_id": "6a5e3a4dbcffb538af2ba9dd"
+      },
+      {
+        "skill": "User Experience Design",
+        "demand": "high",
+        "description": "Creating user-centered designs is crucial for improving customer satisfaction and usability in products.",
+        "relatedCareers": [
+          "UX/UI Designer"
+        ],
+        "learningResources": "Udemy, LinkedIn Learning, Interaction Design Foundation",
+        "_id": "6a5e3a4dbcffb538af2ba9de"
+      },
+      {
+        "skill": "Health and Wellness Coaching",
+        "demand": "high",
+        "description": "Guiding individuals towards healthier lifestyles is increasingly important in today's wellness-focused society.",
+        "relatedCareers": [
+          "Health Coach",
+          "Nurse Practitioner"
+        ],
+        "learningResources": "Institute for Integrative Nutrition, Health Coach Institute",
+        "_id": "6a5e3a4dbcffb538af2ba9df"
+      },
+      {
+        "skill": "Sustainability Practices",
+        "demand": "medium",
+        "description": "Understanding and implementing sustainable practices is vital for businesses looking to improve their environmental impact.",
+        "relatedCareers": [
+          "Sustainability Consultant"
+        ],
+        "learningResources": "Sustainability Management courses on Coursera, edX",
+        "_id": "6a5e3a4dbcffb538af2ba9e0"
+      },
+      {
+        "skill": "Content Strategy Development",
+        "demand": "medium",
+        "description": "Creating effective content strategies is key to successful marketing and brand management.",
+        "relatedCareers": [
+          "Content Strategist"
+        ],
+        "learningResources": "Content Marketing Institute, HubSpot Academy",
+        "_id": "6a5e3a4dbcffb538af2ba9e1"
+      },
+      {
+        "skill": "Clinical Skills",
+        "demand": "critical",
+        "description": "Having solid clinical skills is essential for providing quality healthcare and patient management.",
+        "relatedCareers": [
+          "Nurse Practitioner"
+        ],
+        "learningResources": "Nursing schools, online clinical training programs",
+        "_id": "6a5e3a4dbcffb538af2ba9e2"
+      }
+    ],
+    "marketInsights": "The job market is evolving rapidly with significant growth in technology, health and wellness, and sustainability sectors. There is a noticeable shift towards data-driven roles and an emphasis on user experience in digital products. As health becomes a priority, roles in healthcare and wellness are also on the rise.",
+    "emergingFields": [
+      "Telehealth",
+      "AI in Healthcare",
+      "Sustainable Business Practices"
+    ],
+    "expiresAt": "2026-08-19T15:10:05.731Z",
+    "createdAt": "2026-07-20T15:10:05.741Z",
+    "updatedAt": "2026-07-20T15:10:05.741Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a5e9bf89b94565baecdcd52",
+    "userId": "6a5a7a7aea82958b8c771e7e",
+    "trendingCareers": [
+      {
+        "title": "Data Scientist",
+        "growth": "31%",
+        "description": "As organizations increasingly rely on data-driven decision making, the demand for data scientists continues to grow. They analyze complex data sets to inform business strategies.",
+        "averageSalary": "$90,000 - $130,000",
+        "skills": [
+          "machine learning",
+          "data visualization"
+        ],
+        "industry": "Technology",
+        "_id": "6a5e9bf89b94565baecdcd53"
+      },
+      {
+        "title": "Instructional Designer",
+        "growth": "25%",
+        "description": "With the rise of online and blended learning, instructional designers are essential for creating engaging educational content and assessing learning outcomes.",
+        "averageSalary": "$65,000 - $95,000",
+        "skills": [
+          "e-learning development",
+          "curriculum design"
+        ],
+        "industry": "Education",
+        "_id": "6a5e9bf89b94565baecdcd54"
+      },
+      {
+        "title": "Cybersecurity Analyst",
+        "growth": "35%",
+        "description": "As cyber threats increase, organizations are prioritizing cybersecurity. Analysts protect systems and data from breaches and ensure compliance with regulations.",
+        "averageSalary": "$80,000 - $120,000",
+        "skills": [
+          "network security",
+          "risk assessment"
+        ],
+        "industry": "Information Technology",
+        "_id": "6a5e9bf89b94565baecdcd55"
+      },
+      {
+        "title": "AI/ML Engineer",
+        "growth": "40%",
+        "description": "With the rapid advancements in artificial intelligence and machine learning technologies, professionals who can develop and implement AI solutions are in high demand.",
+        "averageSalary": "$100,000 - $150,000",
+        "skills": [
+          "programming",
+          "deep learning"
+        ],
+        "industry": "Technology",
+        "_id": "6a5e9bf89b94565baecdcd56"
+      },
+      {
+        "title": "Health Informatics Specialist",
+        "growth": "30%",
+        "description": "As healthcare systems increasingly leverage technology for patient data management, specialists who can analyze and manage health information systems are crucial.",
+        "averageSalary": "$75,000 - $110,000",
+        "skills": [
+          "health data analysis",
+          "information technology"
+        ],
+        "industry": "Healthcare",
+        "_id": "6a5e9bf89b94565baecdcd57"
+      },
+      {
+        "title": "Digital Marketing Manager",
+        "growth": "28%",
+        "description": "As businesses shift towards online platforms, digital marketing managers who can strategize and execute online campaigns are becoming vital.",
+        "averageSalary": "$70,000 - $110,000",
+        "skills": [
+          "SEO",
+          "content marketing"
+        ],
+        "industry": "Marketing",
+        "_id": "6a5e9bf89b94565baecdcd58"
+      }
+    ],
+    "trendingSkills": [
+      {
+        "skill": "Data Analysis",
+        "demand": "critical",
+        "description": "The ability to analyze and interpret data is essential across various industries for informed decision-making.",
+        "relatedCareers": [
+          "Data Scientist",
+          "Cybersecurity Analyst"
+        ],
+        "learningResources": "Coursera, edX, DataCamp",
+        "_id": "6a5e9bf89b94565baecdcd59"
+      },
+      {
+        "skill": "E-Learning Development",
+        "demand": "high",
+        "description": "Creating engaging online learning experiences is crucial as education continues to expand into digital formats.",
+        "relatedCareers": [
+          "Instructional Designer"
+        ],
+        "learningResources": "LinkedIn Learning, Udemy, Articulate 360",
+        "_id": "6a5e9bf89b94565baecdcd5a"
+      },
+      {
+        "skill": "Cybersecurity Fundamentals",
+        "demand": "high",
+        "description": "Understanding the basics of cybersecurity is essential for protecting organizational data and ensuring compliance.",
+        "relatedCareers": [
+          "Cybersecurity Analyst"
+        ],
+        "learningResources": "Cybrary, CompTIA, Udacity",
+        "_id": "6a5e9bf89b94565baecdcd5b"
+      },
+      {
+        "skill": "Machine Learning",
+        "demand": "critical",
+        "description": "The ability to develop algorithms that enable machines to learn from data is increasingly important in tech-driven industries.",
+        "relatedCareers": [
+          "AI/ML Engineer"
+        ],
+        "learningResources": "Kaggle, Coursera, Fast.ai",
+        "_id": "6a5e9bf89b94565baecdcd5c"
+      },
+      {
+        "skill": "Content Marketing",
+        "demand": "medium",
+        "description": "Creating valuable content to attract and retain customers is essential in the digital marketing landscape.",
+        "relatedCareers": [
+          "Digital Marketing Manager"
+        ],
+        "learningResources": "HubSpot Academy, Copyblogger, Moz",
+        "_id": "6a5e9bf89b94565baecdcd5d"
+      },
+      {
+        "skill": "Health Data Management",
+        "demand": "high",
+        "description": "Managing and analyzing health data is critical in improving patient care and operational efficiency in healthcare.",
+        "relatedCareers": [
+          "Health Informatics Specialist"
+        ],
+        "learningResources": "HealthIT.gov, Coursera, HIMSS",
+        "_id": "6a5e9bf89b94565baecdcd5e"
+      }
+    ],
+    "marketInsights": "The job market is shifting towards technology-driven roles, with a significant emphasis on data, cybersecurity, and digital content creation. There is a growing need for professionals who can leverage technology to solve complex problems and enhance organizational outcomes.",
+    "emergingFields": [
+      "Health Tech",
+      "EdTech",
+      "AI Ethics"
+    ],
+    "expiresAt": "2026-08-19T22:06:48.032Z",
+    "createdAt": "2026-07-20T22:06:48.053Z",
+    "updatedAt": "2026-07-20T22:06:48.053Z",
+    "__v": 0
+  }
+]

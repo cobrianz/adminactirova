@@ -1,0 +1,109 @@
+[
+  {
+    "_id": "6a6c7289497a9c5595f36c06",
+    "userId": "6a5a7a7aea82958b8c771e7e",
+    "type": "adaptive_recommendations",
+    "__v": 0,
+    "content": [
+      {
+        "title": "Intro to Python Programming",
+        "description": "This course will teach you the basics of Python programming, including variables, loops, and functions. Understanding Python is crucial since your current 'Introduction to Programming' course is only at 2%, and this will solidify your programming foundation, making it easier for you to tackle more complex topics later.",
+        "category": "Technology",
+        "difficulty": "Beginner",
+        "duration": "4 weeks",
+        "reason": "Your 'Introduction to Programming' course is at 2% — this Python course will help you build a strong base in programming concepts.",
+        "tags": [
+          "Python",
+          "Programming",
+          "Coding Basics"
+        ],
+        "rating": 4.7,
+        "students": 1500,
+        "isPremium": false
+      },
+      {
+        "title": "Fundamentals of Classroom Management",
+        "description": "You will learn strategies for effectively managing a classroom, including behavior management techniques and engagement strategies. This knowledge aligns directly with your goal of managing classrooms more efficiently.",
+        "category": "Education",
+        "difficulty": "Beginner",
+        "duration": "3 weeks",
+        "reason": "As you aim to manage classrooms effectively, this course will equip you with essential skills to create a positive learning environment.",
+        "tags": [
+          "Classroom Management",
+          "Education",
+          "Teaching Strategies"
+        ],
+        "rating": 4.6,
+        "students": 800,
+        "isPremium": false
+      },
+      {
+        "title": "Data Visualization Principles",
+        "description": "In this course, you will learn how to effectively visualize data using charts and graphs, which is crucial for presenting your findings clearly. This course will help address your weak area in data analytics, complementing your ongoing studies in 'Data Analytics with Excel, SQL, and Power BI', where you're at 3%.",
+        "category": "Data Science",
+        "difficulty": "Intermediate",
+        "duration": "5 weeks",
+        "reason": "Building on your 'Data Analytics' understanding, this course will enhance your ability to communicate data insights visually, which is essential for your goals.",
+        "tags": [
+          "Data Visualization",
+          "Analytics",
+          "Communication"
+        ],
+        "rating": 4.5,
+        "students": 1200,
+        "isPremium": true
+      },
+      {
+        "title": "Creating Engaging Online Courses",
+        "description": "This course covers the essentials of designing and creating online courses, including content creation and assessment development. Since you're interested in creating courses, this will directly help you achieve that goal and build a solid foundation.",
+        "category": "Business",
+        "difficulty": "Beginner",
+        "duration": "4 weeks",
+        "reason": "Your goal of creating courses aligns perfectly with the skills taught in this course, which will help you design effective learning experiences.",
+        "tags": [
+          "Course Design",
+          "E-Learning",
+          "Online Teaching"
+        ],
+        "rating": 4.8,
+        "students": 900,
+        "isPremium": false
+      },
+      {
+        "title": "Collaborative Learning Techniques",
+        "description": "This course will teach you different collaborative strategies that can enhance learning experiences in classroom settings. This aligns with your goal of collaboration and is essential for creating a supportive learning environment.",
+        "category": "Education",
+        "difficulty": "Beginner",
+        "duration": "2 weeks",
+        "reason": "Your interest in collaboration in educational settings makes this course particularly relevant to your goals.",
+        "tags": [
+          "Collaboration",
+          "Learning Strategies",
+          "Teamwork"
+        ],
+        "rating": 4.3,
+        "students": 500,
+        "isPremium": false
+      },
+      {
+        "title": "Introduction to Assessment Strategies",
+        "description": "This course introduces various assessment methods to evaluate student learning effectively. This is particularly relevant for you as you aim to manage classrooms and create courses, ensuring that your assessments align with learning objectives.",
+        "category": "Education",
+        "difficulty": "Beginner",
+        "duration": "4 weeks",
+        "reason": "Your interest in creating assessments to manage classrooms effectively makes this course a great fit for your goals.",
+        "tags": [
+          "Assessment",
+          "Education",
+          "Learning Evaluation"
+        ],
+        "rating": 4.5,
+        "students": 800,
+        "isPremium": false
+      }
+    ],
+    "createdAt": "2026-07-31T10:01:45.149Z",
+    "expiresAt": "2026-08-07T10:02:11.339Z",
+    "updatedAt": "2026-07-31T10:02:11.340Z"
+  }
+]

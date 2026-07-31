@@ -1,0 +1,398 @@
+[
+  {
+    "_id": "69bac20c424240be66c532ef",
+    "userId": "anonymous",
+    "topics": [
+      {
+        "title": "AI for Creatives: Unleashing Your Imagination",
+        "description": "Dive into the world where artificial intelligence meets creativity. Learn how to harness AI tools to enhance your artistic projects, whether you're in graphic design, music production, or content creation. This course equips you with hands-on skills to stand out in a tech-driven creative landscape.",
+        "category": "Creative Arts",
+        "difficulty": "Intermediate",
+        "duration": "6 weeks",
+        "tags": [
+          "AI",
+          "Creativity",
+          "Design",
+          "Innovation"
+        ],
+        "whyTrending": "As AI tools become more accessible, creatives are eager to integrate them into their workflows, making this a must-have skill for the modern artist.",
+        "learnerQuestions": [
+          "What tools will I learn to use?",
+          "Is prior experience in art required?",
+          "Will I get feedback on my projects?",
+          "Can this help me freelance better?"
+        ],
+        "hook": "Transform your creative process with AI in just 6 weeks!"
+      },
+      {
+        "title": "Mindful Leadership: Leading with Wellness",
+        "description": "Elevate your leadership skills by embracing mindfulness and well-being. This course teaches you how to cultivate a positive workplace culture, manage stress, and inspire your team while prioritizing mental health. Become a leader who empowers and nurtures.",
+        "category": "Professional Skills",
+        "difficulty": "Beginner to Intermediate",
+        "duration": "4 weeks",
+        "tags": [
+          "Leadership",
+          "Mindfulness",
+          "Wellness",
+          "Team Management"
+        ],
+        "whyTrending": "In an era where mental health is paramount, organizations seek leaders who prioritize the well-being of their teams, making this skill invaluable.",
+        "learnerQuestions": [
+          "What specific mindfulness techniques will I learn?",
+          "How can I apply this to my existing leadership style?",
+          "Will there be real-life case studies?",
+          "Is this applicable in remote work environments?"
+        ],
+        "hook": "Become a mindful leader in just 4 weeks!"
+      },
+      {
+        "title": "Nutritional Science: Eat Smart, Live Better",
+        "description": "Unlock the secrets to nutrition with this engaging course that combines science and practical application. Learn about the biochemistry of food, dietary planning, and the latest trends in health. Empower yourself to make informed food choices for a healthier life.",
+        "category": "Health & Wellness",
+        "difficulty": "Beginner",
+        "duration": "5 weeks",
+        "tags": [
+          "Nutrition",
+          "Health",
+          "Wellness",
+          "Diet"
+        ],
+        "whyTrending": "With rising health awareness and dietary trends, there’s a growing enthusiasm for understanding how nutrition affects overall well-being.",
+        "learnerQuestions": [
+          "What qualifications do the instructors have?",
+          "Can I apply this knowledge to meal prep?",
+          "How does this course differ from other nutrition courses?",
+          "Will I receive a certification?"
+        ],
+        "hook": "Master the science of nutrition in just 5 weeks!"
+      },
+      {
+        "title": "Digital Storytelling: Crafting Compelling Narratives",
+        "description": "Harness the power of digital media to tell your story effectively. This course guides you through storytelling techniques across various platforms, from blogs to podcasts. Learn to engage your audience and make your message resonate.",
+        "category": "Creative Arts",
+        "difficulty": "Intermediate",
+        "duration": "7 weeks",
+        "tags": [
+          "Storytelling",
+          "Media",
+          "Communication",
+          "Writing"
+        ],
+        "whyTrending": "As digital content continues to dominate, the demand for skilled storytellers is skyrocketing, making this course essential for content creators.",
+        "learnerQuestions": [
+          "What platforms will I learn about?",
+          "Is prior writing experience needed?",
+          "Will I create a portfolio by the end?",
+          "How will I learn to engage my audience?"
+        ],
+        "hook": "Become a master storyteller in 7 weeks!"
+      },
+      {
+        "title": "Green Living: Sustainable Practices for Everyday Life",
+        "description": "Transform your lifestyle with sustainable practices that impact the planet positively. This course covers eco-friendly habits, sustainable cooking, and gardening techniques designed to reduce your carbon footprint and promote environmental stewardship.",
+        "category": "Lifestyle",
+        "difficulty": "Beginner",
+        "duration": "6 weeks",
+        "tags": [
+          "Sustainability",
+          "Environment",
+          "Green Living",
+          "Lifestyle"
+        ],
+        "whyTrending": "With climate change at the forefront of global conversations, more individuals are eager to adopt sustainable living practices to contribute positively to the planet.",
+        "learnerQuestions": [
+          "What sustainable habits will I learn?",
+          "Is this course suitable for families?",
+          "How can I measure my impact?",
+          "Will I receive practical challenges?"
+        ],
+        "hook": "Live sustainably and positively impact the planet in just 6 weeks!"
+      },
+      {
+        "title": "The Future of Work: Embrace Remote Trends",
+        "description": "Prepare for the evolving workplace landscape with this cutting-edge course on remote work trends, productivity tools, and team collaboration strategies. Learn best practices to maximize efficiency and connectivity, whether you’re working remotely or managing a remote team.",
+        "category": "Business & Entrepreneurship",
+        "difficulty": "Beginner to Intermediate",
+        "duration": "5 weeks",
+        "tags": [
+          "Remote Work",
+          "Productivity",
+          "Business",
+          "Collaboration"
+        ],
+        "whyTrending": "As remote work becomes the norm, professionals need to adapt to new collaboration tools and management strategies, making this course highly relevant.",
+        "learnerQuestions": [
+          "What tools will I learn about for remote work?",
+          "Will there be interactive sessions?",
+          "How can I apply these practices to my team?",
+          "Is this course suitable for new managers?"
+        ],
+        "hook": "Master remote work strategies in just 5 weeks!"
+      }
+    ],
+    "createdAt": "2026-03-18T15:17:32.066Z",
+    "generatedForUser": "anonymous",
+    "model": "gpt-4o-mini"
+  },
+  {
+    "_id": "6a65545ad9c79944219116d0",
+    "userId": "global_trending",
+    "topics": [
+      {
+        "title": "AI-Powered Marketing Mastery",
+        "description": "Unlock the secrets of leveraging AI for skyrocketing your marketing campaigns. Learn to analyze data, automate tasks, and personalize customer experiences like never before.",
+        "category": "Business & Entrepreneurship",
+        "difficulty": "Intermediate",
+        "duration": "8 weeks",
+        "tags": [
+          "AI",
+          "Marketing",
+          "Data Analysis",
+          "Automation"
+        ],
+        "whyTrending": "As businesses rush to integrate AI, marketers who can harness its power will stand out and drive significant ROI.",
+        "learnerQuestions": [
+          "What tools will I learn to use in this course?",
+          "Do I need prior marketing experience?",
+          "How will this course help me in my career?",
+          "Can I apply these skills to any industry?"
+        ],
+        "hook": "Transform your marketing strategy in 8 weeks!"
+      },
+      {
+        "title": "Mindfulness for Mental Wellness",
+        "description": "Explore techniques that enhance mental well-being through mindfulness practices. Develop skills to manage stress, improve focus, and enhance emotional resilience.",
+        "category": "Health & Wellness",
+        "difficulty": "Beginner",
+        "duration": "4 weeks",
+        "tags": [
+          "Mindfulness",
+          "Mental Health",
+          "Wellness",
+          "Stress Management"
+        ],
+        "whyTrending": "With increasing awareness about mental health, mindfulness techniques are becoming essential for personal and professional success.",
+        "learnerQuestions": [
+          "What mindfulness techniques will I learn?",
+          "Is this suitable for someone new to meditation?",
+          "How can I incorporate mindfulness into my daily routine?",
+          "Will I receive any resources for continued practice?"
+        ],
+        "hook": "Achieve tranquility and clarity in just 4 weeks!"
+      },
+      {
+        "title": "Design Your Life: Vision Boarding for Success",
+        "description": "Harness the power of visualization to create a compelling vision board that aligns with your goals. This course will guide you step-by-step to manifest your dreams.",
+        "category": "Creative Arts",
+        "difficulty": "Beginner",
+        "duration": "3 weeks",
+        "tags": [
+          "Vision Board",
+          "Goal Setting",
+          "Creativity",
+          "Personal Development"
+        ],
+        "whyTrending": "As people seek more intentional living, crafting a clear vision for the future is more vital than ever.",
+        "learnerQuestions": [
+          "What materials will I need for this course?",
+          "Can I use digital tools for my vision board?",
+          "How does visualization actually work?",
+          "Will this course help me stay motivated?"
+        ],
+        "hook": "Manifest your dreams through creativity in 3 weeks!"
+      },
+      {
+        "title": "Data Science Essentials for Non-Techies",
+        "description": "Dive into the fundamentals of data science without the jargon. Learn the basics of data analysis and visualization to make informed decisions in any field.",
+        "category": "Technology",
+        "difficulty": "Beginner",
+        "duration": "6 weeks",
+        "tags": [
+          "Data Science",
+          "Analytics",
+          "Visualization",
+          "Decision Making"
+        ],
+        "whyTrending": "With data-driven decision-making becoming standard in all industries, understanding data is crucial for everyone.",
+        "learnerQuestions": [
+          "Do I need any programming skills for this course?",
+          "What software will I be using?",
+          "How will this help me in my current job?",
+          "Can someone without a technical background succeed in this course?"
+        ],
+        "hook": "Become data-savvy without coding in just 6 weeks!"
+      },
+      {
+        "title": "Mastering Personal Finance: Build Wealth Wisely",
+        "description": "Take control of your financial future. Learn budgeting, investing, and saving strategies that will empower you to achieve your financial goals.",
+        "category": "Business & Entrepreneurship",
+        "difficulty": "Beginner",
+        "duration": "5 weeks",
+        "tags": [
+          "Finance",
+          "Wealth Building",
+          "Investing",
+          "Budgeting"
+        ],
+        "whyTrending": "With economic uncertainty, mastering personal finance is more urgent than ever to secure one's future.",
+        "learnerQuestions": [
+          "Will this course cover debt management?",
+          "Do I need prior knowledge of finance?",
+          "How will the course help me in real-life scenarios?",
+          "What resources will I have access to?"
+        ],
+        "hook": "Build wealth confidently in only 5 weeks!"
+      },
+      {
+        "title": "Culinary Arts: Global Cuisine at Home",
+        "description": "Embark on a delicious journey around the world through cooking. Learn to prepare authentic dishes from various cultures using simple ingredients.",
+        "category": "Lifestyle",
+        "difficulty": "Beginner",
+        "duration": "6 weeks",
+        "tags": [
+          "Cooking",
+          "Global Cuisine",
+          "Food",
+          "Culinary Arts"
+        ],
+        "whyTrending": "As home cooking grows in popularity, expanding culinary skills and exploring global flavors are appealing to food enthusiasts everywhere.",
+        "learnerQuestions": [
+          "What cuisines will we explore?",
+          "Do I need any special equipment?",
+          "Can I accommodate dietary restrictions in these recipes?",
+          "Will I receive feedback on my cooking?"
+        ],
+        "hook": "Travel the world through taste in 6 weeks!"
+      },
+      {
+        "title": "The Art of Negotiation: Mastering Conflict Resolution",
+        "description": "Transform your negotiation skills to effectively manage conflict both professionally and personally. Learn key strategies to secure better outcomes.",
+        "category": "Professional Skills",
+        "difficulty": "Intermediate",
+        "duration": "4 weeks",
+        "tags": [
+          "Negotiation",
+          "Conflict Resolution",
+          "Communication",
+          "Leadership"
+        ],
+        "whyTrending": "With complex workplace dynamics, strong negotiation skills are critical for career advancement and personal success.",
+        "learnerQuestions": [
+          "What types of negotiations will we cover?",
+          "Is this course suitable for beginners?",
+          "How will I practice these skills?",
+          "Can I use these techniques in everyday situations?"
+        ],
+        "hook": "Negotiate like a pro in just 4 weeks!"
+      },
+      {
+        "title": "Photography Fundamentals: Capturing Life's Moments",
+        "description": "Master the art of photography from basics to advanced techniques. Learn composition, lighting, and editing to elevate your photography game.",
+        "category": "Creative Arts",
+        "difficulty": "Beginner",
+        "duration": "5 weeks",
+        "tags": [
+          "Photography",
+          "Editing",
+          "Composition",
+          "Creative Skills"
+        ],
+        "whyTrending": "As social media thrives on captivating visuals, the demand for photography skills continues to surge.",
+        "learnerQuestions": [
+          "What equipment do I need to start?",
+          "Will I learn about post-processing?",
+          "Do I need any prior experience?",
+          "How can I develop my unique style?"
+        ],
+        "hook": "Capture stunning photos in just 5 weeks!"
+      },
+      {
+        "title": "Sustainable Gardening: Grow Your Own Food",
+        "description": "Learn to cultivate a flourishing garden that supports biodiversity and produces healthy food. This course emphasizes ecological practices for sustainable living.",
+        "category": "Lifestyle",
+        "difficulty": "Beginner",
+        "duration": "7 weeks",
+        "tags": [
+          "Gardening",
+          "Sustainability",
+          "Food Production",
+          "Eco-Friendly"
+        ],
+        "whyTrending": "As the movement towards sustainable living grows, many seek to grow their own food to foster self-reliance.",
+        "learnerQuestions": [
+          "What plants are suitable for beginners?",
+          "Can I garden in a small space?",
+          "What tools will I need?",
+          "How can I maintain my garden year-round?"
+        ],
+        "hook": "Harvest your own food in just 7 weeks!"
+      },
+      {
+        "title": "Understanding Quantum Physics: A Beginner's Guide",
+        "description": "Delve into the fascinating world of quantum physics with clear explanations and engaging examples. No advanced math required!",
+        "category": "Science",
+        "difficulty": "Beginner",
+        "duration": "8 weeks",
+        "tags": [
+          "Quantum Physics",
+          "Science",
+          "Education",
+          "Foundation"
+        ],
+        "whyTrending": "With ongoing breakthroughs in physics, understanding this complex subject has never been more intriguing or relevant.",
+        "learnerQuestions": [
+          "Do I need a background in physics?",
+          "Will there be any math involved?",
+          "How will this knowledge apply in real-world scenarios?",
+          "What resources will I have access to?"
+        ],
+        "hook": "Unlock the mysteries of the universe in just 8 weeks!"
+      },
+      {
+        "title": "Writing for Impact: Crafting Compelling Narratives",
+        "description": "Transform your writing skills and learn to craft engaging stories that resonate. This course covers structure, style, and character development.",
+        "category": "Creative Arts",
+        "difficulty": "Beginner",
+        "duration": "6 weeks",
+        "tags": [
+          "Writing",
+          "Storytelling",
+          "Creative Skills",
+          "Narrative"
+        ],
+        "whyTrending": "Storytelling remains a powerful tool across industries, making strong writing skills indispensable in today's world.",
+        "learnerQuestions": [
+          "What genres will we focus on?",
+          "Do I need to have completed any prior writing courses?",
+          "Can I share my work for feedback?",
+          "How can I publish my stories?"
+        ],
+        "hook": "Elevate your writing in just 6 weeks!"
+      },
+      {
+        "title": "Digital Nomad Essentials: Work Remotely & Travel",
+        "description": "Create your blueprint for a successful remote working lifestyle while exploring the world. Learn tips for productivity, planning, and finding opportunities.",
+        "category": "Lifestyle",
+        "difficulty": "Intermediate",
+        "duration": "5 weeks",
+        "tags": [
+          "Remote Work",
+          "Travel",
+          "Productivity",
+          "Lifestyle Design"
+        ],
+        "whyTrending": "As remote work becomes more prevalent, the digital nomad lifestyle is booming, attracting those seeking adventure and flexibility.",
+        "learnerQuestions": [
+          "What tools and apps will I learn about?",
+          "Can this lifestyle work with family or pets?",
+          "How do I find remote job opportunities?",
+          "What are some best practices for staying productive on the road?"
+        ],
+        "hook": "Live and work anywhere in just 5 weeks!"
+      }
+    ],
+    "createdAt": "2026-07-26T00:27:06.256Z",
+    "generatedForUser": "global",
+    "model": "gpt-4o-mini"
+  }
+]

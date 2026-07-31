@@ -1,0 +1,110 @@
+[
+  {
+    "_id": "69b6d9bb125a0dafa8a59823",
+    "userId": "694af0021a87e1cd234dcbff",
+    "isActive": true,
+    "topic": "JavaScript fundamentals",
+    "__v": 0,
+    "createdAt": "2026-03-15T16:09:31.222Z",
+    "lastMessageAt": "2026-07-23T16:05:51.552Z",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Whats is javascript",
+        "timestamp": "2026-03-15T16:09:29.684Z",
+        "_id": "69b6d9e2c990ad900615c670"
+      },
+      {
+        "role": "assistant",
+        "content": "I'm your tutor for **JavaScript fundamentals**. Let's get back to that — what would you like to learn next?",
+        "timestamp": "2026-03-15T16:09:31.029Z",
+        "_id": "69b6d9e2c990ad900615c671"
+      },
+      {
+        "role": "user",
+        "content": "what is it",
+        "timestamp": "2026-03-15T16:09:53.776Z",
+        "_id": "69b6d9e2c990ad900615c672"
+      },
+      {
+        "role": "assistant",
+        "content": "I'm your tutor for **JavaScript fundamentals**. Let's get back to that — what would you like to learn next?",
+        "timestamp": "2026-03-15T16:09:55.699Z",
+        "_id": "69b6d9e2c990ad900615c673"
+      },
+      {
+        "role": "user",
+        "content": "what is javascript",
+        "timestamp": "2026-03-15T16:10:07.169Z",
+        "_id": "69b6d9e2c990ad900615c674"
+      },
+      {
+        "role": "assistant",
+        "content": "I'm your tutor for **JavaScript fundamentals**. Let's get back to that — what would you like to learn next?",
+        "timestamp": "2026-03-15T16:10:08.940Z",
+        "_id": "69b6d9e2c990ad900615c675"
+      },
+      {
+        "role": "user",
+        "content": "Hi",
+        "timestamp": "2026-03-16T17:06:38.787Z",
+        "_id": "69b838ae59607ffbae799faf"
+      },
+      {
+        "role": "assistant",
+        "content": "I'm your tutor for **JavaScript fundamentals**. Let's get back to that — what would you like to learn next?",
+        "timestamp": "2026-03-16T17:06:41.137Z",
+        "_id": "69b838ae59607ffbae799fb0"
+      },
+      {
+        "role": "user",
+        "content": "what is javascript",
+        "timestamp": "2026-03-16T17:06:52.224Z",
+        "_id": "69b838ae59607ffbae799fb1"
+      },
+      {
+        "role": "assistant",
+        "content": "I'm your tutor for **JavaScript fundamentals**. Let's get back to that — what would you like to learn next?",
+        "timestamp": "2026-03-16T17:06:53.387Z",
+        "_id": "69b838ae59607ffbae799fb2"
+      },
+      {
+        "role": "user",
+        "content": "Hello what's javascritpt",
+        "timestamp": "2026-04-11T05:36:52.251Z",
+        "_id": "69d9ddf92c8be9e295ac5e0d"
+      },
+      {
+        "role": "assistant",
+        "content": "I'm your tutor for **JavaScript fundamentals**. Let's get back to that — what would you like to learn next?",
+        "timestamp": "2026-04-11T05:36:56.122Z",
+        "_id": "69d9ddf92c8be9e295ac5e0e"
+      }
+    ],
+    "updatedAt": "2026-07-23T16:05:51.553Z"
+  },
+  {
+    "_id": "6a5b3c51b9fb5cfa570513cb",
+    "topic": "React hooks",
+    "userId": "694af0021a87e1cd234dcbff",
+    "isActive": true,
+    "__v": 0,
+    "createdAt": "2026-07-18T08:41:53.151Z",
+    "lastMessageAt": "2026-07-23T16:05:46.300Z",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Explain how react hooks work",
+        "timestamp": "2026-07-18T08:41:51.213Z",
+        "_id": "6a5b3c578573ea70c655dae2"
+      },
+      {
+        "role": "assistant",
+        "content": "**React Hooks** are functions that let you use state and other React features in functional components. They were introduced to allow developers to manage component logic without using class components.\n\nHere's a simple breakdown:\n\n1. **State Management with `useState`**:\n   - You can add state to a functional component using the `useState` hook.\n   - Example:\n     ```javascript\n     import React, { useState } from 'react';\n\n     function Counter() {\n         const [count, setCount] = useState(0); // Initialize state\n\n         return (\n             <div>\n                 <p>You clicked {count} times</p>\n                 <button onClick={() => setCount(count + 1)}>Click me</button>\n             </div>\n         );\n     }\n     ```\n   - Here, `count` is the state variable, and `setCount` is the function to update it.\n\n2. **Side Effects with `useEffect`**:\n   - This hook lets you perform side effects in your component (like data fetching or subscriptions).\n   - Example:\n     ```javascript\n     import React, { useEffect } from 'react';\n\n     function Timer() {\n         useEffect(() => {\n             const timer = setInterval(() => console.log('Tick'), 1000);\n             return () => clearInterval(timer); // Cleanup on unmount\n         }, []);\n\n         return <p>Timer is running, check the console!</p>;\n     }\n     ```\n\nThink of hooks as tools that give functional components capabilities similar to class components while keeping them simple.\n\nWhat do you think is the most interesting feature about hooks so far?",
+        "timestamp": "2026-07-18T08:41:57.644Z",
+        "_id": "6a5b3c578573ea70c655dae3"
+      }
+    ],
+    "updatedAt": "2026-07-23T16:05:46.303Z"
+  }
+]

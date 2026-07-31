@@ -1,0 +1,789 @@
+[
+  {
+    "_id": "6a5492b44093f3bb8e3ea89a",
+    "shareId": "275d2b18-0115-4c3e-8fa0-c59cfd956502",
+    "title": "Beginner's Journey into Data Structures and Algorithms in Java",
+    "topic": "data structures and algorithms in java",
+    "originalTopic": "Data structures and Algorithms In Java",
+    "overview": "This 8-week study plan will guide you through the fundamentals of Data Structures and Algorithms in Java, balancing theoretical lessons with practical exercises. Each week builds on the previous one, helping you solidify your understanding and prepare for real-world applications.",
+    "difficulty": "beginner",
+    "durationWeeks": 8,
+    "weeks": [
+      {
+        "weekNumber": 1,
+        "title": "Introduction to Java and Basic Data Types",
+        "goals": [
+          "Understand the basics of Java syntax and data types",
+          "Set up your development environment"
+        ],
+        "days": [
+          {
+            "day": "Monday",
+            "tasks": [
+              {
+                "type": "lesson",
+                "title": "Getting Started with Java",
+                "description": "Learn about Java development, installation, and basic syntax.",
+                "estimatedMinutes": 45,
+                "relatedCourseTitle": null,
+                "courseId": null,
+                "moduleId": null,
+                "lessonIndex": null,
+                "relatedCourseTopic": null,
+                "completed": true
+              }
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "tasks": [
+              {
+                "type": "lesson",
+                "title": "Java Data Types",
+                "description": "Explore various data types in Java: int, double, char, etc.",
+                "estimatedMinutes": 45,
+                "relatedCourseTitle": null,
+                "courseId": null,
+                "moduleId": null,
+                "lessonIndex": null,
+                "relatedCourseTopic": null,
+                "completed": true
+              }
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "tasks": [
+              {
+                "type": "practice",
+                "title": "Basic Java Exercises",
+                "description": "Complete exercises on variables and data types.",
+                "estimatedMinutes": 60,
+                "relatedCourseTitle": null,
+                "courseId": null,
+                "moduleId": null,
+                "lessonIndex": null,
+                "relatedCourseTopic": null,
+                "completed": false
+              }
+            ]
+          },
+          {
+            "day": "Thursday",
+            "tasks": [
+              {
+                "type": "review",
+                "title": "Review Basic Concepts",
+                "description": "Review notes and key concepts from this week.",
+                "estimatedMinutes": 30,
+                "relatedCourseTitle": null,
+                "courseId": null,
+                "moduleId": null,
+                "lessonIndex": null,
+                "relatedCourseTopic": null,
+                "completed": false
+              }
+            ]
+          },
+          {
+            "day": "Friday",
+            "tasks": [
+              {
+                "type": "quiz",
+                "title": "Java Basics Quiz",
+                "description": "Take a quiz to assess your understanding of Java basics.",
+                "estimatedMinutes": 30,
+                "relatedCourseTitle": null,
+                "courseId": null,
+                "moduleId": null,
+                "lessonIndex": null,
+                "relatedCourseTopic": null,
+                "completed": false
+              }
+            ]
+          }
+        ],
+        "milestone": "Able to write simple Java programs using basic data types."
+      },
+      {
+        "weekNumber": 2,
+        "title": "Control Structures in Java",
+        "goals": [
+          "Learn about conditional statements and loops",
+          "Implement simple algorithms using control structures"
+        ],
+        "days": [
+          {
+            "day": "Monday",
+            "tasks": [
+              {
+                "type": "lesson",
+                "title": "Conditional Statements",
+                "description": "Understand if-else statements and switch cases.",
+                "estimatedMinutes": 45,
+                "relatedCourseTitle": null,
+                "courseId": null,
+                "moduleId": null,
+                "lessonIndex": null,
+                "relatedCourseTopic": null,
+                "completed": false
+              }
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "tasks": [
+              {
+                "type": "lesson",
+                "title": "Loops in Java",
+                "description": "Learn about for, while, and do-while loops.",
+                "estimatedMinutes": 45,
+                "relatedCourseTitle": null,
+                "courseId": null,
+                "moduleId": null,
+                "lessonIndex": null,
+                "relatedCourseTopic": null,
+                "completed": false
+              }
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "tasks": [
+              {
+                "type": "practice",
+                "title": "Control Structures Exercises",
+                "description": "Implement exercises using loops and conditionals.",
+                "estimatedMinutes": 60,
+                "relatedCourseTitle": null,
+                "courseId": null,
+                "moduleId": null,
+                "lessonIndex": null,
+                "relatedCourseTopic": null,
+                "completed": false
+              }
+            ]
+          },
+          {
+            "day": "Thursday",
+            "tasks": [
+              {
+                "type": "review",
+                "title": "Review Control Structures",
+                "description": "Review concepts from this week's lessons.",
+                "estimatedMinutes": 30,
+                "relatedCourseTitle": null,
+                "courseId": null,
+                "moduleId": null,
+                "lessonIndex": null,
+                "relatedCourseTopic": null,
+                "completed": false
+              }
+            ]
+          },
+          {
+            "day": "Friday",
+            "tasks": [
+              {
+                "type": "quiz",
+                "title": "Control Structures Quiz",
+                "description": "Take a quiz to test your knowledge of control structures.",
+                "estimatedMinutes": 30,
+                "relatedCourseTitle": null,
+                "courseId": null,
+                "moduleId": null,
+                "lessonIndex": null,
+                "relatedCourseTopic": null,
+                "completed": false
+              }
+            ]
+          }
+        ],
+        "milestone": "Able to create simple algorithms using control structures."
+      },
+      {
+        "weekNumber": 3,
+        "title": "Introduction to Data Structures",
+        "goals": [
+          "Understand the basic types of data structures",
+          "Learn about arrays and linked lists"
+        ],
+        "days": [
+          {
+            "day": "Monday",
+            "tasks": [
+              {
+                "type": "lesson",
+                "title": "What are Data Structures?",
+                "description": "Learn about the importance and types of data structures.",
+                "estimatedMinutes": 45,
+                "relatedCourseTitle": null,
+                "courseId": null,
+                "moduleId": null,
+                "lessonIndex": null,
+                "relatedCourseTopic": null,
+                "completed": false
+              }
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "tasks": [
+              {
+                "type": "lesson",
+                "title": "Arrays in Java",
+                "description": "Explore how to declare, initialize, and manipulate arrays.",
+                "estimatedMinutes": 45,
+                "relatedCourseTitle": null,
+                "courseId": null,
+                "moduleId": null,
+                "lessonIndex": null,
+                "relatedCourseTopic": null,
+                "completed": false
+              }
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "tasks": [
+              {
+                "type": "lesson",
+                "title": "Linked Lists",
+                "description": "Understand the structure and operations of linked lists.",
+                "estimatedMinutes": 45,
+                "relatedCourseTitle": null,
+                "courseId": null,
+                "moduleId": null,
+                "lessonIndex": null,
+                "relatedCourseTopic": null,
+                "completed": false
+              }
+            ]
+          },
+          {
+            "day": "Thursday",
+            "tasks": [
+              {
+                "type": "practice",
+                "title": "Arrays and Linked Lists Exercises",
+                "description": "Complete exercises to practice arrays and linked lists.",
+                "estimatedMinutes": 60,
+                "relatedCourseTitle": null,
+                "courseId": null,
+                "moduleId": null,
+                "lessonIndex": null,
+                "relatedCourseTopic": null,
+                "completed": false
+              }
+            ]
+          },
+          {
+            "day": "Friday",
+            "tasks": [
+              {
+                "type": "review",
+                "title": "Review Data Structures",
+                "description": "Go over key concepts and notes from this week.",
+                "estimatedMinutes": 30,
+                "relatedCourseTitle": null,
+                "courseId": null,
+                "moduleId": null,
+                "lessonIndex": null,
+                "relatedCourseTopic": null,
+                "completed": false
+              }
+            ]
+          }
+        ],
+        "milestone": "Able to implement and manipulate arrays and linked lists."
+      },
+      {
+        "weekNumber": 4,
+        "title": "More on Data Structures: Stacks and Queues",
+        "goals": [
+          "Understand stacks and queues",
+          "Learn how to implement them in Java"
+        ],
+        "days": [
+          {
+            "day": "Monday",
+            "tasks": [
+              {
+                "type": "lesson",
+                "title": "Stacks",
+                "description": "Learn about the stack data structure and its operations.",
+                "estimatedMinutes": 45,
+                "relatedCourseTitle": null,
+                "courseId": null,
+                "moduleId": null,
+                "lessonIndex": null,
+                "relatedCourseTopic": null,
+                "completed": false
+              }
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "tasks": [
+              {
+                "type": "lesson",
+                "title": "Queues",
+                "description": "Explore the queue data structure and its operations.",
+                "estimatedMinutes": 45,
+                "relatedCourseTitle": null,
+                "courseId": null,
+                "moduleId": null,
+                "lessonIndex": null,
+                "relatedCourseTopic": null,
+                "completed": false
+              }
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "tasks": [
+              {
+                "type": "practice",
+                "title": "Implementing Stacks and Queues",
+                "description": "Practice coding stacks and queues in Java.",
+                "estimatedMinutes": 60,
+                "relatedCourseTitle": null,
+                "courseId": null,
+                "moduleId": null,
+                "lessonIndex": null,
+                "relatedCourseTopic": null,
+                "completed": false
+              }
+            ]
+          },
+          {
+            "day": "Thursday",
+            "tasks": [
+              {
+                "type": "review",
+                "title": "Review Stacks and Queues",
+                "description": "Review key concepts and operations of stacks and queues.",
+                "estimatedMinutes": 30,
+                "relatedCourseTitle": null,
+                "courseId": null,
+                "moduleId": null,
+                "lessonIndex": null,
+                "relatedCourseTopic": null,
+                "completed": false
+              }
+            ]
+          },
+          {
+            "day": "Friday",
+            "tasks": [
+              {
+                "type": "quiz",
+                "title": "Stacks and Queues Quiz",
+                "description": "Test your understanding of stacks and queues.",
+                "estimatedMinutes": 30,
+                "relatedCourseTitle": null,
+                "courseId": null,
+                "moduleId": null,
+                "lessonIndex": null,
+                "relatedCourseTopic": null,
+                "completed": false
+              }
+            ]
+          }
+        ],
+        "milestone": "Able to implement stacks and queues and understand their applications."
+      },
+      {
+        "weekNumber": 5,
+        "title": "Trees and Binary Trees",
+        "goals": [
+          "Understand tree data structures",
+          "Learn about binary trees and their traversal methods"
+        ],
+        "days": [
+          {
+            "day": "Monday",
+            "tasks": [
+              {
+                "type": "lesson",
+                "title": "Introduction to Trees",
+                "description": "Learn about tree structures and their properties.",
+                "estimatedMinutes": 45,
+                "relatedCourseTitle": null,
+                "courseId": null,
+                "moduleId": null,
+                "lessonIndex": null,
+                "relatedCourseTopic": null,
+                "completed": false
+              }
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "tasks": [
+              {
+                "type": "lesson",
+                "title": "Binary Trees",
+                "description": "Explore the concept and implementation of binary trees.",
+                "estimatedMinutes": 45,
+                "relatedCourseTitle": null,
+                "courseId": null,
+                "moduleId": null,
+                "lessonIndex": null,
+                "relatedCourseTopic": null,
+                "completed": false
+              }
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "tasks": [
+              {
+                "type": "practice",
+                "title": "Binary Tree Traversals",
+                "description": "Implement different traversal methods for binary trees.",
+                "estimatedMinutes": 60,
+                "relatedCourseTitle": null,
+                "courseId": null,
+                "moduleId": null,
+                "lessonIndex": null,
+                "relatedCourseTopic": null,
+                "completed": false
+              }
+            ]
+          },
+          {
+            "day": "Thursday",
+            "tasks": [
+              {
+                "type": "review",
+                "title": "Review Trees and Binary Trees",
+                "description": "Review the key concepts of trees and binary trees.",
+                "estimatedMinutes": 30,
+                "relatedCourseTitle": null,
+                "courseId": null,
+                "moduleId": null,
+                "lessonIndex": null,
+                "relatedCourseTopic": null,
+                "completed": false
+              }
+            ]
+          },
+          {
+            "day": "Friday",
+            "tasks": [
+              {
+                "type": "quiz",
+                "title": "Trees and Binary Trees Quiz",
+                "description": "Assess your knowledge of trees and binary trees.",
+                "estimatedMinutes": 30,
+                "relatedCourseTitle": null,
+                "courseId": null,
+                "moduleId": null,
+                "lessonIndex": null,
+                "relatedCourseTopic": null,
+                "completed": false
+              }
+            ]
+          }
+        ],
+        "milestone": "Able to implement binary trees and perform various traversal methods."
+      },
+      {
+        "weekNumber": 6,
+        "title": "Sorting Algorithms",
+        "goals": [
+          "Learn about different sorting algorithms",
+          "Implement sorting algorithms in Java"
+        ],
+        "days": [
+          {
+            "day": "Monday",
+            "tasks": [
+              {
+                "type": "lesson",
+                "title": "Introduction to Sorting Algorithms",
+                "description": "Understand the importance and types of sorting algorithms.",
+                "estimatedMinutes": 45,
+                "relatedCourseTitle": null,
+                "courseId": null,
+                "moduleId": null,
+                "lessonIndex": null,
+                "relatedCourseTopic": null,
+                "completed": false
+              }
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "tasks": [
+              {
+                "type": "lesson",
+                "title": "Bubble Sort and Selection Sort",
+                "description": "Learn how to implement Bubble Sort and Selection Sort.",
+                "estimatedMinutes": 45,
+                "relatedCourseTitle": null,
+                "courseId": null,
+                "moduleId": null,
+                "lessonIndex": null,
+                "relatedCourseTopic": null,
+                "completed": false
+              }
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "tasks": [
+              {
+                "type": "practice",
+                "title": "Sorting Algorithms Exercises",
+                "description": "Complete exercises on sorting algorithms.",
+                "estimatedMinutes": 60,
+                "relatedCourseTitle": null,
+                "courseId": null,
+                "moduleId": null,
+                "lessonIndex": null,
+                "relatedCourseTopic": null,
+                "completed": false
+              }
+            ]
+          },
+          {
+            "day": "Thursday",
+            "tasks": [
+              {
+                "type": "review",
+                "title": "Review Sorting Algorithms",
+                "description": "Review key concepts and implementations of sorting algorithms.",
+                "estimatedMinutes": 30,
+                "relatedCourseTitle": null,
+                "courseId": null,
+                "moduleId": null,
+                "lessonIndex": null,
+                "relatedCourseTopic": null,
+                "completed": false
+              }
+            ]
+          },
+          {
+            "day": "Friday",
+            "tasks": [
+              {
+                "type": "quiz",
+                "title": "Sorting Algorithms Quiz",
+                "description": "Test your understanding of sorting algorithms.",
+                "estimatedMinutes": 30,
+                "relatedCourseTitle": null,
+                "courseId": null,
+                "moduleId": null,
+                "lessonIndex": null,
+                "relatedCourseTopic": null,
+                "completed": false
+              }
+            ]
+          }
+        ],
+        "milestone": "Able to implement and understand basic sorting algorithms."
+      },
+      {
+        "weekNumber": 7,
+        "title": "Searching Algorithms",
+        "goals": [
+          "Understand searching algorithms",
+          "Implement linear and binary search algorithms"
+        ],
+        "days": [
+          {
+            "day": "Monday",
+            "tasks": [
+              {
+                "type": "lesson",
+                "title": "Introduction to Searching Algorithms",
+                "description": "Learn about the importance and types of searching algorithms.",
+                "estimatedMinutes": 45,
+                "relatedCourseTitle": null,
+                "courseId": null,
+                "moduleId": null,
+                "lessonIndex": null,
+                "relatedCourseTopic": null,
+                "completed": false
+              }
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "tasks": [
+              {
+                "type": "lesson",
+                "title": "Linear Search and Binary Search",
+                "description": "Understand and implement linear and binary search algorithms.",
+                "estimatedMinutes": 45,
+                "relatedCourseTitle": null,
+                "courseId": null,
+                "moduleId": null,
+                "lessonIndex": null,
+                "relatedCourseTopic": null,
+                "completed": false
+              }
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "tasks": [
+              {
+                "type": "practice",
+                "title": "Searching Algorithms Exercises",
+                "description": "Practice implementing searching algorithms.",
+                "estimatedMinutes": 60,
+                "relatedCourseTitle": null,
+                "courseId": null,
+                "moduleId": null,
+                "lessonIndex": null,
+                "relatedCourseTopic": null,
+                "completed": false
+              }
+            ]
+          },
+          {
+            "day": "Thursday",
+            "tasks": [
+              {
+                "type": "review",
+                "title": "Review Searching Algorithms",
+                "description": "Go over key concepts and implementations of searching algorithms.",
+                "estimatedMinutes": 30,
+                "relatedCourseTitle": null,
+                "courseId": null,
+                "moduleId": null,
+                "lessonIndex": null,
+                "relatedCourseTopic": null,
+                "completed": false
+              }
+            ]
+          },
+          {
+            "day": "Friday",
+            "tasks": [
+              {
+                "type": "quiz",
+                "title": "Searching Algorithms Quiz",
+                "description": "Assess your understanding of searching algorithms.",
+                "estimatedMinutes": 30,
+                "relatedCourseTitle": null,
+                "courseId": null,
+                "moduleId": null,
+                "lessonIndex": null,
+                "relatedCourseTopic": null,
+                "completed": false
+              }
+            ]
+          }
+        ],
+        "milestone": "Able to implement and understand basic searching algorithms."
+      },
+      {
+        "weekNumber": 8,
+        "title": "Final Review and Capstone Project",
+        "goals": [
+          "Review all topics covered",
+          "Implement a capstone project using learned concepts"
+        ],
+        "days": [
+          {
+            "day": "Monday",
+            "tasks": [
+              {
+                "type": "review",
+                "title": "Comprehensive Review",
+                "description": "Review all previous weeks' materials and notes.",
+                "estimatedMinutes": 60,
+                "relatedCourseTitle": null,
+                "courseId": null,
+                "moduleId": null,
+                "lessonIndex": null,
+                "relatedCourseTopic": null,
+                "completed": false
+              }
+            ]
+          },
+          {
+            "day": "Tuesday",
+            "tasks": [
+              {
+                "type": "project",
+                "title": "Capstone Project Planning",
+                "description": "Plan your capstone project using data structures and algorithms learned.",
+                "estimatedMinutes": 60,
+                "relatedCourseTitle": null,
+                "courseId": null,
+                "moduleId": null,
+                "lessonIndex": null,
+                "relatedCourseTopic": null,
+                "completed": false
+              }
+            ]
+          },
+          {
+            "day": "Wednesday",
+            "tasks": [
+              {
+                "type": "project",
+                "title": "Capstone Project Implementation",
+                "description": "Start coding your capstone project.",
+                "estimatedMinutes": 120,
+                "relatedCourseTitle": null,
+                "courseId": null,
+                "moduleId": null,
+                "lessonIndex": null,
+                "relatedCourseTopic": null,
+                "completed": false
+              }
+            ]
+          },
+          {
+            "day": "Thursday",
+            "tasks": [
+              {
+                "type": "project",
+                "title": "Capstone Project Completion",
+                "description": "Complete and test your capstone project.",
+                "estimatedMinutes": 120,
+                "relatedCourseTitle": null,
+                "courseId": null,
+                "moduleId": null,
+                "lessonIndex": null,
+                "relatedCourseTopic": null,
+                "completed": false
+              }
+            ]
+          },
+          {
+            "day": "Friday",
+            "tasks": [
+              {
+                "type": "review",
+                "title": "Final Review and Reflection",
+                "description": "Reflect on what you learned and how to apply it in the future.",
+                "estimatedMinutes": 60,
+                "relatedCourseTitle": null,
+                "courseId": null,
+                "moduleId": null,
+                "lessonIndex": null,
+                "relatedCourseTopic": null,
+                "completed": false
+              }
+            ]
+          }
+        ],
+        "milestone": "Able to complete a capstone project showcasing your understanding of data structures and algorithms."
+      }
+    ],
+    "totalTasks": 40,
+    "completedTasks": 0,
+    "progress": 0,
+    "selectedCourseNames": [],
+    "sourcePlanId": "6a53ff60559caa9d3433123d",
+    "sharedByName": "Brian Cheruiyot",
+    "createdAt": "2026-07-13T07:24:36.273Z"
+  }
+]

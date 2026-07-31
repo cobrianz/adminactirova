@@ -1,0 +1,4489 @@
+[
+  {
+    "_id": "6a3ec5f90ac94e8e69a52044",
+    "title": "Cryptocurrency Tax Strategies Beginner Quiz",
+    "course": "Cryptocurrency Tax Strategies",
+    "questions": [
+      {
+        "text": "When a taxpayer sells cryptocurrency for a profit, what is the primary tax implication they face?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Income tax on the profit",
+          "Capital gains tax on the profit",
+          "Sales tax on the sale",
+          "No tax implication"
+        ],
+        "correctAnswer": "Capital gains tax on the profit"
+      },
+      {
+        "text": "Which of the following methods can be used to calculate capital gains when selling cryptocurrency?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "First-in, first-out (FIFO)",
+          "Last-in, first-out (LIFO)",
+          "Specific identification",
+          "All of the above"
+        ],
+        "correctAnswer": "All of the above"
+      },
+      {
+        "text": "If an individual receives cryptocurrency as payment for services rendered, how should this be treated for tax purposes?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "As a gift",
+          "As income at fair market value",
+          "As a capital gain",
+          "As a non-taxable event"
+        ],
+        "correctAnswer": "As income at fair market value"
+      },
+      {
+        "text": "A taxpayer sells cryptocurrency for $10,000 that they originally purchased for $4,000. What is the taxable gain?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "$4,000",
+          "$6,000",
+          "$10,000",
+          "$14,000"
+        ],
+        "correctAnswer": "$6,000"
+      },
+      {
+        "text": "Which of the following is a strategy to minimize capital gains tax on cryptocurrency?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Holding the asset for more than one year",
+          "Selling all assets at once",
+          "Engaging in day trading",
+          "Ignoring tax obligations"
+        ],
+        "correctAnswer": "Holding the asset for more than one year"
+      },
+      {
+        "text": "If a taxpayer trades one cryptocurrency for another, how is this transaction generally taxed?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "As a non-taxable event",
+          "As a capital gain or loss",
+          "As ordinary income",
+          "As a gift"
+        ],
+        "correctAnswer": "As a capital gain or loss"
+      },
+      {
+        "text": "What documentation is critical for a taxpayer to maintain for accurate cryptocurrency tax reporting?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Bank statements only",
+          "Transaction records including dates and amounts",
+          "Only tax forms",
+          "Personal notes"
+        ],
+        "correctAnswer": "Transaction records including dates and amounts"
+      },
+      {
+        "text": "What is the significance of the 'like-kind exchange' provision in relation to cryptocurrency?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "It allows for tax-free exchanges of any property",
+          "It permits tax-free exchanges of cryptocurrency",
+          "It no longer applies to cryptocurrencies",
+          "It is a loophole for tax evasion"
+        ],
+        "correctAnswer": "It no longer applies to cryptocurrencies"
+      },
+      {
+        "text": "How does the IRS classify cryptocurrency for tax purposes?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Currency",
+          "Commodity",
+          "Property",
+          "Security"
+        ],
+        "correctAnswer": "Property"
+      },
+      {
+        "text": "Which of the following actions can trigger a taxable event for cryptocurrency holders?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Receiving airdrops",
+          "Transferring to a different wallet",
+          "Holding for more than a year",
+          "Participating in staking"
+        ],
+        "correctAnswer": "Receiving airdrops"
+      }
+    ],
+    "createdBy": "694af0021a87e1cd234dcbff",
+    "userId": "694af0021a87e1cd234dcbff",
+    "difficulty": "beginner",
+    "createdAt": "2026-06-26T18:33:29.600Z",
+    "__v": 1,
+    "performances": [
+      {
+        "userId": "694af0021a87e1cd234dcbff",
+        "score": 0,
+        "totalMarks": 10,
+        "percentage": 0,
+        "completedAt": "2026-06-27T18:17:08.896Z",
+        "_id": "6a4013a476d7b136a4981571"
+      }
+    ],
+    "srs": {
+      "dueDate": "2026-06-27T18:17:08.895Z",
+      "ease": 2.5,
+      "interval": 0,
+      "repetitions": 0
+    },
+    "updatedAt": "2026-06-27T18:17:08.921Z"
+  },
+  {
+    "_id": "69b97b40f5e4da6998ef6de1",
+    "title": "Remote Team Leadership Skills Quiz",
+    "course": "Remote Team Leadership Skills",
+    "questions": [
+      {
+        "text": "Which approach is most effective for fostering team collaboration in a remote environment?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "A structured schedule of daily meetings to ensure everyone is engaged",
+          "Frequent one-on-one check-ins to address individual concerns",
+          "Utilizing collaborative tools that allow real-time project updates and feedback",
+          "Assigning tasks without follow-up to promote autonomy"
+        ],
+        "correctAnswer": "Utilizing collaborative tools that allow real-time project updates and feedback"
+      },
+      {
+        "text": "When managing a remote team, what is the best way to handle conflicts that arise?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Ignoring the issue until it resolves itself",
+          "Addressing the conflict publicly in team meetings to maintain transparency",
+          "Encouraging open communication and facilitating private discussions between the parties involved",
+          "Taking a strict disciplinary action to prevent future conflicts"
+        ],
+        "correctAnswer": "Encouraging open communication and facilitating private discussions between the parties involved"
+      },
+      {
+        "text": "How can a remote leader effectively monitor team performance without micromanaging?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Setting clear goals and using performance metrics for accountability",
+          "Regularly checking in on every task completed by team members",
+          "Using surveillance tools to track employees' online activity",
+          "Requesting frequent status updates for all ongoing projects"
+        ],
+        "correctAnswer": "Setting clear goals and using performance metrics for accountability"
+      },
+      {
+        "text": "Which strategy is most beneficial for enhancing team morale in a remote setting?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Offering financial incentives for high performance",
+          "Organizing virtual team-building activities to foster relationships",
+          "Maintaining a strict focus on work without personal distractions",
+          "Limiting communication to work-related topics only"
+        ],
+        "correctAnswer": "Organizing virtual team-building activities to foster relationships"
+      },
+      {
+        "text": "What is a key factor in building trust among remote team members?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Providing complete autonomy with no guidance",
+          "Demonstrating reliability through consistent communication and follow-through",
+          "Focusing only on results and minimizing personal interactions",
+          "Establishing a competitive environment to motivate performance"
+        ],
+        "correctAnswer": "Demonstrating reliability through consistent communication and follow-through"
+      }
+    ],
+    "createdBy": "694af0021a87e1cd234dcbff",
+    "userId": "694af0021a87e1cd234dcbff",
+    "difficulty": "beginner",
+    "createdAt": "2026-03-17T16:03:12.233Z",
+    "__v": 3,
+    "performances": [
+      {
+        "userId": "694af0021a87e1cd234dcbff",
+        "score": 0,
+        "totalMarks": 5,
+        "percentage": 0,
+        "completedAt": "2026-03-23T12:13:36.573Z",
+        "_id": "69c12e703efaa3d3eccabdb7"
+      },
+      {
+        "userId": "694af0021a87e1cd234dcbff",
+        "score": 0,
+        "totalMarks": 5,
+        "percentage": 0,
+        "completedAt": "2026-03-25T20:15:36.204Z",
+        "_id": "69c44268a88661b7ab558ea5"
+      },
+      {
+        "userId": "694af0021a87e1cd234dcbff",
+        "score": 0,
+        "totalMarks": 5,
+        "percentage": 0,
+        "completedAt": "2026-03-31T20:39:18.805Z",
+        "_id": "69cc30f6761d47a09169472d"
+      }
+    ],
+    "srs": {
+      "interval": 1,
+      "repetitions": 0,
+      "ease": 1.7000000000000002,
+      "dueDate": "2026-03-28T09:52:58.610Z"
+    },
+    "updatedAt": "2026-03-31T20:39:18.810Z"
+  },
+  {
+    "_id": "69b97b62f5e4da6998ef6dea",
+    "title": "Sustainable Gardening Practices Examination",
+    "course": "Sustainable Gardening Practices",
+    "questions": [
+      {
+        "text": "Which of the following practices most effectively reduces water consumption in a garden?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Using drip irrigation systems",
+          "Watering during midday",
+          "Planting in straight rows",
+          "Frequent surface watering"
+        ],
+        "correctAnswer": "Using drip irrigation systems"
+      },
+      {
+        "text": "In the context of sustainable gardening, what is the primary benefit of using native plants?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "They require less water and maintenance",
+          "They are more colorful and attractive",
+          "They grow faster than non-native plants",
+          "They are more resistant to pests"
+        ],
+        "correctAnswer": "They require less water and maintenance"
+      },
+      {
+        "text": "Which method is the most effective for controlling pests in an organic garden?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Using chemical pesticides",
+          "Introducing beneficial insects",
+          "Planting the same crop annually",
+          "Using synthetic fertilizers"
+        ],
+        "correctAnswer": "Introducing beneficial insects"
+      },
+      {
+        "text": "What is the best approach to composting kitchen waste in a sustainable garden?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Only compost vegetable scraps",
+          "Keep it moist and aerated",
+          "Use only store-bought compost",
+          "Add meat and dairy products"
+        ],
+        "correctAnswer": "Keep it moist and aerated"
+      },
+      {
+        "text": "How does crop rotation contribute to sustainable gardening practices?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "It allows plants to grow in the same soil every year",
+          "It helps prevent soil depletion and pest buildup",
+          "It promotes faster plant growth",
+          "It requires less water than traditional planting"
+        ],
+        "correctAnswer": "It helps prevent soil depletion and pest buildup"
+      },
+      {
+        "text": "Which of the following practices can improve soil health in a sustainable garden?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Frequent tilling of the soil",
+          "Cover cropping during off-seasons",
+          "Using only synthetic fertilizers",
+          "Avoiding mulching entirely"
+        ],
+        "correctAnswer": "Cover cropping during off-seasons"
+      },
+      {
+        "text": "What is the primary advantage of using mulch in sustainable gardening?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "It adds nutrients to the soil",
+          "It eliminates the need for watering",
+          "It suppresses weeds and retains moisture",
+          "It creates a decorative effect only"
+        ],
+        "correctAnswer": "It suppresses weeds and retains moisture"
+      },
+      {
+        "text": "In sustainable gardening, which of the following practices supports biodiversity?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Monoculture planting",
+          "Planting a variety of species",
+          "Using only ornamental plants",
+          "Limiting plant diversity to a few species"
+        ],
+        "correctAnswer": "Planting a variety of species"
+      },
+      {
+        "text": "Which strategy is most effective for reducing the carbon footprint of a garden?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Using imported plants",
+          "Utilizing local resources and plants",
+          "Choosing high-maintenance exotic plants",
+          "Relying on chemical fertilizers"
+        ],
+        "correctAnswer": "Utilizing local resources and plants"
+      },
+      {
+        "text": "Why is it important to test soil before planting in a sustainable garden?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "To determine the cost of soil amendments",
+          "To assess nutrient levels and pH for optimal plant growth",
+          "To decide which plants to avoid",
+          "To justify the use of chemical fertilizers"
+        ],
+        "correctAnswer": "To assess nutrient levels and pH for optimal plant growth"
+      }
+    ],
+    "createdBy": "69b977a767cea1bf4754d000",
+    "userId": "69b977a767cea1bf4754d000",
+    "difficulty": "beginner",
+    "createdAt": "2026-03-17T16:03:46.517Z",
+    "__v": 3,
+    "performances": [
+      {
+        "userId": "69b977a767cea1bf4754d000",
+        "score": 3,
+        "totalMarks": 10,
+        "percentage": 30,
+        "completedAt": "2026-03-17T16:06:43.956Z",
+        "answers": {
+          "69b97b63f5e4da6998ef6dec": "Using drip irrigation systems",
+          "69b97b63f5e4da6998ef6ded": "They are more resistant to pests",
+          "69b97b63f5e4da6998ef6dee": "Using synthetic fertilizers",
+          "69b97b63f5e4da6998ef6def": "Keep it moist and aerated",
+          "69b97b63f5e4da6998ef6df0": "It helps prevent soil depletion and pest buildup",
+          "69b97b63f5e4da6998ef6df1": "Avoiding mulching entirely",
+          "69b97b63f5e4da6998ef6df2": "It adds nutrients to the soil",
+          "69b97b63f5e4da6998ef6df3": "Limiting plant diversity to a few species",
+          "69b97b63f5e4da6998ef6df4": "Using imported plants",
+          "69b97b63f5e4da6998ef6df5": "To determine the cost of soil amendments"
+        },
+        "_id": "69b97c135064e609642807a4"
+      },
+      {
+        "userId": "69b977a767cea1bf4754d000",
+        "score": 2,
+        "totalMarks": 10,
+        "percentage": 20,
+        "completedAt": "2026-03-17T16:08:16.188Z",
+        "answers": {
+          "69b97b63f5e4da6998ef6dec": "Frequent surface watering",
+          "69b97b63f5e4da6998ef6ded": "They require less water and maintenance",
+          "69b97b63f5e4da6998ef6def": "Keep it moist and aerated"
+        },
+        "_id": "69b97c705064e609642807b8"
+      },
+      {
+        "userId": "69b977a767cea1bf4754d000",
+        "score": 7,
+        "totalMarks": 10,
+        "percentage": 70,
+        "completedAt": "2026-03-17T16:10:55.576Z",
+        "answers": {
+          "69b97b63f5e4da6998ef6dec": "Using drip irrigation systems",
+          "69b97b63f5e4da6998ef6dee": "Introducing beneficial insects",
+          "69b97b63f5e4da6998ef6df1": "Cover cropping during off-seasons",
+          "69b97b63f5e4da6998ef6df2": "It suppresses weeds and retains moisture",
+          "69b97b63f5e4da6998ef6df3": "Planting a variety of species",
+          "69b97b63f5e4da6998ef6df4": "Utilizing local resources and plants",
+          "69b97b63f5e4da6998ef6df5": "To assess nutrient levels and pH for optimal plant growth"
+        },
+        "_id": "69b97d0f5064e609642807ea"
+      }
+    ],
+    "srs": {
+      "dueDate": "2026-03-17T16:06:43.956Z",
+      "ease": 2.5,
+      "interval": 0,
+      "repetitions": 0
+    },
+    "updatedAt": "2026-03-17T16:10:55.578Z"
+  },
+  {
+    "_id": "69beae6147872eb97108e534",
+    "title": "World History Beginner Examination Quiz",
+    "course": "Generate a 10-question practice quiz about world history.",
+    "questions": [
+      {
+        "text": "Which event marked the beginning of the French Revolution and highlighted the people's desire for change?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "The Storming of the Bastille",
+          "The Reign of Terror",
+          "The Declaration of the Rights of Man",
+          "The Fall of the Monarchy"
+        ],
+        "correctAnswer": "The Storming of the Bastille"
+      },
+      {
+        "text": "What was the main reason for the decline of the Roman Empire?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Economic troubles and overreliance on slave labor",
+          "Invasion by barbarian tribes",
+          "Corruption within the government",
+          "All of the above"
+        ],
+        "correctAnswer": "All of the above"
+      },
+      {
+        "text": "The Silk Road was significant for facilitating trade between which regions?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Asia and Europe",
+          "Africa and the Americas",
+          "Australia and Antarctica",
+          "North America and Asia"
+        ],
+        "correctAnswer": "Asia and Europe"
+      },
+      {
+        "text": "Which of the following revolutions was primarily influenced by Enlightenment ideas?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "The Industrial Revolution",
+          "The American Revolution",
+          "The Agricultural Revolution",
+          "The Haitian Revolution"
+        ],
+        "correctAnswer": "The American Revolution"
+      },
+      {
+        "text": "How did the Treaty of Versailles impact post-World War I Germany?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "It fostered economic growth and stability",
+          "It imposed heavy reparations and territorial losses",
+          "It led to the establishment of a democratic government",
+          "It resulted in the unification of Germany"
+        ],
+        "correctAnswer": "It imposed heavy reparations and territorial losses"
+      },
+      {
+        "text": "What was the primary purpose of the Berlin Conference of 1884-1885?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "To discuss the abolition of slavery",
+          "To partition Africa among European nations",
+          "To establish trade routes in Asia",
+          "To promote peace in Europe"
+        ],
+        "correctAnswer": "To partition Africa among European nations"
+      },
+      {
+        "text": "Which of the following was a significant outcome of the Cold War?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "The spread of democracy in Eastern Europe",
+          "The establishment of the United Nations",
+          "The fall of the Berlin Wall",
+          "Both A and C"
+        ],
+        "correctAnswer": "Both A and C"
+      },
+      {
+        "text": "What was the primary cause of the Opium Wars in China?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Chinese resistance to foreign trade",
+          "Britain's desire to balance trade deficits",
+          "The spread of opium addiction",
+          "All of the above"
+        ],
+        "correctAnswer": "All of the above"
+      },
+      {
+        "text": "The Magna Carta is often cited as an early influence on which concept?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Absolute monarchy",
+          "Legal rights and the rule of law",
+          "Feudalism",
+          "Divine right of kings"
+        ],
+        "correctAnswer": "Legal rights and the rule of law"
+      },
+      {
+        "text": "Which empire was known for its extensive road system and communication networks, facilitating trade and military movement?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "The Roman Empire",
+          "The Ottoman Empire",
+          "The Mongol Empire",
+          "The Persian Empire"
+        ],
+        "correctAnswer": "The Roman Empire"
+      }
+    ],
+    "createdBy": "694af0021a87e1cd234dcbff",
+    "userId": "694af0021a87e1cd234dcbff",
+    "difficulty": "beginner",
+    "createdAt": "2026-03-21T14:42:41.702Z"
+  },
+  {
+    "_id": "69c967a9bb256735f4a404cc",
+    "title": "Beginner Level Chemistry Examination",
+    "course": "Chemistry for Kenyan Curriculum - Form 4",
+    "questions": [
+      {
+        "text": "Which of the following represents a physical change?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Burning wood",
+          "Dissolving salt in water",
+          "Rusting of iron",
+          "Digestion of food"
+        ],
+        "correctAnswer": "Dissolving salt in water"
+      },
+      {
+        "text": "What is the primary reason for the use of a catalyst in a chemical reaction?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "To increase the temperature",
+          "To increase the rate of reaction",
+          "To change the products",
+          "To decrease the pressure"
+        ],
+        "correctAnswer": "To increase the rate of reaction"
+      },
+      {
+        "text": "Which of the following best describes an endothermic reaction?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Releases heat",
+          "Absorbs heat",
+          "Does not change temperature",
+          "Produces light"
+        ],
+        "correctAnswer": "Absorbs heat"
+      },
+      {
+        "text": "In the reaction 2H2 + O2 → 2H2O, what is the ratio of hydrogen to oxygen?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "1:1",
+          "2:1",
+          "2:2",
+          "4:1"
+        ],
+        "correctAnswer": "2:1"
+      },
+      {
+        "text": "Which of the following statements about acids is correct?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Acids turn blue litmus paper red",
+          "Acids are always solids",
+          "Acids have a pH greater than 7",
+          "Acids do not conduct electricity"
+        ],
+        "correctAnswer": "Acids turn blue litmus paper red"
+      },
+      {
+        "text": "What is the main component of natural gas?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Propane",
+          "Methane",
+          "Butane",
+          "Ethane"
+        ],
+        "correctAnswer": "Methane"
+      },
+      {
+        "text": "Which type of bond is formed when two atoms share electrons?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Ionic bond",
+          "Covalent bond",
+          "Metallic bond",
+          "Hydrogen bond"
+        ],
+        "correctAnswer": "Covalent bond"
+      },
+      {
+        "text": "What is the pH of a neutral solution at 25°C?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "0",
+          "7",
+          "14",
+          "3"
+        ],
+        "correctAnswer": "7"
+      },
+      {
+        "text": "Which gas is produced when an acid reacts with a carbonate?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Hydrogen",
+          "Oxygen",
+          "Carbon dioxide",
+          "Nitrogen"
+        ],
+        "correctAnswer": "Carbon dioxide"
+      },
+      {
+        "text": "Which of the following elements is not a metal?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Iron",
+          "Copper",
+          "Sulfur",
+          "Aluminum"
+        ],
+        "correctAnswer": "Sulfur"
+      },
+      {
+        "text": "In a balanced chemical equation, what must be conserved?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Energy only",
+          "Mass only",
+          "Mass and energy",
+          "Volume only"
+        ],
+        "correctAnswer": "Mass and energy"
+      },
+      {
+        "text": "What happens to the rate of a chemical reaction if the concentration of the reactants increases?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Decreases",
+          "Increases",
+          "Remains the same",
+          "Becomes unpredictable"
+        ],
+        "correctAnswer": "Increases"
+      },
+      {
+        "text": "Which of the following is a characteristic of metals?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Brittle",
+          "Good conductors of heat",
+          "Dull appearance",
+          "Low density"
+        ],
+        "correctAnswer": "Good conductors of heat"
+      },
+      {
+        "text": "What is the formula for calculating the molarity of a solution?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "M = m/V",
+          "M = V/m",
+          "M = n/V",
+          "M = V/n"
+        ],
+        "correctAnswer": "M = n/V"
+      },
+      {
+        "text": "Which of the following substances is a strong acid?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Acetic acid",
+          "Hydrochloric acid",
+          "Citric acid",
+          "Carbonic acid"
+        ],
+        "correctAnswer": "Hydrochloric acid"
+      },
+      {
+        "text": "What is the process called when a solid changes directly into a gas?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Condensation",
+          "Sublimation",
+          "Evaporation",
+          "Melting"
+        ],
+        "correctAnswer": "Sublimation"
+      },
+      {
+        "text": "Which of the following is a property of ionic compounds?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Low melting points",
+          "Conduct electricity when solid",
+          "Brittle",
+          "All of the above"
+        ],
+        "correctAnswer": "Brittle"
+      },
+      {
+        "text": "What is the main type of bonding in sodium chloride (NaCl)?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Covalent bonding",
+          "Ionic bonding",
+          "Metallic bonding",
+          "Hydrogen bonding"
+        ],
+        "correctAnswer": "Ionic bonding"
+      },
+      {
+        "text": "When an object is oxidized, what happens to its oxidation state?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Increases",
+          "Decreases",
+          "Remains the same",
+          "Becomes negative"
+        ],
+        "correctAnswer": "Increases"
+      },
+      {
+        "text": "Which of the following gases is most commonly responsible for the greenhouse effect?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Ozone",
+          "Methane",
+          "Carbon dioxide",
+          "Nitrous oxide"
+        ],
+        "correctAnswer": "Carbon dioxide"
+      },
+      {
+        "text": "What is the main purpose of a titration in chemistry?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "To measure temperature",
+          "To determine concentration",
+          "To change color",
+          "To mix solutions"
+        ],
+        "correctAnswer": "To determine concentration"
+      },
+      {
+        "text": "Which of the following describes the movement of particles in a gas?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Fixed position",
+          "Vibrate in place",
+          "Move freely and rapidly",
+          "Move slowly and closely packed"
+        ],
+        "correctAnswer": "Move freely and rapidly"
+      },
+      {
+        "text": "In the periodic table, elements are arranged by increasing:",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Atomic mass",
+          "Atomic number",
+          "Density",
+          "Reactivity"
+        ],
+        "correctAnswer": "Atomic number"
+      },
+      {
+        "text": "Which of the following correctly represents a decomposition reaction?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "A + B → AB",
+          "AB → A + B",
+          "A + B → C",
+          "A + B + C → D"
+        ],
+        "correctAnswer": "AB → A + B"
+      },
+      {
+        "text": "What is the effect of temperature on the solubility of most solids in water?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Increases with temperature",
+          "Decreases with temperature",
+          "No effect",
+          "Depends on the solid"
+        ],
+        "correctAnswer": "Increases with temperature"
+      }
+    ],
+    "createdBy": "694af0021a87e1cd234dcbff",
+    "userId": "694af0021a87e1cd234dcbff",
+    "difficulty": "beginner",
+    "createdAt": "2026-03-29T17:55:53.428Z",
+    "__v": 2,
+    "performances": [
+      {
+        "userId": "694af0021a87e1cd234dcbff",
+        "score": 0,
+        "totalMarks": 20,
+        "percentage": 0,
+        "completedAt": "2026-03-29T17:56:23.811Z",
+        "_id": "69c967c7bb256735f4a40528"
+      },
+      {
+        "userId": "694af0021a87e1cd234dcbff",
+        "score": 3,
+        "totalMarks": 10,
+        "percentage": 30,
+        "completedAt": "2026-07-15T06:32:11.359Z",
+        "answers": {
+          "6a5728758fcc481748f3e571": "Dissolving salt in water",
+          "6a5728758fcc481748f3e572": "To increase the rate of reaction",
+          "6a5728758fcc481748f3e573": "Absorbs heat"
+        },
+        "_id": "6a57296bf53bb1c32257823f"
+      }
+    ],
+    "srs": {
+      "dueDate": "2026-03-29T17:56:23.811Z",
+      "ease": 2.5,
+      "interval": 0,
+      "repetitions": 0
+    },
+    "updatedAt": "2026-07-15T06:32:11.368Z"
+  },
+  {
+    "_id": "69d7d5d7def61cd9c0fb05b6",
+    "title": "Form 2 Physics Examination",
+    "course": "Form 2 physics exam",
+    "questions": [
+      {
+        "text": "A student conducts an experiment to measure the acceleration of a toy car down a ramp. If the angle of the ramp increases, what is the expected effect on the acceleration of the car?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "A) Acceleration decreases",
+          "B) Acceleration remains constant",
+          "C) Acceleration increases",
+          "D) Acceleration becomes zero"
+        ],
+        "correctAnswer": "C) Acceleration increases"
+      },
+      {
+        "text": "In an experiment, two objects of different masses are dropped from the same height in a vacuum. Which statement best describes their motion?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "A) The heavier object hits the ground first",
+          "B) They hit the ground at the same time",
+          "C) The lighter object falls slower",
+          "D) The heavier object bounces higher"
+        ],
+        "correctAnswer": "B) They hit the ground at the same time"
+      },
+      {
+        "text": "A pendulum swings back and forth. At which point in its swing is the potential energy highest?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "A) At the lowest point",
+          "B) At the highest point",
+          "C) At the midpoint",
+          "D) At the starting point"
+        ],
+        "correctAnswer": "B) At the highest point"
+      },
+      {
+        "text": "When a 5 kg object is subjected to a force of 20 N, what is its acceleration? Use Newton's second law of motion, where acceleration can be calculated as follows: \n\n\\[ a = \\frac{F}{m} \\] \n\nwhere F is the force and m is the mass.",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "A) 2 m/s²",
+          "B) 4 m/s²",
+          "C) 5 m/s²",
+          "D) 10 m/s²"
+        ],
+        "correctAnswer": "B) 4 m/s²"
+      },
+      {
+        "text": "A block of wood floats on water. Which of the following statements accurately describes the forces acting on the block?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "A) Weight is greater than buoyant force",
+          "B) Buoyant force is equal to weight",
+          "C) Buoyant force is less than weight",
+          "D) There are no forces acting on the block"
+        ],
+        "correctAnswer": "B) Buoyant force is equal to weight"
+      },
+      {
+        "text": "A student observes that a metal rod becomes warmer when an electric current passes through it. What is the primary reason for this warming effect?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "A) Magnetic field generation",
+          "B) Resistance in the material",
+          "C) Conduction of heat",
+          "D) Chemical reaction"
+        ],
+        "correctAnswer": "B) Resistance in the material"
+      },
+      {
+        "text": "Which of the following best describes the relationship between voltage, current, and resistance in an electrical circuit?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "A) Ohm's Law: V = I + R",
+          "B) Ohm's Law: V = I × R",
+          "C) Ohm's Law: V = I / R",
+          "D) Ohm's Law: V = R / I"
+        ],
+        "correctAnswer": "B) Ohm's Law: V = I × R"
+      },
+      {
+        "text": "In a laboratory experiment, a light bulb is connected to a battery. If the voltage of the battery is increased, what happens to the brightness of the bulb?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "A) Brightness decreases",
+          "B) Brightness remains the same",
+          "C) Brightness increases",
+          "D) Bulb burns out"
+        ],
+        "correctAnswer": "C) Brightness increases"
+      },
+      {
+        "text": "When a rubber band is stretched, it returns to its original shape when released. This behavior is an example of which type of energy transformation?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "A) Kinetic to potential energy",
+          "B) Potential to kinetic energy",
+          "C) Thermal to mechanical energy",
+          "D) Chemical to mechanical energy"
+        ],
+        "correctAnswer": "B) Potential to kinetic energy"
+      },
+      {
+        "text": "A cyclist travels at a constant speed of 15 m/s. If the cyclist increases their speed to 20 m/s, what is the percentage increase in speed?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "A) 25%",
+          "B) 33%",
+          "C) 20%",
+          "D) 15%"
+        ],
+        "correctAnswer": "A) 25%"
+      },
+      {
+        "text": "A student measures the time it takes for a ball to drop from a height of 10 meters. Ignoring air resistance, what is the expected time of fall? Use the equation for free fall: \\( t = \\sqrt{\\frac{2h}{g}} \\), where \\( g \\approx 9.81 \\, m/s^2 \\).",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "1.43 seconds",
+          "2.02 seconds",
+          "1.89 seconds",
+          "3.16 seconds"
+        ],
+        "correctAnswer": "1.43 seconds"
+      },
+      {
+        "text": "In a scenario where two identical springs are compressed with equal force, which statement best describes the potential energy stored in each spring?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "The potential energy is the same in both springs.",
+          "The potential energy is greater in the spring that is compressed more.",
+          "The potential energy is less in the spring that is compressed more.",
+          "Potential energy cannot be compared without knowing the spring constants."
+        ],
+        "correctAnswer": "The potential energy is the same in both springs."
+      },
+      {
+        "text": "A student notices that when a metal object is heated, it expands. Which of the following best explains why this occurs?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "The mass of the object increases.",
+          "The particles move closer together.",
+          "The particles gain kinetic energy and move further apart.",
+          "The metal becomes less dense."
+        ],
+        "correctAnswer": "The particles gain kinetic energy and move further apart."
+      },
+      {
+        "text": "When light passes from air into water, it bends towards the normal line. This phenomenon is known as what?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Reflection",
+          "Refraction",
+          "Diffraction",
+          "Dispersion"
+        ],
+        "correctAnswer": "Refraction"
+      },
+      {
+        "text": "A student observes that increasing the resistance in a circuit decreases the current. Which law explains this relationship?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Ohm's Law",
+          "Newton's Second Law",
+          "The Law of Conservation of Energy",
+          "The Law of Universal Gravitation"
+        ],
+        "correctAnswer": "Ohm's Law"
+      },
+      {
+        "text": "In an experiment, a student tries to determine the density of a solid object. Which of the following methods would be most appropriate?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Measuring its weight in air and dividing by its volume.",
+          "Measuring its weight in water and dividing by its volume.",
+          "Measuring its weight in air and subtracting its weight in water.",
+          "Measuring its volume and multiplying by its weight."
+        ],
+        "correctAnswer": "Measuring its weight in air and dividing by its volume."
+      },
+      {
+        "text": "A car accelerates uniformly from rest to a speed of 25 m/s in 5 seconds. What is the distance covered by the car during this time?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "62.5 meters",
+          "50 meters",
+          "75 meters",
+          "100 meters"
+        ],
+        "correctAnswer": "62.5 meters"
+      },
+      {
+        "text": "In a simple circuit with a battery, resistor, and a switch, what happens when the switch is closed?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "The current stops flowing.",
+          "The resistor becomes an insulator.",
+          "The current starts flowing through the circuit.",
+          "The battery discharges instantly."
+        ],
+        "correctAnswer": "The current starts flowing through the circuit."
+      },
+      {
+        "text": "A block of ice melts when placed in a warm room. Which of the following energy transfers is primarily responsible for this change?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Conduction",
+          "Convection",
+          "Radiation",
+          "Evaporation"
+        ],
+        "correctAnswer": "Conduction"
+      },
+      {
+        "text": "A bicycle wheel rotates at a constant speed. Which of the following statements best describes the relationship between the angular velocity and linear velocity of the wheel?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Angular velocity is always greater than linear velocity.",
+          "Linear velocity is always greater than angular velocity.",
+          "Angular velocity and linear velocity are directly proportional.",
+          "Angular velocity and linear velocity are inversely proportional."
+        ],
+        "correctAnswer": "Angular velocity and linear velocity are directly proportional."
+      },
+      {
+        "text": "A student rolls two balls of different masses down the same ramp. Assuming they experience no air resistance, which of the following statements is true?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "The heavier ball will roll faster than the lighter ball.",
+          "Both balls will reach the bottom at the same time.",
+          "The lighter ball will roll faster than the heavier ball.",
+          "The heavier ball will take longer to reach the bottom."
+        ],
+        "correctAnswer": "Both balls will reach the bottom at the same time."
+      },
+      {
+        "text": "In a simple harmonic motion scenario, a mass attached to a spring oscillates. If the spring constant is doubled, how does this affect the period of oscillation?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "The period remains unchanged.",
+          "The period doubles.",
+          "The period is halved.",
+          "The period increases by a factor of four."
+        ],
+        "correctAnswer": "The period is halved."
+      },
+      {
+        "text": "A student measures the voltage across a resistor in a circuit. If the resistance is increased while the voltage remains constant, what happens to the current flowing through the resistor?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "The current increases.",
+          "The current remains the same.",
+          "The current decreases.",
+          "The current becomes zero."
+        ],
+        "correctAnswer": "The current decreases."
+      },
+      {
+        "text": "Calculate the gravitational potential energy of a 10 kg mass raised to a height of 5 meters. Use the equation for gravitational potential energy: \\[ PE = mgh \\] where \\( g = 9.81 \\, \\text{m/s}^2 \\).",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "490.5 J",
+          "981 J",
+          "49.05 J",
+          "980 J"
+        ],
+        "correctAnswer": "490.5 J"
+      },
+      {
+        "text": "A student observes that a metal rod conducts heat better than a wooden stick. This observation is primarily due to which property of metals?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Metals have higher specific heat capacity.",
+          "Metals have free electrons that facilitate heat transfer.",
+          "Metals are denser than wood.",
+          "Metals expand less than wood when heated."
+        ],
+        "correctAnswer": "Metals have free electrons that facilitate heat transfer."
+      },
+      {
+        "text": "In a circuit with a battery and two resistors in series, which of the following statements best describes the effect on total resistance when a third resistor is added in series?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Total resistance decreases.",
+          "Total resistance remains the same.",
+          "Total resistance increases.",
+          "Total resistance becomes zero."
+        ],
+        "correctAnswer": "Total resistance increases."
+      },
+      {
+        "text": "A student conducts an experiment to determine the density of a liquid. If the mass of the liquid is 300 grams and its volume is 200 cm³, what is its density?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "1.5 g/cm³",
+          "0.67 g/cm³",
+          "2.0 g/cm³",
+          "1.0 g/cm³"
+        ],
+        "correctAnswer": "1.5 g/cm³"
+      },
+      {
+        "text": "In a lab experiment, a student observes that light bends when it passes from air into glass. This phenomenon can be attributed to which principle?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Reflection",
+          "Refraction",
+          "Diffraction",
+          "Dispersion"
+        ],
+        "correctAnswer": "Refraction"
+      },
+      {
+        "text": "A 5 kg object is moving at a velocity of 10 m/s. What is its kinetic energy? Use the equation for kinetic energy: \\[ KE = \\frac{1}{2} mv^2 \\].",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "250 J",
+          "500 J",
+          "100 J",
+          "200 J"
+        ],
+        "correctAnswer": "250 J"
+      },
+      {
+        "text": "When an object moves in a circular path at constant speed, which of the following statements is true regarding its acceleration?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "There is no acceleration as the speed is constant.",
+          "The acceleration is directed towards the center of the circle.",
+          "The acceleration is directed away from the center of the circle.",
+          "The acceleration changes direction but not magnitude."
+        ],
+        "correctAnswer": "The acceleration is directed towards the center of the circle."
+      },
+      {
+        "text": "In an experiment, a student measures the time taken for a pendulum to complete ten oscillations. If the length of the pendulum is doubled, how is the period of oscillation affected?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "It remains the same",
+          "It doubles",
+          "It increases by a factor of √2",
+          "It increases by a factor of 2"
+        ],
+        "correctAnswer": "It increases by a factor of √2"
+      },
+      {
+        "text": "A student uses a spring scale to measure the force required to lift a 10 kg mass. If the gravitational field strength is 9.8 N/kg, what reading should the scale show?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "10 N",
+          "49 N",
+          "98 N",
+          "0.98 N"
+        ],
+        "correctAnswer": "98 N"
+      },
+      {
+        "text": "A block of metal is heated and then placed in water. Which of the following best describes the energy transfer that occurs?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Conduction",
+          "Convection",
+          "Radiation",
+          "Insulation"
+        ],
+        "correctAnswer": "Conduction"
+      },
+      {
+        "text": "When a light beam passes from a less dense medium to a more dense medium, which of the following statements is true?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "The light speeds up",
+          "The light bends away from the normal",
+          "The light slows down",
+          "The light does not change direction"
+        ],
+        "correctAnswer": "The light slows down"
+      },
+      {
+        "text": "A student is observing a car that accelerates from rest to a velocity of 30 m/s in 10 seconds. What is the average acceleration of the car?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "3 m/s²",
+          "6 m/s²",
+          "0.3 m/s²",
+          "30 m/s²"
+        ],
+        "correctAnswer": "3 m/s²"
+      },
+      {
+        "text": "In a circuit with a battery and two resistors in parallel, what happens to the total current when one of the resistors is removed?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "The total current decreases",
+          "The total current remains the same",
+          "The total current increases",
+          "The circuit will not work"
+        ],
+        "correctAnswer": "The total current increases"
+      },
+      {
+        "text": "A student conducts an experiment to determine the specific heat capacity of a substance. Which of the following is the correct formula to calculate the heat energy absorbed?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Q = mcΔT",
+          "Q = mgh",
+          "Q = 1/2 mv²",
+          "Q = VIt"
+        ],
+        "correctAnswer": "Q = mcΔT"
+      },
+      {
+        "text": "If the frequency of a wave is increased while its speed remains constant, what happens to the wavelength?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "It increases",
+          "It decreases",
+          "It remains the same",
+          "It becomes zero"
+        ],
+        "correctAnswer": "It decreases"
+      },
+      {
+        "text": "A student measures the resistance of a circuit and finds it to be 4 ohms. If the voltage supplied is 12 volts, what is the current flowing through the circuit?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "3 A",
+          "48 A",
+          "0.33 A",
+          "4 A"
+        ],
+        "correctAnswer": "3 A"
+      },
+      {
+        "text": "In a scenario where two objects are placed in contact with each other, which statement best describes the heat transfer that occurs?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Heat flows from the cooler object to the warmer object",
+          "Heat flows from the warmer object to the cooler object",
+          "No heat flows between the objects",
+          "Heat flow depends on the mass of the objects"
+        ],
+        "correctAnswer": "Heat flows from the warmer object to the cooler object"
+      },
+      {
+        "text": "A student observes that when a pendulum swings, the time taken for one complete oscillation is affected by its length. Which of the following statements best describes this relationship?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "The time period increases as the length increases.",
+          "The time period decreases as the length increases.",
+          "The time period is independent of the length.",
+          "The time period is directly proportional to the mass of the pendulum."
+        ],
+        "correctAnswer": "The time period increases as the length increases."
+      },
+      {
+        "text": "When a sound wave travels from air into water, which of the following changes occurs?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "The speed of sound decreases.",
+          "The wavelength increases.",
+          "The frequency decreases.",
+          "The amplitude increases."
+        ],
+        "correctAnswer": "The wavelength increases."
+      },
+      {
+        "text": "A student is conducting an experiment to measure the specific heat capacity of a metal. If the metal is heated and then placed in water, which observation would indicate that thermal equilibrium has been reached?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "The temperature of the metal remains constant.",
+          "The temperature of the water continues to rise.",
+          "The temperature of the metal and water are equal.",
+          "The metal begins to cool down."
+        ],
+        "correctAnswer": "The temperature of the metal and water are equal."
+      },
+      {
+        "text": "In a scenario where a car travels at a constant speed of 60 km/h for 2 hours, what distance does the car cover?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "30 km",
+          "60 km",
+          "120 km",
+          "150 km"
+        ],
+        "correctAnswer": "120 km"
+      },
+      {
+        "text": "A student uses a spring scale to measure the weight of an object. If the scale reads 50 N, what can be inferred about the mass of the object assuming standard gravity?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "The mass is 5 kg.",
+          "The mass is 10 kg.",
+          "The mass is 50 kg.",
+          "The mass is 0.5 kg."
+        ],
+        "correctAnswer": "The mass is 5 kg."
+      },
+      {
+        "text": "If an electric circuit contains a battery and three resistors in series, which statement accurately describes the total resistance in the circuit?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "The total resistance is equal to the sum of individual resistances.",
+          "The total resistance is less than the smallest resistor.",
+          "The total resistance is equal to the largest resistor.",
+          "The total resistance is independent of the number of resistors."
+        ],
+        "correctAnswer": "The total resistance is equal to the sum of individual resistances."
+      },
+      {
+        "text": "A student measures the current in a circuit and finds it to be 3 A. If the voltage supplied is 12 V, what is the resistance in the circuit using Ohm's Law?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "4 ohms",
+          "6 ohms",
+          "9 ohms",
+          "36 ohms"
+        ],
+        "correctAnswer": "4 ohms"
+      },
+      {
+        "text": "In a vacuum, two objects of different masses are dropped from the same height. Which statement correctly describes their behavior?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "The heavier object hits the ground first.",
+          "Both objects hit the ground at the same time.",
+          "The lighter object hits the ground first.",
+          "The time taken depends on the shape of the objects."
+        ],
+        "correctAnswer": "Both objects hit the ground at the same time."
+      },
+      {
+        "text": "If a wave has a frequency of 10 Hz and a wavelength of 2 meters, what is the speed of the wave? Use the wave speed formula: \n\\[ v = f \\lambda \\]",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "5 m/s",
+          "10 m/s",
+          "20 m/s",
+          "40 m/s"
+        ],
+        "correctAnswer": "20 m/s"
+      }
+    ],
+    "createdBy": "694af0021a87e1cd234dcbff",
+    "userId": "694af0021a87e1cd234dcbff",
+    "difficulty": "beginner",
+    "updatedAt": "2026-07-13T07:26:51.426Z",
+    "createdAt": "2026-04-09T16:37:43.484Z",
+    "__v": 8,
+    "performances": [
+      {
+        "userId": "694af0021a87e1cd234dcbff",
+        "score": 0,
+        "totalMarks": 49,
+        "percentage": 0,
+        "completedAt": "2026-04-09T16:38:50.094Z",
+        "_id": "69d7d61adef61cd9c0fb06d1"
+      },
+      {
+        "userId": "694af0021a87e1cd234dcbff",
+        "score": 0,
+        "totalMarks": 10,
+        "percentage": 0,
+        "completedAt": "2026-04-09T16:43:02.794Z",
+        "_id": "69d7d716def61cd9c0fb07f1"
+      },
+      {
+        "userId": "694af0021a87e1cd234dcbff",
+        "score": 0,
+        "totalMarks": 10,
+        "percentage": 0,
+        "completedAt": "2026-04-09T19:05:34.458Z",
+        "_id": "69d7f87edef61cd9c0fb0ca5"
+      },
+      {
+        "userId": "694af0021a87e1cd234dcbff",
+        "score": 2,
+        "totalMarks": 10,
+        "percentage": 20,
+        "completedAt": "2026-04-10T08:21:45.316Z",
+        "answers": {
+          "69d8b2fc95f6b52f4ff78129": "C) Acceleration increases",
+          "69d8b2fc95f6b52f4ff7812a": "B) They hit the ground at the same time"
+        },
+        "_id": "69d8b31995f6b52f4ff781d4"
+      },
+      {
+        "userId": "694af0021a87e1cd234dcbff",
+        "score": 0,
+        "totalMarks": 10,
+        "percentage": 0,
+        "completedAt": "2026-04-10T16:54:48.637Z",
+        "_id": "69d92b58a31199a7bed1ebd7"
+      },
+      {
+        "userId": "694af0021a87e1cd234dcbff",
+        "score": 0,
+        "totalMarks": 10,
+        "percentage": 0,
+        "completedAt": "2026-06-25T17:56:23.906Z",
+        "_id": "6a3d6bc70a33a4fa865277a3"
+      },
+      {
+        "userId": "694af0021a87e1cd234dcbff",
+        "score": 0,
+        "totalMarks": 10,
+        "percentage": 0,
+        "completedAt": "2026-07-06T16:01:20.464Z",
+        "answers": {
+          "6a4bd14167a2098eea55d9c0": "A) Acceleration decreases"
+        },
+        "_id": "6a4bd15067a2098eea55da71"
+      },
+      {
+        "userId": "694af0021a87e1cd234dcbff",
+        "score": 0,
+        "totalMarks": 10,
+        "percentage": 0,
+        "completedAt": "2026-07-13T07:26:51.291Z",
+        "answers": {
+          "6a54930d4093f3bb8e3ea934": "A) Acceleration decreases"
+        },
+        "_id": "6a54933b4093f3bb8e3ea9ed"
+      }
+    ],
+    "srs": {
+      "dueDate": "2026-04-09T16:38:50.093Z",
+      "ease": 2.5,
+      "interval": 0,
+      "repetitions": 0
+    }
+  },
+  {
+    "_id": "69b97e47f5e4da6998ef6e12",
+    "title": "Digital Content Creation Fundamentals Quiz",
+    "course": "Digital Content Creation",
+    "questions": [
+      {
+        "text": "When planning a digital content strategy, which of the following factors is most critical to ensure that the content resonates with the target audience?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Content format variety",
+          "Audience research and analysis",
+          "Frequency of posting",
+          "Use of trending hashtags"
+        ],
+        "correctAnswer": "Audience research and analysis"
+      },
+      {
+        "text": "Which of the following practices is essential for optimizing digital content for search engines?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Using images only",
+          "Incorporating relevant keywords",
+          "Creating long paragraphs",
+          "Linking only to external sources"
+        ],
+        "correctAnswer": "Incorporating relevant keywords"
+      },
+      {
+        "text": "In the context of digital content creation, what is the primary purpose of a content calendar?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "To track website traffic",
+          "To schedule and organize content publication",
+          "To analyze competitor strategies",
+          "To increase the number of social media followers"
+        ],
+        "correctAnswer": "To schedule and organize content publication"
+      },
+      {
+        "text": "Which of the following techniques can enhance audience engagement with digital content?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Using complex jargon",
+          "Encouraging user-generated content",
+          "Posting sporadically",
+          "Limiting interaction opportunities"
+        ],
+        "correctAnswer": "Encouraging user-generated content"
+      },
+      {
+        "text": "When creating a video for digital platforms, what is the most effective way to maintain viewer retention?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Starting with credits",
+          "Delivering the main message early",
+          "Using long, detailed introductions",
+          "Including unrelated content to engage viewers"
+        ],
+        "correctAnswer": "Delivering the main message early"
+      },
+      {
+        "text": "Which of the following statements best describes the role of analytics in digital content creation?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Analytics are only useful after the content is published",
+          "Analytics help to adjust strategies based on audience behavior",
+          "Analytics should be ignored for creative freedom",
+          "Analytics are only relevant for social media content"
+        ],
+        "correctAnswer": "Analytics help to adjust strategies based on audience behavior"
+      },
+      {
+        "text": "What is a common pitfall when designing visuals for digital content?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Ensuring high resolution",
+          "Balancing color schemes",
+          "Overloading with text and graphics",
+          "Utilizing consistent branding"
+        ],
+        "correctAnswer": "Overloading with text and graphics"
+      },
+      {
+        "text": "Which method is generally the most effective for gathering feedback on digital content?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Ignoring audience comments",
+          "Conducting surveys and polls",
+          "Relying solely on likes and shares",
+          "Asking colleagues only"
+        ],
+        "correctAnswer": "Conducting surveys and polls"
+      },
+      {
+        "text": "What is the significance of storytelling in digital content creation?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "It makes content longer",
+          "It complicates the message",
+          "It helps to create an emotional connection",
+          "It is only useful for written content"
+        ],
+        "correctAnswer": "It helps to create an emotional connection"
+      },
+      {
+        "text": "In what way can repurposing existing content benefit a digital content strategy?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "It reduces the need for new ideas",
+          "It can reach different audience segments",
+          "It only works for written content",
+          "It limits engagement opportunities"
+        ],
+        "correctAnswer": "It can reach different audience segments"
+      }
+    ],
+    "createdBy": "69b977a767cea1bf4754d000",
+    "userId": "69b977a767cea1bf4754d000",
+    "difficulty": "beginner",
+    "createdAt": "2026-03-17T16:16:07.768Z"
+  },
+  {
+    "_id": "69c2d62f6a57e2bb1f865a16",
+    "title": "AI-Powered Economic Forecasting Quiz",
+    "course": "AI-Powered Economic Forecasting",
+    "questions": [
+      {
+        "text": "Which of the following best explains how AI can enhance traditional economic forecasting methods?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "A) AI automates the entire forecasting process without human oversight.",
+          "B) AI integrates large datasets and identifies patterns that may be missed by traditional methods.",
+          "C) AI relies solely on historical data to generate forecasts.",
+          "D) AI eliminates the need for statistical analysis in forecasting."
+        ],
+        "correctAnswer": "B) AI integrates large datasets and identifies patterns that may be missed by traditional methods."
+      },
+      {
+        "text": "In the context of AI economic forecasting, which machine learning technique is commonly used for predicting future economic trends?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "A) Clustering",
+          "B) Decision Trees",
+          "C) Data Visualization",
+          "D) Text Mining"
+        ],
+        "correctAnswer": "B) Decision Trees"
+      },
+      {
+        "text": "What is the primary advantage of using time series analysis in AI-powered economic forecasting?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "A) It provides real-time data processing.",
+          "B) It helps in understanding the temporal dynamics of economic indicators.",
+          "C) It requires minimal data input.",
+          "D) It focuses only on qualitative data."
+        ],
+        "correctAnswer": "B) It helps in understanding the temporal dynamics of economic indicators."
+      },
+      {
+        "text": "Which of the following is a common challenge faced when implementing AI in economic forecasting?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "A) Lack of computational power.",
+          "B) Difficulty in obtaining relevant data.",
+          "C) Excessive reliance on qualitative data.",
+          "D) Inability to automate the forecasting process."
+        ],
+        "correctAnswer": "B) Difficulty in obtaining relevant data."
+      },
+      {
+        "text": "When evaluating the effectiveness of an AI forecasting model, which metric would be most appropriate to assess its accuracy?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "A) R-squared value",
+          "B) Mean Absolute Error (MAE)",
+          "C) Total Revenue",
+          "D) Customer Satisfaction Score"
+        ],
+        "correctAnswer": "B) Mean Absolute Error (MAE)"
+      },
+      {
+        "text": "Which of the following statements is true regarding the interpretability of AI models in economic forecasting?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "A) All AI models are inherently interpretable.",
+          "B) Black-box models provide complete transparency in their decision-making.",
+          "C) Interpretability is crucial for stakeholders to trust AI-generated forecasts.",
+          "D) Interpretability is not a concern in economic forecasting."
+        ],
+        "correctAnswer": "C) Interpretability is crucial for stakeholders to trust AI-generated forecasts."
+      },
+      {
+        "text": "What role does feature selection play in developing an AI economic forecasting model?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "A) It reduces the complexity of the model by eliminating irrelevant variables.",
+          "B) It increases the size of the dataset to improve accuracy.",
+          "C) It ensures that only quantitative data is used in the model.",
+          "D) It guarantees that all available data is utilized in the forecasting."
+        ],
+        "correctAnswer": "A) It reduces the complexity of the model by eliminating irrelevant variables."
+      },
+      {
+        "text": "In the context of AI economic forecasting, what does overfitting refer to?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "A) A model that performs well on training data but poorly on unseen data.",
+          "B) A model that underestimates the complexity of the data.",
+          "C) A model that incorporates too few variables.",
+          "D) A model that is too simplistic and lacks depth."
+        ],
+        "correctAnswer": "A) A model that performs well on training data but poorly on unseen data."
+      },
+      {
+        "text": "Which method can be used to improve the robustness of AI forecasting models against unforeseen economic shocks?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "A) Increasing the model's complexity.",
+          "B) Incorporating scenario analysis and stress testing.",
+          "C) Focusing exclusively on historical data.",
+          "D) Reducing the amount of input data used."
+        ],
+        "correctAnswer": "B) Incorporating scenario analysis and stress testing."
+      },
+      {
+        "text": "In AI-powered economic forecasting, what is the significance of retraining models periodically?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "A) To maintain the model's relevance in a changing economic environment.",
+          "B) To reduce the computational costs associated with forecasting.",
+          "C) To ensure that historical data remains the primary focus.",
+          "D) To eliminate the need for data cleaning."
+        ],
+        "correctAnswer": "A) To maintain the model's relevance in a changing economic environment."
+      }
+    ],
+    "createdBy": "694af0021a87e1cd234dcbff",
+    "userId": "694af0021a87e1cd234dcbff",
+    "difficulty": "beginner",
+    "createdAt": "2026-03-24T18:21:35.286Z"
+  },
+  {
+    "_id": "69beae5f47872eb97108e533",
+    "title": "World History Practice Quiz",
+    "course": "Generate a 10-question practice quiz about world history.",
+    "questions": [
+      {
+        "text": "Which event is considered the starting point of the modern era in world history?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "The Renaissance",
+          "The Industrial Revolution",
+          "World War I",
+          "The American Revolution"
+        ],
+        "correctAnswer": "The Renaissance"
+      },
+      {
+        "text": "What was the primary cause of the fall of the Roman Empire?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Economic decline",
+          "Military defeats",
+          "Internal corruption",
+          "All of the above"
+        ],
+        "correctAnswer": "All of the above"
+      },
+      {
+        "text": "How did the Silk Road contribute to cultural exchange?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "By facilitating trade between Europe and Asia",
+          "By spreading religions",
+          "By promoting technological innovations",
+          "All of the above"
+        ],
+        "correctAnswer": "All of the above"
+      },
+      {
+        "text": "Which revolution is most closely associated with the rise of democracy in the United States?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "The French Revolution",
+          "The Industrial Revolution",
+          "The American Revolution",
+          "The Haitian Revolution"
+        ],
+        "correctAnswer": "The American Revolution"
+      },
+      {
+        "text": "What role did the Treaty of Versailles play after World War I?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "It established peace between the Allies and Central Powers",
+          "It initiated World War II",
+          "It resulted in the formation of the League of Nations",
+          "Both A and C"
+        ],
+        "correctAnswer": "Both A and C"
+      },
+      {
+        "text": "Which of the following was a significant result of the Age of Exploration?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Colonization of new lands",
+          "Spread of diseases",
+          "Cultural exchanges",
+          "All of the above"
+        ],
+        "correctAnswer": "All of the above"
+      },
+      {
+        "text": "Which empire is known for its contributions to mathematics and astronomy during the Golden Age?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "The Roman Empire",
+          "The Ottoman Empire",
+          "The Islamic Caliphate",
+          "The British Empire"
+        ],
+        "correctAnswer": "The Islamic Caliphate"
+      },
+      {
+        "text": "What was one of the main effects of the Cold War on global politics?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Decolonization of Africa",
+          "The establishment of NATO",
+          "The rise of communism in Asia",
+          "The spread of democracy in Europe"
+        ],
+        "correctAnswer": "The establishment of NATO"
+      },
+      {
+        "text": "How did the invention of the printing press impact society in the 15th century?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Increased literacy rates",
+          "The spread of propaganda",
+          "Facilitated the Reformation",
+          "All of the above"
+        ],
+        "correctAnswer": "All of the above"
+      },
+      {
+        "text": "Which was a significant consequence of the Industrial Revolution?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Urbanization",
+          "Increased agricultural production",
+          "Expansion of the middle class",
+          "All of the above"
+        ],
+        "correctAnswer": "All of the above"
+      }
+    ],
+    "createdBy": "694af0021a87e1cd234dcbff",
+    "userId": "694af0021a87e1cd234dcbff",
+    "difficulty": "beginner",
+    "createdAt": "2026-03-21T14:42:39.163Z",
+    "__v": 2,
+    "performances": [
+      {
+        "userId": "694af0021a87e1cd234dcbff",
+        "score": 0,
+        "totalMarks": 10,
+        "percentage": 0,
+        "completedAt": "2026-03-24T18:22:12.722Z",
+        "_id": "69c2d6542c936097e8b38946"
+      },
+      {
+        "userId": "694af0021a87e1cd234dcbff",
+        "score": 0,
+        "totalMarks": 10,
+        "percentage": 0,
+        "completedAt": "2026-03-27T09:41:08.985Z",
+        "_id": "69c650b47a54ae3ddd3de485"
+      }
+    ],
+    "srs": {
+      "dueDate": "2026-03-24T18:22:12.722Z",
+      "ease": 2.5,
+      "interval": 0,
+      "repetitions": 0
+    },
+    "updatedAt": "2026-03-27T09:41:09.005Z"
+  },
+  {
+    "_id": "6a54a53a1dc87e98e928929c",
+    "title": "Professional Biology Quiz",
+    "course": "biology",
+    "questions": [
+      {
+        "text": "Which cellular structure is primarily responsible for ATP production in eukaryotic cells?",
+        "type": "multiple_choice",
+        "points": 2,
+        "options": [
+          "Nucleus",
+          "Mitochondria",
+          "Endoplasmic Reticulum",
+          "Golgi Apparatus"
+        ],
+        "correctAnswer": "Mitochondria",
+        "explanation": "Mitochondria are known as the powerhouse of the cell because they generate ATP through cellular respiration, while the other structures have different functions."
+      },
+      {
+        "text": "In a population of rabbits, a dominant allele for brown fur (B) and a recessive allele for white fur (b) exist. If a heterozygous brown-furred rabbit mates with a white-furred rabbit, what percentage of their offspring can be expected to have brown fur?",
+        "type": "multiple_choice",
+        "points": 2,
+        "options": [
+          "0%",
+          "25%",
+          "50%",
+          "75%"
+        ],
+        "correctAnswer": "50%",
+        "explanation": "The heterozygous brown-furred rabbit (Bb) can produce gametes with either B or b. When mated with a white-furred rabbit (bb), the possible genotypes for the offspring are Bb (brown) and bb (white), resulting in a 50% chance of brown fur."
+      },
+      {
+        "text": "Which of the following processes does NOT occur during cellular respiration?",
+        "type": "multiple_choice",
+        "points": 2,
+        "options": [
+          "Glycolysis",
+          "Krebs Cycle",
+          "Electron Transport Chain",
+          "Photosynthesis"
+        ],
+        "correctAnswer": "Photosynthesis",
+        "explanation": "Photosynthesis is a process used by plants to convert light energy into chemical energy, whereas glycolysis, Krebs Cycle, and the Electron Transport Chain are all part of cellular respiration."
+      },
+      {
+        "text": "What is the primary function of ribosomes within a cell?",
+        "type": "multiple_choice",
+        "points": 2,
+        "options": [
+          "DNA replication",
+          "Protein synthesis",
+          "Lipid synthesis",
+          "Energy production"
+        ],
+        "correctAnswer": "Protein synthesis",
+        "explanation": "Ribosomes are the cellular machinery responsible for translating messenger RNA into proteins, while the other options pertain to different cellular processes."
+      },
+      {
+        "text": "In ecology, the term 'carrying capacity' refers to what?",
+        "type": "multiple_choice",
+        "points": 2,
+        "options": [
+          "The maximum population size that an environment can sustain",
+          "The speed at which a population grows",
+          "The diversity of species in an ecosystem",
+          "The rate of resource consumption"
+        ],
+        "correctAnswer": "The maximum population size that an environment can sustain",
+        "explanation": "Carrying capacity is defined as the maximum number of individuals of a species that an environment can support without degradation of the environment."
+      },
+      {
+        "text": "Which of the following biomolecules is primarily responsible for catalyzing biochemical reactions?",
+        "type": "multiple_choice",
+        "points": 2,
+        "options": [
+          "Carbohydrates",
+          "Lipids",
+          "Proteins",
+          "Nucleic acids"
+        ],
+        "correctAnswer": "Proteins",
+        "explanation": "Proteins, particularly enzymes, act as catalysts in biochemical reactions, while carbohydrates, lipids, and nucleic acids serve different functions in the cell."
+      },
+      {
+        "text": "Which structure in plant cells is responsible for photosynthesis?",
+        "type": "multiple_choice",
+        "points": 2,
+        "options": [
+          "Chloroplast",
+          "Mitochondria",
+          "Ribosome",
+          "Cell Wall"
+        ],
+        "correctAnswer": "Chloroplast",
+        "explanation": "Chloroplasts are the organelles in plant cells that contain chlorophyll and are responsible for converting light energy into chemical energy through photosynthesis."
+      },
+      {
+        "text": "The process by which DNA is transcribed into RNA occurs in which part of the cell?",
+        "type": "multiple_choice",
+        "points": 2,
+        "options": [
+          "Nucleus",
+          "Cytoplasm",
+          "Ribosome",
+          "Mitochondria"
+        ],
+        "correctAnswer": "Nucleus",
+        "explanation": "Transcription occurs in the nucleus where DNA is located, while the other processes occur in different cellular compartments."
+      },
+      {
+        "text": "Which type of bond is primarily responsible for the secondary structure of proteins?",
+        "type": "multiple_choice",
+        "points": 2,
+        "options": [
+          "Ionic bonds",
+          "Hydrogen bonds",
+          "Covalent bonds",
+          "Disulfide bonds"
+        ],
+        "correctAnswer": "Hydrogen bonds",
+        "explanation": "Hydrogen bonds stabilize the secondary structure of proteins, such as alpha helices and beta sheets, while the other bonds play different roles."
+      },
+      {
+        "text": "The relationship between predator and prey is an example of which ecological interaction?",
+        "type": "multiple_choice",
+        "points": 2,
+        "options": [
+          "Mutualism",
+          "Parasitism",
+          "Commensalism",
+          "Predation"
+        ],
+        "correctAnswer": "Predation",
+        "explanation": "Predation is the interaction where one organism (the predator) kills and eats another organism (the prey), differing from the other types of interactions listed."
+      },
+      {
+        "text": "True or False? All living organisms use DNA as their genetic material.",
+        "type": "true_false",
+        "points": 2,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "False",
+        "explanation": "While most living organisms use DNA, some viruses use RNA as their genetic material, making the statement false."
+      },
+      {
+        "text": "True or False? Genetic drift has a more pronounced effect on small populations than on large populations.",
+        "type": "true_false",
+        "points": 2,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "True",
+        "explanation": "Genetic drift has a more significant impact on small populations because random events can lead to larger fluctuations in allele frequencies."
+      },
+      {
+        "text": "True or False? The fluid mosaic model describes the structure of the cell wall.",
+        "type": "true_false",
+        "points": 2,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "False",
+        "explanation": "The fluid mosaic model describes the structure of the cell membrane, not the cell wall, which has a different composition and structure."
+      },
+      {
+        "text": "True or False? In photosynthesis, glucose is produced from carbon dioxide and water using light energy.",
+        "type": "true_false",
+        "points": 2,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "True",
+        "explanation": "Photosynthesis converts carbon dioxide and water into glucose using light energy, thus the statement is true."
+      },
+      {
+        "text": "True or False? Enzymes are consumed during the reactions they catalyze.",
+        "type": "true_false",
+        "points": 2,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "False",
+        "explanation": "Enzymes are not consumed in the reactions they catalyze; they remain unchanged and can be reused multiple times."
+      },
+      {
+        "text": "The process of converting glucose into pyruvate is called ___.",
+        "type": "fill_blank",
+        "points": 2,
+        "correctAnswer": "glycolysis",
+        "explanation": "Glycolysis is the metabolic pathway that transforms glucose into pyruvate, producing ATP and NADH in the process."
+      },
+      {
+        "text": "In the Hardy-Weinberg equilibrium, if p is the frequency of the dominant allele, what is the frequency of the recessive allele represented as?",
+        "type": "fill_blank",
+        "points": 2,
+        "correctAnswer": "q",
+        "explanation": "In Hardy-Weinberg equilibrium, the frequencies of alleles are represented by p and q, where p + q = 1."
+      },
+      {
+        "text": "The primary site of water absorption in plants is the ___.",
+        "type": "fill_blank",
+        "points": 2,
+        "correctAnswer": "root",
+        "explanation": "Roots are responsible for the uptake of water and nutrients from the soil, playing a critical role in plant physiology."
+      },
+      {
+        "text": "In the context of evolution, define 'natural selection'.",
+        "type": "short_answer",
+        "points": 2,
+        "correctAnswer": "Natural selection is the process by which organisms better adapted to their environment tend to survive and produce more offspring.",
+        "explanation": "This mechanism leads to the gradual evolution of species as advantageous traits become more common in a population."
+      },
+      {
+        "text": "Explain the role of stomata in plant physiology.",
+        "type": "short_answer",
+        "points": 2,
+        "correctAnswer": "Stomata are small openings on the surfaces of leaves that regulate gas exchange by allowing CO2 in and O2 out, and they also help control water loss.",
+        "explanation": "Stomata play a crucial role in photosynthesis and transpiration, balancing the plant's needs for CO2 and water."
+      },
+      {
+        "text": "What is the main difference between prokaryotic and eukaryotic cells?",
+        "type": "short_answer",
+        "points": 2,
+        "correctAnswer": "Prokaryotic cells lack a nucleus and membrane-bound organelles, while eukaryotic cells have both.",
+        "explanation": "This fundamental difference affects cellular processes and complexity in organisms."
+      },
+      {
+        "text": "Identify the major type of RNA involved in protein synthesis.",
+        "type": "short_answer",
+        "points": 2,
+        "correctAnswer": "mRNA (messenger RNA)",
+        "explanation": "mRNA carries the genetic information from DNA to the ribosome, where proteins are synthesized."
+      },
+      {
+        "text": "During which phase of the cell cycle does DNA replication occur?",
+        "type": "multiple_choice",
+        "points": 2,
+        "options": [
+          "G1 phase",
+          "S phase",
+          "G2 phase",
+          "M phase"
+        ],
+        "correctAnswer": "S phase",
+        "explanation": "DNA replication takes place during the S phase (synthesis phase) of the cell cycle, while the other phases involve different cellular activities."
+      },
+      {
+        "text": "Which of the following best describes a phenotype?",
+        "type": "multiple_choice",
+        "points": 2,
+        "options": [
+          "The genetic makeup of an organism",
+          "The physical expression of a genetic trait",
+          "The type of alleles present",
+          "The evolutionary fitness of an organism"
+        ],
+        "correctAnswer": "The physical expression of a genetic trait",
+        "explanation": "Phenotype refers to the observable characteristics of an organism resulting from the interaction of its genotype with the environment."
+      },
+      {
+        "text": "Which of the following is a characteristic of a virus?",
+        "type": "multiple_choice",
+        "points": 2,
+        "options": [
+          "Capable of independent metabolism",
+          "Composed of a single cell",
+          "Requires a host cell to replicate",
+          "Contains ribosomes for protein synthesis"
+        ],
+        "correctAnswer": "Requires a host cell to replicate",
+        "explanation": "Viruses cannot reproduce on their own and must infect a host cell to replicate, unlike living cells which can carry out metabolism independently."
+      },
+      {
+        "text": "What is the role of the smooth endoplasmic reticulum?",
+        "type": "multiple_choice",
+        "points": 2,
+        "options": [
+          "Protein synthesis",
+          "Lipid synthesis and detoxification",
+          "Ribosome production",
+          "ATP production"
+        ],
+        "correctAnswer": "Lipid synthesis and detoxification",
+        "explanation": "The smooth endoplasmic reticulum is involved in lipid synthesis and detoxifying harmful substances, whereas the rough ER is involved in protein synthesis."
+      },
+      {
+        "text": "Which of the following best describes a mutation?",
+        "type": "multiple_choice",
+        "points": 2,
+        "options": [
+          "A change in an organism's phenotype",
+          "A change in the DNA sequence",
+          "A result of natural selection",
+          "An adaptation to the environment"
+        ],
+        "correctAnswer": "A change in the DNA sequence",
+        "explanation": "A mutation specifically refers to any alteration in the nucleotide sequence of DNA, which can affect phenotype but is distinct from it."
+      },
+      {
+        "text": "What is the purpose of the Krebs Cycle?",
+        "type": "multiple_choice",
+        "points": 2,
+        "options": [
+          "To produce glucose",
+          "To generate ATP and electron carriers",
+          "To synthesize proteins",
+          "To absorb sunlight"
+        ],
+        "correctAnswer": "To generate ATP and electron carriers",
+        "explanation": "The Krebs Cycle is a key part of cellular respiration that produces ATP, NADH, and FADH2, which are essential for energy transfer in cells."
+      },
+      {
+        "text": "Which of the following processes occurs during prophase in mitosis?",
+        "type": "multiple_choice",
+        "points": 2,
+        "options": [
+          "Chromosomes duplicate",
+          "Nuclear envelope breaks down",
+          "Chromosomes align at the equatorial plane",
+          "Cytokinesis begins"
+        ],
+        "correctAnswer": "Nuclear envelope breaks down",
+        "explanation": "During prophase, the nuclear envelope breaks down, allowing the chromosomes to condense and prepare for separation; the other processes occur in different phases."
+      },
+      {
+        "text": "True or False? All enzymes are proteins.",
+        "type": "true_false",
+        "points": 2,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "False",
+        "explanation": "While most enzymes are proteins, some RNA molecules called ribozymes can also catalyze biochemical reactions."
+      },
+      {
+        "text": "True or False? The genetic code is universal among all known living organisms.",
+        "type": "true_false",
+        "points": 2,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "False",
+        "explanation": "While the genetic code is largely universal, there are some exceptions in certain organisms, especially in mitochondrial DNA."
+      },
+      {
+        "text": "True or False? In eukaryotes, transcription and translation occur simultaneously.",
+        "type": "true_false",
+        "points": 2,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "False",
+        "explanation": "In eukaryotes, transcription occurs in the nucleus, while translation occurs in the cytoplasm; hence, they do not occur simultaneously."
+      },
+      {
+        "text": "True or False? The primary function of the immune system is to transport nutrients throughout the body.",
+        "type": "true_false",
+        "points": 2,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "False",
+        "explanation": "The immune system's primary function is to protect the body against pathogens, not to transport nutrients."
+      },
+      {
+        "text": "The process by which mRNA is translated into a protein occurs at the ___.",
+        "type": "fill_blank",
+        "points": 2,
+        "correctAnswer": "ribosome",
+        "explanation": "Translation takes place at the ribosome, where mRNA is read to synthesize proteins."
+      },
+      {
+        "text": "The primary pigment involved in photosynthesis is ___.",
+        "type": "fill_blank",
+        "points": 2,
+        "correctAnswer": "chlorophyll",
+        "explanation": "Chlorophyll absorbs light energy, primarily in the blue and red wavelengths, to drive the photosynthetic process."
+      },
+      {
+        "text": "The mechanism by which glucose is transported into cells against its concentration gradient is called ___.",
+        "type": "fill_blank",
+        "points": 2,
+        "correctAnswer": "active transport",
+        "explanation": "Active transport requires energy to move glucose against its concentration gradient, unlike passive transport which does not."
+      },
+      {
+        "text": "Which of the following processes occurs in the mitochondria?",
+        "type": "multiple_choice",
+        "points": 2,
+        "options": [
+          "Photosynthesis",
+          "Cell respiration",
+          "DNA replication",
+          "Protein synthesis"
+        ],
+        "correctAnswer": "Cell respiration",
+        "explanation": "Mitochondria are where cellular respiration occurs, producing energy for the cell."
+      },
+      {
+        "text": "In which phase of the cell cycle does DNA replication occur?",
+        "type": "multiple_choice",
+        "points": 2,
+        "options": [
+          "G1 phase",
+          "S phase",
+          "G2 phase",
+          "M phase"
+        ],
+        "correctAnswer": "S phase",
+        "explanation": "DNA replication occurs during the S phase of interphase before cell division."
+      },
+      {
+        "text": "The process by which cells become specialized is known as:",
+        "type": "multiple_choice",
+        "points": 2,
+        "options": [
+          "Differentiation",
+          "Mitosis",
+          "Meiosis",
+          "Apoptosis"
+        ],
+        "correctAnswer": "Differentiation",
+        "explanation": "Differentiation is the process where cells develop into distinct cell types."
+      },
+      {
+        "text": "Which structure is responsible for maintaining homeostasis in cells?",
+        "type": "multiple_choice",
+        "points": 2,
+        "options": [
+          "Cell membrane",
+          "Nucleus",
+          "Cytoplasm",
+          "Ribosome"
+        ],
+        "correctAnswer": "Cell membrane",
+        "explanation": "The cell membrane regulates what enters and exits the cell, helping maintain homeostasis."
+      },
+      {
+        "text": "Which of the following is NOT a characteristic of living things?",
+        "type": "multiple_choice",
+        "points": 2,
+        "options": [
+          "Growth",
+          "Reproduction",
+          "Metabolism",
+          "Inertia"
+        ],
+        "correctAnswer": "Inertia",
+        "explanation": "Inertia is not a characteristic of life; living organisms exhibit growth, reproduction, and metabolism."
+      },
+      {
+        "text": "What is the main purpose of the chloroplast in plant cells?",
+        "type": "multiple_choice",
+        "points": 2,
+        "options": [
+          "Energy production",
+          "Photosynthesis",
+          "Protein synthesis",
+          "Cell division"
+        ],
+        "correctAnswer": "Photosynthesis",
+        "explanation": "Chloroplasts are specialized for photosynthesis, converting light energy into chemical energy."
+      },
+      {
+        "text": "True or False: All cells have a nucleus.",
+        "type": "true_false",
+        "points": 2,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "False",
+        "explanation": "Not all cells have a nucleus; for example, prokaryotic cells do not contain a nucleus."
+      },
+      {
+        "text": "True or False: DNA is made up of amino acids.",
+        "type": "true_false",
+        "points": 2,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "False",
+        "explanation": "DNA is made up of nucleotides, not amino acids; amino acids are the building blocks of proteins."
+      },
+      {
+        "text": "True or False: All living organisms can reproduce.",
+        "type": "true_false",
+        "points": 2,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "True",
+        "explanation": "Reproduction is a fundamental characteristic of all living organisms."
+      },
+      {
+        "text": "True or False: Enzymes are consumed in chemical reactions.",
+        "type": "true_false",
+        "points": 2,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "False",
+        "explanation": "Enzymes are not consumed in reactions; they can be used repeatedly."
+      },
+      {
+        "text": "The ___ is the basic unit of heredity.",
+        "type": "fill_blank",
+        "points": 2,
+        "correctAnswer": "gene",
+        "explanation": "A gene is the fundamental unit that carries genetic information."
+      },
+      {
+        "text": "The process where cells die in a controlled manner is known as ___",
+        "type": "fill_blank",
+        "points": 2,
+        "correctAnswer": "apoptosis",
+        "explanation": "Apoptosis is a form of programmed cell death that is essential for development and maintenance."
+      },
+      {
+        "text": "The ___ is responsible for packaging and distributing proteins.",
+        "type": "fill_blank",
+        "points": 2,
+        "correctAnswer": "Golgi apparatus",
+        "explanation": "The Golgi apparatus modifies, sorts, and packages proteins for secretion or delivery."
+      },
+      {
+        "text": "Photosynthesis converts carbon dioxide and water into glucose and oxygen using sunlight. Fill in the missing product: glucose and ___",
+        "type": "fill_blank",
+        "points": 2,
+        "correctAnswer": "oxygen",
+        "explanation": "Oxygen is a byproduct of the photosynthesis process, along with glucose."
+      }
+    ],
+    "createdBy": "694af0021a87e1cd234dcbff",
+    "userId": "694af0021a87e1cd234dcbff",
+    "difficulty": "beginner",
+    "createdAt": "2026-07-13T08:43:38.587Z",
+    "__v": 1,
+    "performances": [
+      {
+        "userId": "694af0021a87e1cd234dcbff",
+        "score": 0,
+        "totalMarks": 20,
+        "percentage": 0,
+        "completedAt": "2026-07-13T08:54:33.830Z",
+        "answers": {
+          "6a54a5401dc87e98e9289363": "Mutualism",
+          "6a54a5401dc87e98e9289362": "Disulfide bonds"
+        },
+        "_id": "6a54a7c91dc87e98e9289445"
+      }
+    ],
+    "srs": {
+      "dueDate": "2026-07-13T08:54:33.830Z",
+      "ease": 2.5,
+      "interval": 0,
+      "repetitions": 0
+    },
+    "updatedAt": "2026-07-13T08:54:33.842Z"
+  },
+  {
+    "_id": "6a5e9914fc27eefb428df0e2",
+    "title": "Human Anatomy 101 Examination Quiz",
+    "course": "Human Anatomy 101",
+    "questions": [
+      {
+        "text": "Which of the following structures is primarily responsible for the production of red blood cells?",
+        "type": "multiple_choice",
+        "points": 2,
+        "options": [
+          "Spleen",
+          "Liver",
+          "Bone marrow",
+          "Kidneys"
+        ],
+        "correctAnswer": "Bone marrow",
+        "explanation": "Bone marrow is the primary site of red blood cell production, while the spleen and liver have other roles in blood maintenance and filtration."
+      },
+      {
+        "text": "The anatomical term for the back of the body is ___?",
+        "type": "fill_blank",
+        "points": 2,
+        "correctAnswer": "posterior",
+        "explanation": "The term 'posterior' refers to the back side in anatomical position."
+      },
+      {
+        "text": "True or False: The human body has a total of 206 bones in adulthood.",
+        "type": "true_false",
+        "points": 2,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "True",
+        "explanation": "An adult human typically has 206 bones, although this number can vary slightly due to anatomical variations."
+      },
+      {
+        "text": "Which of the following muscles is responsible for the flexion of the elbow?",
+        "type": "multiple_choice",
+        "points": 2,
+        "options": [
+          "Triceps brachii",
+          "Biceps brachii",
+          "Deltoid",
+          "Pectoralis major"
+        ],
+        "correctAnswer": "Biceps brachii",
+        "explanation": "The biceps brachii muscle is primarily responsible for elbow flexion, while the triceps brachii extends the elbow."
+      },
+      {
+        "text": "The main function of the respiratory system is to ___?",
+        "type": "fill_blank",
+        "points": 2,
+        "correctAnswer": "exchange gases",
+        "explanation": "The primary function of the respiratory system is to exchange oxygen and carbon dioxide between the body and the environment."
+      },
+      {
+        "text": "True or False: The heart is located in the left thoracic cavity.",
+        "type": "true_false",
+        "points": 2,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "False",
+        "explanation": "The heart is located in the mediastinum, which is centrally located between the lungs, not just on the left side."
+      },
+      {
+        "text": "Which of the following structures is part of the central nervous system?",
+        "type": "multiple_choice",
+        "points": 2,
+        "options": [
+          "Spinal cord",
+          "Peripheral nerves",
+          "Ganglia",
+          "Cranial nerves"
+        ],
+        "correctAnswer": "Spinal cord",
+        "explanation": "The spinal cord is part of the central nervous system, while peripheral nerves are part of the peripheral nervous system."
+      },
+      {
+        "text": "The primary role of the kidneys is to ___?",
+        "type": "fill_blank",
+        "points": 2,
+        "correctAnswer": "filter blood",
+        "explanation": "The kidneys filter waste products from the blood and help regulate fluid balance in the body."
+      },
+      {
+        "text": "True or False: The pancreas has both endocrine and exocrine functions.",
+        "type": "true_false",
+        "points": 2,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "True",
+        "explanation": "The pancreas functions both as an endocrine gland, releasing hormones, and as an exocrine gland, producing digestive enzymes."
+      },
+      {
+        "text": "Which layer of the skin contains the majority of blood vessels and nerve endings?",
+        "type": "multiple_choice",
+        "points": 2,
+        "options": [
+          "Epidermis",
+          "Dermis",
+          "Hypodermis",
+          "Subcutis"
+        ],
+        "correctAnswer": "Dermis",
+        "explanation": "The dermis is the thick layer of skin that contains blood vessels, nerves, and various other structures, while the epidermis is primarily protective."
+      },
+      {
+        "text": "The cell type responsible for the transmission of electrical signals in the nervous system is called a ___?",
+        "type": "fill_blank",
+        "points": 2,
+        "correctAnswer": "neuron",
+        "explanation": "Neurons are specialized cells that transmit electrical signals throughout the nervous system."
+      },
+      {
+        "text": "True or False: The liver plays a significant role in detoxification processes.",
+        "type": "true_false",
+        "points": 2,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "True",
+        "explanation": "The liver is crucial for detoxifying harmful substances in the blood and metabolizing drugs."
+      },
+      {
+        "text": "What is the primary function of the small intestine?",
+        "type": "short_answer",
+        "points": 2,
+        "correctAnswer": "Digestion and absorption of nutrients",
+        "explanation": "The small intestine is primarily responsible for the digestion and absorption of nutrients from food."
+      },
+      {
+        "text": "Which part of the brain is primarily involved in balance and coordination?",
+        "type": "multiple_choice",
+        "points": 2,
+        "options": [
+          "Cerebrum",
+          "Cerebellum",
+          "Brainstem",
+          "Thalamus"
+        ],
+        "correctAnswer": "Cerebellum",
+        "explanation": "The cerebellum coordinates voluntary movements and maintains balance, while the cerebrum is responsible for higher brain functions."
+      },
+      {
+        "text": "The ___ is the largest organ in the human body.",
+        "type": "fill_blank",
+        "points": 2,
+        "correctAnswer": "skin",
+        "explanation": "The skin is the largest organ, serving as a protective barrier and playing various roles in homeostasis."
+      },
+      {
+        "text": "True or False: The lungs are responsible for the production of sound.",
+        "type": "true_false",
+        "points": 2,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "False",
+        "explanation": "While the lungs facilitate airflow, the production of sound primarily occurs in the larynx."
+      },
+      {
+        "text": "Which part of the eye is responsible for focusing light onto the retina?",
+        "type": "multiple_choice",
+        "points": 2,
+        "options": [
+          "Cornea",
+          "Iris",
+          "Lens",
+          "Pupil"
+        ],
+        "correctAnswer": "Lens",
+        "explanation": "The lens adjusts its shape to focus light onto the retina, while the cornea provides initial refraction."
+      },
+      {
+        "text": "The primary component of bone tissue is ___?",
+        "type": "fill_blank",
+        "points": 2,
+        "correctAnswer": "calcium phosphate",
+        "explanation": "Calcium phosphate is a major mineral component that gives bone its strength and rigidity."
+      },
+      {
+        "text": "True or False: The small intestine is shorter than the large intestine.",
+        "type": "true_false",
+        "points": 2,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "False",
+        "explanation": "The small intestine is significantly longer than the large intestine, measuring approximately 6 meters compared to 1.5 meters for the large intestine."
+      },
+      {
+        "text": "What is the role of the myelin sheath in the nervous system?",
+        "type": "short_answer",
+        "points": 2,
+        "correctAnswer": "To insulate axons and speed up signal transmission",
+        "explanation": "The myelin sheath insulates axons, allowing for faster electrical signal conduction along the neuron."
+      },
+      {
+        "text": "Which type of joint allows for the greatest range of motion?",
+        "type": "multiple_choice",
+        "points": 2,
+        "options": [
+          "Hinge joint",
+          "Ball-and-socket joint",
+          "Pivot joint",
+          "Saddle joint"
+        ],
+        "correctAnswer": "Ball-and-socket joint",
+        "explanation": "Ball-and-socket joints, like the hip and shoulder, allow for greater movement in multiple directions compared to hinge or pivot joints."
+      },
+      {
+        "text": "The primary function of the adrenal glands is to ___?",
+        "type": "fill_blank",
+        "points": 2,
+        "correctAnswer": "produce hormones",
+        "explanation": "The adrenal glands produce hormones such as adrenaline and cortisol, which are crucial for stress response and metabolism."
+      },
+      {
+        "text": "True or False: The diaphragm is a muscle that aids in respiration.",
+        "type": "true_false",
+        "points": 2,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "True",
+        "explanation": "The diaphragm is a primary muscle of respiration that contracts to expand the thoracic cavity during inhalation."
+      },
+      {
+        "text": "Which organ is primarily responsible for filtering blood and producing urine?",
+        "type": "multiple_choice",
+        "points": 2,
+        "options": [
+          "Liver",
+          "Kidneys",
+          "Pancreas",
+          "Spleen"
+        ],
+        "correctAnswer": "Kidneys",
+        "explanation": "The kidneys filter blood, removing waste products and excess substances to produce urine."
+      },
+      {
+        "text": "The primary function of the gallbladder is to ___?",
+        "type": "fill_blank",
+        "points": 2,
+        "correctAnswer": "store bile",
+        "explanation": "The gallbladder stores bile produced by the liver, which is important for the digestion of fats."
+      },
+      {
+        "text": "True or False: The human body has more than 600 muscles.",
+        "type": "true_false",
+        "points": 2,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "True",
+        "explanation": "The human body contains over 600 muscles that facilitate movement and support bodily functions."
+      },
+      {
+        "text": "What is the role of synovial fluid in joints?",
+        "type": "short_answer",
+        "points": 2,
+        "correctAnswer": "To lubricate joints and reduce friction",
+        "explanation": "Synovial fluid lubricates joints, allowing for smooth movement and reducing wear on the cartilage."
+      },
+      {
+        "text": "Which blood vessel carries oxygenated blood away from the heart?",
+        "type": "multiple_choice",
+        "points": 2,
+        "options": [
+          "Pulmonary artery",
+          "Aorta",
+          "Pulmonary vein",
+          "Superior vena cava"
+        ],
+        "correctAnswer": "Aorta",
+        "explanation": "The aorta carries oxygenated blood from the left ventricle of the heart to the rest of the body."
+      },
+      {
+        "text": "The primary function of the integumentary system is to ___?",
+        "type": "fill_blank",
+        "points": 2,
+        "correctAnswer": "protect the body",
+        "explanation": "The integumentary system, which includes the skin, protects the body from environmental hazards and helps regulate temperature."
+      },
+      {
+        "text": "True or False: The skeletal system is responsible for producing hormones.",
+        "type": "true_false",
+        "points": 2,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "False",
+        "explanation": "The skeletal system primarily provides structure and support, while hormone production is mainly the function of glands such as the endocrine system."
+      },
+      {
+        "text": "Which of the following structures is not part of the respiratory system?",
+        "type": "multiple_choice",
+        "points": 2,
+        "options": [
+          "Trachea",
+          "Bronchi",
+          "Larynx",
+          "Esophagus"
+        ],
+        "correctAnswer": "Esophagus",
+        "explanation": "The esophagus is part of the digestive system, while the other options are involved in the respiratory process."
+      },
+      {
+        "text": "The primary site of nutrient absorption in the digestive system is the ___?",
+        "type": "fill_blank",
+        "points": 2,
+        "correctAnswer": "small intestine",
+        "explanation": "The small intestine is the main site where nutrients from digested food are absorbed into the bloodstream."
+      },
+      {
+        "text": "True or False: The cerebrum is responsible for involuntary functions such as breathing.",
+        "type": "true_false",
+        "points": 2,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "False",
+        "explanation": "The cerebrum is responsible for voluntary actions and higher cognitive functions, while involuntary functions are controlled by the brainstem."
+      },
+      {
+        "text": "What is the function of the hypothalamus in the endocrine system?",
+        "type": "short_answer",
+        "points": 2,
+        "correctAnswer": "To regulate body temperature and hormone release",
+        "explanation": "The hypothalamus plays a critical role in maintaining homeostasis by regulating body temperature and controlling the release of hormones from the pituitary gland."
+      },
+      {
+        "text": "Which bone is commonly referred to as the collarbone?",
+        "type": "multiple_choice",
+        "points": 2,
+        "options": [
+          "Scapula",
+          "Clavicle",
+          "Sternum",
+          "Humerus"
+        ],
+        "correctAnswer": "Clavicle",
+        "explanation": "The clavicle is known as the collarbone and connects the arm to the body, providing support and stability."
+      },
+      {
+        "text": "The primary role of the cilia in the respiratory system is to ___?",
+        "type": "fill_blank",
+        "points": 2,
+        "correctAnswer": "move mucus",
+        "explanation": "Cilia in the respiratory tract help move mucus and trapped particles out of the lungs, keeping airways clear."
+      },
+      {
+        "text": "True or False: The thyroid gland regulates metabolic processes in the body.",
+        "type": "true_false",
+        "points": 2,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "True",
+        "explanation": "The thyroid gland produces hormones that regulate metabolism, growth, and development."
+      },
+      {
+        "text": "What is the primary function of the spleen?",
+        "type": "short_answer",
+        "points": 2,
+        "correctAnswer": "To filter blood and support the immune system",
+        "explanation": "The spleen filters blood, removing old red blood cells and playing a role in immune responses."
+      },
+      {
+        "text": "Which of the following is a component of the central nervous system?",
+        "type": "multiple_choice",
+        "points": 2,
+        "options": [
+          "A) Spinal cord",
+          "B) Peripheral nerves",
+          "C) Ganglia",
+          "D) Sensory receptors"
+        ],
+        "correctAnswer": "A) Spinal cord",
+        "explanation": "The central nervous system consists of the brain and spinal cord."
+      },
+      {
+        "text": "The primary function of red blood cells is to transport what?",
+        "type": "multiple_choice",
+        "points": 2,
+        "options": [
+          "A) Nutrients",
+          "B) Oxygen",
+          "C) Hormones",
+          "D) Carbon dioxide"
+        ],
+        "correctAnswer": "B) Oxygen",
+        "explanation": "Red blood cells carry oxygen from the lungs to the rest of the body."
+      },
+      {
+        "text": "Which part of the brain is responsible for regulating balance?",
+        "type": "multiple_choice",
+        "points": 2,
+        "options": [
+          "A) Cerebrum",
+          "B) Cerebellum",
+          "C) Brainstem",
+          "D) Thalamus"
+        ],
+        "correctAnswer": "B) Cerebellum",
+        "explanation": "The cerebellum coordinates balance and fine motor control."
+      },
+      {
+        "text": "True or False: The human body has 206 bones.",
+        "type": "true_false",
+        "points": 2,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "True",
+        "explanation": "An adult human has 206 bones in their skeleton."
+      },
+      {
+        "text": "True or False: The heart has four chambers.",
+        "type": "true_false",
+        "points": 2,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "True",
+        "explanation": "The heart consists of four chambers: two atria and two ventricles."
+      },
+      {
+        "text": "The ___ is responsible for the production of insulin.",
+        "type": "fill_blank",
+        "points": 2,
+        "correctAnswer": "pancreas",
+        "explanation": "The pancreas produces insulin, which regulates blood sugar levels."
+      },
+      {
+        "text": "The primary function of the small intestine is to ___ nutrients.",
+        "type": "fill_blank",
+        "points": 2,
+        "correctAnswer": "absorb",
+        "explanation": "The small intestine is where most nutrient absorption occurs."
+      },
+      {
+        "text": "What is the basic structural unit of the kidney?",
+        "type": "short_answer",
+        "points": 2,
+        "correctAnswer": "Nephron",
+        "explanation": "Nephrons are the functional units of the kidney, filtering blood."
+      },
+      {
+        "text": "What is the role of the diaphragm in respiration?",
+        "type": "short_answer",
+        "points": 2,
+        "correctAnswer": "To assist in breathing by contracting and relaxing.",
+        "explanation": "The diaphragm helps expand and contract the lungs during inhalation and exhalation."
+      },
+      {
+        "text": "Which muscle is primarily responsible for moving the arm at the shoulder?",
+        "type": "multiple_choice",
+        "points": 2,
+        "options": [
+          "A) Biceps brachii",
+          "B) Triceps brachii",
+          "C) Deltoid",
+          "D) Pectoralis major"
+        ],
+        "correctAnswer": "C) Deltoid",
+        "explanation": "The deltoid muscle is responsible for shoulder abduction and arm movement."
+      },
+      {
+        "text": "The brainstem is responsible for regulating which of the following?",
+        "type": "multiple_choice",
+        "points": 2,
+        "options": [
+          "A) Higher cognitive functions",
+          "B) Heart rate and breathing",
+          "C) Vision",
+          "D) Movement"
+        ],
+        "correctAnswer": "B) Heart rate and breathing",
+        "explanation": "The brainstem controls autonomic functions such as heart rate and respiration."
+      },
+      {
+        "text": "True or False: The liver detoxifies harmful substances in the body.",
+        "type": "true_false",
+        "points": 2,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "True",
+        "explanation": "The liver plays a crucial role in detoxification and metabolism."
+      }
+    ],
+    "createdBy": "6a5a7a7aea82958b8c771e7e",
+    "userId": "6a5a7a7aea82958b8c771e7e",
+    "difficulty": "beginner",
+    "createdAt": "2026-07-20T21:54:28.849Z",
+    "__v": 2,
+    "performances": [
+      {
+        "userId": "6a5a7a7aea82958b8c771e7e",
+        "score": 0,
+        "totalMarks": 20,
+        "percentage": 0,
+        "completedAt": "2026-07-20T21:56:11.219Z",
+        "answers": {
+          "6a5e99579b94565baecdccd2": "Dominion"
+        },
+        "_id": "6a5e997bdc960b623418b778"
+      },
+      {
+        "userId": "6a5a7a7aea82958b8c771e7e",
+        "score": 2,
+        "totalMarks": 20,
+        "percentage": 10,
+        "completedAt": "2026-07-20T21:56:55.477Z",
+        "answers": {
+          "6a5e99579b94565baecdccd2": "Posterior "
+        },
+        "_id": "6a5e99a7dc960b623418b7b2"
+      }
+    ],
+    "srs": {
+      "dueDate": "2026-07-20T21:56:11.219Z",
+      "ease": 2.5,
+      "interval": 0,
+      "repetitions": 0
+    },
+    "updatedAt": "2026-07-20T21:56:55.487Z"
+  },
+  {
+    "_id": "6a5e9b3d2c87afa842c37e64",
+    "title": "Professional Quiz on Introduction to Programming",
+    "course": "Introduction to programming",
+    "questions": [
+      {
+        "text": "Which of the following is a characteristic of a high-level programming language?",
+        "type": "multiple_choice",
+        "points": 2,
+        "options": [
+          "It is machine-specific.",
+          "It uses complex syntax.",
+          "It is close to human language.",
+          "It requires extensive memory management."
+        ],
+        "correctAnswer": "It is close to human language.",
+        "explanation": "High-level programming languages are designed to be easy for humans to read and write, making them closer to natural languages compared to low-level languages."
+      },
+      {
+        "text": "In object-oriented programming, which of the following concepts describes the bundling of data and methods?",
+        "type": "multiple_choice",
+        "points": 2,
+        "options": [
+          "Inheritance",
+          "Encapsulation",
+          "Polymorphism",
+          "Abstraction"
+        ],
+        "correctAnswer": "Encapsulation",
+        "explanation": "Encapsulation is the concept in object-oriented programming that refers to the bundling of data and methods that operate on that data, restricting access to some components."
+      },
+      {
+        "text": "What does the acronym IDE stand for in programming?",
+        "type": "multiple_choice",
+        "points": 2,
+        "options": [
+          "Integrated Development Environment",
+          "Interactive Data Editor",
+          "Integrated Debugging Environment",
+          "Interactive Development Editor"
+        ],
+        "correctAnswer": "Integrated Development Environment",
+        "explanation": "IDE stands for Integrated Development Environment, which provides comprehensive facilities to programmers for software development."
+      },
+      {
+        "text": "What is the primary purpose of a compiler in programming?",
+        "type": "multiple_choice",
+        "points": 2,
+        "options": [
+          "To execute code directly.",
+          "To convert high-level code to machine code.",
+          "To debug the code.",
+          "To enhance code readability."
+        ],
+        "correctAnswer": "To convert high-level code to machine code.",
+        "explanation": "A compiler translates high-level programming languages into machine code, allowing the program to be executed by the computer hardware."
+      },
+      {
+        "text": "Which of the following programming constructs allows for repeated execution of a block of code?",
+        "type": "multiple_choice",
+        "points": 2,
+        "options": [
+          "Function",
+          "Loop",
+          "Variable",
+          "Array"
+        ],
+        "correctAnswer": "Loop",
+        "explanation": "A loop is a control structure that allows for repeated execution of a block of code based on a condition."
+      },
+      {
+        "text": "In Python, what symbol is used to denote the start of a comment?",
+        "type": "multiple_choice",
+        "points": 2,
+        "options": [
+          "//",
+          "#",
+          "/*",
+          "<!--"
+        ],
+        "correctAnswer": "#",
+        "explanation": "In Python, the '#' symbol is used to indicate a comment, which is not executed as part of the program."
+      },
+      {
+        "text": "Which of the following best describes a function's return value?",
+        "type": "multiple_choice",
+        "points": 2,
+        "options": [
+          "The value passed to the function.",
+          "The value that the function prints.",
+          "The value that is sent back to the caller.",
+          "The value that is globally defined."
+        ],
+        "correctAnswer": "The value that is sent back to the caller.",
+        "explanation": "A function's return value is the output that is sent back to the point where the function was called."
+      },
+      {
+        "text": "Which data structure is best suited for implementing a Last In, First Out (LIFO) system?",
+        "type": "multiple_choice",
+        "points": 2,
+        "options": [
+          "Queue",
+          "Stack",
+          "Array",
+          "Linked List"
+        ],
+        "correctAnswer": "Stack",
+        "explanation": "A stack is a data structure that follows the Last In, First Out (LIFO) principle, where the last element added is the first one to be removed."
+      },
+      {
+        "text": "In the context of algorithms, what does 'Big O' notation describe?",
+        "type": "multiple_choice",
+        "points": 2,
+        "options": [
+          "The exact runtime of an algorithm.",
+          "The space complexity of an algorithm.",
+          "The efficiency of an algorithm.",
+          "The worst-case scenario growth rate."
+        ],
+        "correctAnswer": "The worst-case scenario growth rate.",
+        "explanation": "Big O notation is used to express the upper limit of an algorithm's runtime or space requirements in relation to the input size."
+      },
+      {
+        "text": "Which of the following is NOT a commonly used programming paradigm?",
+        "type": "multiple_choice",
+        "points": 2,
+        "options": [
+          "Procedural programming",
+          "Functional programming",
+          "Object-oriented programming",
+          "Visual programming"
+        ],
+        "correctAnswer": "Visual programming",
+        "explanation": "While visual programming exists, it is not as commonly classified as the primary programming paradigms like procedural, functional, and object-oriented."
+      },
+      {
+        "text": "True or False: In programming, an array can hold elements of different data types.",
+        "type": "true_false",
+        "points": 2,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "False",
+        "explanation": "Typically, an array is a data structure that holds elements of the same data type."
+      },
+      {
+        "text": "True or False: A syntax error will prevent a program from compiling successfully.",
+        "type": "true_false",
+        "points": 2,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "True",
+        "explanation": "A syntax error occurs when the code does not follow the rules of the programming language, preventing successful compilation."
+      },
+      {
+        "text": "True or False: A variable declared inside a function is accessible outside that function.",
+        "type": "true_false",
+        "points": 2,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "False",
+        "explanation": "Variables declared inside a function are local to that function and cannot be accessed outside of it."
+      },
+      {
+        "text": "True or False: A loop can be used to iterate over the elements of an array.",
+        "type": "true_false",
+        "points": 2,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "True",
+        "explanation": "Loops are commonly used to iterate over elements in an array, allowing operations to be performed on each element."
+      },
+      {
+        "text": "True or False: Recursion is a programming technique where a function calls itself.",
+        "type": "true_false",
+        "points": 2,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "True",
+        "explanation": "Recursion is indeed a technique in programming where a function calls itself to solve a problem."
+      },
+      {
+        "text": "The primary purpose of the 'if' statement in programming is to: ___",
+        "type": "fill_blank",
+        "points": 2,
+        "correctAnswer": "make decisions",
+        "explanation": "The 'if' statement is used to perform conditional checks, allowing the program to make decisions based on certain criteria."
+      },
+      {
+        "text": "A variable that can only take one of two possible values is known as a ___ variable.",
+        "type": "fill_blank",
+        "points": 2,
+        "correctAnswer": "boolean",
+        "explanation": "A boolean variable can hold only two values: true or false."
+      },
+      {
+        "text": "The process of finding and fixing errors in code is called ___.",
+        "type": "fill_blank",
+        "points": 2,
+        "correctAnswer": "debugging",
+        "explanation": "Debugging is the process of identifying and resolving issues or bugs in a program."
+      },
+      {
+        "text": "In a database, a collection of related data entries is referred to as a ___.",
+        "type": "fill_blank",
+        "points": 2,
+        "correctAnswer": "table",
+        "explanation": "A table organizes related data entries into rows and columns in a database."
+      },
+      {
+        "text": "What is the difference between a 'for' loop and a 'while' loop?",
+        "type": "short_answer",
+        "points": 2,
+        "correctAnswer": "A 'for' loop is used when the number of iterations is known, while a 'while' loop continues until a condition is false.",
+        "explanation": "'For' loops are generally used for a set number of iterations, whereas 'while' loops are conditional and may run an unknown number of times."
+      },
+      {
+        "text": "Describe what a variable is in programming.",
+        "type": "short_answer",
+        "points": 2,
+        "correctAnswer": "A variable is a named storage location in memory that holds a value that can change during program execution.",
+        "explanation": "Variables are used to store data that can be modified throughout the program."
+      },
+      {
+        "text": "Explain the purpose of a conditional statement in programming.",
+        "type": "short_answer",
+        "points": 2,
+        "correctAnswer": "Conditional statements are used to execute different code paths based on whether a specified condition is true or false.",
+        "explanation": "They allow for decision-making in code by executing certain blocks of code based on conditions."
+      },
+      {
+        "text": "What is an algorithm and why is it important in programming?",
+        "type": "short_answer",
+        "points": 2,
+        "correctAnswer": "An algorithm is a step-by-step procedure for solving a problem or performing a task, and it is important because it provides a clear outline for coding solutions.",
+        "explanation": "Algorithms are fundamental to programming as they dictate how a problem is approached and solved."
+      },
+      {
+        "text": "In programming, which data type would be most appropriate for storing a user's age?",
+        "type": "multiple_choice",
+        "points": 2,
+        "options": [
+          "String",
+          "Boolean",
+          "Integer",
+          "Float"
+        ],
+        "correctAnswer": "Integer",
+        "explanation": "An integer is the most appropriate data type for storing whole numbers, such as a person's age."
+      },
+      {
+        "text": "What will be the output of the following pseudo-code: if (5 > 2) { print('True'); } else { print('False'); }?",
+        "type": "multiple_choice",
+        "points": 2,
+        "options": [
+          "True",
+          "False",
+          "Error",
+          "None"
+        ],
+        "correctAnswer": "True",
+        "explanation": "The condition 5 > 2 evaluates to true, so 'True' will be printed."
+      },
+      {
+        "text": "Which keyword is used to define a function in Python?",
+        "type": "multiple_choice",
+        "points": 2,
+        "options": [
+          "function",
+          "def",
+          "define",
+          "func"
+        ],
+        "correctAnswer": "def",
+        "explanation": "In Python, the 'def' keyword is used to define a function."
+      },
+      {
+        "text": "Which of the following is a benefit of using version control systems in programming?",
+        "type": "multiple_choice",
+        "points": 2,
+        "options": [
+          "Increased speed of code execution",
+          "Ability to track changes and collaborate effectively",
+          "Automatic error correction",
+          "Enhanced code readability"
+        ],
+        "correctAnswer": "Ability to track changes and collaborate effectively",
+        "explanation": "Version control systems help track changes in code and facilitate collaboration among multiple developers."
+      },
+      {
+        "text": "Which of the following statements about recursion is TRUE?",
+        "type": "multiple_choice",
+        "points": 2,
+        "options": [
+          "It can lead to infinite loops if not handled correctly.",
+          "It is always more efficient than loops.",
+          "It can only be used with numerical problems.",
+          "It requires less memory than iterative solutions."
+        ],
+        "correctAnswer": "It can lead to infinite loops if not handled correctly.",
+        "explanation": "If a recursive function lacks a proper base case, it may continue to call itself indefinitely, leading to infinite loops."
+      },
+      {
+        "text": "Which statement about data types is FALSE?",
+        "type": "multiple_choice",
+        "points": 2,
+        "options": [
+          "Strings can store text data.",
+          "Integers can hold decimal values.",
+          "Booleans have two possible values.",
+          "Floats can represent fractional numbers."
+        ],
+        "correctAnswer": "Integers can hold decimal values.",
+        "explanation": "Integers are whole numbers without decimal points, while floats are used to represent fractional values."
+      },
+      {
+        "text": "In a web application, which language is primarily used for client-side scripting?",
+        "type": "multiple_choice",
+        "points": 2,
+        "options": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "PHP"
+        ],
+        "correctAnswer": "JavaScript",
+        "explanation": "JavaScript is the primary language used for client-side scripting, enabling interactivity on web pages."
+      },
+      {
+        "text": "Which of the following is NOT a common data structure used in programming?",
+        "type": "multiple_choice",
+        "points": 2,
+        "options": [
+          "Array",
+          "Tree",
+          "Graph",
+          "Matrix"
+        ],
+        "correctAnswer": "Matrix",
+        "explanation": "While a matrix can be a representation of data, it is not commonly classified as a standalone data structure like arrays, trees, or graphs."
+      },
+      {
+        "text": "Which of the following is an example of a syntax error?",
+        "type": "multiple_choice",
+        "points": 2,
+        "options": [
+          "A missing semicolon",
+          "An incorrect variable name",
+          "Using a function without defining it",
+          "All of the above"
+        ],
+        "correctAnswer": "A missing semicolon",
+        "explanation": "A missing semicolon is a syntax error that prevents the code from compiling correctly."
+      },
+      {
+        "text": "What does the term 'API' stand for in programming?",
+        "type": "multiple_choice",
+        "points": 2,
+        "options": [
+          "Application Programming Interface",
+          "Application Program Identifier",
+          "Application Protocol Interface",
+          "Application Programming Interaction"
+        ],
+        "correctAnswer": "Application Programming Interface",
+        "explanation": "API stands for Application Programming Interface, which allows different software applications to communicate with each other."
+      },
+      {
+        "text": "Which of the following functions can be used to read input from the user in Python?",
+        "type": "multiple_choice",
+        "points": 2,
+        "options": [
+          "input()",
+          "read()",
+          "scan()",
+          "get_input()"
+        ],
+        "correctAnswer": "input()",
+        "explanation": "In Python, the input() function is used to read input from the user."
+      },
+      {
+        "text": "True or False: In programming, an exception is an event that disrupts the normal flow of execution.",
+        "type": "true_false",
+        "points": 2,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "True",
+        "explanation": "An exception is indeed an event that interrupts the normal execution of a program, usually requiring special handling."
+      },
+      {
+        "text": "True or False: Comments in code are ignored by the compiler.",
+        "type": "true_false",
+        "points": 2,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "True",
+        "explanation": "Comments are meant for human readers and are ignored by compilers during execution."
+      },
+      {
+        "text": "True or False: A framework is a set of tools and libraries that can be used to build applications more efficiently.",
+        "type": "true_false",
+        "points": 2,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "True",
+        "explanation": "Frameworks provide pre-written code and structure, helping developers build applications more efficiently."
+      },
+      {
+        "text": "True or False: In programming, a library is a collection of pre-written code that can be reused.",
+        "type": "true_false",
+        "points": 2,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "True",
+        "explanation": "Libraries consist of reusable code that developers can call upon to perform specific tasks without rewriting code."
+      },
+      {
+        "text": "The process of converting a source code into executable code is known as ___.",
+        "type": "fill_blank",
+        "points": 2,
+        "correctAnswer": "compilation",
+        "explanation": "Compilation is the process where source code is transformed into executable code by a compiler."
+      },
+      {
+        "text": "What is the role of a debugger in programming?",
+        "type": "short_answer",
+        "points": 2,
+        "correctAnswer": "A debugger is a tool used to test and debug programs, allowing developers to inspect code execution and identify errors.",
+        "explanation": "Debuggers provide a way to step through code, monitor variable values, and detect issues during execution."
+      },
+      {
+        "text": "Explain the concept of 'scope' in programming.",
+        "type": "short_answer",
+        "points": 2,
+        "correctAnswer": "Scope refers to the visibility and lifetime of variables in a program, determining where variables can be accessed or modified.",
+        "explanation": "Scope defines the context in which variables are declared and can be accessed, affecting their usability in different parts of the code."
+      },
+      {
+        "text": "True or False: A compiler translates high-level code into machine code.",
+        "type": "true_false",
+        "points": 2,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "True",
+        "explanation": "A compiler translates high-level programming languages into machine code that the computer can execute."
+      },
+      {
+        "text": "True or False: A string in programming can only hold numeric values.",
+        "type": "true_false",
+        "points": 2,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "False",
+        "explanation": "A string can hold any sequence of characters, including letters, numbers, and symbols."
+      },
+      {
+        "text": "True or False: The 'break' statement is used to exit a loop.",
+        "type": "true_false",
+        "points": 2,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "True",
+        "explanation": "The 'break' statement is used to terminate the loop prematurely."
+      },
+      {
+        "text": "The ___ function is used to output data to the console in Python.",
+        "type": "fill_blank",
+        "points": 2,
+        "correctAnswer": "print",
+        "explanation": "The 'print' function is used to display output on the console."
+      },
+      {
+        "text": "The ___ keyword is used to define a class in Python.",
+        "type": "fill_blank",
+        "points": 2,
+        "correctAnswer": "class",
+        "explanation": "The 'class' keyword is used to create a new class in Python."
+      },
+      {
+        "text": "What is the output of print(2 ** 3)?",
+        "type": "short_answer",
+        "points": 2,
+        "correctAnswer": "8",
+        "explanation": "The expression 2 raised to the power of 3 equals 8."
+      },
+      {
+        "text": "What is the purpose of the 'return' statement in a function?",
+        "type": "short_answer",
+        "points": 2,
+        "correctAnswer": "To exit the function and return a value.",
+        "explanation": "The 'return' statement is used to exit a function and provide a value back to the caller."
+      },
+      {
+        "text": "Which of the following data types is not built-in in Python?",
+        "type": "multiple_choice",
+        "points": 2,
+        "options": [
+          "List",
+          "Dictionary",
+          "Tuple",
+          "Matrix"
+        ],
+        "correctAnswer": "Matrix",
+        "explanation": "Matrix is not a built-in data type in Python; however, it can be represented using nested lists or libraries like NumPy."
+      },
+      {
+        "text": "What is the difference between '==' and '===' in programming?",
+        "type": "multiple_choice",
+        "points": 2,
+        "options": [
+          "No difference",
+          "Type checking",
+          "Assignment vs comparison",
+          "Scope difference"
+        ],
+        "correctAnswer": "Type checking",
+        "explanation": "In languages like JavaScript, '==' checks for value equality while '===' checks for both value and type equality."
+      }
+    ],
+    "createdBy": "6a5a7a7aea82958b8c771e7e",
+    "userId": "6a5a7a7aea82958b8c771e7e",
+    "difficulty": "beginner",
+    "createdAt": "2026-07-20T22:03:41.150Z",
+    "__v": 1,
+    "performances": [
+      {
+        "userId": "6a5a7a7aea82958b8c771e7e",
+        "score": 0,
+        "totalMarks": 20,
+        "percentage": 0,
+        "completedAt": "2026-07-21T10:01:45.937Z",
+        "_id": "6a5f43896953e1faae1b9c37"
+      }
+    ],
+    "srs": {
+      "dueDate": "2026-07-21T10:01:45.937Z",
+      "ease": 2.5,
+      "interval": 0,
+      "repetitions": 0
+    },
+    "updatedAt": "2026-07-21T10:01:45.971Z"
+  },
+  {
+    "_id": "6a5fa432f23fc66eb3e1baf0",
+    "title": "Muscular System - Module Quiz",
+    "course": "MicroBiology",
+    "questions": [
+      {
+        "text": "What is the primary function of the muscular system?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Producing heat",
+          "Facilitating movement",
+          "Maintaining posture",
+          "All of the above"
+        ],
+        "correctAnswer": "All of the above",
+        "_id": "6a5fa432f23fc66eb3e1baf1"
+      },
+      {
+        "text": "Which type of muscle is under voluntary control?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "Cardiac muscle",
+          "Smooth muscle",
+          "Skeletal muscle",
+          "All types of muscle"
+        ],
+        "correctAnswer": "Skeletal muscle",
+        "_id": "6a5fa432f23fc66eb3e1baf2"
+      },
+      {
+        "text": "True or False: Cardiac muscles are found in the walls of the heart.",
+        "type": "true-false",
+        "points": 1,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "True",
+        "_id": "6a5fa432f23fc66eb3e1baf3"
+      },
+      {
+        "text": "Which of the following is NOT a type of muscle tissue?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "Skeletal",
+          "Cardiac",
+          "Smooth",
+          "Connective"
+        ],
+        "correctAnswer": "Connective",
+        "_id": "6a5fa432f23fc66eb3e1baf4"
+      },
+      {
+        "text": "Select all types of muscles that are involuntary.",
+        "type": "multiple-select",
+        "points": 3,
+        "options": [
+          "Cardiac muscle",
+          "Skeletal muscle",
+          "Smooth muscle",
+          "Striated muscle"
+        ],
+        "correctAnswer": [
+          "Cardiac muscle",
+          "Smooth muscle"
+        ],
+        "_id": "6a5fa432f23fc66eb3e1baf5"
+      },
+      {
+        "text": "What is the role of the skeletal muscles in the body?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "Movement of bones",
+          "Pumping blood",
+          "Digestion of food",
+          "Producing hormones"
+        ],
+        "correctAnswer": "Movement of bones",
+        "_id": "6a5fa432f23fc66eb3e1baf6"
+      },
+      {
+        "text": "True or False: Skeletal muscles can work in pairs to produce movement.",
+        "type": "true-false",
+        "points": 1,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "True",
+        "_id": "6a5fa432f23fc66eb3e1baf7"
+      },
+      {
+        "text": "What is the main characteristic of smooth muscle?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "Striated appearance",
+          "Voluntary control",
+          "Non-striated and involuntary",
+          "Found only in the heart"
+        ],
+        "correctAnswer": "Non-striated and involuntary",
+        "_id": "6a5fa432f23fc66eb3e1baf8"
+      },
+      {
+        "text": "Which structure is responsible for muscle contraction?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "Myofibrils",
+          "Mitochondria",
+          "Sarcomeres",
+          "Tendons"
+        ],
+        "correctAnswer": "Sarcomeres",
+        "_id": "6a5fa432f23fc66eb3e1baf9"
+      },
+      {
+        "text": "Select the correct statement regarding muscle fitness.",
+        "type": "multiple-select",
+        "points": 3,
+        "options": [
+          "Muscle fitness includes strength training.",
+          "Cardiovascular health is unrelated to muscle fitness.",
+          "Flexibility exercises improve muscle function.",
+          "Muscle fitness is only about building muscle mass."
+        ],
+        "correctAnswer": [
+          "Muscle fitness includes strength training.",
+          "Flexibility exercises improve muscle function."
+        ],
+        "_id": "6a5fa432f23fc66eb3e1bafa"
+      }
+    ],
+    "createdBy": "6a5a7a7aea82958b8c771e7e",
+    "srs": {
+      "interval": 0,
+      "repetitions": 0,
+      "ease": 2.5,
+      "dueDate": "2026-07-21T16:54:10.413Z"
+    },
+    "performances": [],
+    "createdAt": "2026-07-21T16:54:10.419Z",
+    "updatedAt": "2026-07-21T16:54:10.419Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a5fcef0f23fc66eb3e1cd80",
+    "title": "Introduction to Human Anatomy - Module Quiz",
+    "course": "MicroBiology",
+    "questions": [
+      {
+        "text": "What is the primary focus of human anatomy?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "The study of human evolution",
+          "The structure of the human body",
+          "The function of human organs",
+          "The genetics of human beings"
+        ],
+        "correctAnswer": "The structure of the human body",
+        "_id": "6a5fcef0f23fc66eb3e1cd81"
+      },
+      {
+        "text": "Which of the following is considered the basic unit of life?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Tissue",
+          "Organ",
+          "Cell",
+          "System"
+        ],
+        "correctAnswer": "Cell",
+        "_id": "6a5fcef0f23fc66eb3e1cd82"
+      },
+      {
+        "text": "True or False: Epithelial tissue is one of the four basic types of tissues in the human body.",
+        "type": "true-false",
+        "points": 1,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "True",
+        "_id": "6a5fcef0f23fc66eb3e1cd83"
+      },
+      {
+        "text": "Which of the following is NOT a major system of the human body?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "Circulatory System",
+          "Respiratory System",
+          "Ecosystem",
+          "Nervous System"
+        ],
+        "correctAnswer": "Ecosystem",
+        "_id": "6a5fcef0f23fc66eb3e1cd84"
+      },
+      {
+        "text": "Select all the types of basic tissues found in the human body.",
+        "type": "multiple-select",
+        "points": 3,
+        "options": [
+          "Epithelial",
+          "Connective",
+          "Muscle",
+          "Skeletal"
+        ],
+        "correctAnswer": [
+          "Epithelial",
+          "Connective",
+          "Muscle"
+        ],
+        "_id": "6a5fcef0f23fc66eb3e1cd85"
+      },
+      {
+        "text": "What is the significance of understanding human anatomy in health-related professions?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "It helps in understanding the interrelationship of body systems",
+          "It is not significant",
+          "It only applies to physicians",
+          "It is only important for physical therapists"
+        ],
+        "correctAnswer": "It helps in understanding the interrelationship of body systems",
+        "_id": "6a5fcef0f23fc66eb3e1cd86"
+      },
+      {
+        "text": "True or False: The interactive anatomy model is a tool used for identifying structures in human anatomy.",
+        "type": "true-false",
+        "points": 1,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "True",
+        "_id": "6a5fcef0f23fc66eb3e1cd87"
+      },
+      {
+        "text": "Which of the following components is NOT typically found in a cell?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "Nucleus",
+          "Mitochondria",
+          "Plasma Membrane",
+          "Lymphatic Fluid"
+        ],
+        "correctAnswer": "Lymphatic Fluid",
+        "_id": "6a5fcef0f23fc66eb3e1cd88"
+      },
+      {
+        "text": "Select all the functions of connective tissue.",
+        "type": "multiple-select",
+        "points": 3,
+        "options": [
+          "Support and bind other tissues",
+          "Transport nutrients",
+          "Store energy",
+          "Protect against infection"
+        ],
+        "correctAnswer": [
+          "Support and bind other tissues",
+          "Store energy",
+          "Protect against infection"
+        ],
+        "_id": "6a5fcef0f23fc66eb3e1cd89"
+      },
+      {
+        "text": "What is the primary purpose of the reading assignment in this module?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "To memorize anatomical terms",
+          "To deepen understanding of fundamental concepts",
+          "To prepare for exams only",
+          "To learn about diseases"
+        ],
+        "correctAnswer": "To deepen understanding of fundamental concepts",
+        "_id": "6a5fcef0f23fc66eb3e1cd8a"
+      }
+    ],
+    "createdBy": "6a5a7a7aea82958b8c771e7e",
+    "srs": {
+      "interval": 0,
+      "repetitions": 0,
+      "ease": 2.5,
+      "dueDate": "2026-07-21T19:56:32.203Z"
+    },
+    "performances": [
+      {
+        "userId": "6a5a7a7aea82958b8c771e7e",
+        "score": 0,
+        "totalMarks": 17,
+        "percentage": 0,
+        "completedAt": "2026-07-22T15:58:56.924Z",
+        "_id": "6a60e8c0d996eed41db4f657"
+      }
+    ],
+    "createdAt": "2026-07-21T19:56:32.210Z",
+    "updatedAt": "2026-07-22T15:58:56.928Z",
+    "__v": 1
+  },
+  {
+    "_id": "6a60cb41d996eed41db4f047",
+    "title": "Digestive and Urinary Systems - Module Quiz",
+    "course": "MicroBiology",
+    "questions": [
+      {
+        "text": "What is the primary function of the digestive system?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "Absorption of nutrients",
+          "Filtration of blood",
+          "Regulation of body temperature",
+          "Production of hormones"
+        ],
+        "correctAnswer": "Absorption of nutrients",
+        "_id": "6a60cb41d996eed41db4f048"
+      },
+      {
+        "text": "Which enzyme is primarily responsible for breaking down carbohydrates in the digestive system?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "Pepsin",
+          "Amylase",
+          "Lipase",
+          "Cellulase"
+        ],
+        "correctAnswer": "Amylase",
+        "_id": "6a60cb41d996eed41db4f049"
+      },
+      {
+        "text": "The kidneys are responsible for which of the following functions?",
+        "type": "multiple-select",
+        "points": 3,
+        "options": [
+          "Regulating blood pressure",
+          "Filtering waste from the blood",
+          "Producing insulin",
+          "Maintaining electrolyte balance"
+        ],
+        "correctAnswer": [
+          "Regulating blood pressure",
+          "Filtering waste from the blood",
+          "Maintaining electrolyte balance"
+        ],
+        "_id": "6a60cb41d996eed41db4f04a"
+      },
+      {
+        "text": "True or False: The microbiome has no impact on digestion.",
+        "type": "true-false",
+        "points": 1,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "False",
+        "_id": "6a60cb41d996eed41db4f04b"
+      },
+      {
+        "text": "What part of the digestive system is primarily involved in nutrient absorption?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "Stomach",
+          "Large intestine",
+          "Small intestine",
+          "Esophagus"
+        ],
+        "correctAnswer": "Small intestine",
+        "_id": "6a60cb41d996eed41db4f04c"
+      },
+      {
+        "text": "Which of the following processes occurs in the urinary system?",
+        "type": "multiple-select",
+        "points": 3,
+        "options": [
+          "Filtration",
+          "Reabsorption",
+          "Digestion",
+          "Excretion"
+        ],
+        "correctAnswer": [
+          "Filtration",
+          "Reabsorption",
+          "Excretion"
+        ],
+        "_id": "6a60cb41d996eed41db4f04d"
+      },
+      {
+        "text": "True or False: Enzymes are not necessary for digestion to occur.",
+        "type": "true-false",
+        "points": 1,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "False",
+        "_id": "6a60cb41d996eed41db4f04e"
+      },
+      {
+        "text": "Which structure in the urinary system is responsible for storing urine?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "Kidney",
+          "Ureter",
+          "Bladder",
+          "Urethra"
+        ],
+        "correctAnswer": "Bladder",
+        "_id": "6a60cb41d996eed41db4f04f"
+      },
+      {
+        "text": "Which organ is primarily responsible for the secretion of digestive enzymes?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "Liver",
+          "Pancreas",
+          "Gallbladder",
+          "Spleen"
+        ],
+        "correctAnswer": "Pancreas",
+        "_id": "6a60cb41d996eed41db4f050"
+      },
+      {
+        "text": "True or False: The digestive system and urinary system work independently of each other.",
+        "type": "true-false",
+        "points": 1,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "False",
+        "_id": "6a60cb41d996eed41db4f051"
+      }
+    ],
+    "createdBy": "6a5a7a7aea82958b8c771e7e",
+    "srs": {
+      "interval": 0,
+      "repetitions": 0,
+      "ease": 2.5,
+      "dueDate": "2026-07-22T13:53:05.051Z"
+    },
+    "performances": [
+      {
+        "userId": "6a5a7a7aea82958b8c771e7e",
+        "score": 0,
+        "totalMarks": 19,
+        "percentage": 0,
+        "completedAt": "2026-07-26T18:27:11.786Z",
+        "_id": "6a66517f7cccdec3f423e7dc"
+      }
+    ],
+    "createdAt": "2026-07-22T13:53:05.059Z",
+    "updatedAt": "2026-07-26T18:27:11.796Z",
+    "__v": 1
+  },
+  {
+    "_id": "6a60d0f4d996eed41db4f13b",
+    "title": "Endocrine and Reproductive Systems - Module Quiz",
+    "course": "MicroBiology",
+    "questions": [
+      {
+        "text": "What is the primary function of the endocrine system?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "To regulate body functions through hormones",
+          "To provide structural support",
+          "To facilitate movement",
+          "To assist in digestion"
+        ],
+        "correctAnswer": "To regulate body functions through hormones",
+        "_id": "6a60d0f4d996eed41db4f13c"
+      },
+      {
+        "text": "Which gland is known as the 'master gland' of the endocrine system?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "Thyroid gland",
+          "Pituitary gland",
+          "Adrenal gland",
+          "Pancreas"
+        ],
+        "correctAnswer": "Pituitary gland",
+        "_id": "6a60d0f4d996eed41db4f13d"
+      },
+      {
+        "text": "True or False: Hormones are released directly into the bloodstream.",
+        "type": "true-false",
+        "points": 1,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "True",
+        "_id": "6a60d0f4d996eed41db4f13e"
+      },
+      {
+        "text": "What is the role of estrogen in the reproductive system?",
+        "type": "multiple-choice",
+        "points": 3,
+        "options": [
+          "Regulates metabolism",
+          "Promotes the development of female secondary sexual characteristics",
+          "Stimulates insulin production",
+          "Increases bone density"
+        ],
+        "correctAnswer": "Promotes the development of female secondary sexual characteristics",
+        "_id": "6a60d0f4d996eed41db4f13f"
+      },
+      {
+        "text": "Which of the following hormones is primarily involved in male reproductive functions?",
+        "type": "multiple-select",
+        "points": 3,
+        "options": [
+          "Testosterone",
+          "Progesterone",
+          "Luteinizing Hormone",
+          "Follicle-Stimulating Hormone"
+        ],
+        "correctAnswer": [
+          "Testosterone",
+          "Luteinizing Hormone",
+          "Follicle-Stimulating Hormone"
+        ],
+        "_id": "6a60d0f4d996eed41db4f140"
+      },
+      {
+        "text": "True or False: The hypothalamus plays a crucial role in hormone regulation.",
+        "type": "true-false",
+        "points": 1,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "True",
+        "_id": "6a60d0f4d996eed41db4f141"
+      },
+      {
+        "text": "What is the primary focus of the endocrine and reproductive lab?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "Studying cellular respiration",
+          "Analyzing digestive enzymes",
+          "Exploring reproductive system anatomy and endocrine responses",
+          "Investigating muscle function"
+        ],
+        "correctAnswer": "Exploring reproductive system anatomy and endocrine responses",
+        "_id": "6a60d0f4d996eed41db4f142"
+      },
+      {
+        "text": "Which hormone is known to influence human behavior significantly?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "Cortisol",
+          "Insulin",
+          "Adrenaline",
+          "Oxytocin"
+        ],
+        "correctAnswer": "Oxytocin",
+        "_id": "6a60d0f4d996eed41db4f143"
+      },
+      {
+        "text": "Which part of the female reproductive cycle is primarily regulated by progesterone?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "Follicular phase",
+          "Luteal phase",
+          "Ovulation",
+          "Menstruation"
+        ],
+        "correctAnswer": "Luteal phase",
+        "_id": "6a60d0f4d996eed41db4f144"
+      },
+      {
+        "text": "Select all the hormones that are involved in the stress response.",
+        "type": "multiple-select",
+        "points": 3,
+        "options": [
+          "Cortisol",
+          "Adrenaline",
+          "Insulin",
+          "Thyroxine"
+        ],
+        "correctAnswer": [
+          "Cortisol",
+          "Adrenaline"
+        ],
+        "_id": "6a60d0f4d996eed41db4f145"
+      }
+    ],
+    "createdBy": "6a5a7a7aea82958b8c771e7e",
+    "srs": {
+      "interval": 0,
+      "repetitions": 0,
+      "ease": 2.5,
+      "dueDate": "2026-07-22T14:17:24.033Z"
+    },
+    "performances": [],
+    "createdAt": "2026-07-22T14:17:24.034Z",
+    "updatedAt": "2026-07-22T14:17:24.034Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a60dfbfd996eed41db4f51a",
+    "title": "Circulatory and Respiratory Systems - Module Quiz",
+    "course": "MicroBiology",
+    "questions": [
+      {
+        "text": "What is the primary function of the circulatory system?",
+        "type": "multiple-choice",
+        "points": 1,
+        "options": [
+          "Transporting oxygen and nutrients",
+          "Regulating body temperature",
+          "Facilitating digestion",
+          "Producing hormones"
+        ],
+        "correctAnswer": "Transporting oxygen and nutrients",
+        "_id": "6a60dfbfd996eed41db4f51b"
+      },
+      {
+        "text": "Which of the following structures is NOT part of the heart?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "Left ventricle",
+          "Aorta",
+          "Trachea",
+          "Right atrium"
+        ],
+        "correctAnswer": "Trachea",
+        "_id": "6a60dfbfd996eed41db4f51c"
+      },
+      {
+        "text": "True or False: The left side of the heart pumps oxygenated blood to the lungs.",
+        "type": "true-false",
+        "points": 1,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "False",
+        "_id": "6a60dfbfd996eed41db4f51d"
+      },
+      {
+        "text": "Which blood vessels carry oxygen-rich blood away from the heart?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "Veins",
+          "Capillaries",
+          "Arteries",
+          "Venules"
+        ],
+        "correctAnswer": "Arteries",
+        "_id": "6a60dfbfd996eed41db4f51e"
+      },
+      {
+        "text": "Select all the structures involved in gas exchange within the respiratory system.",
+        "type": "multiple-select",
+        "points": 3,
+        "options": [
+          "Alveoli",
+          "Bronchi",
+          "Diaphragm",
+          "Capillaries"
+        ],
+        "correctAnswer": [
+          "Alveoli",
+          "Capillaries"
+        ],
+        "_id": "6a60dfbfd996eed41db4f51f"
+      },
+      {
+        "text": "What role does the diaphragm play in respiration?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "Pumping blood",
+          "Filtering air",
+          "Facilitating inhalation and exhalation",
+          "Transporting oxygen"
+        ],
+        "correctAnswer": "Facilitating inhalation and exhalation",
+        "_id": "6a60dfbfd996eed41db4f520"
+      },
+      {
+        "text": "True or False: The circulatory and respiratory systems operate completely independently of one another.",
+        "type": "true-false",
+        "points": 1,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "False",
+        "_id": "6a60dfbfd996eed41db4f521"
+      },
+      {
+        "text": "What is the primary impact of exercise on the circulatory system?",
+        "type": "multiple-choice",
+        "points": 3,
+        "options": [
+          "Decreases heart rate",
+          "Increases blood flow",
+          "Reduces blood pressure",
+          "Slows down circulation"
+        ],
+        "correctAnswer": "Increases blood flow",
+        "_id": "6a60dfbfd996eed41db4f522"
+      },
+      {
+        "text": "Select all the components of the respiratory system that are involved in airflow.",
+        "type": "multiple-select",
+        "points": 4,
+        "options": [
+          "Nasal cavity",
+          "Lungs",
+          "Heart",
+          "Bronchioles"
+        ],
+        "correctAnswer": [
+          "Nasal cavity",
+          "Lungs",
+          "Bronchioles"
+        ],
+        "_id": "6a60dfbfd996eed41db4f523"
+      },
+      {
+        "text": "Which of the following best describes the function of capillaries?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "Transporting blood",
+          "Connecting arteries and veins",
+          "Transporting oxygen only",
+          "Regulating blood pressure"
+        ],
+        "correctAnswer": "Connecting arteries and veins",
+        "_id": "6a60dfbfd996eed41db4f524"
+      }
+    ],
+    "createdBy": "6a5a7a7aea82958b8c771e7e",
+    "srs": {
+      "interval": 0,
+      "repetitions": 0,
+      "ease": 2.5,
+      "dueDate": "2026-07-22T15:20:31.258Z"
+    },
+    "performances": [
+      {
+        "userId": "6a5a7a7aea82958b8c771e7e",
+        "score": 2,
+        "totalMarks": 21,
+        "percentage": 10,
+        "completedAt": "2026-07-23T20:20:41.025Z",
+        "answers": {
+          "6a60dfbfd996eed41db4f51c": "Trachea"
+        },
+        "_id": "6a62779959b772e3300a458a"
+      }
+    ],
+    "createdAt": "2026-07-22T15:20:31.260Z",
+    "updatedAt": "2026-07-23T20:20:41.067Z",
+    "__v": 1
+  }
+]

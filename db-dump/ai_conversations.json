@@ -1,0 +1,137 @@
+[
+  {
+    "_id": "69b6aa50fdcfe076622fec62",
+    "userId": "694af0021a87e1cd234dcbff",
+    "question": "What's Blockchain ",
+    "response": "**Blockchain** is a **decentralized digital ledger** that securely records transactions across multiple computers, ensuring that the recorded transactions cannot be altered retroactively. It provides a **secure** and **transparent** way of conducting transactions and sharing information among participants in a network.",
+    "lessonTitle": "What is Blockchain?",
+    "context": "Course: Blockchain Technology in Supply Chain Management, Level: beginner, Topic: Blockchain in Supply Chain. Module: Introduction to Blockchain",
+    "createdAt": "2026-03-15T12:47:12.059Z"
+  },
+  {
+    "_id": "69c2d5812c936097e8b388f8",
+    "userId": "694af0021a87e1cd234dcbff",
+    "question": "what is behaviora economics\n",
+    "response": "**Behavioral economics** is an interdisciplinary field that examines how **psychological**, **cognitive**, **emotional**, **cultural**, and **social factors** influence the economic decisions of individuals and institutions. It challenges the traditional economic assumption of rational decision-making by highlighting that human behavior is often **irrational** and affected by various biases and heuristics.",
+    "lessonTitle": "Key Concepts in Behavioral Economics",
+    "context": "Course: Behavioral Economics in Business, Level: beginner, Topic: Behavioral Economics in Business. Module: Introduction to Behavioral Economics",
+    "createdAt": "2026-03-24T18:18:41.371Z"
+  },
+  {
+    "_id": "69bacecb167eabbf49d4c116",
+    "userId": "69bacaf67964192ae84b570c",
+    "question": "Me paise kamana chahta hu",
+    "response": "To earn money through freelancing, first, identify your **skills** (like writing, graphic design, or programming). Then, research **market demand** for those skills on platforms like Upwork or Fiverr. Create a **strong online presence** by showcasing your work and networking. Lastly, continuously improve your skills to stay competitive.",
+    "lessonTitle": "Market Demand for Skills",
+    "context": "Course: Freelancing, Level: beginner, Topic: Freelancing. Module: Identifying Your Skills",
+    "createdAt": "2026-03-18T16:11:55.921Z"
+  },
+  {
+    "_id": "69bd0b93b06350d56ce86720",
+    "userId": "69bacaf67964192ae84b570c",
+    "question": "Freelancers ",
+    "response": "To earn $100 today as a freelancer, follow these steps:\n\n1. **Identify Your Skills**: Focus on skills that are in high demand, such as writing, graphic design, or web development.\n2. **Visit Freelance Platforms**: Check sites like Upwork, Fiverr, or Freelancer for quick gigs that match your skills.\n3. **Bid on Short-Term Projects**: Look for projects with immediate deadlines, as clients often pay quickly for urgent work.\n4. **Network**: Reach out to potential clients through social media or job boards to offer your services directly.\n\nAct quickly to increase your chances of securing a job today!",
+    "lessonTitle": "What is Freelancing?",
+    "context": "Course: Freelancing, Level: beginner, Topic: Freelancers. Module: Introduction to Freelancing",
+    "createdAt": "2026-03-20T08:55:47.255Z"
+  },
+  {
+    "_id": "69d8b21c95f6b52f4ff78117",
+    "userId": "694af0021a87e1cd234dcbff",
+    "question": "What is software engineering?\n",
+    "response": "**Software engineering** is the systematic application of engineering principles to the development, operation, and maintenance of software. It encompasses various processes, methodologies, and tools to create high-quality software that meets user requirements and is reliable, maintainable, and efficient.",
+    "lessonTitle": "What is Software Engineering?",
+    "context": "Course: Software Engineering Fundamentals, Level: beginner, Topic: Software Engineering. Module: Introduction to Software Engineering",
+    "createdAt": "2026-04-10T08:17:32.705Z"
+  },
+  {
+    "_id": "6a3eb60f0ac94e8e69a52035",
+    "userId": "694af0021a87e1cd234dcbff",
+    "question": "Why is good learning java?\n\n\n",
+    "response": "Learning **Java** is beneficial because:\n\n1. **Platform Independence**: Java's \"write once, run anywhere\" capability allows applications to run on any device with the Java Virtual Machine (JVM).\n2. **Object-Oriented**: Java's object-oriented programming model encourages modularity and code reuse.\n3. **Strong Community Support**: A large community means abundant resources, libraries, and frameworks for learners.\n4. **Rich API**: Java provides a vast set of APIs for various functionalities, making it versatile for different applications.\n5. **Industry Demand**: Java is widely used in enterprise environments, making it a valuable skill for job seekers.",
+    "lessonTitle": "Introduction to Arrays in Java",
+    "context": "Course: Data Structures and Algorithms in Java: A Beginner's Guide, Level: beginner, Topic: Data structures and Algorithms In Java. Module: Arrays and Strings",
+    "createdAt": "2026-06-26T17:25:35.197Z"
+  },
+  {
+    "_id": "69b90ffba2a9778576c7f5b0",
+    "userId": "694af0021a87e1cd234dcbff",
+    "question": "Why do we need to learn  derivaties for computer science?",
+    "response": "Learning **derivatives** is essential in computer science because they help analyze **rates of change**, which is crucial for understanding algorithm performance, optimizing functions, and modeling dynamic systems. For example, derivatives can be used to evaluate how execution times change with varying input sizes and to find maximum or minimum values in optimization problems, which are common in fields like machine learning and data analysis.",
+    "lessonTitle": "What is Calculus?",
+    "context": "Course: Integration and Differential Mathematics for Computer Science, Level: beginner, Topic: Intergration and differential mathematics for computer science. Module: Introduction to Calculus",
+    "createdAt": "2026-03-17T08:25:31.392Z"
+  },
+  {
+    "_id": "69d92a95263f078c89dd668e",
+    "userId": "694af0021a87e1cd234dcbff",
+    "question": "What's financial Technology ",
+    "response": "**Financial technology** (FinTech) refers to the innovative use of technology to provide **financial services**. It encompasses various applications, including **mobile banking**, **payment systems**, **lending platforms**, **investment technology**, and **blockchain technologies**, aimed at enhancing and democratizing access to financial services.",
+    "lessonTitle": "Overview of Financial Technology Landscape",
+    "context": "Course: Financial Technology, Level: advanced, Topic: Financial Technology. Module: Introduction to Financial Technology",
+    "createdAt": "2026-04-10T16:51:33.156Z"
+  },
+  {
+    "_id": "69b889761c92be00f9825e8b",
+    "userId": "69b8887ca91e682980b7931d",
+    "question": "What's going on here in this course?",
+    "response": "This course, **General Studies**, provides an **interdisciplinary approach** to understanding various fields of knowledge, including **humanities**, **social sciences**, and **natural sciences**. It aims to develop **critical thinking**, **analytical skills**, and a **holistic worldview**. The course covers key components, methodologies, and the importance of General Studies in education and society, preparing students for diverse careers and civic engagement.",
+    "lessonTitle": "Importance of General Knowledge",
+    "context": "Course: General Studies, Level: beginner, Topic: Anything. Module: Introduction to General Studies",
+    "createdAt": "2026-03-16T22:51:34.198Z"
+  },
+  {
+    "_id": "69bd0c2c5ddd31aa4114e266",
+    "userId": "69bacaf67964192ae84b570c",
+    "question": "Like writing ",
+    "response": "To earn money through **writing** as a freelancer, follow these steps:\n\n1. **Create a Profile**: Sign up on freelance platforms like Upwork or Fiverr and create a profile highlighting your writing skills.\n2. **Look for Short Projects**: Search for quick writing gigs such as blog posts, articles, or product descriptions.\n3. **Set Competitive Rates**: Offer a competitive price for your services to attract clients quickly.\n4. **Submit Proposals**: Actively bid on projects that match your skills, emphasizing your experience and quality.\n5. **Network**: Share your writing samples on social media or writing forums to reach potential clients.\n\nStart applying today to secure a client!",
+    "lessonTitle": "What is Freelancing?",
+    "context": "Course: Freelancing, Level: beginner, Topic: Freelancers. Module: Introduction to Freelancing",
+    "createdAt": "2026-03-20T08:58:20.427Z"
+  },
+  {
+    "_id": "69c39f405bac5c35fb465cbc",
+    "userId": "69c39c225bac5c35fb465ca0",
+    "question": "hello",
+    "response": "**Hello!** How can I assist you today?",
+    "lessonTitle": "What Does 'Hello' Mean?",
+    "context": "Course: Introduction to Hello, Level: beginner, Topic: i will not eat today. Module: Module 1: Understanding the Concept of 'Hello'",
+    "createdAt": "2026-03-25T08:39:28.302Z"
+  },
+  {
+    "_id": "69ce667246ba5e92d2995d09",
+    "userId": "694af0021a87e1cd234dcbff",
+    "question": "Why is java good for learning data structures?",
+    "response": "Java is good for learning **data structures** because it offers:\n\n1. **Object-Oriented Programming**: This allows the creation of complex data structures using classes and objects.\n2. **Built-in Data Structures**: Java provides a rich set of built-in data structures (like **ArrayList**, **LinkedList**, **HashMap**) that simplify the learning process.\n3. **Strong Typing**: Java's strict type system helps prevent errors, making it easier to understand how data structures work.\n4. **Memory Management**: Java's garbage collection allows students to focus on data structure logic without worrying about manual memory management.",
+    "lessonTitle": "Types of Data Structures",
+    "context": "Course: Data Structures and Algorithms in Java, Level: beginner, Topic: Data structures and Algorithms In Java. Module: Introduction to Data Structures",
+    "createdAt": "2026-04-02T12:52:02.575Z"
+  },
+  {
+    "_id": "69c7f005059b0053d1b526c9",
+    "userId": "694af0021a87e1cd234dcbff",
+    "question": "Hei",
+    "response": "How can I assist you today?",
+    "lessonTitle": "What are Data Structures?",
+    "context": "Course: Data structures and Algorithms In Java, Lesson: What are Data Structures?",
+    "createdAt": "2026-03-28T15:13:09.585Z"
+  },
+  {
+    "_id": "69d76743406bd26a17e2928a",
+    "userId": "69b569b2ef668c8fb0055311",
+    "question": "How can I make money using web 3?",
+    "response": "You can make money using **Web 3** through several avenues:\n\n1. **Cryptocurrency Trading**: Buy and sell cryptocurrencies for profit.\n2. **Staking**: Earn rewards by staking your tokens in blockchain networks.\n3. **Creating dApps**: Develop decentralized applications and monetize them.\n4. **NFTs**: Create, buy, or sell non-fungible tokens for profit.\n5. **Yield Farming**: Provide liquidity to DeFi protocols and earn interest.\n6. **Participating in DAOs**: Engage in decentralized autonomous organizations that may offer financial rewards for contributions. \n\nExplore these options based on your skills and interests!",
+    "lessonTitle": "What is Web 3? Understanding the Basics",
+    "context": "Course: Web 3 Development, Level: beginner, Topic: Web 3 development. Module: Introduction to Web 3",
+    "createdAt": "2026-04-09T08:45:55.587Z"
+  },
+  {
+    "_id": "6a5a3161311b97b525b31653",
+    "userId": "694af0021a87e1cd234dcbff",
+    "question": "What is the lesson about?",
+    "response": "The lesson is about **data structures** in Java. It covers the definition of data structures, their importance in programming, types (such as arrays, linked lists, stacks, queues, trees, and graphs), fundamental operations, and their implementation in Java. Additionally, it discusses trade-offs in choosing data structures and their applications in solving practical programming problems.",
+    "lessonTitle": "Performance Analysis of Hash Tables",
+    "context": "Course: Data Structures and Algorithms in Java: A Beginner's Guide, Level: beginner, Topic: Data structures and Algorithms In Java. Module: Hashing",
+    "createdAt": "2026-07-17T13:42:57.219Z"
+  }
+]

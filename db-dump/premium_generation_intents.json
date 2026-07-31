@@ -1,0 +1,18 @@
+[
+  {
+    "_id": "6a1966ac699fb18c51477a6e",
+    "userId": "694af0021a87e1cd234dcbff",
+    "difficulty": "beginner",
+    "topicKey": "data structures and algorithms in java",
+    "accessExpiresAt": "2026-06-28T10:13:00.526Z",
+    "amount": 6,
+    "createdAt": "2026-05-29T10:13:00.526Z",
+    "currency": "USD",
+    "reference": "ib02zdi1t6",
+    "status": "consumed",
+    "topic": "Data structures and Algorithms In Java",
+    "updatedAt": "2026-05-29T10:13:00.526Z",
+    "consumedAt": "2026-05-29T10:14:13.119Z",
+    "generatedCourseId": "69c197b155391258a3a5b2fa"
+  }
+]

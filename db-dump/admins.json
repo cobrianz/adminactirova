@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "694af44b6ae3be9b3f2bb07f",
+    "name": "Brian Cheruiyot",
+    "email": "briancheruiyot022@gmail.com",
+    "phone": "0702764907",
+    "password": "$2b$10$/V69KRVic8AOlyemgFRW4.UXfaupha4zlfVMLmGMGyxg/pAGNlRj6",
+    "isVerified": true,
+    "isApproved": true,
+    "role": "admin",
+    "verificationCode": null,
+    "verificationExpires": null,
+    "createdAt": "2025-12-23T19:58:03.522Z",
+    "updatedAt": "2026-07-04T09:52:40.943Z"
+  }
+]

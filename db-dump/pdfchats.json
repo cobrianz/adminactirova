@@ -1,0 +1,122 @@
+[
+  {
+    "_id": "6a5a1732b9fb5cfa5704a477",
+    "documentId": "6a5a169b604f7eed7ad14cfe",
+    "isActive": true,
+    "userId": "694af0021a87e1cd234dcbff",
+    "__v": 0,
+    "createdAt": "2026-07-17T11:51:14.472Z",
+    "fileName": "data_structures_and_algorithms_in_java__a_beginner's_guide.pdf",
+    "lastMessageAt": "2026-07-17T20:48:18.113Z",
+    "messages": [
+      {
+        "role": "user",
+        "content": "what are stacks?",
+        "citedPages": [],
+        "timestamp": "2026-07-17T11:50:54.948Z"
+      },
+      {
+        "role": "assistant",
+        "content": "A **stack** is a linear data structure that follows the **Last In First Out (LIFO)** principle. This means that the last element added to the stack is the first one to be removed. You can visualize it as a stack of plates; the last plate placed on top is the first one to be taken off.\n\nKey features of stacks include:\n- **LIFO Structure**: The last element added is the first to be removed.\n- **Limited Access**: You can only access the top element of the stack.\n\nCommon operations performed on stacks are:\n- **Push**: Add an element to the top of the stack (time complexity O(1)).\n- **Pop**: Remove the top element from the stack (time complexity O(1)).\n- **Peek**: View the top element without removing it (time complexity O(1)).\n\nHere's a simple representation of a stack in Java:\n\n```java\nclass Stack {\n    private int maxSize;\n    private int[] stackArray;\n    private int top;\n\n    public Stack(int size) {\n        maxSize = size;\n        stackArray = new int[maxSize];\n        top = -1;\n    }\n\n    public void push(int value) {\n        if (top + 1 >= maxSize) {\n            throw new RuntimeException(\"Stack is full\");\n        }\n        stackArray[++top] = value;\n    }\n\n    public int pop() {\n        if (top < 0) {\n            throw new RuntimeException(\"Stack is empty\");\n        }\n        return stackArray[top--];\n    }\n\n    public int peek() {\n        if (top < 0) {\n            throw new RuntimeException(\"Stack is empty\");\n        }\n        return stackArray[top];\n    }\n}\n```\n\nThis class defines a stack with methods to perform basic operations *(Source: Pages 5, 6)*.",
+        "citedPages": [
+          5,
+          6
+        ],
+        "timestamp": "2026-07-17T11:51:11.258Z"
+      },
+      {
+        "role": "user",
+        "content": "what are linked lists",
+        "citedPages": [],
+        "timestamp": "2026-07-17T12:01:19.380Z"
+      },
+      {
+        "role": "assistant",
+        "content": "A **linked list** is a data structure that consists of nodes, where each node contains data and a reference (or link) to the next node in the sequence. This structure allows for dynamic sizing, meaning linked lists can grow or shrink as needed, unlike arrays which have a fixed size.\n\nKey features of linked lists include:\n- **Dynamic Size**: Linked lists can grow and shrink in size as elements are added or removed.\n- **Non-contiguous Memory**: The nodes in a linked list can be scattered throughout memory, unlike arrays which require contiguous memory allocation.\n\nHere’s a basic representation of a node in a linked list in Java:\n\n```java\nclass Node {\n    int data;\n    Node next;\n\n    Node(int data) {\n        this.data = data;\n        this.next = null;\n    }\n}\n```\n\nAnd here’s how a simple linked list class might look:\n\n```java\nclass LinkedList {\n    Node head;\n\n    public void add(int data) {\n        Node newNode = new Node(data);\n        if (head == null) {\n            head = newNode;\n        } else {\n            Node current = head;\n            while (current.next != null) {\n                current = current.next;\n            }\n            current.next = newNode;\n        }\n    }\n}\n```\n\nIn this example, the `add` method allows for adding new nodes to the end of the linked list *(Source: Pages 4, 5)*. \n\nCommon operations on linked lists include:\n- **Insertion**: Adding an element at the beginning, middle, or end (time complexity O(n)).\n- **Deletion**: Removing an element also takes O(n) time because you need to find the node to delete. \n\nIf you have any further questions about linked lists or need clarification on specific operations, feel free to ask!",
+        "citedPages": [
+          4,
+          5
+        ],
+        "timestamp": "2026-07-17T12:01:35.648Z"
+      },
+      {
+        "role": "user",
+        "content": "What are hashmaps",
+        "citedPages": [],
+        "timestamp": "2026-07-17T20:46:05.033Z"
+      },
+      {
+        "role": "assistant",
+        "content": "I couldn't find that in the document. However, you might want to look into sections related to *Hashing* or *Data Structures*, as those may cover hashmaps and their operations. If you rephrase your question or specify what aspects you're interested in, I can help guide you better!",
+        "citedPages": [],
+        "timestamp": "2026-07-17T20:46:08.255Z"
+      },
+      {
+        "role": "user",
+        "content": "Look on then",
+        "citedPages": [],
+        "timestamp": "2026-07-17T20:46:32.808Z"
+      },
+      {
+        "role": "assistant",
+        "content": "I couldn't find that in the document. It appears that the provided text does not include information on **hashmaps** or hashing concepts. If you're looking for specific details about hashmaps, please let me know, and I can assist you with related concepts or suggest which sections might be relevant!",
+        "citedPages": [],
+        "timestamp": "2026-07-17T20:46:34.891Z"
+      },
+      {
+        "role": "user",
+        "content": "What are dictionaries",
+        "citedPages": [],
+        "timestamp": "2026-07-17T20:47:16.732Z"
+      },
+      {
+        "role": "assistant",
+        "content": "I couldn't find that in the document. The document does not mention **dictionaries** explicitly. However, dictionaries are often related to concepts such as *hashing* or may be discussed in the context of data structures like hashmaps. If you have a specific aspect of dictionaries you're curious about, please let me know!",
+        "citedPages": [],
+        "timestamp": "2026-07-17T20:47:18.866Z"
+      },
+      {
+        "role": "user",
+        "content": "What are lists",
+        "citedPages": [],
+        "timestamp": "2026-07-17T20:47:27.035Z"
+      },
+      {
+        "role": "assistant",
+        "content": "I couldn't find that in the document. The text provided does not contain specific information about **lists**. However, lists are often discussed in relation to arrays or linked lists. If you have a particular aspect of lists you want to explore, please let me know!",
+        "citedPages": [],
+        "timestamp": "2026-07-17T20:47:28.760Z"
+      },
+      {
+        "role": "user",
+        "content": "What is covered on the pdf",
+        "citedPages": [],
+        "timestamp": "2026-07-17T20:47:44.034Z"
+      },
+      {
+        "role": "assistant",
+        "content": "The PDF covers a comprehensive introduction to **Data Structures and Algorithms**. Here are the key topics outlined in the table of contents and initial pages:\n\n1. **Introduction to Data Structures and Algorithms**\n   - Definition and importance of data structures\n   - Types of data structures (arrays, linked lists, stacks, queues, trees, graphs)\n   - Fundamental operations associated with each data structure\n   - Implementation in Java\n   - Trade-offs in choosing data structures\n\n2. **Core Concepts of Data Structures**\n   - **Data Structures Definition**: Specialized formats for organizing, processing, and storing data *(Source: Page 4)*.\n   - **Types of Data Structures**:\n     - Primitive (e.g., integers, floats)\n     - Non-Primitive: Linear (arrays, linked lists) and Non-Linear (trees, graphs)\n\n3. **Detailed Explanations of Various Data Structures**:\n   - **Arrays**: Characteristics, operations, and example code *(Source: Pages 4-5)*.\n   - **Linked Lists**: Structure, operations, and example code *(Source: Pages 4-5)*.\n   - **Stacks**: LIFO principle, characteristics, operations, and example code *(Source: Pages 5-6)*.\n   - **Queues**: FIFO principle, characteristics, operations, and example code *(Source: Pages 6-7)*.\n   - **Trees**: Hierarchical structure, binary trees explanation with example code *(Source: Pages 7-8)*.\n   - **Graphs**: Definition, characteristics including types of graphs, and example code *(Source: Page 8)*.\n\n4. **Industry Best Practices and Common Pitfalls**:\n   - Choosing the right data structure\n   - Understanding time complexity\n   - Utilizing Java's Collections Framework\n   - Keeping operations simple *(Source: Page 9)*.\n\nThe document is structured to provide foundational knowledge in data structures along with practical coding examples primarily in Java. If you need more details on specific sections or concepts covered in the PDF, feel free to ask!",
+        "citedPages": [
+          4,
+          8,
+          9
+        ],
+        "timestamp": "2026-07-17T20:47:51.240Z"
+      },
+      {
+        "role": "user",
+        "content": "What are trees",
+        "citedPages": [],
+        "timestamp": "2026-07-17T20:48:11.898Z"
+      },
+      {
+        "role": "assistant",
+        "content": "A **tree** is a hierarchical data structure consisting of nodes, where each node has a single root and can have multiple children. Here are the key features and operations associated with trees based on the document:\n\n- **Hierarchical Structure**: Data is organized in a parent-child relationship.\n- **Dynamic Size**: Trees can grow and shrink as nodes are added or removed.\n\n### Types of Trees\n- **Binary Tree**: A specific type of tree where each node has at most two children, referred to as the left and right child.\n\n### Example Code for a Binary Tree\n```java\nclass TreeNode {\n    int data;\n    TreeNode left;\n    TreeNode right;\n    TreeNode(int data) {\n        this.data = data;\n        left = null;\n        right = null;\n    }\n}\nclass BinaryTree {\n    TreeNode root;\n    public void insert(int data) {\n        root = insertRec(root, data);\n    }\n    private TreeNode insertRec(TreeNode root, int data) {\n        if (root == null) {\n            root = new TreeNode(data);\n            return root;\n        }\n        if (data < root.data) {\n            root.left = insertRec(root.left, data);\n        } else if (data > root.data) {\n            root.right = insertRec(root.right, data);\n        }\n        return root;\n    }\n}\n```\n*(Source: Pages 7-8)*\n\n### Operations on Trees\n- **Insertion**: Typically takes O(n) time on average for balanced trees.\n- **Traversal**: Can be performed using depth-first methods (in-order, pre-order, post-order) or breadth-first (level order).\n\nIf you have any further questions about trees or their applications, feel free to ask!",
+        "citedPages": [],
+        "timestamp": "2026-07-17T20:48:17.613Z"
+      }
+    ],
+    "updatedAt": "2026-07-17T20:48:18.113Z",
+    "fileSizeMB": "4.64"
+  }
+]

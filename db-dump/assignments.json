@@ -1,0 +1,3330 @@
+[
+  {
+    "_id": "6a5bb2bf7738b2689beab72b",
+    "classroomId": "6a5a863cea82958b8c771eda",
+    "createdBy": "6a5a7a7aea82958b8c771e7e",
+    "title": "Java Programming Principles",
+    "description": "Java Programming Principles",
+    "instructions": "# CCS - 101 Introduction to Programming\n## Assignment: Java Programming Principles Quiz\n\n### **Objective:**\nThe objective of this quiz is to assess your understanding of fundamental Java programming principles covered in the course. This includes concepts such as data types, control structures, object-oriented programming basics, and standard Java library functions.\n\n### **Quiz Requirements:**\n1. **Format:** The quiz will consist of multiple-choice, true/false, and short answer questions.\n2. **Content Coverage:** The quiz will cover the following topics:\n   - Java Syntax and Structure\n   - Data Types (Primitive and Non-Primitive)\n   - Control Flow (if statements, loops)\n   - Functions/Methods\n   - Object-Oriented Programming Basics (Classes, Objects, Inheritance, Encapsulation)\n   - Common Java Libraries (e.g., java.util)\n3. **Time Allotment:** You will have 60 minutes to complete the quiz.\n4. **Materials Allowed:** You may use your course notes and Java programming textbooks. No online resources or external aids are permitted.\n\n### **Submission Guidelines:**\n- **Platform:** The quiz will be administered through the course’s online learning management system (LMS).\n- **Access:** The quiz will be available from [Start Date] to [End Date]. Ensure you start and complete it within this timeframe.\n- **Format of Answers:** \n  - For multiple-choice and true/false questions, select the correct option.\n  - For short answer questions, provide concise responses in the space provided.\n\n### **Grading Criteria:**\n- **Total Points:** The quiz is worth 100 points.\n- **Question Breakdown:**\n   - Multiple Choice Questions (20 questions): 2 points each (total 40 points)\n   - True/False Questions (10 questions): 3 points each (total 30 points)\n   - Short Answer Questions (3 questions): 10 points each (total 30 points)\n- **Grading Scale:**\n   - 90-100%: A\n   - 80-89%: B\n   - 70-79%: C\n   - 60-69%: D\n   - Below 60%: F\n\n### **Important Notes:**\n- Be sure to review the Java programming principles before beginning the quiz.\n- Ensure you have a stable internet connection during the quiz duration.\n- If you experience any technical issues, please contact your instructor immediately.\n\n### **Support:**\nFor any questions regarding the quiz content or technical difficulties, please reach out to your instructor via the course messaging system or attend office hours on [Office Hours Date/Time].\n\nGood luck, and may your programming skills shine through!",
+    "courseId": null,
+    "type": "quiz",
+    "category": "Homework",
+    "dueDate": "2026-07-23T21:00:00.000Z",
+    "availableFrom": "2026-07-18T17:00:00.000Z",
+    "availableUntil": "2026-07-24T21:00:00.000Z",
+    "maxScore": 100,
+    "passingScore": 60,
+    "weight": 90,
+    "rubric": [
+      {
+        "criterion": "Code Functionality",
+        "description": "The program operates as intended, producing the correct output for all specified inputs.",
+        "maxPoints": 30,
+        "_id": "6a5bb2bf7738b2689beab72c"
+      },
+      {
+        "criterion": "Code Structure and Organization",
+        "description": "The code is well-organized, following best practices for formatting and structure (e.g., proper use of indentation, naming conventions).",
+        "maxPoints": 20,
+        "_id": "6a5bb2bf7738b2689beab72d"
+      },
+      {
+        "criterion": "Use of Java Language Features",
+        "description": "Appropriate use of Java programming constructs such as loops, conditionals, methods, and data structures.",
+        "maxPoints": 20,
+        "_id": "6a5bb2bf7738b2689beab72e"
+      },
+      {
+        "criterion": "Error Handling",
+        "description": "Effective handling of potential errors and exceptions within the code.",
+        "maxPoints": 15,
+        "_id": "6a5bb2bf7738b2689beab72f"
+      },
+      {
+        "criterion": "Documentation and Comments",
+        "description": "Code is adequately documented with comments explaining the purpose of complex sections and overall functionality.",
+        "maxPoints": 10,
+        "_id": "6a5bb2bf7738b2689beab730"
+      },
+      {
+        "criterion": "Code Efficiency",
+        "description": "The code is optimized for performance and does not contain unnecessary complexity.",
+        "maxPoints": 5,
+        "_id": "6a5bb2bf7738b2689beab731"
+      }
+    ],
+    "attachments": [],
+    "allowLateSubmissions": true,
+    "maxAttempts": 12,
+    "isGroupAssignment": false,
+    "groupId": "",
+    "isActive": true,
+    "aiGenerated": false,
+    "weekNumber": 0,
+    "createdAt": "2026-07-18T17:07:11.996Z",
+    "updatedAt": "2026-07-18T17:07:11.996Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a5e5fa04c5938a2f4d1614c",
+    "classroomId": "6a5a863cea82958b8c771eda",
+    "createdBy": "6a5a7a7aea82958b8c771e7e",
+    "title": "Week One assignment: Introduction to  Programming",
+    "description": "No late Acceptance",
+    "instructions": "# CCS - 101: Introduction to Programming\n## Week One Assignment: Quiz\n\n### Objectives\nThe purpose of this quiz is to assess your foundational understanding of key programming concepts introduced in the first week of the course. Specifically, you will be evaluated on your ability to:\n\n- Identify basic programming terminology and concepts.\n- Demonstrate an understanding of programming logic.\n- Recognize the structure of a simple program.\n\n### Requirements\n1. **Format**: The quiz will consist of 10 multiple-choice questions.\n2. **Content**: Questions will cover the following topics discussed in Week One:\n   - Definition of programming\n   - Overview of programming languages\n   - Basic coding concepts (variables, data types, operators)\n   - Introduction to the programming environment\n   - Key programming constructs (loops, conditionals)\n\n3. **Time Limit**: You will have 30 minutes to complete the quiz once you start.\n\n4. **Resources**: You are allowed to refer to your lecture notes and course materials while taking the quiz, but collaboration with peers is not permitted.\n\n### Submission Guidelines\n- **Format**: Complete the quiz in the designated online platform (e.g., LMS or course portal).\n- **Deadline**: The quiz must be submitted by **Friday, [insert date] at 11:59 PM**.\n- **Access**: The quiz will be available starting **Monday, [insert date]**.\n\n### Grading Criteria\nThe quiz is worth a total of **100 points**. Points will be awarded according to the following criteria:\n\n- Each correct answer: **10 points**\n- Total number of correct answers will be tallied for your final score.\n\n### Important Notes\n- Please ensure your internet connection is stable while taking the quiz to avoid any interruptions.\n- If you experience technical issues, contact the course instructor immediately for assistance.\n\nIf you have any questions regarding the quiz or the course material, feel free to reach out during office hours or via email.\n\nGood luck, and happy programming!",
+    "courseId": null,
+    "type": "quiz",
+    "category": "Homework",
+    "dueDate": "2026-07-20T21:00:00.000Z",
+    "availableFrom": "2026-07-20T17:45:00.000Z",
+    "availableUntil": "2026-07-22T17:45:00.000Z",
+    "maxScore": 100,
+    "passingScore": 80,
+    "weight": 80,
+    "rubric": [
+      {
+        "criterion": "Understanding of Concepts",
+        "description": "Demonstrates a clear understanding of fundamental programming concepts introduced during Week One.",
+        "maxPoints": 30,
+        "_id": "6a5e5fa04c5938a2f4d1614d"
+      },
+      {
+        "criterion": "Code Correctness",
+        "description": "The submitted code is correct and meets the assignment requirements without syntax or runtime errors.",
+        "maxPoints": 25,
+        "_id": "6a5e5fa04c5938a2f4d1614e"
+      },
+      {
+        "criterion": "Code Efficiency",
+        "description": "The solution is written in an efficient manner, using appropriate algorithms and data structures where applicable.",
+        "maxPoints": 20,
+        "_id": "6a5e5fa04c5938a2f4d1614f"
+      },
+      {
+        "criterion": "Documentation and Comments",
+        "description": "Code is well-documented with clear comments explaining logic and approaches used in the solution.",
+        "maxPoints": 15,
+        "_id": "6a5e5fa04c5938a2f4d16150"
+      },
+      {
+        "criterion": "Submission Format",
+        "description": "The assignment is submitted in the required format, adhering to file naming conventions and submission guidelines.",
+        "maxPoints": 10,
+        "_id": "6a5e5fa04c5938a2f4d16151"
+      }
+    ],
+    "attachments": [],
+    "allowLateSubmissions": true,
+    "maxAttempts": 2,
+    "isGroupAssignment": false,
+    "groupId": "",
+    "isActive": true,
+    "aiGenerated": false,
+    "weekNumber": 0,
+    "createdAt": "2026-07-20T17:49:20.409Z",
+    "updatedAt": "2026-07-20T17:49:20.409Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a5f90b9a3068e1bab800c0f",
+    "classroomId": "6a5b0dc645da061786019b7d",
+    "createdBy": "6a5a7a7aea82958b8c771e7e",
+    "title": "Anatomy Basics Quiz",
+    "description": "A quiz that tests your understanding of the foundational concepts of human anatomy introduced in this module.",
+    "instructions": "",
+    "courseId": null,
+    "type": "quiz",
+    "category": "Quiz",
+    "dueDate": null,
+    "availableFrom": null,
+    "availableUntil": null,
+    "maxScore": 100,
+    "passingScore": 60,
+    "weight": 10,
+    "rubric": [
+      {
+        "criterion": "Correct Answers",
+        "description": "Number of correct answers given in the quiz.",
+        "maxPoints": 100,
+        "_id": "6a5f90b9a3068e1bab800c10"
+      }
+    ],
+    "attachments": [],
+    "allowLateSubmissions": true,
+    "maxAttempts": 0,
+    "isGroupAssignment": false,
+    "groupId": "",
+    "isActive": false,
+    "aiGenerated": false,
+    "weekNumber": 1,
+    "createdAt": "2026-07-21T15:31:05.691Z",
+    "updatedAt": "2026-07-22T17:58:15.307Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a5f90bba3068e1bab800c18",
+    "classroomId": "6a5b0dc645da061786019b7d",
+    "createdBy": "6a5a7a7aea82958b8c771e7e",
+    "title": "Human Anatomy Lab Exercise",
+    "description": "A hands-on lab where students will explore human anatomical structures through models and diagrams.",
+    "instructions": "",
+    "courseId": null,
+    "type": "lab",
+    "category": "Lab",
+    "dueDate": null,
+    "availableFrom": null,
+    "availableUntil": null,
+    "maxScore": 100,
+    "passingScore": 60,
+    "weight": 15,
+    "rubric": [
+      {
+        "criterion": "Participation",
+        "description": "Level of active participation and engagement in lab activities.",
+        "maxPoints": 40,
+        "_id": "6a5f90bba3068e1bab800c19"
+      },
+      {
+        "criterion": "Accuracy of Observations",
+        "description": "Accuracy in identifying and describing anatomical structures.",
+        "maxPoints": 40,
+        "_id": "6a5f90bba3068e1bab800c1a"
+      },
+      {
+        "criterion": "Lab Report Quality",
+        "description": "Clarity, organization, and completeness of the lab report submitted.",
+        "maxPoints": 20,
+        "_id": "6a5f90bba3068e1bab800c1b"
+      }
+    ],
+    "attachments": [],
+    "allowLateSubmissions": true,
+    "maxAttempts": 0,
+    "isGroupAssignment": false,
+    "groupId": "",
+    "isActive": false,
+    "aiGenerated": false,
+    "weekNumber": 1,
+    "createdAt": "2026-07-21T15:31:07.326Z",
+    "updatedAt": "2026-07-22T17:58:15.307Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a5f90bca3068e1bab800c23",
+    "classroomId": "6a5b0dc645da061786019b7d",
+    "createdBy": "6a5a7a7aea82958b8c771e7e",
+    "title": "Discussion on Anatomical Terminology",
+    "description": "Participate in an online discussion forum outlining the importance of anatomical terminology in the study of human anatomy.",
+    "instructions": "",
+    "courseId": null,
+    "type": "discussion",
+    "category": "Discussion",
+    "dueDate": null,
+    "availableFrom": null,
+    "availableUntil": null,
+    "maxScore": 100,
+    "passingScore": 60,
+    "weight": 10,
+    "rubric": [
+      {
+        "criterion": "Quality of Post",
+        "description": "Depth and relevance of your initial post regarding anatomical terminology.",
+        "maxPoints": 50,
+        "_id": "6a5f90bca3068e1bab800c24"
+      },
+      {
+        "criterion": "Responses to Peers",
+        "description": "Thoughtfulness and constructive nature of replies to classmates' posts.",
+        "maxPoints": 50,
+        "_id": "6a5f90bca3068e1bab800c25"
+      }
+    ],
+    "attachments": [],
+    "allowLateSubmissions": true,
+    "maxAttempts": 0,
+    "isGroupAssignment": false,
+    "groupId": "",
+    "isActive": false,
+    "aiGenerated": false,
+    "weekNumber": 1,
+    "createdAt": "2026-07-21T15:31:08.911Z",
+    "updatedAt": "2026-07-22T17:58:15.307Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a5f9a90a3068e1bab800ede",
+    "classroomId": "6a5b0dc645da061786019b7d",
+    "createdBy": "6a5a7a7aea82958b8c771e7e",
+    "title": "Skeletal System Quiz",
+    "description": "Assess your understanding of the skeletal system's anatomy and functions.",
+    "instructions": "This quiz consists of multiple-choice and true/false questions designed to test your knowledge of the skeletal system's structure and its role in human anatomy. Your objectives are to demonstrate comprehension of the major bones, joints, and their functions in the human body. Each question is randomly selected from a larger pool, so no two quizzes will be identical. \n\nPlease complete the quiz within the allotted time of 30 minutes. Make sure to review your notes as well as any provided resources before beginning. No external materials are allowed during this quiz to ensure the integrity of your answers. Each question is equally weighted, so please answer all questions to the best of your ability. \n\nSubmit your answers directly through the online course platform. Ensure that you click the 'submit' button once you have completed the quiz; late submissions will not be accepted. If you encounter any technical issues during the quiz, contact your instructor immediately. \n\nYour performance on this quiz will contribute to your overall grade for the course. Grading will be based on the number of correct answers, with no penalties for incorrect responses. Retakes are not permitted, so please prepare adequately to maximize your score.",
+    "courseId": null,
+    "type": "quiz",
+    "category": "Quiz",
+    "dueDate": null,
+    "availableFrom": null,
+    "availableUntil": null,
+    "maxScore": 100,
+    "passingScore": 60,
+    "weight": 10,
+    "rubric": [
+      {
+        "criterion": "Correct Answers",
+        "description": "Points awarded for each correct answer.",
+        "maxPoints": 100,
+        "_id": "6a5f9a90a3068e1bab800edf"
+      }
+    ],
+    "attachments": [],
+    "allowLateSubmissions": true,
+    "maxAttempts": 0,
+    "isGroupAssignment": false,
+    "groupId": "",
+    "isActive": false,
+    "aiGenerated": false,
+    "weekNumber": 2,
+    "createdAt": "2026-07-21T16:13:04.885Z",
+    "updatedAt": "2026-07-22T17:58:15.307Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a5f9a93a3068e1bab800ee7",
+    "classroomId": "6a5b0dc645da061786019b7d",
+    "createdBy": "6a5a7a7aea82958b8c771e7e",
+    "title": "Skeletal System Lab Report",
+    "description": "Analyze skeletal specimens to discover their anatomical features.",
+    "instructions": "In this lab assignment, you will examine various skeletal specimens provided during the lab session. Your task is to identify key anatomical features of each specimen, such as bones, joints, and any distinguishing characteristics. This report should highlight your observations and insights based on your analysis of the specimens. \n\nStart by documenting the methods you used to study the specimens, including any magnification tools or anatomical charts referenced. Next, provide a detailed description of each specimen, noting its relevant characteristics and what these features tell us about its function within the skeletal system. Incorporate relevant terminology and concepts discussed in class. \n\nYour lab report should be formatted according to academic standards, including an introduction, methods, results, and discussion section. Ensure that your writing is clear and concise, with appropriate use of headings and subheadings for organization. After finishing your report, submit it as a PDF file through the course platform. \n\nGrading will be based on clarity, thoroughness, and adherence to the format. Pay close attention to the accuracy of your observations and your use of scientific language, as both will be critical to your score.",
+    "courseId": null,
+    "type": "report",
+    "category": "Lab",
+    "dueDate": null,
+    "availableFrom": null,
+    "availableUntil": null,
+    "maxScore": 100,
+    "passingScore": 60,
+    "weight": 20,
+    "rubric": [
+      {
+        "criterion": "Observation and Analysis",
+        "description": "Quality and detail of observations made about skeletal specimens.",
+        "maxPoints": 50,
+        "_id": "6a5f9a93a3068e1bab800ee8"
+      },
+      {
+        "criterion": "Report Structure",
+        "description": "Clarity and organization of the lab report.",
+        "maxPoints": 30,
+        "_id": "6a5f9a93a3068e1bab800ee9"
+      },
+      {
+        "criterion": "Terminology Usage",
+        "description": "Appropriateness and accuracy of scientific terminology used.",
+        "maxPoints": 20,
+        "_id": "6a5f9a93a3068e1bab800eea"
+      }
+    ],
+    "attachments": [],
+    "allowLateSubmissions": true,
+    "maxAttempts": 0,
+    "isGroupAssignment": false,
+    "groupId": "",
+    "isActive": false,
+    "aiGenerated": false,
+    "weekNumber": 2,
+    "createdAt": "2026-07-21T16:13:07.430Z",
+    "updatedAt": "2026-07-22T17:58:15.307Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a5f9a95a3068e1bab800ef2",
+    "classroomId": "6a5b0dc645da061786019b7d",
+    "createdBy": "6a5a7a7aea82958b8c771e7e",
+    "title": "Class Discussion on Skeletal System Functions",
+    "description": "Engage with peers to discuss the various functions of the skeletal system.",
+    "instructions": "This discussion assignment invites you to analyze and converse about the multiple roles that the skeletal system plays in maintaining human health and mobility. Your primary objective is to articulate your understanding of these functions and engage thoughtfully with your classmates' contributions. The discussion will take place asynchronously over one week. \n\nStart by posting an initial response that outlines at least three functions of the skeletal system, providing examples to illustrate each function. Consider elements such as support, movement, and protection. After posting your initial response, engage with at least two classmates by commenting on their posts, providing insights or asking questions that expand the discussion. Your comments should be substantive and promote a deeper understanding of the topic. \n\nMake sure to adhere to academic standards while crafting your posts. Use proper citations for any sources referenced, and be respectful and constructive in all interactions. Once the week concludes, your instructor will review the discussion and provide feedback on your engagement level and the quality of your contributions. \n\nGrading will reflect the quality of your initial post, the thoughtfulness of your responses to peers, and your overall involvement in the discussion. Aim for clarity, depth, and a collaborative spirit in your interactions to optimize your score.",
+    "courseId": null,
+    "type": "discussion",
+    "category": "Discussion",
+    "dueDate": null,
+    "availableFrom": null,
+    "availableUntil": null,
+    "maxScore": 100,
+    "passingScore": 60,
+    "weight": 15,
+    "rubric": [
+      {
+        "criterion": "Initial Post Quality",
+        "description": "Depth and clarity in the initial discussion post.",
+        "maxPoints": 40,
+        "_id": "6a5f9a95a3068e1bab800ef3"
+      },
+      {
+        "criterion": "Engagement with Peers",
+        "description": "Thoughtfulness and relevance of responses to classmates.",
+        "maxPoints": 40,
+        "_id": "6a5f9a95a3068e1bab800ef4"
+      },
+      {
+        "criterion": "Overall Contribution",
+        "description": "Active participation throughout the discussion period.",
+        "maxPoints": 20,
+        "_id": "6a5f9a95a3068e1bab800ef5"
+      }
+    ],
+    "attachments": [],
+    "allowLateSubmissions": true,
+    "maxAttempts": 0,
+    "isGroupAssignment": false,
+    "groupId": "",
+    "isActive": false,
+    "aiGenerated": false,
+    "weekNumber": 2,
+    "createdAt": "2026-07-21T16:13:09.941Z",
+    "updatedAt": "2026-07-22T17:58:15.307Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a5f9a98a3068e1bab800efd",
+    "classroomId": "6a5b0dc645da061786019b7d",
+    "createdBy": "6a5a7a7aea82958b8c771e7e",
+    "title": "Skeletal System Presentation",
+    "description": "Create a presentation on a chosen aspect of the skeletal system.",
+    "instructions": "For this assignment, you will develop a presentation focusing on a specific aspect of the skeletal system that piques your interest. Your choice could range from a specific bone type, joint structure, to diseases affecting the skeletal system. The objective is to educate your classmates through informative content backed by research and to enhance your public speaking skills. \n\nYour presentation should be 10-15 minutes in length and include visual aids such as slides or posters to reinforce your verbal message. Begin by introducing your topic, followed by key points that elaborate on the anatomy, function, and significance of what you are presenting. Integrate research findings and make sure to cite your sources properly. Engage your audience by including questions or interactive elements. \n\nPrepare to deliver your presentation during the scheduled class time. Submit your visual aids in advance by uploading your slides or materials to the course platform. Ensure they are formatted correctly and can be easily read by your classmates. Your presentation will be assessed based on clarity, depth of content, engagement level, and visual presentation quality. \n\nIn grading your work, I will focus on the accuracy and relevance of the content, your delivery style, and the effectiveness of your visual aids. Aim to make your presentation both educational and engaging to achieve a high score.",
+    "courseId": null,
+    "type": "presentation",
+    "category": "Project",
+    "dueDate": null,
+    "availableFrom": null,
+    "availableUntil": null,
+    "maxScore": 100,
+    "passingScore": 60,
+    "weight": 20,
+    "rubric": [
+      {
+        "criterion": "Content Accuracy",
+        "description": "Relevance and correctness of information presented.",
+        "maxPoints": 40,
+        "_id": "6a5f9a98a3068e1bab800efe"
+      },
+      {
+        "criterion": "Presentation Skills",
+        "description": "Effectiveness and engagement level during delivery.",
+        "maxPoints": 30,
+        "_id": "6a5f9a98a3068e1bab800eff"
+      },
+      {
+        "criterion": "Visual Aids",
+        "description": "Quality and appropriateness of visual materials used.",
+        "maxPoints": 30,
+        "_id": "6a5f9a98a3068e1bab800f00"
+      }
+    ],
+    "attachments": [],
+    "allowLateSubmissions": true,
+    "maxAttempts": 0,
+    "isGroupAssignment": false,
+    "groupId": "",
+    "isActive": false,
+    "aiGenerated": false,
+    "weekNumber": 2,
+    "createdAt": "2026-07-21T16:13:12.168Z",
+    "updatedAt": "2026-07-22T17:58:15.307Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a5fa434f23fc66eb3e1bb00",
+    "classroomId": "6a5b0dc645da061786019b7d",
+    "createdBy": "6a5a7a7aea82958b8c771e7e",
+    "title": "Muscle Types Quiz",
+    "description": "A quiz to assess understanding of the different types of muscles and their functions.",
+    "instructions": "This quiz consists of 10 multiple-choice questions designed to test your knowledge of the different types of muscles: skeletal, cardiac, and smooth. Your goal is to accurately identify key characteristics, functions, and examples of each muscle type. Be sure to read each question carefully before selecting your answer. To prepare, review the materials provided in the module, focusing on the specific functions and locations of each muscle type. \n\nYou will have 30 minutes to complete the quiz once you start it. Be sure to time yourself and ensure you have a stable internet connection to avoid any disruptions. Each correct answer will earn you points towards your total score. Remember, this quiz is an individual assessment, so collaboration with classmates is not permitted. \n\nUpon completion of the quiz, your score will be automatically submitted, and you will be able to review your answers. Feedback will be provided within 48 hours after the quiz closes. Please reach out to the instructor if you have any questions or experience any technical issues during the quiz.",
+    "courseId": null,
+    "type": "quiz",
+    "category": "Quiz",
+    "dueDate": null,
+    "availableFrom": null,
+    "availableUntil": null,
+    "maxScore": 100,
+    "passingScore": 60,
+    "weight": 10,
+    "rubric": [
+      {
+        "criterion": "Correct Answers",
+        "description": "Percentage of questions answered correctly.",
+        "maxPoints": 100,
+        "_id": "6a5fa434f23fc66eb3e1bb01"
+      }
+    ],
+    "attachments": [],
+    "allowLateSubmissions": true,
+    "maxAttempts": 0,
+    "isGroupAssignment": false,
+    "groupId": "",
+    "isActive": false,
+    "aiGenerated": false,
+    "weekNumber": 3,
+    "createdAt": "2026-07-21T16:54:12.430Z",
+    "updatedAt": "2026-07-22T17:58:15.307Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a5fa436f23fc66eb3e1bb09",
+    "classroomId": "6a5b0dc645da061786019b7d",
+    "createdBy": "6a5a7a7aea82958b8c771e7e",
+    "title": "Lab: Muscle Contraction Experiment",
+    "description": "Conduct an experiment to observe muscle contraction mechanics.",
+    "instructions": "In this lab assignment, you will conduct a simple experiment to observe the mechanics of muscle contraction using a model (it could be a simulation or a physical model). Your objective is to explore how muscles contract in response to various stimuli. You will document your observations, results, and analysis. \n\nYou are required to prepare a lab report that includes an introduction explaining the theory behind muscle contraction, a detailed methodology of your experiment, results with data presented in tables or graphs, and a conclusion discussing your findings in relation to the muscular system concepts covered in this module. Ensure to follow safety protocols if using any physical models or electrical components. \n\nThe lab report should be submitted in PDF format, and it should be at least 4-6 pages long, double-spaced, using 12-point Times New Roman font. Include all references to materials used, and cite any sources you refer to in APA format. The deadline for the lab report submission is one week from the date of the lab session.",
+    "courseId": null,
+    "type": "lab",
+    "category": "Lab",
+    "dueDate": null,
+    "availableFrom": null,
+    "availableUntil": null,
+    "maxScore": 100,
+    "passingScore": 60,
+    "weight": 20,
+    "rubric": [
+      {
+        "criterion": "Introduction and Theory",
+        "description": "Clarity and accuracy of the theoretical background.",
+        "maxPoints": 25,
+        "_id": "6a5fa436f23fc66eb3e1bb0a"
+      },
+      {
+        "criterion": "Methodology",
+        "description": "Detail and clarity of the experimental procedures followed.",
+        "maxPoints": 25,
+        "_id": "6a5fa436f23fc66eb3e1bb0b"
+      },
+      {
+        "criterion": "Results Presentation",
+        "description": "Use of tables, graphs, and clarity in presenting results.",
+        "maxPoints": 25,
+        "_id": "6a5fa436f23fc66eb3e1bb0c"
+      },
+      {
+        "criterion": "Discussion and Conclusion",
+        "description": "Depth of analysis and connection to muscular system concepts.",
+        "maxPoints": 25,
+        "_id": "6a5fa436f23fc66eb3e1bb0d"
+      }
+    ],
+    "attachments": [],
+    "allowLateSubmissions": true,
+    "maxAttempts": 0,
+    "isGroupAssignment": false,
+    "groupId": "",
+    "isActive": false,
+    "aiGenerated": false,
+    "weekNumber": 3,
+    "createdAt": "2026-07-21T16:54:14.080Z",
+    "updatedAt": "2026-07-22T17:58:15.307Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a60cb43d996eed41db4f057",
+    "classroomId": "6a5b0dc645da061786019b7d",
+    "createdBy": "6a5a7a7aea82958b8c771e7e",
+    "title": "Quiz on Digestive System Anatomy",
+    "description": "Assess your knowledge on the key anatomical structures and functions of the digestive system.",
+    "instructions": "The quiz consists of 20 questions that will test your understanding of the anatomy of the digestive system. Each question will require you to identify anatomical parts, describe their functions, or outline the digestive process involved. Ensure that you review lecture notes, textbooks, and any provided multimedia resources before attempting the quiz. The quiz is meant to be a comprehensive review of your understanding of how each part of the digestive system contributes to overall homeostasis.\n\nYou will have 30 minutes to complete the quiz once started, and it will be available on the course platform for 48 hours starting from Monday morning. The quiz will consist of multiple-choice and true/false questions, and you will be scored based on the accuracy of your answers. It is important that you do not use external resources during the quiz as this will be monitored and may result in academic penalties.\n\nPlease ensure that you check your internet connection and access the quiz during the scheduled availability. After submitting the quiz, you will be able to view your results immediately but will not receive feedback on individual question items. Understanding your areas of weakness will prepare you for future assessments on the topic. Academic dishonesty will not be tolerated, and any indications of such will be reported.",
+    "courseId": null,
+    "type": "quiz",
+    "category": "Quiz",
+    "dueDate": null,
+    "availableFrom": null,
+    "availableUntil": null,
+    "maxScore": 100,
+    "passingScore": 60,
+    "weight": 10,
+    "rubric": [
+      {
+        "criterion": "Accuracy of Answers",
+        "description": "Correctness of responses to quiz questions.",
+        "maxPoints": 80,
+        "_id": "6a60cb43d996eed41db4f058"
+      },
+      {
+        "criterion": "Completion",
+        "description": "Full participation in the quiz (all questions answered).",
+        "maxPoints": 20,
+        "_id": "6a60cb43d996eed41db4f059"
+      }
+    ],
+    "attachments": [],
+    "allowLateSubmissions": true,
+    "maxAttempts": 0,
+    "isGroupAssignment": false,
+    "groupId": "",
+    "isActive": false,
+    "aiGenerated": false,
+    "weekNumber": 6,
+    "createdAt": "2026-07-22T13:53:07.403Z",
+    "updatedAt": "2026-07-22T17:58:15.307Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a60cb45d996eed41db4f061",
+    "classroomId": "6a5b0dc645da061786019b7d",
+    "createdBy": "6a5a7a7aea82958b8c771e7e",
+    "title": "Lab on Digestive Enzymes",
+    "description": "Conduct an experiment to observe the effects of different pH levels on digestive enzyme activity.",
+    "instructions": "In this lab assignment, you will perform a series of experiments to evaluate how different pH levels affect the activity of various digestive enzymes. You will work in pairs to design and conduct the experiments, following the protocol provided in the lab manual. This hands-on activity will provide insights into the biochemical processes that occur during digestion and how enzymes function optimally in different environments.\n\nEach pair is required to submit a lab report detailing your methodology, data collected, results, and analysis. Include graphs and charts to visualize your findings. Your report should include an introduction to the enzymes tested, the importance of pH in enzymatic reactions, and a discussion comparing your results to expected outcomes derived from the literature. It’s crucial to work collaboratively and ensure that you divide the tasks efficiently between team members.\n\nEnsure that you adhere to all safety protocols during the lab session. Reports must be submitted electronically on the course platform and are due one week after the lab is conducted. Your lab report will be graded on clarity, coherence, and adherence to scientific writing conventions. Plagiarism will result in a failing grade for this assignment, so ensure all sources are properly cited.",
+    "courseId": null,
+    "type": "lab",
+    "category": "Lab",
+    "dueDate": null,
+    "availableFrom": null,
+    "availableUntil": null,
+    "maxScore": 100,
+    "passingScore": 60,
+    "weight": 20,
+    "rubric": [
+      {
+        "criterion": "Methodology",
+        "description": "Clarity and appropriateness of experimental design and procedure.",
+        "maxPoints": 30,
+        "_id": "6a60cb45d996eed41db4f062"
+      },
+      {
+        "criterion": "Data Analysis",
+        "description": "Quality and depth of analysis of results.",
+        "maxPoints": 30,
+        "_id": "6a60cb45d996eed41db4f063"
+      },
+      {
+        "criterion": "Quality of Report",
+        "description": "Adherence to format, clarity, and proper scientific writing style.",
+        "maxPoints": 40,
+        "_id": "6a60cb45d996eed41db4f064"
+      }
+    ],
+    "attachments": [],
+    "allowLateSubmissions": true,
+    "maxAttempts": 0,
+    "isGroupAssignment": false,
+    "groupId": "",
+    "isActive": false,
+    "aiGenerated": false,
+    "weekNumber": 6,
+    "createdAt": "2026-07-22T13:53:09.723Z",
+    "updatedAt": "2026-07-22T17:58:15.307Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a60cb48d996eed41db4f071",
+    "classroomId": "6a5b0dc645da061786019b7d",
+    "createdBy": "6a5a7a7aea82958b8c771e7e",
+    "title": "Discussion on Homeostasis and the Urinary System",
+    "description": "Engage in a discussion about the role of the urinary system in maintaining homeostasis.",
+    "instructions": "This assignment consists of participating in an online discussion forum focusing on the role of the urinary system in maintaining homeostasis. You are required to post an initial response to the prompt provided by the instructor and engage with at least two peer responses using relevant course materials and external resources to support your arguments. Your initial post should be a minimum of 300 words and discuss how the urinary system helps regulate blood pressure, fluid balance, and electrolyte levels.\n\nRespond to classmates with thoughtful critiques, additional insights, or contrasting viewpoints. Quality interactions are essential, as they demonstrate your engagement with the materials and understanding of the topic. Remember to refer back to lecture notes and relevant readings to back up your statements. The goal is to foster a scholarly dialogue about homeostasis and develop a deeper comprehension of how the urinary system functions in complex regulatory processes.\n\nSubmissions must be made by Friday, with responses to peers completed by Sunday. Follow the APA citation style when referencing any academic work. The discussion will be graded primarily on the quality of your initial post and the relevance of your interactions with peers. Be respectful and constructive in your feedback to foster a positive academic environment.",
+    "courseId": null,
+    "type": "discussion",
+    "category": "Discussion",
+    "dueDate": null,
+    "availableFrom": null,
+    "availableUntil": null,
+    "maxScore": 100,
+    "passingScore": 60,
+    "weight": 15,
+    "rubric": [
+      {
+        "criterion": "Initial Post Content",
+        "description": "Depth and relevance of the initial post regarding the discussion prompt.",
+        "maxPoints": 40,
+        "_id": "6a60cb48d996eed41db4f072"
+      },
+      {
+        "criterion": "Engagement with Peers",
+        "description": "Quality and relevance of responses to peer posts.",
+        "maxPoints": 40,
+        "_id": "6a60cb48d996eed41db4f073"
+      },
+      {
+        "criterion": "Citations and References",
+        "description": "Proper use of citations and references in APA format.",
+        "maxPoints": 20,
+        "_id": "6a60cb48d996eed41db4f074"
+      }
+    ],
+    "attachments": [],
+    "allowLateSubmissions": true,
+    "maxAttempts": 0,
+    "isGroupAssignment": false,
+    "groupId": "",
+    "isActive": false,
+    "aiGenerated": false,
+    "weekNumber": 6,
+    "createdAt": "2026-07-22T13:53:12.638Z",
+    "updatedAt": "2026-07-22T17:58:15.307Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a60d0f8d996eed41db4f14b",
+    "classroomId": "6a5b0dc645da061786019b7d",
+    "createdBy": "6a5a7a7aea82958b8c771e7e",
+    "title": "Endocrine System Quiz",
+    "description": "Assess your knowledge of the various glands and hormones of the endocrine system.",
+    "instructions": "In this quiz, you will answer multiple-choice and short-answer questions related to the endocrine system. The objective is to evaluate your understanding of the major endocrine glands, the hormones they produce, and their functions within the body. Ensure that you review the relevant course materials and lecture notes before attempting the quiz.\n\nThe quiz consists of 20 questions, with a mix of multiple-choice and short-answer formats. You will have a time limit of 30 minutes to complete the quiz. It's important to read each question carefully and consider all possible answers before making your selection. For short-answer questions, provide clear and concise responses, demonstrating your comprehension of the topic.\n\nYou will submit your completed quiz online through the designated learning management system (LMS) by the due date. No late submissions will be accepted. Please ensure that your answers are final before submission, as you will not be allowed to retake the quiz once submitted. Good luck, and remember to review key concepts related to the endocrine system for success.",
+    "courseId": null,
+    "type": "quiz",
+    "category": "Quiz",
+    "dueDate": null,
+    "availableFrom": null,
+    "availableUntil": null,
+    "maxScore": 100,
+    "passingScore": 60,
+    "weight": 15,
+    "rubric": [
+      {
+        "criterion": "Comprehension of Key Concepts",
+        "description": "Demonstrates understanding of the endocrine system and hormone functions.",
+        "maxPoints": 40,
+        "_id": "6a60d0f8d996eed41db4f14c"
+      },
+      {
+        "criterion": "Accuracy of Answers",
+        "description": "Correctly answers multiple-choice and provides accurate short responses.",
+        "maxPoints": 40,
+        "_id": "6a60d0f8d996eed41db4f14d"
+      },
+      {
+        "criterion": "Clarity of Short Answers",
+        "description": "Short answers are well-written, concise, and coherent.",
+        "maxPoints": 20,
+        "_id": "6a60d0f8d996eed41db4f14e"
+      }
+    ],
+    "attachments": [],
+    "allowLateSubmissions": true,
+    "maxAttempts": 0,
+    "isGroupAssignment": false,
+    "groupId": "",
+    "isActive": false,
+    "aiGenerated": false,
+    "weekNumber": 7,
+    "createdAt": "2026-07-22T14:17:28.304Z",
+    "updatedAt": "2026-07-22T17:58:15.307Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a60d11fd996eed41db4f192",
+    "classroomId": "6a5b0dc645da061786019b7d",
+    "createdBy": "6a5a7a7aea82958b8c771e7e",
+    "title": "Reproductive System Assessment Quiz",
+    "description": "Evaluate your grasp of human reproductive anatomy and physiology.",
+    "instructions": "This quiz is designed to assess your knowledge of the human reproductive system's anatomy and functions. It will include a variety of questions that cover the male and female reproductive organs, hormonal regulation, and reproductive processes. Make sure to refer to the text and your notes for key points that may be tested.\n\nThe format includes 15 questions, combining multiple-choice, fill-in-the-blank, and true/false items. A time limit of 25 minutes is set for completion, so it’s crucial to manage your time effectively. Read each question thoroughly before answering, and pay close attention to the specifics in true/false and fill-in-the-blank questions as these will test your detailed knowledge.\n\nSubmit your quiz answers via the online portal by the assigned deadline. Please note that once submitted, your answers cannot be changed, and there will be no opportunity for retaking this assessment. Study the assigned readings and review past lectures to ensure you perform to the best of your ability.",
+    "courseId": null,
+    "type": "quiz",
+    "category": "Quiz",
+    "dueDate": null,
+    "availableFrom": null,
+    "availableUntil": null,
+    "maxScore": 100,
+    "passingScore": 60,
+    "weight": 15,
+    "rubric": [
+      {
+        "criterion": "Understanding of Reproductive Anatomy",
+        "description": "Demonstrates knowledge of the reproductive organs and their functions.",
+        "maxPoints": 40,
+        "_id": "6a60d11fd996eed41db4f193"
+      },
+      {
+        "criterion": "Correctness of Responses",
+        "description": "Provides accurate answers in multiple-choice and fill-in-the-blank questions.",
+        "maxPoints": 40,
+        "_id": "6a60d11fd996eed41db4f194"
+      },
+      {
+        "criterion": "Attention to Detail",
+        "description": "Shows thoroughness in responding to true/false questions.",
+        "maxPoints": 20,
+        "_id": "6a60d11fd996eed41db4f195"
+      }
+    ],
+    "attachments": [],
+    "allowLateSubmissions": true,
+    "maxAttempts": 0,
+    "isGroupAssignment": false,
+    "groupId": "",
+    "isActive": false,
+    "aiGenerated": false,
+    "weekNumber": 7,
+    "createdAt": "2026-07-22T14:18:07.907Z",
+    "updatedAt": "2026-07-22T17:58:15.307Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a60d122d996eed41db4f19d",
+    "classroomId": "6a5b0dc645da061786019b7d",
+    "createdBy": "6a5a7a7aea82958b8c771e7e",
+    "title": "Interrelation of Endocrine and Reproductive Systems Project",
+    "description": "Analyze and present the interconnections between endocrine and reproductive functions.",
+    "instructions": "For this project, you will explore the intricate relationships between the endocrine and reproductive systems. Your goal is to create a presentation that illustrates how hormonal regulation affects reproductive processes and overall health. This project should combine research with clear visuals and organized content to convey your findings.(327)\n\nYou are expected to use at least five reliable scholarly sources to support your analysis. Your presentation should include an introductory section, key points on the interrelation of systems, and a conclusion summarizing your findings. Utilize charts, diagrams, or infographics where appropriate to enhance understanding. The total length of your presentation should be between 10-15 slides, and you should prepare a 5-minute spoken component to accompany the slides.\n\nYour completed project must be submitted via the learning management system by the deadline. Be prepared to present your findings to the class in the following week. Your assessment will be based on clarity, depth of research, creativity, and your presentation skills. Refer to the rubric provided for detailed grading criteria.",
+    "courseId": null,
+    "type": "project",
+    "category": "Project",
+    "dueDate": null,
+    "availableFrom": null,
+    "availableUntil": null,
+    "maxScore": 100,
+    "passingScore": 60,
+    "weight": 20,
+    "rubric": [
+      {
+        "criterion": "Depth of Research",
+        "description": "Uses relevant, credible sources to support project content.",
+        "maxPoints": 40,
+        "_id": "6a60d122d996eed41db4f19e"
+      },
+      {
+        "criterion": "Clarity of Presentation",
+        "description": "Information is well-organized; visuals effectively communicate key points.",
+        "maxPoints": 30,
+        "_id": "6a60d122d996eed41db4f19f"
+      },
+      {
+        "criterion": "Presentation Skills",
+        "description": "Engages audience and presents materials clearly during oral presentation.",
+        "maxPoints": 30,
+        "_id": "6a60d122d996eed41db4f1a0"
+      }
+    ],
+    "attachments": [],
+    "allowLateSubmissions": true,
+    "maxAttempts": 0,
+    "isGroupAssignment": false,
+    "groupId": "",
+    "isActive": false,
+    "aiGenerated": false,
+    "weekNumber": 7,
+    "createdAt": "2026-07-22T14:18:10.086Z",
+    "updatedAt": "2026-07-22T17:58:15.307Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a60dfc1d996eed41db4f52b",
+    "classroomId": "6a5b0dc645da061786019b7d",
+    "createdBy": "6a5a7a7aea82958b8c771e7e",
+    "title": "Circulatory and Respiratory Systems Quiz",
+    "description": "This quiz assesses your understanding of the key concepts related to the circulatory and respiratory systems and their interactions.",
+    "instructions": "**Learning Objectives**: By completing this quiz, you will demonstrate your grasp of the structural and functional components of both the circulatory and respiratory systems, as well as their interrelationship. Successful completion will require you to comprehend the roles of these systems in maintaining homeostasis and overall health.\n\n**Instructions**: The quiz consists of 15 multiple-choice questions and 5 short answer questions. You are expected to complete the quiz in 30 minutes. Each question aims to test your knowledge of the terminology, processes, and functions discussed in class. Make sure to review your notes and the recommended readings thoroughly before attempting the quiz. You may take the quiz only once, and no external resources are allowed during completion.\n\n**Requirements**: Ensure that you write concise and clear responses for the short answer questions, as clarity will aid in demonstrating your understanding effectively. Your answers should reflect knowledge acquired from class discussions and readings. If you encounter difficulties with any question, take your best guess as points are not deducted for incorrect answers.\n\n**Evaluation Criteria**: The quiz will be graded on a total of 100 points. Multiple-choice questions will account for 60 points (4 points each), while the short answers will contribute the remaining 40 points (20 points each). The rubric for scoring is included below. \n\n**Tips for Success**: To excel in this quiz, ensure you review key terms and concepts thoroughly. Pay special attention to diagrams illustrating the circulatory and respiratory systems, as they may aid in answering related questions. Common pitfalls include misremembering facts or skipping key terms, so take your time to read each question carefully before answering.",
+    "courseId": null,
+    "type": "quiz",
+    "category": "Quiz",
+    "dueDate": null,
+    "availableFrom": null,
+    "availableUntil": null,
+    "maxScore": 100,
+    "passingScore": 60,
+    "weight": 10,
+    "rubric": [
+      {
+        "criterion": "Correct Answers (Multiple Choice)",
+        "description": "Points awarded for each correct response to the multiple-choice questions.",
+        "maxPoints": 60,
+        "_id": "6a60dfc1d996eed41db4f52c"
+      },
+      {
+        "criterion": "Correct Answers (Short Answer)",
+        "description": "Points awarded for clarity and correctness in responses to short answer questions.",
+        "maxPoints": 40,
+        "_id": "6a60dfc1d996eed41db4f52d"
+      }
+    ],
+    "attachments": [],
+    "allowLateSubmissions": true,
+    "maxAttempts": 0,
+    "isGroupAssignment": false,
+    "groupId": "",
+    "isActive": false,
+    "aiGenerated": false,
+    "weekNumber": 5,
+    "createdAt": "2026-07-22T15:20:33.745Z",
+    "updatedAt": "2026-07-22T17:58:15.307Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a60dfc4d996eed41db4f537",
+    "classroomId": "6a5b0dc645da061786019b7d",
+    "createdBy": "6a5a7a7aea82958b8c771e7e",
+    "title": "Research Project on Circulatory and Respiratory System Diseases",
+    "description": "This project allows you to explore diseases affecting the circulatory and respiratory systems, emphasizing their causes, effects, and treatments.",
+    "instructions": "**Learning Objectives**: This project is designed for you to demonstrate your ability to research, analyze, and articulate findings on diseases that impact the circulatory and respiratory systems. By the end of this project, you should be able to explain the pathophysiology of selected diseases, their symptoms, and the current treatment options available.\n\n**Instructions**: Choose one disease from the circulatory or respiratory system, such as asthma, COPD, or heart disease. Conduct thorough research using at least five credible academic sources, and prepare a 5-7 page report that includes: an introduction to the disease, its causes, signs and symptoms, diagnostic methods, and current treatment options. Use proper citations, formatting, and a references page in APA style. Plan to present your findings in a 10-minute presentation during class.\n\n**Requirements**: Your report must be well-organized and include headings for each section. Be sure to include visuals or diagrams, where applicable, to enhance your explanations. Adhere to the word limit and formatting guidelines, as failure to follow these may impact your evaluation.\n\n**Evaluation Criteria**: The report and presentation will be evaluated based on content accuracy, clarity of presentation, research depth, and adherence to formatting guidelines. Your total score will be out of 100 points, with the report accounting for 70 points and the presentation for 30 points. Detailed grading criteria are provided in the rubric below.\n\n**Tips for Success**: Start your research early to allow ample time to digest the information. Focus on synthesizing information from multiple sources to develop a comprehensive understanding of the disease. Ensure your presentation is engaging—consider using visual aids to help illustrate complex concepts. Avoid common pitfalls such as vague descriptions or failure to cite sources.",
+    "courseId": null,
+    "type": "project",
+    "category": "Project",
+    "dueDate": null,
+    "availableFrom": null,
+    "availableUntil": null,
+    "maxScore": 100,
+    "passingScore": 60,
+    "weight": 15,
+    "rubric": [
+      {
+        "criterion": "Content Accuracy",
+        "description": "Detailed and accurate information about the selected disease.",
+        "maxPoints": 40,
+        "_id": "6a60dfc4d996eed41db4f538"
+      },
+      {
+        "criterion": "Research Depth",
+        "description": "Use of credible sources and thoroughness of research conducted.",
+        "maxPoints": 20,
+        "_id": "6a60dfc4d996eed41db4f539"
+      },
+      {
+        "criterion": "Organization and Clarity",
+        "description": "Logical structure of the report and clarity in the presentation.",
+        "maxPoints": 20,
+        "_id": "6a60dfc4d996eed41db4f53a"
+      },
+      {
+        "criterion": "Presentation Delivery",
+        "description": "Engagement of the audience and effective communication skills during the presentation.",
+        "maxPoints": 20,
+        "_id": "6a60dfc4d996eed41db4f53b"
+      }
+    ],
+    "attachments": [],
+    "allowLateSubmissions": true,
+    "maxAttempts": 0,
+    "isGroupAssignment": false,
+    "groupId": "",
+    "isActive": false,
+    "aiGenerated": false,
+    "weekNumber": 5,
+    "createdAt": "2026-07-22T15:20:36.661Z",
+    "updatedAt": "2026-07-22T17:58:15.307Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a60dffdd996eed41db4f54c",
+    "classroomId": "6a5b0dc645da061786019b7d",
+    "createdBy": "6a5a7a7aea82958b8c771e7e",
+    "title": "Circulatory System Quiz",
+    "description": "Test your understanding of the key concepts related to the circulatory system in this quiz.",
+    "instructions": "**Learning Objectives:** You will demonstrate your understanding of the circulatory system by answering questions that assess your comprehension of its anatomy, functions, and diseases. Upon completion, you should be able to explain key processes and identify major components of the circulatory system.\n\n**Step-by-Step Instructions:** 1. Read each question carefully and consider your answers before selecting the best option. 2. You will have 20 multiple-choice questions that cover the lecture materials and assigned readings from this week. 3. Once you complete the quiz, review your answers before submitting the quiz to ensure that you are confident with your choices.\n\n**Requirements and Expectations:** - You will have 30 minutes to complete the quiz. - Ensure that you are in a quiet environment free from distractions to achieve your best performance. - Academic honesty is paramount; refrain from using outside resources or collaborating with others during the quiz.\n\n**Evaluation Criteria:** - Each question is worth 5 points, with a total maximum score of 100 points. - You must achieve at least 60 points to pass this quiz. Your results will be graded based on accuracy and understanding of the content.\n\n**Tips for Success:** - Review your lecture notes and textbook chapters on the circulatory system before taking the quiz. - Pay attention to keywords in questions that may indicate specific concepts or functions. - Common pitfalls include misreading questions or second-guessing your initial instincts; trusting your preparation is key.",
+    "courseId": null,
+    "type": "course",
+    "category": "",
+    "dueDate": null,
+    "availableFrom": null,
+    "availableUntil": null,
+    "maxScore": 100,
+    "passingScore": 60,
+    "weight": 1,
+    "rubric": [],
+    "attachments": [],
+    "allowLateSubmissions": true,
+    "maxAttempts": 0,
+    "isGroupAssignment": false,
+    "groupId": "",
+    "isActive": false,
+    "aiGenerated": false,
+    "weekNumber": 5,
+    "createdAt": "2026-07-22T15:21:33.160Z",
+    "updatedAt": "2026-07-22T17:58:15.307Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a60dfffd996eed41db4f556",
+    "classroomId": "6a5b0dc645da061786019b7d",
+    "createdBy": "6a5a7a7aea82958b8c771e7e",
+    "title": "Research Project on Respiratory System Functions",
+    "description": "Conduct a detailed research project exploring the various functions of the respiratory system and its role in the human body.",
+    "instructions": "**Learning Objectives:** In this project, you will investigate and analyze the functions of the respiratory system, distinguishing it from other systems in the human body and exploring its essential contributions to overall health. You will demonstrate your ability to conduct independent research and present your findings in a comprehensive report.\n\n**Step-by-Step Instructions:** 1. Begin by selecting a specific aspect of the respiratory system to focus on, such as gas exchange, regulation of pH, or the impact of smoking on lung function. 2. Conduct thorough research using academic articles, textbooks, and reliable online resources. 3. Organize your findings into a coherent structure: Introduction, Body (including subsections), and Conclusion. 4. Prepare a well-formatted report of at least 2000 words, incorporating citations in APA format and including relevant diagrams or charts that illustrate your points.\n\n**Requirements and Expectations:** - Your report should include at least five scholarly sources, three of which must be peer-reviewed articles. - Plagiarism will not be tolerated; ensure that all sources are properly cited. - Submit your report in both a printable format and via the course’s digital submission system.\n\n**Evaluation Criteria:** - Content Accuracy (40 points): Depth and accuracy of the research conducted. - Organization (30 points): Clarity and coherence of ideas presented in the report. - Presentation (20 points): Proper formatting, grammar, and use of visuals. - Source Quality (10 points): Relevance and credibility of the sources used. A total of 100 points is achievable, with a passing score of 60 points.\n\n**Tips for Success:** - Start your research early to allow ample time for revisions. - Create a detailed outline before writing to ensure that your report flows logically. - Avoid common pitfalls such as vague explanations or unsupported claims by continually referencing your research.",
+    "courseId": null,
+    "type": "course",
+    "category": "",
+    "dueDate": null,
+    "availableFrom": null,
+    "availableUntil": null,
+    "maxScore": 100,
+    "passingScore": 60,
+    "weight": 1,
+    "rubric": [],
+    "attachments": [],
+    "allowLateSubmissions": true,
+    "maxAttempts": 0,
+    "isGroupAssignment": false,
+    "groupId": "",
+    "isActive": false,
+    "aiGenerated": false,
+    "weekNumber": 5,
+    "createdAt": "2026-07-22T15:21:35.003Z",
+    "updatedAt": "2026-07-22T17:58:15.307Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a60e8ead996eed41db4f665",
+    "classroomId": "6a5b0dc645da061786019b7d",
+    "createdBy": "6a5a7a7aea82958b8c771e7e",
+    "title": "Nervous System Quiz",
+    "description": "Test your knowledge of the structure and functional mechanisms of the nervous system through this quiz.",
+    "instructions": "**Learning Objectives:** This quiz aims to evaluate your understanding of the key components and functions of the nervous system. You will demonstrate your knowledge through multiple-choice and short answer questions.\n\n**Instructions:** \n1. The quiz consists of 15 questions, both multiple-choice and short answer. You will have 30 minutes to complete it.\n2. Read each question carefully and choose the best answer for multiple-choice questions. For short answer questions, write your response clearly and concisely.\n3. You may refer to your notes and textbook as you complete the quiz, but collaboration with classmates is not allowed.\n\n**Requirements and Expectations:** \n- Please ensure your responses are clearly marked and easy to read. \n- You must submit your answers by the end of the 30-minute period. Late submissions will not be accepted.\n- Aim to achieve a score of at least 60 points to pass the quiz. Your score will contribute 5% of your total grade.\n\n**Evaluation Criteria:** \n- Your answers will be graded based on accuracy and completeness. Each correct multiple-choice question is worth 3 points, while short answers are graded on correctness and clarity, with each worth up to 10 points.\n- Feedback will be provided on your answers to help you understand your strengths and areas for improvement.\n\n**Tips for Success:**  \n- Review your lecture notes and textbook, focusing on the cranial nerves, spinal cord structure, and the key functions of different nervous system regions. \n- Manage your time wisely during the quiz; don't spend too long on any one question. If you're unsure, move on and come back if time permits. \n- Read each question carefully to avoid common pitfalls, such as misinterpreting what is being asked.",
+    "courseId": null,
+    "type": "course",
+    "category": "",
+    "dueDate": null,
+    "availableFrom": null,
+    "availableUntil": null,
+    "maxScore": 100,
+    "passingScore": 60,
+    "weight": 1,
+    "rubric": [],
+    "attachments": [],
+    "allowLateSubmissions": true,
+    "maxAttempts": 0,
+    "isGroupAssignment": false,
+    "groupId": "",
+    "isActive": false,
+    "aiGenerated": false,
+    "weekNumber": 4,
+    "createdAt": "2026-07-22T15:59:38.159Z",
+    "updatedAt": "2026-07-22T17:58:15.307Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a60e8ebd996eed41db4f66d",
+    "classroomId": "6a5b0dc645da061786019b7d",
+    "createdBy": "6a5a7a7aea82958b8c771e7e",
+    "title": "Nervous System Infographic Project",
+    "description": "Create an engaging infographic that illustrates the key components and functions of the nervous system.",
+    "instructions": "**Learning Objectives:** This project will help you synthesize your knowledge of the nervous system by visually representing its structure and functions. You will demonstrate your grasp of the material while developing your artistic and organizational skills.\n\n**Instructions:** \n1. Choose one aspect of the nervous system to focus on for your infographic, such as the central nervous system, peripheral nervous system, or specific neurological functions.\n2. Utilize software tools like Canva, Piktochart, or even PowerPoint to create your infographic.  Ensure that it is visually appealing and contains relevant information.\n3. Include at least five key facts, diagrams, or illustrations relevant to your chosen topic. Your infographic should be easily understandable to someone unfamiliar with the subject.\n\n**Requirements and Expectations:** \n- Your infographic should be a single page, with a clear layout and use of color to enhance readability.  \n- Cite at least three sources of information at the bottom of your infographic. \n- The project is due at the end of week 4. Late submissions will incur a grade penalty. Your project will account for 15% of your overall grade.\n\n**Evaluation Criteria:** \n- The project will be assessed on creativity (20 points), accuracy of information (30 points), clarity of presentation (30 points), and use of citations (20 points). Totaling 100 points.\n- You will receive constructive feedback on your infographic to guide your future projects.\n\n**Tips for Success:**  \n- Start by brainstorming the most important aspects of the nervous system you want to highlight. Consider what would be most interesting or beneficial for someone learning about it.\n- Pay attention to the design elements, such as font size and color scheme. A cluttered infographic can be difficult to read.  \n- Review the provided grading rubric before you begin to ensure you meet all criteria. This can help you avoid missing important requirements.",
+    "courseId": null,
+    "type": "course",
+    "category": "",
+    "dueDate": null,
+    "availableFrom": null,
+    "availableUntil": null,
+    "maxScore": 100,
+    "passingScore": 60,
+    "weight": 1,
+    "rubric": [],
+    "attachments": [],
+    "allowLateSubmissions": true,
+    "maxAttempts": 0,
+    "isGroupAssignment": false,
+    "groupId": "",
+    "isActive": false,
+    "aiGenerated": false,
+    "weekNumber": 4,
+    "createdAt": "2026-07-22T15:59:39.767Z",
+    "updatedAt": "2026-07-22T17:58:15.307Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a613cee6346febbc2bc2169",
+    "classroomId": "6a610cf3d996eed41db4fbbc",
+    "createdBy": "6a5a7a7aea82958b8c771e7e",
+    "title": "Skeletal Systems",
+    "description": "",
+    "instructions": "# MML - 101 Human Anatomy: Assignment Instructions for \"Skeletal Systems\" Quiz\n\n## Assignment Overview\nIn this quiz, you will assess your understanding of the skeletal systems covered in **Module 1: Introduction to Human Anatomy**. This module includes foundational concepts in human anatomy, anatomical terminology, an overview of body systems, and introductory lab techniques. \n\n## Objectives\nBy the end of this quiz, you should be able to:\n1. Identify and describe the key components of the human skeletal system.\n2. Employ proper anatomical terminology when discussing the skeletal structures.\n3. Apply concepts learned in the module to identify structures using interactive body models.\n4. Demonstrate an overall comprehension of the basics of human anatomy and the functions of various body systems.\n\n## Requirements\n- **Format:** The quiz consists of multiple-choice, true/false, and short answer questions.\n- **Length:** The quiz will contain 20 questions, allocated as follows:\n  - 10 Multiple-choice questions (2 points each)\n  - 5 True/False questions (2 points each)\n  - 5 Short Answer questions (6 points each)\n- **Time Limit:** You will have 30 minutes to complete the quiz.\n- **Resources Allowed:** You may use your lecture notes and course materials; however, collaboration with others is prohibited.\n\n## Submission Guidelines\n1. **Accessing the Quiz:** The quiz will be available on the course platform starting [start date] and will close at [end date].\n2. **How to Submit:** Once you finish the quiz, click the \"Submit\" button to ensure your answers are recorded.\n3. **Technical Issues:** In case of any technical difficulties, you must contact the instructor immediately before the submission deadline.\n4. **No Late Submissions:** Quizzes submitted after the deadline will not be accepted unless there are extenuating circumstances discussed with the instructor, accompanied by proper documentation.\n\n## Grading Criteria\n- Each question is worth a specific number of points, totaling a maximum score of 100.\n- **Multiple-choice and True/False questions:** \n  - Correct answer: 2 points \n  - Incorrect answer: 0 points \n- **Short Answer questions:** \n  - Graded based on accuracy, completeness, and clarity of explanation. Each question will be graded on a scale of 0 to 6 points.\n- **Total Score Breakdown:**\n  - **Multiple-Choice:** 20 points\n  - **True/False:** 10 points\n  - **Short Answer:** 30 points\n  - **Total:** 100 points\n\n## Academic Integrity\nPlease remember that academic honesty is crucial. Any form of cheating or plagiarism will result in disciplinary action as outlined in the course syllabus.\n\n---\n\nPlease ensure you review all the relevant course materials before taking the quiz and prepare adequately. Good luck!",
+    "courseId": null,
+    "type": "quiz",
+    "category": "",
+    "dueDate": null,
+    "availableFrom": null,
+    "availableUntil": null,
+    "maxScore": 100,
+    "passingScore": 60,
+    "weight": 1,
+    "rubric": [
+      {
+        "criterion": "Content Accuracy",
+        "description": "Evaluates the correctness and completeness of responses to quiz questions, including the use of accurate anatomical terminology. Excellent performance demonstrates a comprehensive understanding with no inaccuracies. Good performance has minor errors but shows a solid grasp of content. Poor performance displays significant misunderstandings or omissions.",
+        "maxPoints": 25,
+        "_id": "6a613cee6346febbc2bc216a"
+      },
+      {
+        "criterion": "Critical Thinking/Analysis",
+        "description": "Assesses the ability to apply conceptual knowledge to quiz questions. Excellent responses show deep understanding and ability to make connections between different concepts. Good responses demonstrate some analysis but may lack depth. Poor responses show little to no critical thinking, simply regurgitating information without application.",
+        "maxPoints": 20,
+        "_id": "6a613cee6346febbc2bc216b"
+      },
+      {
+        "criterion": "Organization and Clarity",
+        "description": "Evaluates how clearly and logically answers are presented. Excellent responses are well-structured and easy to follow. Good responses may have minor organizational issues. Poor responses are confusing or poorly structured, making it difficult to understand the answers.",
+        "maxPoints": 15,
+        "_id": "6a613cee6346febbc2bc216c"
+      },
+      {
+        "criterion": "Terminology Usage",
+        "description": "Measures the correct use of anatomical terminology throughout the quiz. Excellent performance consistently uses precise terms correctly. Good performance uses terminology appropriately but may include minor errors. Poor performance shows frequent misuse or lack of terminology, affecting comprehensibility.",
+        "maxPoints": 10,
+        "_id": "6a613cee6346febbc2bc216d"
+      },
+      {
+        "criterion": "Relevance to Quiz Questions",
+        "description": "Assesses how well responses directly address the quiz questions posed. Excellent responses are entirely relevant and focused. Good responses generally address the questions but may stray off-topic occasionally. Poor responses are largely irrelevant, failing to answer the questions appropriately.",
+        "maxPoints": 15,
+        "_id": "6a613cee6346febbc2bc216e"
+      },
+      {
+        "criterion": "Completeness of Answers",
+        "description": "Evaluates whether all parts of each question are answered fully. Excellent responses provide comprehensive answers to all parts of the question. Good responses cover most parts but may omit minor details. Poor responses fail to address significant parts of the questions.",
+        "maxPoints": 10,
+        "_id": "6a613cee6346febbc2bc216f"
+      },
+      {
+        "criterion": "Timeliness",
+        "description": "Assesses whether the quiz was completed and submitted by the deadline. Excellent performance reflects timely submission. Good performance reflects on-time submission but with minimal time left. Poor performance includes late submissions without prior approval.",
+        "maxPoints": 5,
+        "_id": "6a613cee6346febbc2bc2170"
+      }
+    ],
+    "attachments": [],
+    "allowLateSubmissions": true,
+    "maxAttempts": 2,
+    "isGroupAssignment": false,
+    "groupId": "",
+    "isActive": true,
+    "aiGenerated": false,
+    "weekNumber": 1,
+    "meta": {
+      "questionCount": 40,
+      "difficulty": "hard"
+    },
+    "quizQuestions": [
+      {
+        "text": "What is the main function of the skeletal system?",
+        "type": "multiple-choice",
+        "points": 3,
+        "options": [
+          "Support the body",
+          "Circulate blood",
+          "Facilitate digestion",
+          "Regulate hormones"
+        ],
+        "correctAnswer": "Support the body",
+        "_id": "6a61c54b6346febbc2bc28e8"
+      },
+      {
+        "text": "Which bone is known as the 'collarbone'?",
+        "type": "multiple-choice",
+        "points": 3,
+        "options": [
+          "Scapula",
+          "Clavicle",
+          "Sternum",
+          "Humerus"
+        ],
+        "correctAnswer": "Clavicle",
+        "_id": "6a61c54b6346febbc2bc28e9"
+      },
+      {
+        "text": "What term describes the microscopic functional unit of bone?",
+        "type": "multiple-choice",
+        "points": 4,
+        "options": [
+          "Osteocyte",
+          "Osteon",
+          "Osteoblast",
+          "Haversian system"
+        ],
+        "correctAnswer": "Osteon",
+        "_id": "6a61c54b6346febbc2bc28ea"
+      },
+      {
+        "text": "In which skeletal age category does ossification primarily begin?",
+        "type": "multiple-choice",
+        "points": 4,
+        "options": [
+          "Infancy",
+          "Childhood",
+          "Adolescence",
+          "Adulthood"
+        ],
+        "correctAnswer": "Childhood",
+        "_id": "6a61c54b6346febbc2bc28eb"
+      },
+      {
+        "text": "What type of joint is the knee classified as?",
+        "type": "multiple-choice",
+        "points": 4,
+        "options": [
+          "Hinge joint",
+          "Ball-and-socket joint",
+          "Pivot joint",
+          "Saddle joint"
+        ],
+        "correctAnswer": "Hinge joint",
+        "_id": "6a61c54b6346febbc2bc28ec"
+      },
+      {
+        "text": "True or False: The skeletal system is responsible for the production of red blood cells.",
+        "type": "true-false",
+        "points": 2,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "True",
+        "_id": "6a61c54b6346febbc2bc28ed"
+      },
+      {
+        "text": "True or False: The axial skeleton contains the bones of the limbs.",
+        "type": "true-false",
+        "points": 2,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "False",
+        "_id": "6a61c54b6346febbc2bc28ee"
+      },
+      {
+        "text": "List the three types of muscle tissue found in the human body.",
+        "type": "short-answer",
+        "points": 3,
+        "options": [],
+        "correctAnswer": "Skeletal, cardiac, smooth",
+        "_id": "6a61c54b6346febbc2bc28ef"
+      },
+      {
+        "text": "What is the primary mineral stored in bones?",
+        "type": "short-answer",
+        "points": 3,
+        "options": [],
+        "correctAnswer": "Calcium",
+        "_id": "6a61c54b6346febbc2bc28f0"
+      },
+      {
+        "text": "What is the role of ligaments in the skeletal system?",
+        "type": "short-answer",
+        "points": 3,
+        "options": [],
+        "correctAnswer": "Connect bone to bone",
+        "_id": "6a61c54b6346febbc2bc28f1"
+      },
+      {
+        "text": "Which type of bone tissue is found in the outer layer of bones?",
+        "type": "multiple-choice",
+        "points": 4,
+        "options": [
+          "Compact bone",
+          "Spongy bone",
+          "Cortical bone",
+          "Trabecular bone"
+        ],
+        "correctAnswer": "Compact bone",
+        "_id": "6a61c54b6346febbc2bc28f2"
+      },
+      {
+        "text": "Which part of the vertebrae protects the spinal cord?",
+        "type": "multiple-choice",
+        "points": 4,
+        "options": [
+          "Vertebral body",
+          "Neural arch",
+          "Spinous process",
+          "Transverse process"
+        ],
+        "correctAnswer": "Neural arch",
+        "_id": "6a61c54b6346febbc2bc28f3"
+      },
+      {
+        "text": "The process of bone formation is known as what?",
+        "type": "multiple-choice",
+        "points": 4,
+        "options": [
+          "Ossification",
+          "Calcification",
+          "Osteogenesis",
+          "Bone remodeling"
+        ],
+        "correctAnswer": "Ossification",
+        "_id": "6a61c54b6346febbc2bc28f4"
+      },
+      {
+        "text": "Which type of joint allows for the greatest range of motion?",
+        "type": "multiple-choice",
+        "points": 4,
+        "options": [
+          "Hinge joint",
+          "Ball-and-socket joint",
+          "Saddle joint",
+          "Pivot joint"
+        ],
+        "correctAnswer": "Ball-and-socket joint",
+        "_id": "6a61c54b6346febbc2bc28f5"
+      },
+      {
+        "text": "True or False: The femur is the longest bone in the human body.",
+        "type": "true-false",
+        "points": 2,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "True",
+        "_id": "6a61c54b6346febbc2bc28f6"
+      },
+      {
+        "text": "True or False: Bone density decreases as age increases.",
+        "type": "true-false",
+        "points": 2,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "True",
+        "_id": "6a61c54b6346febbc2bc28f7"
+      },
+      {
+        "text": "Identify the three major sections of the human skeleton.",
+        "type": "short-answer",
+        "points": 3,
+        "options": [],
+        "correctAnswer": "Axial, appendicular, visceral",
+        "_id": "6a61c54b6346febbc2bc28f8"
+      },
+      {
+        "text": "What is the main function of cartilage in the skeletal system?",
+        "type": "short-answer",
+        "points": 3,
+        "options": [],
+        "correctAnswer": "Provide cushioning and support between bones",
+        "_id": "6a61c54b6346febbc2bc28f9"
+      },
+      {
+        "text": "What type of bone is primarily found in the pelvis and skull?",
+        "type": "multiple-choice",
+        "points": 4,
+        "options": [
+          "Long bone",
+          "Flat bone",
+          "Irregular bone",
+          "Short bone"
+        ],
+        "correctAnswer": "Flat bone",
+        "_id": "6a61c54b6346febbc2bc28fa"
+      },
+      {
+        "text": "Which hormone is primarily responsible for regulating calcium levels in bones?",
+        "type": "multiple-choice",
+        "points": 4,
+        "options": [
+          "Insulin",
+          "Calcitonin",
+          "Parathyroid hormone",
+          "Estrogen"
+        ],
+        "correctAnswer": "Parathyroid hormone",
+        "_id": "6a61c54b6346febbc2bc28fb"
+      },
+      {
+        "text": "What type of fracture occurs when bone is splintered or shattered?",
+        "type": "multiple-choice",
+        "points": 4,
+        "options": [
+          "Simple fracture",
+          "Compound fracture",
+          "Comminuted fracture",
+          "Greenstick fracture"
+        ],
+        "correctAnswer": "Comminuted fracture",
+        "_id": "6a61c54b6346febbc2bc28fc"
+      },
+      {
+        "text": "True or False: The human body has 206 bones in adulthood.",
+        "type": "true-false",
+        "points": 2,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "True",
+        "_id": "6a61c54b6346febbc2bc28fd"
+      },
+      {
+        "text": "True or False: Osteoporosis is characterized by increased bone density.",
+        "type": "true-false",
+        "points": 2,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "False",
+        "_id": "6a61c54b6346febbc2bc28fe"
+      },
+      {
+        "text": "What are the two main types of bone structures?",
+        "type": "short-answer",
+        "points": 3,
+        "options": [],
+        "correctAnswer": "Compact bone and spongy bone",
+        "_id": "6a61c54b6346febbc2bc28ff"
+      },
+      {
+        "text": "What is the medical term for the 'growth plate' of long bones?",
+        "type": "short-answer",
+        "points": 3,
+        "options": [],
+        "correctAnswer": "Epiphyseal plate",
+        "_id": "6a61c54b6346febbc2bc2900"
+      },
+      {
+        "text": "Which bone forms the base of the skull?",
+        "type": "multiple-choice",
+        "points": 4,
+        "options": [
+          "Temporal bone",
+          "Occipital bone",
+          "Frontal bone",
+          "Sphenoid bone"
+        ],
+        "correctAnswer": "Occipital bone",
+        "_id": "6a61c54b6346febbc2bc2901"
+      },
+      {
+        "text": "The small bone situated in the throat is known as what?",
+        "type": "multiple-choice",
+        "points": 4,
+        "options": [
+          "Mandible",
+          "Hyoid bone",
+          "Clavicle",
+          "Sternum"
+        ],
+        "correctAnswer": "Hyoid bone",
+        "_id": "6a61c54b6346febbc2bc2902"
+      },
+      {
+        "text": "What is the primary purpose of the foramen magnum?",
+        "type": "multiple-choice",
+        "points": 4,
+        "options": [
+          "Passage for blood vessels",
+          "Connect brain and spinal cord",
+          "Support the skull",
+          "Attachment for muscles"
+        ],
+        "correctAnswer": "Connect brain and spinal cord",
+        "_id": "6a61c54b6346febbc2bc2903"
+      },
+      {
+        "text": "Define 'axial skeleton'.",
+        "type": "short-answer",
+        "points": 3,
+        "options": [],
+        "correctAnswer": "The part of the skeleton that includes the skull, vertebral column, and rib cage.",
+        "_id": "6a61c54b6346febbc2bc2904"
+      },
+      {
+        "text": "Define 'appendicular skeleton'.",
+        "type": "short-answer",
+        "points": 3,
+        "options": [],
+        "correctAnswer": "The part of the skeleton that includes the limbs and girdles.",
+        "_id": "6a61c54b6346febbc2bc2905"
+      },
+      {
+        "text": "What type of joint is the shoulder joint?",
+        "type": "multiple-choice",
+        "points": 4,
+        "options": [
+          "Hinge joint",
+          "Ball-and-socket joint",
+          "Saddle joint",
+          "Pivot joint"
+        ],
+        "correctAnswer": "Ball-and-socket joint",
+        "_id": "6a61c54b6346febbc2bc2906"
+      }
+    ],
+    "createdAt": "2026-07-22T21:58:06.117Z",
+    "updatedAt": "2026-07-23T07:39:55.032Z",
+    "__v": 2
+  },
+  {
+    "_id": "6a61f7996346febbc2bc2cf9",
+    "classroomId": "6a610cf3d996eed41db4fbbc",
+    "createdBy": "6a5a7a7aea82958b8c771e7e",
+    "title": "Skeletal systems",
+    "description": "",
+    "instructions": "# MML - 101 Human Anatomy: Skeletal Systems Discussion Assignment\n\n## Assignment Overview\nIn this discussion assignment, you will explore the skeletal system's role within human anatomy. You will assess the various components and functions of the skeletal system, its interplay with other body systems, and how anatomical terminology applies in academic discussions. Your participation will not only enhance your understanding of the skeletal system but also foster collaboration among peers.\n\n## Assignment Objectives\n- To deepen your understanding of the skeletal system as a critical body system.\n- To apply anatomical terminology accurately in discussions about the human body.\n- To engage with your peers in meaningful dialogue about the body's structures and functions.\n- To demonstrate knowledge of lab techniques used to study the skeletal system.\n\n## Requirements\n1. **Initial Post (60 Points)**:\n    - Write a 300-400 word initial post detailing the following:\n        - Describe the major functions of the skeletal system (e.g., support, movement, protection, blood cell production).\n        - Explain the relationship between the skeletal system and at least one other body system (e.g., muscular, circulatory).\n        - Use appropriate anatomical terminology throughout your discussion.\n\n2. **Peer Responses (30 Points)**:\n    - Respond to at least **two** classmates’ posts (150-250 words each). Your responses should:\n        - Provide constructive feedback or additional insights regarding their discussions.\n        - Pose at least one question to encourage further discussion.\n\n3. **Interaction with Interactive Body Models (10 Points)**:\n    - Utilize at least one interactive body model (links will be provided on the course website) to enhance your understanding and include a brief description of how these models helped in visualizing the skeletal system in your initial post.\n\n## Submission Guidelines\n- All posts must be submitted in the designated discussion forum by **[insert due date]**.\n- Use clear and coherent language. Proofread your posts before submission to minimize spelling and grammatical errors.\n- Cite any external sources or models using appropriate academic tools or references (if applicable).\n\n## Grading Criteria\nYour assignment will be graded on the following criteria:\n\n| Criteria                      | Excellent (90-100) | Good (80-89)    | Satisfactory (70-79) | Needs Improvement (69 and below) |\n|-------------------------------|---------------------|------------------|-----------------------|------------------------------------|\n| **Initial Post**              | Thoroughly addresses all required elements; clear and concise language; uses appropriate terminology | Addresses most elements; generally clear; some use of terminology | Addresses some required elements; lacks clarity; minimal use of terminology | Fails to address key elements; unclear; poor use of terminology |\n| **Peer Responses**            | Engaging and insightful; includes questions; responds to at least two posts | Relevant responses; may lack depth; responds to at least two posts | Basic responses; minimal engagement; responds to only one post | No responses or unhelpful responses |\n| **Interactive Models Usage**  | Effectively integrates models, enhancing understanding | Uses models but with minimal integration | Mentions models but lacks depth | Does not utilize models or mention them |\n\n## Additional Information\n- Ensure you participate on the discussion forum throughout the week to encourage engagement and further dialogue.\n- Academic honesty is paramount; please adhere to the academic integrity guidelines while completing this assignment.\n\nIf you have any questions or need further clarification, do not hesitate to contact me via the course messaging system. \n\nHappy discussing!",
+    "courseId": null,
+    "type": "discussion",
+    "category": "",
+    "dueDate": null,
+    "availableFrom": null,
+    "availableUntil": null,
+    "maxScore": 100,
+    "passingScore": 60,
+    "weight": 1,
+    "rubric": [
+      {
+        "criterion": "Content Accuracy/Completeness",
+        "description": "Evaluates the accuracy and completeness of information regarding the skeletal system. Excellent performance includes a thorough understanding of anatomical structures, functions, and terminologies related to the skeletal system, incorporating references to module content. Good performance demonstrates a solid grasp of most concepts with minor inaccuracies. Poor performance reflects significant misconceptions or missing key concepts.",
+        "maxPoints": 25,
+        "_id": "6a61f7996346febbc2bc2cfa"
+      },
+      {
+        "criterion": "Critical Thinking/Analysis",
+        "description": "Assesses the depth of analysis and critical thinking applied to the skeletal system. Excellent submissions analyze the interplay of the skeletal system with other body systems and effectively argue the relevance of skeletal health to overall bodily functions. Good responses show basic connections but lack depth in analysis or argumentation. Poor responses provide a surface-level overview without analytical depth or connections.",
+        "maxPoints": 20,
+        "_id": "6a61f7996346febbc2bc2cfb"
+      },
+      {
+        "criterion": "Organization/Structure",
+        "description": "Evaluates the organization and clarity of the discussion. Excellent submissions are well-structured with clear introductions, logical progression of ideas, and coherent conclusions that enhance understanding. Good submissions are organized but may have minor issues in flow or clarity. Poor submissions lack clear organization, making it difficult to follow the argument or ideas presented.",
+        "maxPoints": 15,
+        "_id": "6a61f7996346febbc2bc2cfc"
+      },
+      {
+        "criterion": "Writing Quality/Presentation",
+        "description": "Assesses the clarity, coherence, and overall presentation of the writing. Excellent submissions use professional language, are free of grammatical errors, and maintain a formal tone appropriate for academic discussion. Good submissions contain few errors that do not detract from comprehension, while poor submissions present numerous grammatical and spelling errors that hinder understanding.",
+        "maxPoints": 15,
+        "_id": "6a61f7996346febbc2bc2cfd"
+      },
+      {
+        "criterion": "Engagement with Course Materials",
+        "description": "Measures how well the submission incorporates course materials and concepts introduced in the modules. Excellent submissions reference and apply specific module content or interactive body models, demonstrating deep engagement. Good submissions reference course material but may lack detail or clarity in connections. Poor submissions fail to reference course materials or demonstrate minimal engagement.",
+        "maxPoints": 10,
+        "_id": "6a61f7996346febbc2bc2cfe"
+      },
+      {
+        "criterion": "Interaction with Peers",
+        "description": "Evaluates the quality and relevance of interactions with peers in the discussion. Excellent submissions stimulate further discussion and engage thoughtfully with peers' points, providing insightful feedback and asking relevant questions. Good interactions exhibit some engagement but may lack depth or original contributions. Poor interactions do not engage meaningfully with peers or contribute to the discussion.",
+        "maxPoints": 10,
+        "_id": "6a61f7996346febbc2bc2cff"
+      },
+      {
+        "criterion": "Timeliness of Submission",
+        "description": "Assesses the punctuality of the submission. Excellent submissions are submitted by the deadline, showcasing time management. Good submissions are late but submitted within a reasonable timeframe. Poor submissions are excessively late or not submitted at all, negatively affecting participation.",
+        "maxPoints": 5,
+        "_id": "6a61f7996346febbc2bc2d00"
+      }
+    ],
+    "attachments": [],
+    "allowLateSubmissions": true,
+    "maxAttempts": 1,
+    "isGroupAssignment": false,
+    "groupId": "",
+    "isActive": true,
+    "aiGenerated": false,
+    "weekNumber": 1,
+    "meta": null,
+    "quizQuestions": [],
+    "createdAt": "2026-07-23T11:14:33.341Z",
+    "updatedAt": "2026-07-23T11:14:33.341Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a650d8230175096dfe42b26",
+    "classroomId": "6a64c617c6a413eec81c3ac5",
+    "createdBy": "6a5a7a7aea82958b8c771e7e",
+    "title": "Microbiology general quiz",
+    "description": "",
+    "instructions": "# Assignment Instructions: Microbiology General Quiz\n\n## Course: MML-000: Medical Lab\n\n### Assignment Type: Quiz\n\n---\n\n### **Objectives:**\n1. **Assess Knowledge**: Evaluate your understanding of basic concepts in microbiology and their application in medical laboratory settings.\n2. **Reinforce Learning**: Consolidate information learned in the course and prepare for future assessments.\n3. **Foster Critical Thinking**: Encourage application of microbiological principles to real-world medical scenarios.\n\n### **Requirements:**\n- The quiz will consist of **50 multiple-choice questions** covering various topics in microbiology introduced during the course.\n- Each question will have **four answer options**; select the most appropriate answer for each.\n- The quiz will include questions on:\n  - Microbial classification\n  - Pathogen identification\n  - Laboratory techniques for microbial analysis\n  - Antimicrobial agents and resistance\n  - Infection control practices\n\n### **Submission Guidelines:**\n- **Format**: The quiz will be administered online through the designated learning management system.\n- **Duration**: You have a total of **60 minutes** to complete the quiz once you start.\n- **Access**: The quiz will be available from **[Start Date] to [End Date]**. Plan to complete it during this period.\n- **Attempt Limit**: Each student is allowed **one attempt** to complete the quiz.\n- **Submission**: Click on the “Submit” button once you have answered all questions. Ensure that you review your answers before submitting as no further changes are allowed post-submission.\n\n### **Grading Criteria:**\n- **Total Score**: The quiz has a maximum score of **100 points**.\n- **Question Scoring**: Each question is worth **2 points**; correct answers will receive full points, while incorrect answers will receive **0 points**.\n- **Feedback**: After completion, you will receive immediate feedback on your performance, including correct answers and explanations for any incorrect responses.\n- **Passing Grade**: A score of **70% (70 points)** or above is required to pass the quiz. \n\n### **Academic Integrity:**\n- Ensure that all work is your own. Collaboration or use of unauthorized resources during the quiz is strictly prohibited and will result in disciplinary action.\n\n### **Support:**\n- If you have any questions regarding the quiz or encounter technical issues, please contact your instructor at **[Instructor Email]** or visit during office hours.\n\n---\n\n**Good luck!** Stay calm, read each question carefully, and apply what you have learned in the course.",
+    "courseId": null,
+    "type": "quiz",
+    "category": "",
+    "dueDate": null,
+    "availableFrom": null,
+    "availableUntil": null,
+    "maxScore": 100,
+    "passingScore": 60,
+    "weight": 1,
+    "rubric": [
+      {
+        "criterion": "Content Accuracy",
+        "description": "Evaluates the correctness of responses based on course material. Excellent performance demonstrates a full understanding and accuracy of key concepts (90-100%). Good performance shows minor errors but overall understanding (70-89%). Poor performance reflects major inaccuracies or misconceptions (0-69%).",
+        "maxPoints": 30,
+        "_id": "6a650d8230175096dfe42b27"
+      },
+      {
+        "criterion": "Completeness of Responses",
+        "description": "Assesses whether all questions are answered thoroughly. Excellent performance answers every question fully and appropriately (90-100%). Good performance misses minor details in answers but covers all questions (70-89%). Poor performance leaves several questions unanswered or provides incomplete responses (0-69%).",
+        "maxPoints": 20,
+        "_id": "6a650d8230175096dfe42b28"
+      },
+      {
+        "criterion": "Critical Thinking and Application",
+        "description": "Measures ability to apply knowledge to new scenarios and concepts. Excellent performance includes insightful connections and applications of concepts (90-100%). Good performance shows some connections but may lack depth (70-89%). Poor performance fails to demonstrate critical thinking or appropriate application of concepts (0-69%).",
+        "maxPoints": 20,
+        "_id": "6a650d8230175096dfe42b29"
+      },
+      {
+        "criterion": "Organization and Clarity",
+        "description": "Evaluates the logical structure and clarity of responses. Excellent performance presents information in a well-organized manner with clear answers (90-100%). Good performance is mostly organized, but may have minor clarity issues (70-89%). Poor performance is disorganized and difficult to follow (0-69%).",
+        "maxPoints": 15,
+        "_id": "6a650d8230175096dfe42b2a"
+      },
+      {
+        "criterion": "Terminology and Language Use",
+        "description": "Assesses the appropriate use of microbiology terminology and clarity of language. Excellent performance uses terminology correctly and maintains a high level of clarity (90-100%). Good performance uses some terminology correctly but may have a few mistakes (70-89%). Poor performance lacks correct terminology and clarity (0-69%).",
+        "maxPoints": 10,
+        "_id": "6a650d8230175096dfe42b2b"
+      },
+      {
+        "criterion": "Time Management",
+        "description": "Evaluates the completion of the quiz within the allotted time. Excellent performance reflects thoughtful pacing throughout the quiz (90-100%). Good performance generally manages time well but may rush a few responses (70-89%). Poor performance suggests inadequate time management, leading to incomplete answers (0-69%).",
+        "maxPoints": 5,
+        "_id": "6a650d8230175096dfe42b2c"
+      }
+    ],
+    "attachments": [],
+    "allowLateSubmissions": true,
+    "maxAttempts": 1,
+    "isGroupAssignment": false,
+    "groupId": "",
+    "isActive": true,
+    "aiGenerated": false,
+    "weekNumber": 1,
+    "meta": {
+      "questionCount": 98,
+      "difficulty": "medium",
+      "isTimed": true,
+      "timeLimitMinutes": 150
+    },
+    "quizQuestions": [
+      {
+        "text": "What is the basic unit of life in all living organisms?",
+        "type": "multiple-choice",
+        "points": 4,
+        "options": [
+          "Atom",
+          "Cell",
+          "Tissue",
+          "Organ"
+        ],
+        "correctAnswer": "Cell",
+        "_id": "6a650d8230175096dfe42b2d"
+      },
+      {
+        "text": "Which of the following structures is found in prokaryotic cells?",
+        "type": "multiple-choice",
+        "points": 4,
+        "options": [
+          "Nucleus",
+          "Mitochondria",
+          "Ribosomes",
+          "Endoplasmic Reticulum"
+        ],
+        "correctAnswer": "Ribosomes",
+        "_id": "6a650d8230175096dfe42b2e"
+      },
+      {
+        "text": "What is the primary staining method used in the Gram Staining process?",
+        "type": "multiple-choice",
+        "points": 4,
+        "options": [
+          "Crystal Violet",
+          "Safranin",
+          "Methylene Blue",
+          "Carbol Fuchsin"
+        ],
+        "correctAnswer": "Crystal Violet",
+        "_id": "6a650d8230175096dfe42b2f"
+      },
+      {
+        "text": "Which type of bacteria can survive in extreme conditions?",
+        "type": "multiple-choice",
+        "points": 4,
+        "options": [
+          "Mesophiles",
+          "Thermophiles",
+          "Psychrophiles",
+          "Halophiles"
+        ],
+        "correctAnswer": "Thermophiles",
+        "_id": "6a650d8230175096dfe42b30"
+      },
+      {
+        "text": "True or False: Bacteria reproduce exclusively through a method called mitosis.",
+        "type": "true-false",
+        "points": 1,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "False",
+        "_id": "6a650d8230175096dfe42b31"
+      },
+      {
+        "text": "What does the term 'pathogenic' refer to?",
+        "type": "multiple-choice",
+        "points": 4,
+        "options": [
+          "Non-infectious",
+          "Disease-causing",
+          "Environmentally safe",
+          "Non-toxic"
+        ],
+        "correctAnswer": "Disease-causing",
+        "_id": "6a650d8230175096dfe42b32"
+      },
+      {
+        "text": "Which macromolecule serves as the primary energy source for bacteria?",
+        "type": "multiple-choice",
+        "points": 4,
+        "options": [
+          "Proteins",
+          "Lipids",
+          "Carbohydrates",
+          "Nucleic Acids"
+        ],
+        "correctAnswer": "Carbohydrates",
+        "_id": "6a650d8230175096dfe42b33"
+      },
+      {
+        "text": "True or False: All bacteria are harmful and cause diseases.",
+        "type": "true-false",
+        "points": 1,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "False",
+        "_id": "6a650d8230175096dfe42b34"
+      },
+      {
+        "text": "Name the process by which bacteria transfer genetic material through a virus.",
+        "type": "short-answer",
+        "points": 3,
+        "options": [],
+        "correctAnswer": "Transduction",
+        "_id": "6a650d8230175096dfe42b35"
+      },
+      {
+        "text": "Which part of the bacterial cell is responsible for protecting it from osmotic pressure?",
+        "type": "multiple-choice",
+        "points": 4,
+        "options": [
+          "Cell Membrane",
+          "Peptidoglycan Layer",
+          "Nucleus",
+          "Ribosome"
+        ],
+        "correctAnswer": "Peptidoglycan Layer",
+        "_id": "6a650d8230175096dfe42b36"
+      },
+      {
+        "text": "True or False: Antibiotics are effective against viral infections.",
+        "type": "true-false",
+        "points": 1,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "False",
+        "_id": "6a650d8230175096dfe42b37"
+      },
+      {
+        "text": "What is the main role of the bacterial capsule?",
+        "type": "multiple-choice",
+        "points": 4,
+        "options": [
+          "Energy storage",
+          "Attachment",
+          "Protection from phagocytosis",
+          "DNA replication"
+        ],
+        "correctAnswer": "Protection from phagocytosis",
+        "_id": "6a650d8230175096dfe42b38"
+      },
+      {
+        "text": "Identify a common method used for the cultivation of bacteria in the lab.",
+        "type": "short-answer",
+        "points": 3,
+        "options": [],
+        "correctAnswer": "Agar plate",
+        "_id": "6a650d8230175096dfe42b39"
+      },
+      {
+        "text": "Which bacterial shape is referred to as 'coccus'?",
+        "type": "multiple-choice",
+        "points": 4,
+        "options": [
+          "Rod-shaped",
+          "Spiral-shaped",
+          "Spherical-shaped",
+          "Filamentous"
+        ],
+        "correctAnswer": "Spherical-shaped",
+        "_id": "6a650d8230175096dfe42b3a"
+      },
+      {
+        "text": "True or False: Fungi are considered prokaryotes.",
+        "type": "true-false",
+        "points": 1,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "False",
+        "_id": "6a650d8230175096dfe42b3b"
+      },
+      {
+        "text": "Which structure often aids bacteria in attachment to surfaces?",
+        "type": "multiple-choice",
+        "points": 4,
+        "options": [
+          "Flagella",
+          "Pili",
+          "Endospore",
+          "Cytoplasm"
+        ],
+        "correctAnswer": "Pili",
+        "_id": "6a650d8230175096dfe42b3c"
+      },
+      {
+        "text": "What term describes the ability of a bacterial species to cause disease?",
+        "type": "short-answer",
+        "points": 3,
+        "options": [],
+        "correctAnswer": "Virulence",
+        "_id": "6a650d8230175096dfe42b3d"
+      },
+      {
+        "text": "What type of media is used to isolate specific organisms by inhibiting the growth of others?",
+        "type": "multiple-choice",
+        "points": 4,
+        "options": [
+          "Selective media",
+          "Differential media",
+          "Enrichment media",
+          "Agar media"
+        ],
+        "correctAnswer": "Selective media",
+        "_id": "6a650d8230175096dfe42b3e"
+      },
+      {
+        "text": "True or False: Endospores help bacteria survive extreme environmental conditions.",
+        "type": "true-false",
+        "points": 1,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "True",
+        "_id": "6a650d8230175096dfe42b3f"
+      },
+      {
+        "text": "Name one Gram-negative bacterium.",
+        "type": "short-answer",
+        "points": 3,
+        "options": [],
+        "correctAnswer": "Escherichia coli",
+        "_id": "6a650d8230175096dfe42b40"
+      },
+      {
+        "text": "What is the primary purpose of a medical laboratory?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "To diagnose diseases",
+          "To perform surgeries",
+          "To conduct research only",
+          "To teach medical students"
+        ],
+        "correctAnswer": "To diagnose diseases",
+        "_id": "6a650ed630175096dfe42c00"
+      },
+      {
+        "text": "Which of the following best describes a biosafety cabinet?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "A device for centrifuging samples",
+          "An enclosure designed to protect the lab worker from pathogens",
+          "A temperature-controlled environment for cultures",
+          "A type of microscope used in labs"
+        ],
+        "correctAnswer": "An enclosure designed to protect the lab worker from pathogens",
+        "_id": "6a650ed630175096dfe42c01"
+      },
+      {
+        "text": "What is the primary function of the autoclave in a medical lab?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "To cool samples",
+          "To sterilize equipment",
+          "To evaporate solvents",
+          "To incubate cultures"
+        ],
+        "correctAnswer": "To sterilize equipment",
+        "_id": "6a650ed630175096dfe42c02"
+      },
+      {
+        "text": "True or False: It is acceptable to eat or drink in the laboratory.",
+        "type": "true-false",
+        "points": 1,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "False",
+        "_id": "6a650ed630175096dfe42c03"
+      },
+      {
+        "text": "What is the purpose of using personal protective equipment (PPE) in a lab?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "To enhance productivity",
+          "To prevent infection and injury",
+          "To look professional",
+          "To follow guidelines only"
+        ],
+        "correctAnswer": "To prevent infection and injury",
+        "_id": "6a650ed630175096dfe42c04"
+      },
+      {
+        "text": "Which type of specimen is often analyzed for the presence of pathogens?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "Water",
+          "Blood",
+          "Soil",
+          "Air"
+        ],
+        "correctAnswer": "Blood",
+        "_id": "6a650ed630175096dfe42c05"
+      },
+      {
+        "text": "True or False: All medical laboratories require accreditation to operate.",
+        "type": "true-false",
+        "points": 1,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "True",
+        "_id": "6a650ed630175096dfe42c06"
+      },
+      {
+        "text": "What should you do if you spill a biological specimen on the bench?",
+        "type": "multiple-choice",
+        "points": 3,
+        "options": [
+          "Leave it for someone else to clean",
+          "Report it and follow the spill protocol",
+          "Wipe it with a tissue",
+          "Ignore it if it seems small"
+        ],
+        "correctAnswer": "Report it and follow the spill protocol",
+        "_id": "6a650ed630175096dfe42c07"
+      },
+      {
+        "text": "True or False: A laboratory's chain of custody is important for maintaining evidence integrity.",
+        "type": "true-false",
+        "points": 2,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "True",
+        "_id": "6a650ed630175096dfe42c08"
+      },
+      {
+        "text": "What is the role of a negative control in an experiment?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "To test the experiment’s efficiency",
+          "To ensure the experiment is valid",
+          "To show no effect under experimental conditions",
+          "To enhance the experimental results"
+        ],
+        "correctAnswer": "To show no effect under experimental conditions",
+        "_id": "6a650ed630175096dfe42c09"
+      },
+      {
+        "text": "What is microbiology?",
+        "type": "short-answer",
+        "points": 3,
+        "options": [],
+        "correctAnswer": "The study of microorganisms",
+        "_id": "6a650ed630175096dfe42c0a"
+      },
+      {
+        "text": "In laboratory settings, reagents must be labeled with their contents and expiry dates. True or False?",
+        "type": "true-false",
+        "points": 1,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "True",
+        "_id": "6a650ed630175096dfe42c0b"
+      },
+      {
+        "text": "What type of lighting is often used in a biological safety cabinet?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "Fluorescent lighting",
+          "Incandescent lighting",
+          "No lighting",
+          "Ultraviolet lighting"
+        ],
+        "correctAnswer": "Ultraviolet lighting",
+        "_id": "6a650ed630175096dfe42c0c"
+      },
+      {
+        "text": "What defines an aseptic technique?",
+        "type": "short-answer",
+        "points": 3,
+        "options": [],
+        "correctAnswer": "Method to prevent contamination",
+        "_id": "6a650ed630175096dfe42c0d"
+      },
+      {
+        "text": "Which piece of laboratory equipment is used to measure the temperature of samples?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "Thermometer",
+          "pH meter",
+          "Centrifuge",
+          "Spectrophotometer"
+        ],
+        "correctAnswer": "Thermometer",
+        "_id": "6a650ed630175096dfe42c0e"
+      },
+      {
+        "text": "What does the term 'inoculation' refer to?",
+        "type": "short-answer",
+        "points": 3,
+        "options": [],
+        "correctAnswer": "Introducing microorganisms into a culture media",
+        "_id": "6a650ed630175096dfe42c0f"
+      },
+      {
+        "text": "True or False: Laboratory accidents should always be reported, regardless of severity.",
+        "type": "true-false",
+        "points": 1,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "True",
+        "_id": "6a650ed630175096dfe42c10"
+      },
+      {
+        "text": "Which of the following is NOT a common laboratory safety protocol?",
+        "type": "multiple-choice",
+        "points": 3,
+        "options": [
+          "Wearing gloves",
+          "Not eating in the lab",
+          "Keeping work areas tidy",
+          "Using equipment without any training"
+        ],
+        "correctAnswer": "Using equipment without any training",
+        "_id": "6a650ed630175096dfe42c11"
+      },
+      {
+        "text": "What is the main purpose of laboratory waste disposal protocols?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "To reduce lab space usage",
+          "To prevent environmental contamination",
+          "To lower operating costs",
+          "To standardize lab procedures"
+        ],
+        "correctAnswer": "To prevent environmental contamination",
+        "_id": "6a650ed630175096dfe42c12"
+      },
+      {
+        "text": "What type of microscopy is used to visualize live cells in a culture?",
+        "type": "multiple-choice",
+        "points": 3,
+        "options": [
+          "Electron microscopy",
+          "Fluorescence microscopy",
+          "Phase-contrast microscopy",
+          "Light microscopy"
+        ],
+        "correctAnswer": "Phase-contrast microscopy",
+        "_id": "6a650ed630175096dfe42c13"
+      },
+      {
+        "text": "Name the process used to separate components in a mixture by spinning them at high speeds.",
+        "type": "short-answer",
+        "points": 3,
+        "options": [],
+        "correctAnswer": "Centrifugation",
+        "_id": "6a650ed630175096dfe42c14"
+      },
+      {
+        "text": "True or False: Ethical conduct in a laboratory is only important for published research.",
+        "type": "true-false",
+        "points": 1,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "False",
+        "_id": "6a650ed630175096dfe42c15"
+      },
+      {
+        "text": "Which item is essential for ensuring safe handling of chemicals?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "Safety scissors",
+          "Chemical fume hood",
+          "Regular gloves",
+          "Cotton masks"
+        ],
+        "correctAnswer": "Chemical fume hood",
+        "_id": "6a650ed630175096dfe42c16"
+      },
+      {
+        "text": "What does 'quality control' in a lab refer to?",
+        "type": "short-answer",
+        "points": 3,
+        "options": [],
+        "correctAnswer": "Processes to ensure the accuracy and reliability of test results",
+        "_id": "6a650ed630175096dfe42c17"
+      },
+      {
+        "text": "What is the role of a microscope in a microbiology lab?",
+        "type": "short-answer",
+        "points": 3,
+        "options": [],
+        "correctAnswer": "To magnify and visualize microorganisms",
+        "_id": "6a650ed630175096dfe42c18"
+      },
+      {
+        "text": "True or False: The layout of a laboratory should facilitate workflow and safety.",
+        "type": "true-false",
+        "points": 1,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "True",
+        "_id": "6a650ed630175096dfe42c19"
+      },
+      {
+        "text": "Which type of specimen is typically used to identify infections?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "Direct swabs",
+          "Sputum",
+          "Blood cultures",
+          "All of the above"
+        ],
+        "correctAnswer": "All of the above",
+        "_id": "6a650ed630175096dfe42c1a"
+      },
+      {
+        "text": "What should be included in a laboratory's safety data sheets?",
+        "type": "short-answer",
+        "points": 3,
+        "options": [],
+        "correctAnswer": "Information on hazards, handling, and emergency measures",
+        "_id": "6a650ed630175096dfe42c1b"
+      },
+      {
+        "text": "True or False: Laboratory results are final and cannot be challenged.",
+        "type": "true-false",
+        "points": 1,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "False",
+        "_id": "6a650ed630175096dfe42c1c"
+      },
+      {
+        "text": "Which technique allows for the isolation of bacteria after dilution?",
+        "type": "multiple-choice",
+        "points": 3,
+        "options": [
+          "Spread plate method",
+          "MacConkey agar",
+          "Pioneer technique",
+          "Streak plate method"
+        ],
+        "correctAnswer": "Streak plate method",
+        "_id": "6a650ed630175096dfe42c1d"
+      },
+      {
+        "text": "What is the significance of using a control group in experiments?",
+        "type": "short-answer",
+        "points": 3,
+        "options": [],
+        "correctAnswer": "To compare with experimental results",
+        "_id": "6a650ed630175096dfe42c1e"
+      },
+      {
+        "text": "True or False: Informed consent is not necessary for laboratory procedures.",
+        "type": "true-false",
+        "points": 1,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "False",
+        "_id": "6a650ed630175096dfe42c1f"
+      },
+      {
+        "text": "What safety measures should be taken when working with biohazardous materials?",
+        "type": "short-answer",
+        "points": 3,
+        "options": [],
+        "correctAnswer": "Use PPE, follow biosafety protocols, and properly dispose of waste",
+        "_id": "6a650ed630175096dfe42c20"
+      },
+      {
+        "text": "Which tool is used for accurate measurement of liquid volumes in the lab?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "Pipette",
+          "Beaker",
+          "Graduated cylinder",
+          "Thermometer"
+        ],
+        "correctAnswer": "Graduated cylinder",
+        "_id": "6a650ed630175096dfe42c21"
+      },
+      {
+        "text": "True or False: It is acceptable to share lab results with non-lab personnel without permission.",
+        "type": "true-false",
+        "points": 1,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "False",
+        "_id": "6a650ed630175096dfe42c22"
+      },
+      {
+        "text": "What does the acronym CLIA stand for in laboratory context?",
+        "type": "short-answer",
+        "points": 3,
+        "options": [],
+        "correctAnswer": "Clinical Laboratory Improvement Amendments",
+        "_id": "6a650ed630175096dfe42c23"
+      },
+      {
+        "text": "What is the primary purpose of sterilization in a microbiology lab?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "To kill all living microorganisms",
+          "To promote bacterial growth",
+          "To preserve samples",
+          "To identify pathogens"
+        ],
+        "correctAnswer": "To kill all living microorganisms",
+        "_id": "6a650ed630175096dfe42c24"
+      },
+      {
+        "text": "True or False: Personal protective equipment (PPE) is essential for laboratory safety.",
+        "type": "true-false",
+        "points": 1,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "True",
+        "_id": "6a650ed630175096dfe42c25"
+      },
+      {
+        "text": "Which of the following is a common method of microbial identification?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "PCR",
+          "Sedimentation",
+          "Filtration",
+          "Chromatography"
+        ],
+        "correctAnswer": "PCR",
+        "_id": "6a650ed630175096dfe42c26"
+      },
+      {
+        "text": "What does 'aseptic technique' mean in a laboratory setting?",
+        "type": "short-answer",
+        "points": 3,
+        "options": [],
+        "correctAnswer": "A procedure to prevent contamination of samples",
+        "_id": "6a650ed630175096dfe42c27"
+      },
+      {
+        "text": "Which piece of lab equipment is typically used to incubate cultures at a controlled temperature?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "Incubator",
+          "Microscope",
+          "Refrigerator",
+          "Bunsen burner"
+        ],
+        "correctAnswer": "Incubator",
+        "_id": "6a650ed630175096dfe42c28"
+      },
+      {
+        "text": "True or False: It is acceptable to eat and drink in a laboratory setting.",
+        "type": "true-false",
+        "points": 1,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "False",
+        "_id": "6a650ed630175096dfe42c29"
+      },
+      {
+        "text": "What is the role of an autoclave in a medical lab?",
+        "type": "short-answer",
+        "points": 3,
+        "options": [],
+        "correctAnswer": "To sterilize equipment and media using high pressure and temperature",
+        "_id": "6a650ed630175096dfe42c2a"
+      },
+      {
+        "text": "In microbiology, what does the term 'colony morphology' refer to?",
+        "type": "short-answer",
+        "points": 3,
+        "options": [],
+        "correctAnswer": "The characteristics and appearance of bacterial colonies on agar",
+        "_id": "6a650ed630175096dfe42c2b"
+      },
+      {
+        "text": "Which type of bacteria are typically characterized by their rod-like shape?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "Bacilli",
+          "Cocci",
+          "Spirilla",
+          "Vibrios"
+        ],
+        "correctAnswer": "Bacilli",
+        "_id": "6a650ed630175096dfe42c2c"
+      },
+      {
+        "text": "True or False: Contaminated surfaces can be treated with disinfectants to ensure laboratory safety.",
+        "type": "true-false",
+        "points": 1,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "True",
+        "_id": "6a650ed630175096dfe42c2d"
+      },
+      {
+        "text": "What is the purpose of a biosafety cabinet?",
+        "type": "short-answer",
+        "points": 3,
+        "options": [],
+        "correctAnswer": "To provide a sterile environment and protect the user from exposure",
+        "_id": "6a650ed630175096dfe42c2e"
+      },
+      {
+        "text": "Which type of media allows for the growth of a specific type of bacteria while inhibiting others?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "Selective media",
+          "Differential media",
+          "Rich media",
+          "Liquid media"
+        ],
+        "correctAnswer": "Selective media",
+        "_id": "6a650ed630175096dfe42c2f"
+      },
+      {
+        "text": "True or False: Laboratory wastes should be disposed of in regular trash bins.",
+        "type": "true-false",
+        "points": 1,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "False",
+        "_id": "6a650ed630175096dfe42c30"
+      },
+      {
+        "text": "What is the function of a petri dish in microbiology?",
+        "type": "short-answer",
+        "points": 3,
+        "options": [],
+        "correctAnswer": "To culture microorganisms in a controlled environment",
+        "_id": "6a650ed630175096dfe42c31"
+      },
+      {
+        "text": "Which laboratory technique is used to observe the morphology of microorganisms?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "Staining",
+          "Filtration",
+          "Incubation",
+          "Cooling"
+        ],
+        "correctAnswer": "Staining",
+        "_id": "6a650ed630175096dfe42c32"
+      },
+      {
+        "text": "True or False: Lab safety protocols are optional and can be ignored if one is experienced.",
+        "type": "true-false",
+        "points": 1,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "False",
+        "_id": "6a650ed630175096dfe42c33"
+      },
+      {
+        "text": "What does 'culture media' refer to in microbiology?",
+        "type": "short-answer",
+        "points": 3,
+        "options": [],
+        "correctAnswer": "Nutrient solutions used to grow microorganisms",
+        "_id": "6a650ed630175096dfe42c34"
+      },
+      {
+        "text": "Which lab equipment is used to separate substances of different densities?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "Centrifuge",
+          "Water bath",
+          "Spectrophotometer",
+          "Refrigerator"
+        ],
+        "correctAnswer": "Centrifuge",
+        "_id": "6a650ed630175096dfe42c35"
+      },
+      {
+        "text": "True or False: The use of hand sanitizer is a substitute for washing hands with soap in the laboratory.",
+        "type": "true-false",
+        "points": 1,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "False",
+        "_id": "6a650ed630175096dfe42c36"
+      },
+      {
+        "text": "Which biological safety level (BSL) is required for handling agents that can cause serious or lethal disease through inhalation?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "BSL-1",
+          "BSL-2",
+          "BSL-3",
+          "BSL-4"
+        ],
+        "correctAnswer": "BSL-3",
+        "_id": "6a650ed630175096dfe42c37"
+      },
+      {
+        "text": "What is the difference between 'disinfection' and 'sterilization'?",
+        "type": "short-answer",
+        "points": 3,
+        "options": [],
+        "correctAnswer": "Disinfection kills many but not all pathogens; sterilization kills all microorganisms.",
+        "_id": "6a650ed630175096dfe42c38"
+      },
+      {
+        "text": "What is the primary role of a microscope in microbiology?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "To sterilize samples",
+          "To observe microorganisms",
+          "To culture bacteria",
+          "To analyze DNA"
+        ],
+        "correctAnswer": "To observe microorganisms",
+        "_id": "6a650ed630175096dfe42c39"
+      },
+      {
+        "text": "True or False: Microorganisms can be both beneficial and harmful.",
+        "type": "true-false",
+        "points": 1,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "True",
+        "_id": "6a650ed630175096dfe42c3a"
+      },
+      {
+        "text": "What does the term 'pathogen' mean?",
+        "type": "short-answer",
+        "points": 3,
+        "options": [],
+        "correctAnswer": "An organism that causes disease",
+        "_id": "6a650ed630175096dfe42c3b"
+      },
+      {
+        "text": "Which of the following is NOT a bacterial shape?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "Coccus",
+          "Bacillus",
+          "Helix",
+          "Spirillum"
+        ],
+        "correctAnswer": "Helix",
+        "_id": "6a650ed630175096dfe42c3c"
+      },
+      {
+        "text": "True or False: All laboratory waste can be disposed of down the sink.",
+        "type": "true-false",
+        "points": 1,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "False",
+        "_id": "6a650ed630175096dfe42c3d"
+      },
+      {
+        "text": "What is the significance of using a control in an experiment?",
+        "type": "short-answer",
+        "points": 3,
+        "options": [],
+        "correctAnswer": "To provide a standard for comparison",
+        "_id": "6a650ed630175096dfe42c3e"
+      },
+      {
+        "text": "Which type of staining technique distinguishes between different types of bacteria?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "Gram staining",
+          "Simple staining",
+          "Negative staining",
+          "Endospore staining"
+        ],
+        "correctAnswer": "Gram staining",
+        "_id": "6a650ed630175096dfe42c3f"
+      },
+      {
+        "text": "True or False: You should always label your samples with relevant information.",
+        "type": "true-false",
+        "points": 1,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "True",
+        "_id": "6a650ed630175096dfe42c40"
+      },
+      {
+        "text": "What is one important consideration when storing microbial cultures?",
+        "type": "short-answer",
+        "points": 3,
+        "options": [],
+        "correctAnswer": "Keep them at appropriate temperatures to preserve viability",
+        "_id": "6a650ed630175096dfe42c41"
+      },
+      {
+        "text": "Which type of microscope uses electrons to achieve high resolution?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "Compound microscope",
+          "Electron microscope",
+          "Dissecting microscope",
+          "Light microscope"
+        ],
+        "correctAnswer": "Electron microscope",
+        "_id": "6a650ed630175096dfe42c42"
+      },
+      {
+        "text": "True or False: Exposure to UV light can be used for sterilizing surfaces.",
+        "type": "true-false",
+        "points": 1,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "True",
+        "_id": "6a650ed630175096dfe42c43"
+      },
+      {
+        "text": "What does a spectrophotometer measure?",
+        "type": "short-answer",
+        "points": 3,
+        "options": [],
+        "correctAnswer": "The intensity of light as a function of wavelength",
+        "_id": "6a650ed630175096dfe42c44"
+      },
+      {
+        "text": "What is the role of a reagents in microbiological testing?",
+        "type": "short-answer",
+        "points": 3,
+        "options": [],
+        "correctAnswer": "To induce a reaction for detecting or identifying microorganisms",
+        "_id": "6a650ed630175096dfe42c45"
+      },
+      {
+        "text": "Which safety equipment is essential when handling biohazardous materials?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "Safety goggles",
+          "Gloves",
+          "Lab coat",
+          "All of the above"
+        ],
+        "correctAnswer": "All of the above",
+        "_id": "6a650ed630175096dfe42c46"
+      },
+      {
+        "text": "True or False: Laboratory procedures should be documented for reproducibility.",
+        "type": "true-false",
+        "points": 1,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "True",
+        "_id": "6a650ed630175096dfe42c47"
+      },
+      {
+        "text": "What do the acronyms BSL-1 and BSL-2 represent in laboratory safety?",
+        "type": "short-answer",
+        "points": 3,
+        "options": [],
+        "correctAnswer": "Biosafety Level 1 and Biosafety Level 2, which indicate risk level",
+        "_id": "6a650ed630175096dfe42c48"
+      },
+      {
+        "text": "What is a common use for agar in microbiology?",
+        "type": "short-answer",
+        "points": 3,
+        "options": [],
+        "correctAnswer": "As a solidifying agent for culture media",
+        "_id": "6a650ed630175096dfe42c49"
+      },
+      {
+        "text": "What is the main objective of laboratory quality control?",
+        "type": "short-answer",
+        "points": 3,
+        "options": [],
+        "correctAnswer": "To ensure accuracy and reliability of test results",
+        "_id": "6a650ed630175096dfe42c4a"
+      },
+      {
+        "text": "What is the primary purpose of aseptic techniques in a microbiology lab?",
+        "type": "multiple-choice",
+        "points": 4,
+        "options": [
+          "To enhance the growth of bacteria",
+          "To prevent contamination",
+          "To kill all bacteria",
+          "To increase the color of cultures"
+        ],
+        "correctAnswer": "To prevent contamination",
+        "_id": "6a650ed630175096dfe42c4b"
+      },
+      {
+        "text": "Which laboratory equipment is essential for measuring the absorbance of a sample?",
+        "type": "multiple-choice",
+        "points": 4,
+        "options": [
+          "Centrifuge",
+          "Spectrophotometer",
+          "Incubator",
+          "Autoclave"
+        ],
+        "correctAnswer": "Spectrophotometer",
+        "_id": "6a650ed630175096dfe42c4c"
+      },
+      {
+        "text": "True or False: Personal protective equipment (PPE) is only required in hazardous areas of the lab.",
+        "type": "true-false",
+        "points": 2,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "False",
+        "_id": "6a650ed630175096dfe42c4d"
+      },
+      {
+        "text": "What is the significance of a control group in experiments involving microbial studies?",
+        "type": "short-answer",
+        "points": 5,
+        "options": [],
+        "correctAnswer": "To provide a baseline for comparison and ensure the experiment's validity.",
+        "_id": "6a650ed630175096dfe42c4e"
+      },
+      {
+        "text": "True or False: It is acceptable to eat or drink in the laboratory if the area appears clean.",
+        "type": "true-false",
+        "points": 2,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "False",
+        "_id": "6a650ed630175096dfe42c4f"
+      }
+    ],
+    "createdAt": "2026-07-25T19:24:50.029Z",
+    "updatedAt": "2026-07-25T19:30:30.698Z",
+    "__v": 1
+  },
+  {
+    "_id": "6a678e618e250fa544651602",
+    "classroomId": "6a64c617c6a413eec81c3ac5",
+    "createdBy": "6a5a7a7aea82958b8c771e7e",
+    "title": "Human Anatomy",
+    "description": "A quiz covering the fundamental topics in microbiology discussed in Week 1.",
+    "instructions": "# Assignment Instructions: Quiz on Human Anatomy\n\n## Course: MML-000: Medical Lab  \n### Assignment Type: Quiz  \n### Maximum Score: 100 Points  \n\n---\n\n### Objectives\nThis quiz aims to evaluate your understanding of human anatomy concepts covered in our recent lectures and readings. By the end of this quiz, you should be able to:\n1. Demonstrate knowledge of the major systems of the human body.\n2. Identify key anatomical structures and their functions.\n3. Apply anatomical terminology correctly in context.\n\n### Requirements\n- **Quiz Format**: The quiz will consist of 20 multiple-choice questions and 5 short-answer questions.\n- **Time Limit**: You will have 60 minutes to complete the quiz.\n- **Topics Covered**:\n  - Skeletal System\n  - Muscular System\n  - Circulatory System\n  - Respiratory System\n  - Nervous System\n- **Materials Allowed**: \n  - Textbook and class notes\n  - No electronic devices (phones, tablets, or computers) are allowed unless specified.\n\n### Submission Guidelines\n- **Method of Submission**: The quiz will be administered online via the course management system.\n- **Deadline**: The quiz must be completed by [Insert Deadline Date and Time].\n- **Late Submissions**: Late quizzes will incur a penalty of 10% per day. Quizzes submitted more than three days late will not be accepted.\n\n### Grading Criteria\nYour quiz will be graded out of 100 points as follows:\n- **Multiple-Choice Questions (60 Points)**: Each question is worth 3 points.\n- **Short-Answer Questions (40 Points)**: Each question is worth 8 points. Responses will be evaluated based on:\n  - **Clarity**: Responses must be clearly articulated.\n  - **Accuracy**: Correct understanding and description of the anatomical structures or functions.\n  - **Detail**: Adequate detail to demonstrate thorough knowledge of the topic.\n\n### Additional Information\n- **Review Sessions**: Review sessions will be held on [Insert Date and Time]. Attendance is highly recommended to clarify any doubts.\n- **Help**: If you have any questions about the material or the quiz format, please reach out to your instructor via email at [Instructor Email] or visit during office hours.\n\n---\n\nGood luck, and remember: Preparation is key to your success in this quiz!",
+    "courseId": null,
+    "type": "quiz",
+    "category": "",
+    "dueDate": "2026-08-15T00:00:00.000Z",
+    "availableFrom": null,
+    "availableUntil": null,
+    "maxScore": 100,
+    "passingScore": 60,
+    "weight": 1,
+    "rubric": [
+      {
+        "criterion": "Content Accuracy",
+        "description": "Evaluates the correctness of answers provided on the quiz. Excellent performance (90-100%): all answers are correct and demonstrate comprehensive understanding. Good performance (70-89%): most answers are correct with minor errors that do not significantly affect understanding. Poor performance (0-69%): many incorrect answers, indicating a lack of understanding of human anatomy concepts.",
+        "maxPoints": 40,
+        "_id": "6a679cf98e250fa544651729"
+      },
+      {
+        "criterion": "Completeness",
+        "description": "Assesses whether all questions are answered thoroughly. Excellent performance (90-100%): every question answered with full detail, without omissions. Good performance (70-89%): all questions answered but with some minor details missing. Poor performance (0-69%): several questions left unanswered or inadequately addressed.",
+        "maxPoints": 20,
+        "_id": "6a679cf98e250fa54465172a"
+      },
+      {
+        "criterion": "Critical Thinking and Application",
+        "description": "Measuring the ability to apply anatomical knowledge to different scenarios. Excellent performance (90-100%): provides insightful applications of knowledge, demonstrating superior analytical skills. Good performance (70-89%): applies knowledge appropriately but lacks depth in analysis. Poor performance (0-69%): fails to apply anatomical understanding to scenarios, indicating superficial engagement with the material.",
+        "maxPoints": 15,
+        "_id": "6a679cf98e250fa54465172b"
+      },
+      {
+        "criterion": "Organization and Clarity",
+        "description": "Evaluates the clarity of responses and organization of the answers. Excellent performance (90-100%): answers are clearly structured, logically presented, and easy to follow. Good performance (70-89%): generally well-organized but with some lapses in clarity. Poor performance (0-69%): answers are poorly structured, confusing, and difficult to follow.",
+        "maxPoints": 10,
+        "_id": "6a679cf98e250fa54465172c"
+      },
+      {
+        "criterion": "Use of Terminology",
+        "description": "Assesses the correct usage of anatomical terminology throughout the quiz. Excellent performance (90-100%): terms used accurately and appropriately in all answers. Good performance (70-89%): uses anatomical terms correctly overall but with minor inaccuracies. Poor performance (0-69%): frequent misuse of terminology, indicating poor understanding.",
+        "maxPoints": 5,
+        "_id": "6a679cf98e250fa54465172d"
+      },
+      {
+        "criterion": "Time Management",
+        "description": "Determines efficiency in completing the quiz within the allotted time. Excellent performance (90-100%): completed the quiz well within time limits. Good performance (70-89%): completed the quiz but used close to full time. Poor performance (0-69%): failed to complete the quiz or rushed significantly, affecting the quality of answers.",
+        "maxPoints": 5,
+        "_id": "6a679cf98e250fa54465172e"
+      },
+      {
+        "criterion": "Neatness and Presentation",
+        "description": "Evaluates the overall presentation of the work submitted including legibility and formatting. Excellent performance (90-100%): all responses are neatly written or typed with no errors. Good performance (70-89%): minor issues in neatness or formatting, but overall acceptable. Poor performance (0-69%): responses are messy or difficult to read, significantly impacting presentation.",
+        "maxPoints": 5,
+        "_id": "6a679cf98e250fa54465172f"
+      }
+    ],
+    "attachments": [],
+    "allowLateSubmissions": true,
+    "maxAttempts": 0,
+    "isGroupAssignment": false,
+    "groupId": "",
+    "isActive": true,
+    "aiGenerated": false,
+    "weekNumber": 1,
+    "meta": null,
+    "quizQuestions": [
+      {
+        "text": "What is the largest organ in the human body?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "Heart",
+          "Liver",
+          "Skin",
+          "Lungs"
+        ],
+        "correctAnswer": "Skin",
+        "_id": "6a679cf98e250fa544651730"
+      },
+      {
+        "text": "How many bones are in the adult human body?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "206",
+          "215",
+          "189",
+          "196"
+        ],
+        "correctAnswer": "206",
+        "_id": "6a679cf98e250fa544651731"
+      },
+      {
+        "text": "Which part of the brain is responsible for coordination and balance?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "Cerebrum",
+          "Cerebellum",
+          "Brainstem",
+          "Hypothalamus"
+        ],
+        "correctAnswer": "Cerebellum",
+        "_id": "6a679cf98e250fa544651732"
+      },
+      {
+        "text": "What type of muscle is found in the heart?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "Skeletal",
+          "Smooth",
+          "Cardiac",
+          "Striated"
+        ],
+        "correctAnswer": "Cardiac",
+        "_id": "6a679cf98e250fa544651733"
+      },
+      {
+        "text": "True or False: The human body has the same number of ribs on both sides.",
+        "type": "true-false",
+        "points": 2,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "True",
+        "_id": "6a679cf98e250fa544651734"
+      },
+      {
+        "text": "What is the primary function of red blood cells?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "Fight infections",
+          "Transport oxygen",
+          "Clot blood",
+          "Regulate temperature"
+        ],
+        "correctAnswer": "Transport oxygen",
+        "_id": "6a679cf98e250fa544651735"
+      },
+      {
+        "text": "True or False: There are four chambers in the human heart.",
+        "type": "true-false",
+        "points": 2,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "True",
+        "_id": "6a679cf98e250fa544651736"
+      },
+      {
+        "text": "Which organ is primarily responsible for detoxification in the human body?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "Kidney",
+          "Liver",
+          "Spleen",
+          "Lung"
+        ],
+        "correctAnswer": "Liver",
+        "_id": "6a679cf98e250fa544651737"
+      },
+      {
+        "text": "What structure connects the brain to the spinal cord?",
+        "type": "short-answer",
+        "points": 3,
+        "options": [],
+        "correctAnswer": "Brainstem",
+        "_id": "6a679cf98e250fa544651738"
+      },
+      {
+        "text": "True or False: The pancreas is both an endocrine and exocrine gland.",
+        "type": "true-false",
+        "points": 2,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "True",
+        "_id": "6a679cf98e250fa544651739"
+      },
+      {
+        "text": "What is the anatomical term for the front of the body?",
+        "type": "short-answer",
+        "points": 3,
+        "options": [],
+        "correctAnswer": "Anterior",
+        "_id": "6a679cf98e250fa54465173a"
+      },
+      {
+        "text": "Which part of the human skeleton protects the brain?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "Rib cage",
+          "Skull",
+          "Spine",
+          "Pelvis"
+        ],
+        "correctAnswer": "Skull",
+        "_id": "6a679cf98e250fa54465173b"
+      },
+      {
+        "text": "What is the basic structural and functional unit of the kidney?",
+        "type": "short-answer",
+        "points": 3,
+        "options": [],
+        "correctAnswer": "Nephron",
+        "_id": "6a679cf98e250fa54465173c"
+      },
+      {
+        "text": "True or False: The small intestine is longer than the large intestine.",
+        "type": "true-false",
+        "points": 2,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "True",
+        "_id": "6a679cf98e250fa54465173d"
+      },
+      {
+        "text": "What type of joint allows for the most movement?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "Hinge",
+          "Ball and Socket",
+          "Pivot",
+          "Saddle"
+        ],
+        "correctAnswer": "Ball and Socket",
+        "_id": "6a679cf98e250fa54465173e"
+      },
+      {
+        "text": "What is the primary function of the lymphatic system?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "Hormone production",
+          "Nutrient absorption",
+          "Fluid balance and immunity",
+          "Oxygen transport"
+        ],
+        "correctAnswer": "Fluid balance and immunity",
+        "_id": "6a679cf98e250fa54465173f"
+      },
+      {
+        "text": "What mineral is crucial for bone health?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "Calcium",
+          "Iron",
+          "Phosphorus",
+          "Vitamin D"
+        ],
+        "correctAnswer": "Calcium",
+        "_id": "6a679cf98e250fa544651740"
+      },
+      {
+        "text": "What is the primary role of the alveoli in the lungs?",
+        "type": "short-answer",
+        "points": 3,
+        "options": [],
+        "correctAnswer": "Gas exchange",
+        "_id": "6a679cf98e250fa544651741"
+      },
+      {
+        "text": "True or False: The skin is considered a sensory organ.",
+        "type": "true-false",
+        "points": 2,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "True",
+        "_id": "6a679cf98e250fa544651742"
+      },
+      {
+        "text": "Which structure carries the blood away from the heart?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "Veins",
+          "Capillaries",
+          "Arteries",
+          "Aorta"
+        ],
+        "correctAnswer": "Arteries",
+        "_id": "6a679cf98e250fa544651743"
+      },
+      {
+        "text": "What is the name of the protein that carries oxygen in red blood cells?",
+        "type": "short-answer",
+        "points": 3,
+        "options": [],
+        "correctAnswer": "Hemoglobin",
+        "_id": "6a679cf98e250fa544651744"
+      },
+      {
+        "text": "What part of the eye is responsible for refracting light?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "Cornea",
+          "Lens",
+          "Iris",
+          "Retina"
+        ],
+        "correctAnswer": "Cornea",
+        "_id": "6a679cf98e250fa544651745"
+      },
+      {
+        "text": "True or False: The human skeleton is made up of exactly 206 bones at all stages of life.",
+        "type": "true-false",
+        "points": 2,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "False",
+        "_id": "6a679cf98e250fa544651746"
+      },
+      {
+        "text": "What is the primary function of the digestive system?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "Oxygen transport",
+          "Nutrient absorption",
+          "Waste elimination",
+          "Hormone secretion"
+        ],
+        "correctAnswer": "Nutrient absorption",
+        "_id": "6a679cf98e250fa544651747"
+      },
+      {
+        "text": "Which hormone regulates blood sugar levels?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "Insulin",
+          "Cortisol",
+          "Adrenaline",
+          "Estrogen"
+        ],
+        "correctAnswer": "Insulin",
+        "_id": "6a679cf98e250fa544651748"
+      },
+      {
+        "text": "What type of connective tissue connects muscles to bones?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "Tendons",
+          "Ligaments",
+          "Cartilage",
+          "Adipose"
+        ],
+        "correctAnswer": "Tendons",
+        "_id": "6a679cf98e250fa544651749"
+      },
+      {
+        "text": "What is the primary function of the endocrine system?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "To produce hormones",
+          "To transmit signals",
+          "To fight infections",
+          "To provide structure"
+        ],
+        "correctAnswer": "To produce hormones",
+        "_id": "6a679cf98e250fa54465174a"
+      },
+      {
+        "text": "What is the smallest bone in the human body?",
+        "type": "short-answer",
+        "points": 3,
+        "options": [],
+        "correctAnswer": "Stapes",
+        "_id": "6a679cf98e250fa54465174b"
+      },
+      {
+        "text": "True or False: The human body has more than 600 muscles.",
+        "type": "true-false",
+        "points": 2,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "True",
+        "_id": "6a679cf98e250fa54465174c"
+      },
+      {
+        "text": "Which organ is responsible for producing bile?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "Gallbladder",
+          "Liver",
+          "Pancreas",
+          "Stomach"
+        ],
+        "correctAnswer": "Liver",
+        "_id": "6a679cf98e250fa54465174d"
+      },
+      {
+        "text": "What type of blood vessel carries blood back to the heart?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "Capillaries",
+          "Veins",
+          "Arteries",
+          "Aorta"
+        ],
+        "correctAnswer": "Veins",
+        "_id": "6a679cf98e250fa54465174e"
+      },
+      {
+        "text": "Which part of the digestive system is primarily responsible for water absorption?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "Stomach",
+          "Large Intestine",
+          "Small Intestine",
+          "Esophagus"
+        ],
+        "correctAnswer": "Large Intestine",
+        "_id": "6a679cf98e250fa54465174f"
+      },
+      {
+        "text": "What is the term for the process of blood cell formation?",
+        "type": "short-answer",
+        "points": 3,
+        "options": [],
+        "correctAnswer": "Hematopoiesis",
+        "_id": "6a679cf98e250fa544651750"
+      },
+      {
+        "text": "True or False: All arteries carry oxygenated blood.",
+        "type": "true-false",
+        "points": 2,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "False",
+        "_id": "6a679cf98e250fa544651751"
+      },
+      {
+        "text": "What is the role of the cerebrum?",
+        "type": "short-answer",
+        "points": 3,
+        "options": [],
+        "correctAnswer": "Higher brain functions including thought and action",
+        "_id": "6a679cf98e250fa544651752"
+      },
+      {
+        "text": "Which system is responsible for the body's response to stress?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "Nervous system",
+          "Endocrine system",
+          "Circulatory system",
+          "Respiratory system"
+        ],
+        "correctAnswer": "Endocrine system",
+        "_id": "6a679cf98e250fa544651753"
+      },
+      {
+        "text": "What type of joint is found in the knees?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "Hinge",
+          "Ball and Socket",
+          "Pivot",
+          "Saddle"
+        ],
+        "correctAnswer": "Hinge",
+        "_id": "6a679cf98e250fa544651754"
+      },
+      {
+        "text": "What is the most abundant type of white blood cell?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "Neutrophils",
+          "Lymphocytes",
+          "Monocytes",
+          "Eosinophils"
+        ],
+        "correctAnswer": "Neutrophils",
+        "_id": "6a679cf98e250fa544651755"
+      },
+      {
+        "text": "True or False: The appendix has a vital function in the human body.",
+        "type": "true-false",
+        "points": 2,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "False",
+        "_id": "6a679cf98e250fa544651756"
+      },
+      {
+        "text": "What is the primary function of the respiratory system?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "Gas exchange",
+          "Waste elimination",
+          "Hormone secretion",
+          "Heat regulation"
+        ],
+        "correctAnswer": "Gas exchange",
+        "_id": "6a679cf98e250fa544651757"
+      },
+      {
+        "text": "What are the two main components of the central nervous system?",
+        "type": "short-answer",
+        "points": 3,
+        "options": [],
+        "correctAnswer": "Brain and spinal cord",
+        "_id": "6a679cf98e250fa544651758"
+      },
+      {
+        "text": "Which part of the body is responsible for regulating body temperature?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "Skin",
+          "Brain",
+          "Liver",
+          "Heart"
+        ],
+        "correctAnswer": "Skin",
+        "_id": "6a679cf98e250fa544651759"
+      },
+      {
+        "text": "True or False: The human tongue has taste buds that can detect only sweet and salty flavors.",
+        "type": "true-false",
+        "points": 2,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "False",
+        "_id": "6a679cf98e250fa54465175a"
+      },
+      {
+        "text": "What organ is primarily responsible for filtering blood in the human body?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "Heart",
+          "Kidney",
+          "Liver",
+          "Spleen"
+        ],
+        "correctAnswer": "Kidney",
+        "_id": "6a679cf98e250fa54465175b"
+      },
+      {
+        "text": "What is the name of the sheath that surrounds each muscle?",
+        "type": "short-answer",
+        "points": 3,
+        "options": [],
+        "correctAnswer": "Epimysium",
+        "_id": "6a679cf98e250fa54465175c"
+      },
+      {
+        "text": "True or False: The vagus nerve is part of the central nervous system.",
+        "type": "true-false",
+        "points": 2,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "False",
+        "_id": "6a679cf98e250fa54465175d"
+      },
+      {
+        "text": "What is the main function of the diaphragm in human anatomy?",
+        "type": "short-answer",
+        "points": 3,
+        "options": [],
+        "correctAnswer": "To facilitate breathing by contracting and expanding the thoracic cavity",
+        "_id": "6a679cf98e250fa54465175e"
+      },
+      {
+        "text": "Which type of blood vessel is responsible for carrying oxygen-rich blood away from the heart?",
+        "type": "multiple-choice",
+        "points": 2,
+        "options": [
+          "Veins",
+          "Capillaries",
+          "Arteries",
+          "Venules"
+        ],
+        "correctAnswer": "Arteries",
+        "_id": "6a679cf98e250fa54465175f"
+      },
+      {
+        "text": "True or False: The sinoatrial (SA) node is known as the heart's natural pacemaker.",
+        "type": "true-false",
+        "points": 1,
+        "options": [
+          "True",
+          "False"
+        ],
+        "correctAnswer": "True",
+        "_id": "6a679cf98e250fa544651760"
+      },
+      {
+        "text": "Which part of the human digestive system is primarily responsible for nutrient absorption?",
+        "type": "multiple-choice",
+        "points": 4,
+        "options": [
+          "Stomach",
+          "Large intestine",
+          "Small intestine",
+          "Esophagus"
+        ],
+        "correctAnswer": "Small intestine",
+        "_id": "6a679cf98e250fa544651761"
+      }
+    ],
+    "createdAt": "2026-07-27T16:59:13.973Z",
+    "updatedAt": "2026-07-27T18:01:29.728Z",
+    "__v": 1
+  }
+]
