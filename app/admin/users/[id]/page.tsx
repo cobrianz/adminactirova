@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { useParams, useRouter } from "next/navigation";
 import Link from "next/link";
 import { toast } from "sonner";
-import { ArrowLeft, Mail, Calendar, Zap, Star, Flame, BadgeCheck, CreditCard, Award, ShoppingBag } from "lucide-react";
+import { ArrowLeft, Mail, Calendar, Zap, Star, Flame, BadgeCheck, CreditCard, Award, ShoppingBag, Layers, School, FileText, GraduationCap } from "lucide-react";
 import { useApi, apiCall } from "@/components/useApi";
 import { Panel, Badge, EmptyState, Spinner, ConfirmModal } from "@/components/ui";
 import { formatDate, timeAgo } from "@/lib/utils";
@@ -47,6 +47,15 @@ type UserDetail = {
   };
   library: { _id: string; title: string; topic: string; difficulty: string; progress: number; completed: boolean; createdAt: string }[];
   reports: { _id: string; title: string; course: string; status: string; createdAt: string }[];
+  quizzes: { _id: string; title: string; course: string; difficulty: string; createdAt: string | null; attempts: number; bestScore: number }[];
+  flashcards: { _id: string; title: string; topic: string; difficulty: string; totalCards: number; progress: number; completed: boolean; createdAt: string | null; lastAccessed: string | null }[];
+  classes: { id: string; classroomId: string; name: string; subject: string; instructor: string; status: string; joinedAt: string | null }[];
+  assignments: { id: string; title: string; className: string; status: string; score: number | null; progress: number; updatedAt: string | null }[];
+  pdfs: { _id: string; fileName: string; fileSizeMB: string | number; pageCount: number; createdAt: string | null }[];
+  certificates: { _id: string; title: string; createdAt: string | null }[];
+  notes: { _id: string; title: string; content: string; createdAt: string | null }[];
+  chats: { _id: string; topic: string; createdAt: string | null; lastMessageAt: string | null }[];
+  studyPlans: { _id: string; title: string; topic: string; progress: number; createdAt: string | null }[];
   exams: number;
   chatCount: number;
 };
@@ -79,6 +88,34 @@ function Chips({ items }: { items: string[] }) {
       ))}
     </div>
   );
+}
+
+function MiniList({
+  items,
+  empty,
+  render,
+}: {
+  items: unknown[];
+  empty: string;
+  render: (item: unknown, i: number) => React.ReactNode;
+}) {
+  if (items.length === 0) return <EmptyState title={empty} />;
+  return (
+    <ul className="space-y-3">
+      {items.map((item, i) => (
+        <li key={i} className="rounded-xl border p-3" style={{ borderColor: "var(--border)" }}>
+          {render(item, i)}
+        </li>
+      ))}
+    </ul>
+  );
+}
+
+function classStatusColor(status: string): string {
+  if (status === "active") return "green";
+  if (status === "pending") return "amber";
+  if (["inactive", "expired", "suspended"].includes(status)) return "red";
+  return "slate";
 }
 
 export default function UserDetailPage() {
@@ -198,8 +235,8 @@ export default function UserDetailPage() {
         </div>
       </div>
 
-      <div className="mt-6 grid gap-6 lg:grid-cols-3">
-        <div className="space-y-6 lg:col-span-2">
+      <div className="mt-6 space-y-6">
+        <div className="space-y-6">
           <Panel title="Manage account">
             <div className="grid gap-4 sm:grid-cols-2">
               <div>
@@ -421,6 +458,26 @@ export default function UserDetailPage() {
                 <p className="ms-n">{u.dailyXp}</p>
                 <p className="ms-l">Daily XP</p>
               </div>
+              <div className="ms-cell">
+                <GraduationCap className="h-3.5 w-3.5 text-ink3" />
+                <p className="ms-n">{data.quizzes.length}</p>
+                <p className="ms-l">Quizzes</p>
+              </div>
+              <div className="ms-cell">
+                <Layers className="h-3.5 w-3.5 text-ink3" />
+                <p className="ms-n">{data.flashcards.length}</p>
+                <p className="ms-l">Card sets</p>
+              </div>
+              <div className="ms-cell">
+                <School className="h-3.5 w-3.5 text-ink3" />
+                <p className="ms-n">{data.classes.length}</p>
+                <p className="ms-l">Classes</p>
+              </div>
+              <div className="ms-cell">
+                <FileText className="h-3.5 w-3.5 text-ink3" />
+                <p className="ms-n">{data.pdfs.length}</p>
+                <p className="ms-l">PDFs</p>
+              </div>
             </div>
           </Panel>
 
@@ -473,6 +530,195 @@ export default function UserDetailPage() {
             )}
           </Panel>
         </div>
+      </div>
+
+      <div className="mt-6 space-y-6">
+        <Panel title={`Classes (${data.classes.length})`} subtitle="Classrooms the user is enrolled in">
+          <MiniList
+            items={data.classes}
+            empty="No classes"
+            render={(item) => {
+              const c = item as UserDetail["classes"][number];
+              return (
+                <div>
+                  <div className="flex flex-wrap items-center justify-between gap-2">
+                    <p className="truncate text-xs font-semibold text-ink">{c.name}</p>
+                    <Badge color={classStatusColor(c.status)}>{c.status}</Badge>
+                  </div>
+                  <div className="mt-1.5 flex flex-wrap items-center gap-x-4 gap-y-1">
+                    {c.subject && <span className="td-mono td-sub truncate">{c.subject}</span>}
+                    {c.instructor && (
+                      <span className="td-mono td-sub truncate">
+                        <School className="mr-1 inline h-3 w-3" />
+                        {c.instructor}
+                      </span>
+                    )}
+                    {c.joinedAt && <span className="td-mono td-sub">joined {formatDate(c.joinedAt)}</span>}
+                  </div>
+                </div>
+              );
+            }}
+          />
+        </Panel>
+
+        <Panel title={`Assignments (${data.assignments.length})`} subtitle="Assignment progress in classes">
+          <MiniList
+            items={data.assignments}
+            empty="No assignments"
+            render={(item) => {
+              const a = item as UserDetail["assignments"][number];
+              return (
+                <div>
+                  <div className="flex flex-wrap items-center justify-between gap-2">
+                    <p className="truncate text-xs font-semibold text-ink">{a.title}</p>
+                    <span className="td-mono td-sub">
+                      {a.score !== null ? `${a.score}%` : `${a.progress}%`}
+                    </span>
+                  </div>
+                  <div className="mt-1.5 flex flex-wrap items-center gap-x-4 gap-y-1">
+                    {a.className && <span className="td-mono td-sub truncate">{a.className}</span>}
+                    <Badge color={classStatusColor(a.status)}>{a.status}</Badge>
+                    {a.updatedAt && <span className="td-mono td-sub">updated {timeAgo(a.updatedAt)}</span>}
+                  </div>
+                </div>
+              );
+            }}
+          />
+        </Panel>
+
+        <Panel title={`Quizzes (${data.quizzes.length})`} subtitle="Generated quizzes and results">
+          <MiniList
+            items={data.quizzes}
+            empty="No quizzes"
+            render={(item) => {
+              const q = item as UserDetail["quizzes"][number];
+              return (
+                <div>
+                  <div className="flex flex-wrap items-center justify-between gap-2">
+                    <p className="truncate text-xs font-semibold text-ink">{q.title}</p>
+                    <span className="td-mono td-acid">{q.bestScore}%</span>
+                  </div>
+                  <div className="mt-1.5 flex flex-wrap items-center gap-x-4 gap-y-1">
+                    {q.course && <span className="td-mono td-sub truncate">{q.course}</span>}
+                    {q.difficulty && <span className="chip">{q.difficulty}</span>}
+                    <span className="td-mono td-sub">{q.attempts} attempt{q.attempts === 1 ? "" : "s"}</span>
+                  </div>
+                </div>
+              );
+            }}
+          />
+        </Panel>
+
+        <Panel title={`Flashcards (${data.flashcards.length})`} subtitle="Flashcard sets">
+          <MiniList
+            items={data.flashcards}
+            empty="No flashcard sets"
+            render={(item) => {
+              const f = item as UserDetail["flashcards"][number];
+              return (
+                <div>
+                  <div className="flex flex-wrap items-center justify-between gap-2">
+                    <p className="truncate text-xs font-semibold text-ink">{f.title}</p>
+                    <span className="td-mono td-sub">{f.totalCards} cards</span>
+                  </div>
+                  <div className="mt-1.5 flex flex-wrap items-center gap-x-4 gap-y-1">
+                    {f.topic && <span className="td-mono td-sub truncate">{f.topic}</span>}
+                    {f.difficulty && <span className="chip">{f.difficulty}</span>}
+                    {f.completed ? <Badge color="green">Completed</Badge> : null}
+                  </div>
+                </div>
+              );
+            }}
+          />
+        </Panel>
+
+        <Panel title={`Study plans (${data.studyPlans.length})`}>
+          <MiniList
+            items={data.studyPlans}
+            empty="No study plans"
+            render={(item) => {
+              const s = item as UserDetail["studyPlans"][number];
+              return (
+                <div>
+                  <div className="flex flex-wrap items-center justify-between gap-2">
+                    <p className="truncate text-xs font-semibold text-ink">{s.title}</p>
+                    <span className="td-mono td-acid">{Math.round(s.progress * 100)}%</span>
+                  </div>
+                  {s.topic && <p className="td-mono td-sub mt-1.5 truncate">{s.topic}</p>}
+                </div>
+              );
+            }}
+          />
+        </Panel>
+
+        <Panel title={`PDF documents (${data.pdfs.length})`}>
+          <MiniList
+            items={data.pdfs}
+            empty="No PDF documents"
+            render={(item) => {
+              const p = item as UserDetail["pdfs"][number];
+              return (
+                <div>
+                  <p className="truncate text-xs font-semibold text-ink">{p.fileName}</p>
+                  <div className="mt-1.5 flex flex-wrap items-center gap-x-4 gap-y-1">
+                    <span className="td-mono td-sub">{p.pageCount} pages</span>
+                    {p.fileSizeMB && <span className="td-mono td-sub">{p.fileSizeMB} MB</span>}
+                    {p.createdAt && <span className="td-mono td-sub">{formatDate(p.createdAt)}</span>}
+                  </div>
+                </div>
+              );
+            }}
+          />
+        </Panel>
+
+        <Panel title={`Notes (${data.notes.length})`}>
+          <MiniList
+            items={data.notes}
+            empty="No notes"
+            render={(item) => {
+              const n = item as UserDetail["notes"][number];
+              return (
+                <div>
+                  <p className="truncate text-xs font-semibold text-ink">{n.title}</p>
+                  {n.content && <p className="td-sub mt-1 line-clamp-2">{n.content}</p>}
+                  {n.createdAt && <p className="td-mono td-sub mt-1">{formatDate(n.createdAt)}</p>}
+                </div>
+              );
+            }}
+          />
+        </Panel>
+
+        <Panel title={`Certificates (${data.certificates.length})`}>
+          <MiniList
+            items={data.certificates}
+            empty="No certificates"
+            render={(item) => {
+              const c = item as UserDetail["certificates"][number];
+              return (
+                <div className="flex flex-wrap items-center justify-between gap-2">
+                  <p className="truncate text-xs font-semibold text-ink">{c.title}</p>
+                  {c.createdAt && <span className="td-mono td-sub">{formatDate(c.createdAt)}</span>}
+                </div>
+              );
+            }}
+          />
+        </Panel>
+
+        <Panel title={`Chats (${data.chatCount})`} subtitle={`Showing ${data.chats.length} most recent`}>
+          <MiniList
+            items={data.chats}
+            empty="No chats"
+            render={(item) => {
+              const c = item as UserDetail["chats"][number];
+              return (
+                <div>
+                  <p className="truncate text-xs font-semibold text-ink">{c.topic}</p>
+                  {c.lastMessageAt && <p className="td-mono td-sub mt-1">{timeAgo(c.lastMessageAt)}</p>}
+                </div>
+              );
+            }}
+          />
+        </Panel>
       </div>
 
       <ConfirmModal
