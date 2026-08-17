@@ -1,12 +1,22 @@
 export type CollectionMeta = {
   label: string;
   readOnly?: boolean;
+  /**
+   * Restricts write access (create/update/delete) through the generic
+   * collection browser to superadmins — for collections that control
+   * platform-wide behavior or expose sensitive financial/config data,
+   * mirroring the tiering already enforced on users/admins/settings
+   * elsewhere in the app.
+   */
+  superAdminOnly?: boolean;
   defaultFields?: string[];
   fieldTypes?: Record<string, "string" | "number" | "boolean" | "json">;
 };
 
+// Note: admin accounts are managed via the dedicated /admin/admins page and
+// /api/admin/admins routes (backed by users.role === "admin"), not through
+// this generic collection browser — there is no separate "admins" collection.
 export const COLLECTIONS: Record<string, CollectionMeta> = {
-  admins: { label: "Admins", defaultFields: ["email", "role"] },
   ai_conversations: { label: "AI Conversations" },
   api_usage: { label: "API Usage", readOnly: true },
   assignments: { label: "Assignments", defaultFields: ["title", "course"] },
@@ -21,7 +31,7 @@ export const COLLECTIONS: Record<string, CollectionMeta> = {
   course_notes: { label: "Course Notes (API)" },
   discussions: { label: "Discussions", defaultFields: ["title"] },
   discussionposts: { label: "Discussion Posts" },
-  email_templates: { label: "Email Templates", defaultFields: ["name", "subject", "body"] },
+  email_templates: { label: "Email Templates", defaultFields: ["name", "subject", "body"], superAdminOnly: true },
   enrollments: { label: "Enrollments" },
   explore_category_courses: { label: "Explore Category Courses" },
   explore_trending: { label: "Explore Trending" },
@@ -31,9 +41,9 @@ export const COLLECTIONS: Record<string, CollectionMeta> = {
   personalizeddiscoveries: { label: "Personalized Discoveries" },
   popular_topics: { label: "Popular Topics", defaultFields: ["title"] },
   premium_courses: { label: "Premium Courses" },
-  premium_generation_intents: { label: "Premium Generation Intents" },
+  premium_generation_intents: { label: "Premium Generation Intents", superAdminOnly: true },
   premium_trending_courses: { label: "Premium Trending Courses" },
-  settings: { label: "Settings" },
+  settings: { label: "Settings", superAdminOnly: true },
   shared_plans: { label: "Shared Plans" },
   studentprogresses: { label: "Student Progress" },
   tests: { label: "Tests", defaultFields: ["title"] },

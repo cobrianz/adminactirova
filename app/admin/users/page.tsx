@@ -1,12 +1,13 @@
 ﻿"use client";
 
-import React, { useMemo, useState } from "react";
+import React, { useMemo, useState, useTransition } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { toast } from "sonner";
-import { Search, ChevronLeft, ChevronRight, Trash2, Eye, RefreshCw, X } from "lucide-react";
+import { Search, ChevronLeft, ChevronRight, Trash2, Eye, RefreshCw, X, Ban, CheckCircle2, Loader2 } from "lucide-react";
 import { useApi, apiCall } from "@/components/useApi";
 import { PageHeader, Badge, EmptyState, Spinner, ConfirmModal } from "@/components/ui";
+import { useAuth } from "@/components/AuthContext";
 import { formatDate, timeAgo } from "@/lib/utils";
 
 type UserRow = {
@@ -41,6 +42,10 @@ const displayName = (u: UserRow | null | undefined) => (u?.name || u?.email) || 
 
 export default function UsersPage() {
   const router = useRouter();
+  const { admin: me } = useAuth();
+  const isSuperAdmin = me?.adminLevel === "superadmin";
+  const [isViewPending, startViewTransition] = useTransition();
+  const [pendingViewId, setPendingViewId] = useState<string | null>(null);
   const [search, setSearch] = useState("");
   const [role, setRole] = useState("");
   const [status, setStatus] = useState("");
@@ -111,6 +116,21 @@ export default function UsersPage() {
       toast.error((e as Error).message);
     } finally {
       setBulkBusy(false);
+    }
+  };
+
+  const handleRowStatusToggle = async (u: UserRow) => {
+    const nextStatus = u.status === "suspended" ? "active" : "suspended";
+    try {
+      await apiCall(`/api/admin/users/${u.id}`, {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ status: nextStatus }),
+      });
+      toast.success(nextStatus === "suspended" ? "User suspended" : "User reactivated");
+      refetch();
+    } catch (e) {
+      toast.error((e as Error).message);
     }
   };
 
@@ -198,19 +218,21 @@ export default function UsersPage() {
                 style={{ background: "var(--acid-dim)", border: "1px solid var(--acid-dim2)" }}
               >
                 <p className="text-sm font-medium text-ink">{selected.size} selected</p>
-                <select
-                  value=""
-                  onChange={(e) => {
-                    if (e.target.value) handleBulkUpdate({ role: e.target.value }, "Role updated");
-                  }}
-                  className="form-select w-auto py-1 text-xs"
-                  disabled={bulkBusy}
-                >
-                  <option value="">Set role…</option>
-                  <option value="student">Student</option>
-                  <option value="instructor">Instructor</option>
-                  <option value="admin">Admin</option>
-                </select>
+                {isSuperAdmin && (
+                  <select
+                    value=""
+                    onChange={(e) => {
+                      if (e.target.value) handleBulkUpdate({ role: e.target.value }, "Role updated");
+                    }}
+                    className="form-select w-auto py-1 text-xs"
+                    disabled={bulkBusy}
+                  >
+                    <option value="">Set role…</option>
+                    <option value="student">Student</option>
+                    <option value="instructor">Instructor</option>
+                    <option value="admin">Admin</option>
+                  </select>
+                )}
                 <select
                   value=""
                   onChange={(e) => {
@@ -225,14 +247,16 @@ export default function UsersPage() {
                   <option value="inactive">Inactive</option>
                   <option value="suspended">Suspended</option>
                 </select>
-                <button
-                  onClick={() => setBulkDelete(true)}
-                  className="pa-btn"
-                  style={{ color: "#ef4444" }}
-                  disabled={bulkBusy}
-                >
-                  Delete selected
-                </button>
+                {isSuperAdmin && (
+                  <button
+                    onClick={() => setBulkDelete(true)}
+                    className="pa-btn"
+                    style={{ color: "#ef4444" }}
+                    disabled={bulkBusy}
+                  >
+                    Delete selected
+                  </button>
+                )}
                 <button onClick={() => setSelected(new Set())} className="pa-btn ml-auto">
                   <X className="h-3 w-3" /> Clear
                 </button>
@@ -301,12 +325,37 @@ export default function UsersPage() {
                         <td className="td-mono">{u.lastLogin ? timeAgo(u.lastLogin) : "—"}</td>
                         <td>
                           <div className="flex justify-end gap-1">
-                            <button onClick={() => router.push(`/admin/users/${u.id}`)} className="tb-btn" style={{ width: 30, height: 30, borderRadius: 8 }} aria-label="View">
-                              <Eye className="h-3.5 w-3.5" />
+                            <button
+                              onClick={() => {
+                                setPendingViewId(u.id);
+                                startViewTransition(() => router.push(`/admin/users/${u.id}`));
+                              }}
+                              disabled={isViewPending}
+                              className="tb-btn"
+                              style={{ width: 30, height: 30, borderRadius: 8 }}
+                              aria-label="View"
+                              title="View"
+                            >
+                              {isViewPending && pendingViewId === u.id ? (
+                                <Loader2 className="h-3.5 w-3.5 animate-spin" />
+                              ) : (
+                                <Eye className="h-3.5 w-3.5" />
+                              )}
                             </button>
-                            <button onClick={() => setDeleteTarget(u)} className="tb-btn" style={{ width: 30, height: 30, borderRadius: 8 }} aria-label="Delete">
-                              <Trash2 className="h-3.5 w-3.5" />
+                            <button
+                              onClick={() => handleRowStatusToggle(u)}
+                              className="tb-btn"
+                              style={{ width: 30, height: 30, borderRadius: 8 }}
+                              aria-label={u.status === "suspended" ? "Reactivate" : "Suspend"}
+                              title={u.status === "suspended" ? "Reactivate" : "Suspend"}
+                            >
+                              {u.status === "suspended" ? <CheckCircle2 className="h-3.5 w-3.5" /> : <Ban className="h-3.5 w-3.5" />}
                             </button>
+                            {isSuperAdmin && (
+                              <button onClick={() => setDeleteTarget(u)} className="tb-btn" style={{ width: 30, height: 30, borderRadius: 8 }} aria-label="Delete" title="Delete">
+                                <Trash2 className="h-3.5 w-3.5" />
+                              </button>
+                            )}
                           </div>
                         </td>
                       </tr>

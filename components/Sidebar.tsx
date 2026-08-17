@@ -32,6 +32,7 @@ import {
   Activity,
   LayoutTemplate,
   CreditCard,
+  History,
 } from "lucide-react";
 import { useAuth } from "@/components/AuthContext";
 
@@ -79,6 +80,7 @@ const NAV_GROUPS = [
       { href: "/admin/chats", label: "AI Chats", icon: Bot },
       { href: "/admin/settings", label: "Settings", icon: Settings },
       { href: "/admin/admins", label: "Admins", icon: ShieldCheck },
+      { href: "/admin/activity", label: "Activity Log", icon: History },
       { href: "/admin/billing", label: "Billing", icon: CreditCard },
       { href: "/admin/api-usage", label: "API Usage", icon: Activity },
     ],

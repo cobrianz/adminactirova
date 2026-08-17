@@ -1,12 +1,16 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import { useParams } from "next/navigation";
 import { ArrowLeft, Users, MessageSquare, ClipboardCheck, MessagesSquare, FolderOpen, StickyNote, ListChecks } from "lucide-react";
 import { useApi } from "@/components/useApi";
 import { Badge, EmptyState, Spinner } from "@/components/ui";
 import CollectionTabs from "@/components/CollectionTabs";
+import EnrollmentsTable from "@/components/classroom/EnrollmentsTable";
+import AssignmentsTable from "@/components/classroom/AssignmentsTable";
+import DiscussionsTable from "@/components/classroom/DiscussionsTable";
+import MaterialsTable from "@/components/classroom/MaterialsTable";
 import { formatDate } from "@/lib/utils";
 
 type ClassroomDetail = {
@@ -115,58 +119,68 @@ export default function ClassroomDetailPage() {
         ))}
       </div>
 
-      <CollectionTabs
-        tabs={[
-          {
-            key: "enrollments",
-            label: "Enrollments",
-            filter: { field: "classroomId", value: c.id },
-            defaultFields: ["studentName", "status"],
-          },
-          {
-            key: "assignments",
-            label: "Assignments",
-            filter: { field: "classroomId", value: c.id },
-            defaultFields: ["title", "type", "status", "dueDate"],
-          },
-          {
-            key: "discussions",
-            label: "Discussions",
-            filter: { field: "classroomId", value: c.id },
-            defaultFields: ["title", "isPinned"],
-          },
-          {
-            key: "discussionposts",
-            label: "Discussion Posts",
-            filter: { field: "classroomId", value: c.id },
-            defaultFields: ["content"],
-          },
-          {
-            key: "coursematerials",
-            label: "Course Materials",
-            filter: { field: "classroomId", value: c.id },
-            defaultFields: ["title", "weekNumber", "category"],
-          },
-          {
-            key: "coursenotes",
-            label: "Course Notes",
-            filter: { field: "classroomId", value: c.id },
-            defaultFields: ["title", "weekNumber", "isPinned"],
-          },
-          {
-            key: "studentprogresses",
-            label: "Student Progress",
-            filter: { field: "classroomId", value: c.id },
-            defaultFields: ["status", "progress", "score"],
-          },
-          {
-            key: "classroommessages",
-            label: "Messages",
-            filter: { field: "classroomId", value: c.id },
-            defaultFields: ["senderName", "senderRole", "content"],
-          },
-        ]}
-      />
+      <ClassroomContentTabs classroomId={c.id} />
+    </div>
+  );
+}
+
+const CONTENT_TABS = [
+  { key: "enrollments", label: "Enrollments" },
+  { key: "assignments", label: "Assignments" },
+  { key: "discussions", label: "Discussions" },
+  { key: "coursematerials", label: "Course Materials" },
+  { key: "discussionposts", label: "Discussion Posts" },
+  { key: "coursenotes", label: "Course Notes" },
+  { key: "studentprogresses", label: "Student Progress" },
+  { key: "classroommessages", label: "Messages" },
+] as const;
+
+// The first four tabs use the same curated tables as their standalone
+// /admin/* pages (proper labels, joins, actions), scoped to this classroom
+// via classroomId. The rest fall back to the generic collection browser —
+// no dedicated curated page exists for them yet.
+function ClassroomContentTabs({ classroomId }: { classroomId: string }) {
+  const [tab, setTab] = useState<(typeof CONTENT_TABS)[number]["key"]>("enrollments");
+
+  return (
+    <div className="space-y-4">
+      <div className="flex w-fit flex-wrap gap-1 rounded-xl p-1" style={{ background: "var(--bg2)", border: "1px solid var(--border)" }}>
+        {CONTENT_TABS.map((t) => (
+          <button
+            key={t.key}
+            onClick={() => setTab(t.key)}
+            className="rounded-lg px-3.5 py-1.5 text-xs font-semibold transition-colors"
+            style={tab === t.key ? { background: "var(--acid)", color: "var(--bg)" } : { color: "var(--ink2)" }}
+          >
+            {t.label}
+          </button>
+        ))}
+      </div>
+
+      {tab === "enrollments" && <EnrollmentsTable classroomId={classroomId} />}
+      {tab === "assignments" && <AssignmentsTable classroomId={classroomId} />}
+      {tab === "discussions" && <DiscussionsTable classroomId={classroomId} />}
+      {tab === "coursematerials" && <MaterialsTable classroomId={classroomId} />}
+      {tab === "discussionposts" && (
+        <CollectionTabs
+          tabs={[{ key: "discussionposts", label: "Discussion Posts", filter: { field: "classroomId", value: classroomId }, defaultFields: ["content"] }]}
+        />
+      )}
+      {tab === "coursenotes" && (
+        <CollectionTabs
+          tabs={[{ key: "coursenotes", label: "Course Notes", filter: { field: "classroomId", value: classroomId }, defaultFields: ["title", "weekNumber", "isPinned"] }]}
+        />
+      )}
+      {tab === "studentprogresses" && (
+        <CollectionTabs
+          tabs={[{ key: "studentprogresses", label: "Student Progress", filter: { field: "classroomId", value: classroomId }, defaultFields: ["status", "progress", "score"] }]}
+        />
+      )}
+      {tab === "classroommessages" && (
+        <CollectionTabs
+          tabs={[{ key: "classroommessages", label: "Messages", filter: { field: "classroomId", value: classroomId }, defaultFields: ["senderName", "senderRole", "content"] }]}
+        />
+      )}
     </div>
   );
 }

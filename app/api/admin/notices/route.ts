@@ -1,5 +1,6 @@
 import { connectToDatabase } from "@/lib/db";
 import { getAdminSession, unauthorized, ok, badRequest } from "@/lib/admin";
+import { logAdminActivity } from "@/lib/auditLog";
 
 export const dynamic = "force-dynamic";
 
@@ -60,6 +61,15 @@ export async function POST(req: Request) {
     };
 
     const result = await db.collection("site_notices").insertOne(notice);
+
+    await logAdminActivity({
+      admin,
+      action: "create",
+      resource: "site_notices",
+      resourceId: String(result.insertedId),
+      summary: `Created site notice "${notice.title}"`,
+    });
+
     return ok({ success: true, id: String(result.insertedId) }, 201);
   } catch (error) {
     console.error("Admin notice create error:", error);

@@ -3,8 +3,10 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
-  --font-sans: var(--font-urban), "Urbanist", ui-sans-serif, system-ui, sans-serif;
+  /* Body copy: Garamond. Headers keep Bebas Neue via --font-display, untouched. */
+  --font-sans: var(--font-garamond), "EB Garamond", Garamond, ui-serif, Georgia, serif;
   --font-display: var(--font-bebas), "Bebas Neue", ui-sans-serif, sans-serif;
+  --font-fraunces: var(--font-fraunces), "Fraunces", ui-serif, Georgia, serif;
   --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
   --color-background: var(--bg);
@@ -49,34 +51,36 @@
 }
 
 :root {
-  /* Light */
+  /* Light — warmer and deeper than the old near-white/pure-white pairing,
+     with richer, more saturated accent colors so the UI reads as colorful
+     rather than a monochrome-plus-one-accent palette. */
   color-scheme: light;
-  --bg: #f6f6f2;
-  --bg2: #fbfbf8;
-  --bg3: #f0f0eb;
-  --bg4: #e8e8e2;
-  --panel: #ffffff;
-  --panel2: #f1f1ed;
-  --border: rgba(10, 10, 8, 0.08);
-  --border2: rgba(10, 10, 8, 0.16);
-  --ink: #16160f;
-  --ink2: rgba(20, 20, 14, 0.62);
-  --ink3: rgba(20, 20, 14, 0.42);
-  --ink4: rgba(20, 20, 14, 0.12);
-  --acid: #166534;
-  --acid2: #0f4a26;
-  --acid-dim: rgba(22, 101, 52, 0.08);
-  --acid-dim2: rgba(22, 101, 52, 0.16);
-  --red: #e5484d;
-  --red-dim: rgba(229, 72, 77, 0.1);
-  --green: #16a34a;
-  --green-dim: rgba(22, 163, 74, 0.1);
-  --blue: #2563eb;
-  --blue-dim: rgba(37, 99, 235, 0.1);
-  --orange: #d97706;
-  --orange-dim: rgba(217, 119, 6, 0.1);
-  --purple: #9333ea;
-  --purple-dim: rgba(147, 51, 234, 0.1);
+  --bg: #ece7d8;
+  --bg2: #f3efe2;
+  --bg3: #e2ddc9;
+  --bg4: #d6cfb5;
+  --panel: #fbf8ee;
+  --panel2: #ede7d4;
+  --border: rgba(50, 40, 15, 0.14);
+  --border2: rgba(50, 40, 15, 0.24);
+  --ink: #241f0f;
+  --ink2: rgba(36, 31, 15, 0.66);
+  --ink3: rgba(36, 31, 15, 0.46);
+  --ink4: rgba(36, 31, 15, 0.14);
+  --acid: #0f7a3d;
+  --acid2: #0a5c2d;
+  --acid-dim: rgba(15, 122, 61, 0.1);
+  --acid-dim2: rgba(15, 122, 61, 0.2);
+  --red: #d9273f;
+  --red-dim: rgba(217, 39, 63, 0.12);
+  --green: #1a9350;
+  --green-dim: rgba(26, 147, 80, 0.12);
+  --blue: #1d5fd6;
+  --blue-dim: rgba(29, 95, 214, 0.12);
+  --orange: #d9720f;
+  --orange-dim: rgba(217, 114, 15, 0.12);
+  --purple: #8b2fd6;
+  --purple-dim: rgba(139, 47, 214, 0.12);
 }
 
 .dark {
@@ -484,9 +488,9 @@
     border-bottom: 1px solid var(--border);
   }
   .panel-title {
-    font-family: var(--font-sans);
-    font-size: 13px;
-    font-weight: 700;
+    font-family: var(--font-fraunces);
+    font-size: 15px;
+    font-weight: 600;
     color: var(--ink);
   }
   .panel-sub {

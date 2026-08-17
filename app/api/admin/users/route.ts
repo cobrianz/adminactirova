@@ -1,7 +1,8 @@
 import { ObjectId } from "mongodb";
 import { connectToDatabase } from "@/lib/db";
-import { getAdminSession, unauthorized, ok, badRequest } from "@/lib/admin";
+import { getAdminSession, unauthorized, ok, badRequest, forbidden, isSuperAdmin } from "@/lib/admin";
 import { deleteUserData } from "@/lib/userCascade";
+import { logAdminActivity } from "@/lib/auditLog";
 
 export const dynamic = "force-dynamic";
 
@@ -125,6 +126,7 @@ export async function PATCH(req: Request) {
       if (!["student", "instructor", "admin"].includes(body.role)) {
         return badRequest("Invalid role");
       }
+      if (!isSuperAdmin(admin)) return forbidden("Only super admins can change a user's role");
       updates.role = body.role;
     }
     if (body.isPremium !== undefined) {
@@ -141,6 +143,14 @@ export async function PATCH(req: Request) {
       .collection("users")
       .updateMany({ _id: { $in: ids } }, { $set: { ...updates, updatedAt: new Date() } });
 
+    await logAdminActivity({
+      admin,
+      action: body.role !== undefined ? "role_change" : "bulk_update",
+      resource: "users",
+      summary: `Bulk-updated ${result.modifiedCount} user(s)`,
+      meta: { ids: ids.map(String), ...updates },
+    });
+
     return ok({ success: true, modifiedCount: result.modifiedCount });
   } catch (error) {
     console.error("Admin users bulk update error:", error);
@@ -151,6 +161,7 @@ export async function PATCH(req: Request) {
 export async function DELETE(req: Request) {
   const admin = await getAdminSession(req);
   if (!admin) return unauthorized();
+  if (!isSuperAdmin(admin)) return forbidden("Only super admins can delete users");
 
   try {
     const url = new URL(req.url);
@@ -164,6 +175,13 @@ export async function DELETE(req: Request) {
     const result = await db.collection("users").deleteMany({ _id: { $in: ids } });
 
     await Promise.allSettled(ids.map((oid) => deleteUserData(db, oid)));
+    await logAdminActivity({
+      admin,
+      action: "bulk_delete",
+      resource: "users",
+      summary: `Bulk-deleted ${result.deletedCount} user(s)`,
+      meta: { ids: ids.map(String) },
+    });
 
     return ok({ success: true, deletedCount: result.deletedCount });
   } catch (error) {

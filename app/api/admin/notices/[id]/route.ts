@@ -1,6 +1,7 @@
 import { ObjectId } from "mongodb";
 import { connectToDatabase } from "@/lib/db";
 import { getAdminSession, unauthorized, ok, badRequest, notFound } from "@/lib/admin";
+import { logAdminActivity } from "@/lib/auditLog";
 
 export const dynamic = "force-dynamic";
 
@@ -34,6 +35,16 @@ export async function PATCH(req: Request, { params }: Params) {
     );
 
     if (!result) return notFound("Notice not found");
+
+    await logAdminActivity({
+      admin,
+      action: "update",
+      resource: "site_notices",
+      resourceId: id,
+      summary: `Updated site notice "${result.title || id}"`,
+      meta: { fields: Object.keys(updates) },
+    });
+
     return ok({ success: true });
   } catch (error) {
     console.error("Admin notice update error:", error);
@@ -50,8 +61,18 @@ export async function DELETE(req: Request, { params }: Params) {
 
   try {
     const { db } = await connectToDatabase();
+    const notice = await db.collection("site_notices").findOne({ _id: new ObjectId(id) }, { projection: { title: 1 } });
     const result = await db.collection("site_notices").deleteOne({ _id: new ObjectId(id) });
     if (result.deletedCount === 0) return notFound("Notice not found");
+
+    await logAdminActivity({
+      admin,
+      action: "delete",
+      resource: "site_notices",
+      resourceId: id,
+      summary: `Deleted site notice "${notice?.title || id}"`,
+    });
+
     return ok({ success: true });
   } catch (error) {
     console.error("Admin notice delete error:", error);

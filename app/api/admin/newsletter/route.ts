@@ -1,5 +1,6 @@
 import { connectToDatabase } from "@/lib/db";
 import { getAdminSession, unauthorized, ok } from "@/lib/admin";
+import { logAdminActivity } from "@/lib/auditLog";
 
 export const dynamic = "force-dynamic";
 
@@ -56,6 +57,14 @@ export async function DELETE(req: Request) {
     const { db } = await connectToDatabase();
     const result = await db.collection("newsletters").deleteOne({ email: String(email).toLowerCase() });
     if (result.deletedCount === 0) return ok({ error: "Subscriber not found" }, 404);
+
+    await logAdminActivity({
+      admin,
+      action: "delete",
+      resource: "newsletters",
+      summary: `Removed newsletter subscriber "${email}"`,
+    });
+
     return ok({ success: true });
   } catch (error) {
     console.error("Admin newsletter delete error:", error);

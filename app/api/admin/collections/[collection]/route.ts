@@ -1,7 +1,8 @@
 import { ObjectId } from "mongodb";
 import { connectToDatabase } from "@/lib/db";
-import { getAdminSession, unauthorized, ok, badRequest, notFound } from "@/lib/admin";
+import { getAdminSession, unauthorized, forbidden, isSuperAdmin, ok, badRequest, notFound } from "@/lib/admin";
 import { COLLECTIONS } from "@/lib/collections";
+import { logAdminActivity } from "@/lib/auditLog";
 
 export const dynamic = "force-dynamic";
 
@@ -79,6 +80,7 @@ export async function POST(req: Request, { params }: Params) {
   const meta = COLLECTIONS[collection];
   if (!meta) return notFound("Unknown collection");
   if (meta.readOnly) return badRequest("This collection is read-only");
+  if (meta.superAdminOnly && !isSuperAdmin(admin)) return forbidden();
 
   try {
     const body = await req.json();
@@ -90,6 +92,13 @@ export async function POST(req: Request, { params }: Params) {
 
     const { db } = await connectToDatabase();
     const res = await db.collection(collection).insertOne(doc as Record<string, unknown>);
+    await logAdminActivity({
+      admin,
+      action: "create",
+      resource: collection,
+      resourceId: String(res.insertedId),
+      summary: `Created a ${meta.label} record`,
+    });
     return ok({ success: true, id: String(res.insertedId) }, 201);
   } catch (error) {
     console.error("Admin collection create error:", error);
@@ -105,6 +114,7 @@ export async function PATCH(req: Request, { params }: Params) {
   const meta = COLLECTIONS[collection];
   if (!meta) return notFound("Unknown collection");
   if (meta.readOnly) return badRequest("This collection is read-only");
+  if (meta.superAdminOnly && !isSuperAdmin(admin)) return forbidden();
 
   const url = new URL(req.url);
   const ids = (url.searchParams.get("ids") || "")
@@ -129,6 +139,13 @@ export async function PATCH(req: Request, { params }: Params) {
         { _id: { $in: idsOid } },
         { $set: { ...clean, updatedAt: new Date() } }
       );
+      await logAdminActivity({
+        admin,
+        action: "bulk_update",
+        resource: collection,
+        summary: `Bulk-updated ${result.modifiedCount} ${meta.label} record(s)`,
+        meta: { ids, fields: Object.keys(clean) },
+      });
       return ok({ success: true, modifiedCount: result.modifiedCount });
     }
 
@@ -139,6 +156,14 @@ export async function PATCH(req: Request, { params }: Params) {
     );
 
     if (!result) return notFound("Document not found");
+    await logAdminActivity({
+      admin,
+      action: "update",
+      resource: collection,
+      resourceId: id,
+      summary: `Updated a ${meta.label} record`,
+      meta: { fields: Object.keys(clean) },
+    });
     return ok({ success: true, item: result });
   } catch (error) {
     console.error("Admin collection update error:", error);
@@ -154,6 +179,7 @@ export async function DELETE(req: Request, { params }: Params) {
   const meta = COLLECTIONS[collection];
   if (!meta) return notFound("Unknown collection");
   if (meta.readOnly) return badRequest("This collection is read-only");
+  if (meta.superAdminOnly && !isSuperAdmin(admin)) return forbidden();
 
   const url = new URL(req.url);
   const ids = (url.searchParams.get("ids") || "")
@@ -171,10 +197,24 @@ export async function DELETE(req: Request, { params }: Params) {
         return new ObjectId(s);
       });
       const result = await db.collection(collection).deleteMany({ _id: { $in: idsOid } });
+      await logAdminActivity({
+        admin,
+        action: "bulk_delete",
+        resource: collection,
+        summary: `Bulk-deleted ${result.deletedCount} ${meta.label} record(s)`,
+        meta: { ids },
+      });
       return ok({ success: true, deletedCount: result.deletedCount });
     }
     const result = await db.collection(collection).deleteOne({ _id: new ObjectId(id) });
     if (result.deletedCount === 0) return notFound("Document not found");
+    await logAdminActivity({
+      admin,
+      action: "delete",
+      resource: collection,
+      resourceId: id,
+      summary: `Deleted a ${meta.label} record`,
+    });
     return ok({ success: true });
   } catch (error) {
     console.error("Admin collection delete error:", error);

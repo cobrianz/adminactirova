@@ -1,6 +1,7 @@
 import { ObjectId } from "mongodb";
 import { connectToDatabase } from "@/lib/db";
 import { getAdminSession, unauthorized, ok, notFound } from "@/lib/admin";
+import { logAdminActivity } from "@/lib/auditLog";
 
 export const dynamic = "force-dynamic";
 
@@ -59,8 +60,18 @@ export async function DELETE(req: Request, { params }: Params) {
 
   try {
     const { db } = await connectToDatabase();
+    const report = await db.collection("reports").findOne({ _id: new ObjectId(id) }, { projection: { title: 1 } });
     const result = await db.collection("reports").deleteOne({ _id: new ObjectId(id) });
     if (result.deletedCount === 0) return notFound("Report not found");
+
+    await logAdminActivity({
+      admin,
+      action: "delete",
+      resource: "reports",
+      resourceId: id,
+      summary: `Deleted report "${report?.title || id}"`,
+    });
+
     return ok({ success: true });
   } catch (error) {
     console.error("Admin report delete error:", error);

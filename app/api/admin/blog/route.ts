@@ -1,5 +1,6 @@
 import { connectToDatabase } from "@/lib/db";
 import { getAdminSession, unauthorized, ok, badRequest } from "@/lib/admin";
+import { logAdminActivity } from "@/lib/auditLog";
 
 export const dynamic = "force-dynamic";
 
@@ -111,6 +112,15 @@ export async function POST(req: Request) {
     };
 
     const result = await db.collection("posts").insertOne(post);
+
+    await logAdminActivity({
+      admin,
+      action: "create",
+      resource: "posts",
+      resourceId: String(result.insertedId),
+      summary: `Created blog post "${post.title}" (${status})`,
+    });
+
     return ok({ success: true, id: String(result.insertedId) }, 201);
   } catch (error) {
     console.error("Admin blog create error:", error);

@@ -7,6 +7,7 @@ import { useApi, apiCall } from "@/components/useApi";
 import { PageHeader, Badge, EmptyState, Spinner, ConfirmModal } from "@/components/ui";
 import Paginate from "@/components/Paginate";
 import { formatDate } from "@/lib/utils";
+import { useAuth } from "@/components/AuthContext";
 
 type LibraryCourse = {
   id: string;
@@ -43,6 +44,8 @@ type CoursesData = {
 };
 
 export default function CoursesPage() {
+  const { admin } = useAuth();
+  const isSuperAdmin = admin?.adminLevel === "superadmin";
   const [kind, setKind] = useState<"all" | "library" | "marketplace">("marketplace");
   const [search, setSearch] = useState("");
   const [page, setPage] = useState(1);
@@ -216,9 +219,11 @@ export default function CoursesPage() {
                             >
                               {c.published ? "Unpublish" : "Publish"}
                             </button>
-                            <button onClick={() => setDeleteTarget({ id: c.id, title: c.title })} className="tb-btn" style={{ width: 30, height: 30, borderRadius: 8 }} aria-label="Delete">
-                              <Trash2 className="h-3.5 w-3.5" />
-                            </button>
+                            {isSuperAdmin && (
+                              <button onClick={() => setDeleteTarget({ id: c.id, title: c.title })} className="tb-btn" style={{ width: 30, height: 30, borderRadius: 8 }} aria-label="Delete">
+                                <Trash2 className="h-3.5 w-3.5" />
+                              </button>
+                            )}
                           </div>
                         </td>
                       </tr>

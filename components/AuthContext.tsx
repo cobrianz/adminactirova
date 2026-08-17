@@ -9,6 +9,7 @@ type AdminUser = {
   firstName: string;
   lastName: string;
   role: string;
+  adminLevel: "admin" | "superadmin";
 };
 
 type AuthContextType = {

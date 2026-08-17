@@ -1,10 +1,10 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useTransition } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { toast } from "sonner";
-import { Search, Eye, Trash2, RefreshCw } from "lucide-react";
+import { Search, Eye, Trash2, RefreshCw, Loader2 } from "lucide-react";
 import { useApi, apiCall } from "@/components/useApi";
 import { PageHeader, Badge, EmptyState, Spinner, ConfirmModal } from "@/components/ui";
 import Paginate from "@/components/Paginate";
@@ -34,6 +34,8 @@ type ClassroomsData = {
 
 export default function ClassroomsPage() {
   const router = useRouter();
+  const [isViewPending, startViewTransition] = useTransition();
+  const [pendingViewId, setPendingViewId] = useState<string | null>(null);
   const [search, setSearch] = useState("");
   const [page, setPage] = useState(1);
   const params = new URLSearchParams();
@@ -128,12 +130,20 @@ export default function ClassroomsPage() {
                       <td>
                         <div className="flex justify-end gap-1">
                           <button
-                            onClick={() => router.push(`/admin/classrooms/${c.id}`)}
+                            onClick={() => {
+                              setPendingViewId(c.id);
+                              startViewTransition(() => router.push(`/admin/classrooms/${c.id}`));
+                            }}
+                            disabled={isViewPending}
                             className="tb-btn"
                             style={{ width: 30, height: 30, borderRadius: 8 }}
                             aria-label="View"
                           >
-                            <Eye className="h-3.5 w-3.5" />
+                            {isViewPending && pendingViewId === c.id ? (
+                              <Loader2 className="h-3.5 w-3.5 animate-spin" />
+                            ) : (
+                              <Eye className="h-3.5 w-3.5" />
+                            )}
                           </button>
                           <button
                             onClick={() => setDeleteTarget(c)}

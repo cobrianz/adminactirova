@@ -1,6 +1,7 @@
 import { ObjectId } from "mongodb";
 import { connectToDatabase } from "@/lib/db";
-import { getAdminSession, unauthorized, ok, badRequest, notFound } from "@/lib/admin";
+import { getAdminSession, unauthorized, forbidden, isSuperAdmin, ok, badRequest, notFound } from "@/lib/admin";
+import { logAdminActivity } from "@/lib/auditLog";
 
 export const dynamic = "force-dynamic";
 
@@ -41,6 +42,16 @@ export async function PATCH(req: Request, { params }: Params) {
     );
 
     if (!result) return notFound("Post not found");
+
+    await logAdminActivity({
+      admin,
+      action: "update",
+      resource: "posts",
+      resourceId: id,
+      summary: `Updated blog post "${result.title || id}"${body.status ? ` (${body.status})` : ""}`,
+      meta: { fields: Object.keys(updates) },
+    });
+
     return ok({ success: true, post: result });
   } catch (error) {
     console.error("Admin blog update error:", error);
@@ -51,14 +62,25 @@ export async function PATCH(req: Request, { params }: Params) {
 export async function DELETE(req: Request, { params }: Params) {
   const admin = await getAdminSession(req);
   if (!admin) return unauthorized();
+  if (!isSuperAdmin(admin)) return forbidden();
 
   const { id } = await params;
   if (!ObjectId.isValid(id)) return notFound("Invalid post id");
 
   try {
     const { db } = await connectToDatabase();
+    const post = await db.collection("posts").findOne({ _id: new ObjectId(id) }, { projection: { title: 1 } });
     const result = await db.collection("posts").deleteOne({ _id: new ObjectId(id) });
     if (result.deletedCount === 0) return notFound("Post not found");
+
+    await logAdminActivity({
+      admin,
+      action: "delete",
+      resource: "posts",
+      resourceId: id,
+      summary: `Deleted blog post "${post?.title || id}"`,
+    });
+
     return ok({ success: true });
   } catch (error) {
     console.error("Admin blog delete error:", error);

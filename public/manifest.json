@@ -4,8 +4,8 @@
   "description": "Actirova AI Tutor admin dashboard",
   "start_url": "/login",
   "display": "standalone",
-  "background_color": "#f6f6f2",
-  "theme_color": "#166534",
+  "background_color": "#ece7d8",
+  "theme_color": "#0f7a3d",
   "icons": [
     {
       "src": "/logo.png",

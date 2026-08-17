@@ -1,7 +1,8 @@
 import { ObjectId } from "mongodb";
 import { connectToDatabase } from "@/lib/db";
-import { getAdminSession, unauthorized, ok, badRequest, notFound } from "@/lib/admin";
+import { getAdminSession, unauthorized, ok, badRequest, notFound, forbidden, isSuperAdmin } from "@/lib/admin";
 import { deleteUserData } from "@/lib/userCascade";
+import { logAdminActivity } from "@/lib/auditLog";
 
 export const dynamic = "force-dynamic";
 
@@ -289,6 +290,9 @@ export async function PATCH(req: Request, { params }: Params) {
       if (!["student", "instructor", "admin"].includes(body.role)) {
         return badRequest("Invalid role");
       }
+      // Granting or revoking admin panel access is sensitive enough to
+      // require a super admin, regardless of who's making the change.
+      if (!isSuperAdmin(admin)) return forbidden("Only super admins can change a user's role");
       updates.role = body.role;
     }
     if (body.credits !== undefined) {
@@ -310,6 +314,14 @@ export async function PATCH(req: Request, { params }: Params) {
     );
 
     if (!result) return notFound("User not found");
+    await logAdminActivity({
+      admin,
+      action: body.role !== undefined ? "role_change" : body.status !== undefined ? "status_change" : "update",
+      resource: "users",
+      resourceId: id,
+      summary: `Updated user ${result.email}`,
+      meta: updates,
+    });
     return ok({ success: true, user: result });
   } catch (error) {
     console.error("Admin user update error:", error);
@@ -320,6 +332,7 @@ export async function PATCH(req: Request, { params }: Params) {
 export async function DELETE(req: Request, { params }: Params) {
   const admin = await getAdminSession(req);
   if (!admin) return unauthorized();
+  if (!isSuperAdmin(admin)) return forbidden("Only super admins can delete users");
 
   const { id } = await params;
   if (!ObjectId.isValid(id)) return notFound("Invalid user id");
@@ -329,10 +342,18 @@ export async function DELETE(req: Request, { params }: Params) {
     const { db } = await connectToDatabase();
     const oid = new ObjectId(id);
 
+    const target = await db.collection("users").findOne({ _id: oid }, { projection: { email: 1 } });
     const result = await db.collection("users").deleteOne({ _id: oid });
     if (result.deletedCount === 0) return notFound("User not found");
 
     await deleteUserData(db, oid);
+    await logAdminActivity({
+      admin,
+      action: "delete",
+      resource: "users",
+      resourceId: id,
+      summary: `Deleted user ${target?.email || id}`,
+    });
 
     return ok({ success: true });
   } catch (error) {

@@ -7,6 +7,7 @@ import { useApi, apiCall } from "@/components/useApi";
 import { PageHeader, Badge, EmptyState, Spinner, ConfirmModal } from "@/components/ui";
 import Paginate from "@/components/Paginate";
 import { formatDate } from "@/lib/utils";
+import { useAuth } from "@/components/AuthContext";
 
 type Post = {
   id: string;
@@ -28,6 +29,8 @@ type BlogData = { posts: Post[]; total: number; page: number; pages: number };
 const statusColor: Record<string, string> = { published: "green", draft: "amber" };
 
 export default function BlogPage() {
+  const { admin } = useAuth();
+  const isSuperAdmin = admin?.adminLevel === "superadmin";
   const [status, setStatus] = useState("");
   const [search, setSearch] = useState("");
   const [page, setPage] = useState(1);
@@ -188,9 +191,11 @@ export default function BlogPage() {
                           <button onClick={() => window.open(`/blog/${p.slug}`, "_blank")} className="tb-btn" style={{ width: 30, height: 30, borderRadius: 8 }} aria-label="View">
                             <Eye className="h-3.5 w-3.5" />
                           </button>
-                          <button onClick={() => setDeleteTarget(p)} className="tb-btn" style={{ width: 30, height: 30, borderRadius: 8 }} aria-label="Delete">
-                            <Trash2 className="h-3.5 w-3.5" />
-                          </button>
+                          {isSuperAdmin && (
+                            <button onClick={() => setDeleteTarget(p)} className="tb-btn" style={{ width: 30, height: 30, borderRadius: 8 }} aria-label="Delete">
+                              <Trash2 className="h-3.5 w-3.5" />
+                            </button>
+                          )}
                         </div>
                       </td>
                     </tr>
