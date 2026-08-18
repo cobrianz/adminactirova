@@ -29,7 +29,7 @@ export async function GET(req: Request, { params }: Params) {
       db.collection("assignments").countDocuments({ classroomId: oid }),
       db.collection("discussions").countDocuments({ classroomId: oid }),
       db.collection("coursematerials").countDocuments({ classroomId: oid }),
-      db.collection("coursenotes").countDocuments({ classroomId: oid }),
+      db.collection("course_notes").countDocuments({}),
       db.collection("classroommessages").countDocuments({ classroomId: oid }),
       db.collection("enrollments").countDocuments({ classroomId: oid }),
       db.collection("studentprogresses").countDocuments({ classroomId: oid }),

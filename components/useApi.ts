@@ -13,8 +13,15 @@ export function useApi<T>(path: string | null) {
   useEffect(() => {
     if (!path) return;
     let cancelled = false;
-    fetch(path, { cache: "no-store" })
-      .then((res) => res.json())
+    fetch(path, { cache: "no-store", credentials: "include" })
+      .then((res) => {
+        if (!res.ok) {
+          return res.json().catch(() => ({ error: `Request failed (${res.status})` })).then((json) => {
+            throw new Error(json.error || `Request failed (${res.status})`);
+          });
+        }
+        return res.json();
+      })
       .then((json) => {
         if (cancelled) return;
         if (json.error) {
@@ -25,8 +32,8 @@ export function useApi<T>(path: string | null) {
           setData(json as T);
         }
       })
-      .catch(() => {
-        if (!cancelled) setError("Failed to load data");
+      .catch((err) => {
+        if (!cancelled) setError(err.message || "Failed to load data");
       })
       .finally(() => {
         if (!cancelled) setLoading(false);
@@ -40,7 +47,7 @@ export function useApi<T>(path: string | null) {
 }
 
 export async function apiCall<T>(path: string, options?: RequestInit): Promise<T> {
-  const res = await fetch(path, options);
+  const res = await fetch(path, { credentials: "include", ...options });
   const json = await res.json();
   if (!res.ok || json.error) {
     throw new Error(json.error || "Request failed");

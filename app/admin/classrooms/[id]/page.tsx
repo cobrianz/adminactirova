@@ -130,7 +130,7 @@ const CONTENT_TABS = [
   { key: "discussions", label: "Discussions" },
   { key: "coursematerials", label: "Course Materials" },
   { key: "discussionposts", label: "Discussion Posts" },
-  { key: "coursenotes", label: "Course Notes" },
+  { key: "course_notes", label: "Course Notes" },
   { key: "studentprogresses", label: "Student Progress" },
   { key: "classroommessages", label: "Messages" },
 ] as const;
@@ -166,9 +166,9 @@ function ClassroomContentTabs({ classroomId }: { classroomId: string }) {
           tabs={[{ key: "discussionposts", label: "Discussion Posts", filter: { field: "classroomId", value: classroomId }, defaultFields: ["content"] }]}
         />
       )}
-      {tab === "coursenotes" && (
+      {tab === "course_notes" && (
         <CollectionTabs
-          tabs={[{ key: "coursenotes", label: "Course Notes", filter: { field: "classroomId", value: classroomId }, defaultFields: ["title", "weekNumber", "isPinned"] }]}
+          tabs={[{ key: "course_notes", label: "Course Notes", filter: { field: "courseId", value: "" }, defaultFields: ["courseId", "lessonId", "note"] }]}
         />
       )}
       {tab === "studentprogresses" && (
