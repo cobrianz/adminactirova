@@ -14,6 +14,9 @@ type Settings = {
   maintenanceMessage: string;
   allowSignups: boolean;
   featuredAnnouncement: string;
+  aiProvider: string;
+  aiFeatureProviders?: Record<string, string>;
+  aiModels?: Record<string, string>;
 };
 
 export default function SettingsPage() {
@@ -160,8 +163,13 @@ export default function SettingsPage() {
           </Panel>
 
           <p className="text-xs text-ink3">
-            These settings are stored for the platform to read; wiring a given setting into live product behavior (e.g. an
-            actual maintenance-mode gate) requires the corresponding check to be added on the main app side.
+            AI provider, per-feature routing and model selection now live on the{" "}
+            <a href="/admin/api-usage" className="underline">
+              API Usage
+            </a>{" "}
+            page. These settings are stored for the platform to read; wiring a given setting into live
+            product behavior (e.g. an actual maintenance-mode gate) requires the corresponding check
+            to be added on the main app side.
           </p>
         </div>
       )}
