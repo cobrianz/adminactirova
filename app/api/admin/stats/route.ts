@@ -75,7 +75,7 @@ export async function GET(req: Request) {
       db.collection("library").countDocuments(),
       db.collection("courses").countDocuments(),
       db.collection("reports").countDocuments(),
-      db.collection("exams").countDocuments({}),
+      db.collection("tests").countDocuments(),
       db.collection("contacts").countDocuments({ status: "new" }),
       db.collection("newsletters").countDocuments({ status: "subscribed" }),
       db.collection("classrooms").countDocuments(),

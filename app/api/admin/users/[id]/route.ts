@@ -43,7 +43,7 @@ export async function GET(req: Request, { params }: Params) {
         .sort({ createdAt: -1 })
         .limit(20)
         .toArray(),
-      db.collection("exams").countDocuments({ userId: user._id }),
+      db.collection("tests").countDocuments({ userId: user._id }),
       db.collection("chats").countDocuments({ userId: user._id }),
       db
         .collection("tests")

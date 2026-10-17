@@ -3,7 +3,7 @@ import { ObjectId, type Db } from "mongodb";
 const USER_CASCADE: { collection: string; field: string }[] = [
   { collection: "library", field: "userId" },
   { collection: "reports", field: "userId" },
-  { collection: "exams", field: "userId" },
+  { collection: "tests", field: "userId" },
   { collection: "chats", field: "userId" },
   { collection: "ai_conversations", field: "userId" },
   { collection: "sessions", field: "userId" },

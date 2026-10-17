@@ -88,7 +88,6 @@ export async function DELETE(req: Request, { params }: Params) {
 
     await Promise.allSettled([
       db.collection("enrollments").deleteMany({ courseId: oid }),
-      db.collection("premium_course_favorites").deleteMany({ courseId: oid }),
     ]);
 
     await logAdminActivity({
@@ -96,7 +95,7 @@ export async function DELETE(req: Request, { params }: Params) {
       action: "delete",
       resource: "courses",
       resourceId: id,
-      summary: `Deleted course "${course?.title || id}" (cascaded enrollments + favorites)`,
+      summary: `Deleted course "${course?.title || id}" (cascaded enrollments)`,
     });
 
     return ok({ success: true });
