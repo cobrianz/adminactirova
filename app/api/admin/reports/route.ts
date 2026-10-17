@@ -1,6 +1,7 @@
 import { ObjectId } from "mongodb";
 import { connectToDatabase } from "@/lib/db";
 import { getAdminSession, unauthorized, ok } from "@/lib/admin";
+import { reportWordCount } from "@/lib/reportText";
 
 export const dynamic = "force-dynamic";
 
@@ -53,9 +54,9 @@ export async function GET(req: Request) {
         return {
           id: String(r._id),
           title: r.title || "Untitled",
-          course: r.course || "",
+          course: r.courseName || r.course || "",
           status: r.status || "draft",
-          wordCount: r.sections?.reduce?.((sum: number, s: { content?: string }) => sum + (s.content || "").split(/\s+/).length, 0) || 0,
+          wordCount: reportWordCount(r),
           createdAt: r.createdAt,
           updatedAt: r.updatedAt,
           owner,

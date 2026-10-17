@@ -306,8 +306,40 @@ export async function PATCH(req: Request, { params }: Params) {
 
     if (Object.keys(updates).length === 0) return badRequest("No updates provided");
 
+    if (body.status !== undefined && id === admin.id) {
+      return badRequest("You cannot change your own status");
+    }
+
     const { db } = await connectToDatabase();
-    const result = await db.collection("users").findOneAndUpdate(
+    const usersCol = db.collection("users");
+
+    const target = await usersCol.findOne(
+      { _id: new ObjectId(id) },
+      { projection: { role: 1, adminLevel: 1 } }
+    );
+    if (!target) return notFound("User not found");
+
+    if (body.role === "admin" && target.role !== "admin") {
+      // Promotions must never silently inherit super admin — assign the
+      // least-privilege level explicitly.
+      updates.adminLevel = "admin";
+    }
+
+    if (body.role !== undefined && body.role !== "admin" && target.role === "admin") {
+      // Mirror the admins API: refuse to demote the last remaining super
+      // admin, including via self-demotion.
+      if ((target.adminLevel ?? "superadmin") !== "admin") {
+        const superAdminCount = await usersCol.countDocuments({
+          role: "admin",
+          adminLevel: { $ne: "admin" },
+        });
+        if (superAdminCount <= 1) {
+          return badRequest("Cannot demote the last super admin");
+        }
+      }
+    }
+
+    const result = await usersCol.findOneAndUpdate(
       { _id: new ObjectId(id) },
       { $set: { ...updates, updatedAt: new Date() } },
       { returnDocument: "after", projection: PROJECTION }
@@ -342,7 +374,20 @@ export async function DELETE(req: Request, { params }: Params) {
     const { db } = await connectToDatabase();
     const oid = new ObjectId(id);
 
-    const target = await db.collection("users").findOne({ _id: oid }, { projection: { email: 1 } });
+    const target = await db
+      .collection("users")
+      .findOne({ _id: oid }, { projection: { email: 1, role: 1, adminLevel: 1 } });
+
+    if (target?.role === "admin" && (target.adminLevel ?? "superadmin") !== "admin") {
+      const superAdminCount = await db.collection("users").countDocuments({
+        role: "admin",
+        adminLevel: { $ne: "admin" },
+      });
+      if (superAdminCount <= 1) {
+        return badRequest("Cannot delete the last super admin");
+      }
+    }
+
     const result = await db.collection("users").deleteOne({ _id: oid });
     if (result.deletedCount === 0) return notFound("User not found");
 

@@ -2,6 +2,7 @@ import { ObjectId } from "mongodb";
 import { connectToDatabase } from "@/lib/db";
 import { getAdminSession, unauthorized, ok, notFound } from "@/lib/admin";
 import { logAdminActivity } from "@/lib/auditLog";
+import { htmlToText, reportWordCount } from "@/lib/reportText";
 
 export const dynamic = "force-dynamic";
 
@@ -29,20 +30,26 @@ export async function GET(req: Request, { params }: Params) {
       ? `${user.firstName || ""} ${user.lastName || ""}`.trim() || user.email || "—"
       : "—";
 
+    const fullContent = typeof report.fullContent === "string" ? report.fullContent : "";
+
     return ok({
       report: {
         id: String(report._id),
         title: report.title || "Untitled",
-        course: report.course || "",
+        course: report.courseName || report.course || "",
         topic: report.topic || "",
         status: report.status || "draft",
-        wordCount:
-          report.sections?.reduce?.((sum: number, s: { content?: string }) => sum + (s.content || "").split(/\s+/).length, 0) || 0,
+        wordCount: reportWordCount(report),
         owner,
         email: user?.email || "",
         createdAt: report.createdAt,
         updatedAt: report.updatedAt,
-        sections: report.sections || [],
+        abstract: report.abstract || "",
+        content: fullContent ? htmlToText(fullContent) : "",
+        references: Array.isArray(report.references)
+          ? report.references.filter((r: unknown): r is string => typeof r === "string")
+          : [],
+        sections: Array.isArray(report.sections) ? report.sections : [],
       },
     });
   } catch (error) {

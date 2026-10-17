@@ -89,12 +89,14 @@ export function readRefreshToken(req: Request): string | null {
   return match ? decodeURIComponent(match[1]) : null;
 }
 
+const SECURE_FLAG = process.env.NODE_ENV === "production" ? "; Secure" : "";
+
 export function adminTokenCookie(token: string): string {
-  return `${ADMIN_TOKEN_COOKIE}=${encodeURIComponent(token)}; Path=/; HttpOnly; SameSite=Lax; Max-Age=${60 * 60 * 24 * 7}`;
+  return `${ADMIN_TOKEN_COOKIE}=${encodeURIComponent(token)}; Path=/; HttpOnly; SameSite=Lax${SECURE_FLAG}; Max-Age=${60 * 60 * 24 * 7}`;
 }
 
 export function refreshTokenCookie(token: string): string {
-  return `${REFRESH_TOKEN_COOKIE}=${encodeURIComponent(token)}; Path=/; HttpOnly; SameSite=Lax; Max-Age=${60 * 60 * 24 * 30}`;
+  return `${REFRESH_TOKEN_COOKIE}=${encodeURIComponent(token)}; Path=/; HttpOnly; SameSite=Lax${SECURE_FLAG}; Max-Age=${60 * 60 * 24 * 30}`;
 }
 
 export function clearAdminTokenCookie(): string {

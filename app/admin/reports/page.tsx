@@ -20,7 +20,10 @@ type Report = {
   updatedAt: string;
   owner: string;
   email: string;
-  sections: { title?: string; heading?: string; content?: string }[];
+  sections?: { title?: string; heading?: string; content?: string }[];
+  abstract?: string;
+  content?: string;
+  references?: string[];
 };
 
 type ReportsData = {
@@ -43,6 +46,24 @@ export default function ReportsPage() {
   const [deleteTarget, setDeleteTarget] = useState<Report | null>(null);
   const [deleting, setDeleting] = useState(false);
   const [viewTarget, setViewTarget] = useState<Report | null>(null);
+  const [viewDetail, setViewDetail] = useState<Report | null>(null);
+  const [viewLoading, setViewLoading] = useState(false);
+
+  const openView = async (report: Report) => {
+    setViewTarget(report);
+    setViewDetail(null);
+    setViewLoading(true);
+    try {
+      const res = await apiCall<{ report: Report }>(`/api/admin/reports/${report.id}`);
+      setViewDetail(res.report);
+    } catch (e) {
+      toast.error((e as Error).message);
+    } finally {
+      setViewLoading(false);
+    }
+  };
+
+  const shownSections = viewDetail?.sections ?? viewTarget?.sections ?? [];
 
   const handleDelete = async () => {
     if (!deleteTarget) return;
@@ -121,7 +142,7 @@ export default function ReportsPage() {
                       <td>
                         <div className="flex justify-end gap-1">
                           <button
-                            onClick={() => setViewTarget(r)}
+                            onClick={() => openView(r)}
                             className="tb-btn"
                             style={{ width: 30, height: 30, borderRadius: 8 }}
                             aria-label="View"
@@ -175,19 +196,45 @@ export default function ReportsPage() {
                 <span className="chip">by {viewTarget.owner || viewTarget.email}</span>
                 <span className="chip">{formatDate(viewTarget.createdAt)}</span>
               </div>
-              {viewTarget.sections && viewTarget.sections.length > 0 ? (
-                <div className="space-y-4">
-                  {viewTarget.sections.map((s, i) => (
-                    <div key={i}>
-                      {s.title || s.heading ? (
-                        <p className="mb-1 text-sm font-semibold text-ink">{s.title || s.heading}</p>
-                      ) : null}
-                      {s.content ? <MarkdownContent>{s.content}</MarkdownContent> : null}
-                    </div>
-                  ))}
+              {viewLoading ? (
+                <div className="flex h-32 items-center justify-center">
+                  <Spinner />
                 </div>
               ) : (
-                <p className="text-sm text-ink2">No content sections.</p>
+                <>
+                  {viewDetail?.abstract ? (
+                    <div className="mb-5">
+                      <p className="mb-1 text-sm font-semibold text-ink">Abstract</p>
+                      <MarkdownContent>{viewDetail.abstract}</MarkdownContent>
+                    </div>
+                  ) : null}
+                  {shownSections.length > 0 ? (
+                    <div className="space-y-4">
+                      {shownSections.map((s, i) => (
+                        <div key={i}>
+                          {s.title || s.heading ? (
+                            <p className="mb-1 text-sm font-semibold text-ink">{s.title || s.heading}</p>
+                          ) : null}
+                          {s.content ? <MarkdownContent>{s.content}</MarkdownContent> : null}
+                        </div>
+                      ))}
+                    </div>
+                  ) : viewDetail?.content ? (
+                    <MarkdownContent>{viewDetail.content}</MarkdownContent>
+                  ) : (
+                    <p className="text-sm text-ink2">No content sections.</p>
+                  )}
+                  {viewDetail?.references && viewDetail.references.length > 0 ? (
+                    <div className="mt-6">
+                      <p className="mb-1 text-sm font-semibold text-ink">References</p>
+                      <ul className="list-disc space-y-1 pl-5 text-sm text-ink2">
+                        {viewDetail.references.map((ref, i) => (
+                          <li key={i}>{ref}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  ) : null}
+                </>
               )}
             </div>
             <div className="modal-footer">

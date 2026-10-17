@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { connectToDatabase } from "@/lib/db";
 import { verifyPassword, signAdminToken, adminTokenCookie } from "@/lib/auth";
+import { isSameOriginRequest } from "@/lib/admin";
 
 export const dynamic = "force-dynamic";
 
@@ -9,6 +10,10 @@ const LOCK_DURATION_MS = 2 * 60 * 60 * 1000; // 2 hours — mirrors the main app
 
 export async function POST(req: Request) {
   try {
+    if (!isSameOriginRequest(req)) {
+      return NextResponse.json({ error: "Invalid request origin" }, { status: 403 });
+    }
+
     const { email, password } = await req.json();
     if (!email || !password) {
       return NextResponse.json({ error: "Email and password are required" }, { status: 400 });
@@ -66,7 +71,7 @@ export async function POST(req: Request) {
         firstName: user.firstName,
         lastName: user.lastName,
         role: user.role,
-        adminLevel: user.adminLevel === "admin" ? "admin" : "superadmin",
+        adminLevel: user.adminLevel === "superadmin" ? "superadmin" : "admin",
       },
     });
     res.headers.append("Set-Cookie", adminTokenCookie(token));

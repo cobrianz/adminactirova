@@ -74,6 +74,7 @@ try {
         $set: {
           password: hashedPassword,
           role: "admin",
+          adminLevel: "superadmin",
           status: "active",
           emailVerified: true,
           firstName: existing.firstName || FIRST_NAME,
@@ -92,6 +93,7 @@ try {
       email: ADMIN_EMAIL,
       password: hashedPassword,
       role: "admin",
+      adminLevel: "superadmin",
       status: "active",
       emailVerified: true,
       onboardingCompleted: true,

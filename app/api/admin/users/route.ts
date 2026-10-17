@@ -139,9 +139,70 @@ export async function PATCH(req: Request) {
     }
 
     const { db } = await connectToDatabase();
-    const result = await db
-      .collection("users")
-      .updateMany({ _id: { $in: ids } }, { $set: { ...updates, updatedAt: new Date() } });
+    const usersCol = db.collection("users");
+
+    if (body.role !== undefined && body.role !== "admin") {
+      // Mirror the admins API: refuse to remove the last remaining super
+      // admin via a bulk demotion.
+      const superAdminsInSelection = await usersCol.countDocuments({
+        _id: { $in: ids },
+        role: "admin",
+        adminLevel: { $ne: "admin" },
+      });
+      if (superAdminsInSelection > 0) {
+        const superAdminCount = await usersCol.countDocuments({
+          role: "admin",
+          adminLevel: { $ne: "admin" },
+        });
+        if (superAdminsInSelection >= superAdminCount) {
+          return badRequest("Cannot demote the last super admin");
+        }
+      }
+    }
+
+    if (body.role === "admin") {
+      // Promotions must never silently inherit super admin — split the
+      // selection so only non-admins get the role change plus the explicit
+      // least-privilege level, while existing admins keep their level.
+      const alreadyAdmins = await usersCol
+        .find({ _id: { $in: ids }, role: "admin" }, { projection: { _id: 1 } })
+        .toArray();
+      const alreadyAdminIds = new Set(alreadyAdmins.map((u) => String(u._id)));
+      const promotedIds = ids.filter((oid) => !alreadyAdminIds.has(String(oid)));
+      const restUpdates: Record<string, unknown> = { ...updates };
+      delete restUpdates.role;
+
+      let modifiedCount = 0;
+      if (promotedIds.length > 0) {
+        const promoted = await usersCol.updateMany(
+          { _id: { $in: promotedIds } },
+          { $set: { ...updates, adminLevel: "admin", updatedAt: new Date() } }
+        );
+        modifiedCount += promoted.modifiedCount;
+      }
+      if (alreadyAdminIds.size > 0 && Object.keys(restUpdates).length > 0) {
+        const existing = await usersCol.updateMany(
+          { _id: { $in: ids.filter((oid) => alreadyAdminIds.has(String(oid))) } },
+          { $set: { ...restUpdates, updatedAt: new Date() } }
+        );
+        modifiedCount += existing.modifiedCount;
+      }
+
+      await logAdminActivity({
+        admin,
+        action: "role_change",
+        resource: "users",
+        summary: `Bulk-updated ${modifiedCount} user(s)`,
+        meta: { ids: ids.map(String), ...updates },
+      });
+
+      return ok({ success: true, modifiedCount });
+    }
+
+    const result = await usersCol.updateMany(
+      { _id: { $in: ids } },
+      { $set: { ...updates, updatedAt: new Date() } }
+    );
 
     await logAdminActivity({
       admin,
@@ -172,7 +233,24 @@ export async function DELETE(req: Request) {
     }
 
     const { db } = await connectToDatabase();
-    const result = await db.collection("users").deleteMany({ _id: { $in: ids } });
+    const usersCol = db.collection("users");
+
+    const superAdminsInSelection = await usersCol.countDocuments({
+      _id: { $in: ids },
+      role: "admin",
+      adminLevel: { $ne: "admin" },
+    });
+    if (superAdminsInSelection > 0) {
+      const superAdminCount = await usersCol.countDocuments({
+        role: "admin",
+        adminLevel: { $ne: "admin" },
+      });
+      if (superAdminsInSelection >= superAdminCount) {
+        return badRequest("Cannot delete the last super admin");
+      }
+    }
+
+    const result = await usersCol.deleteMany({ _id: { $in: ids } });
 
     await Promise.allSettled(ids.map((oid) => deleteUserData(db, oid)));
     await logAdminActivity({

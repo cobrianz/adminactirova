@@ -14,17 +14,47 @@ export type AdminSession = {
   adminLevel: AdminLevel;
 };
 
+const MUTATING_METHODS = new Set(["POST", "PUT", "PATCH", "DELETE"]);
+
+/**
+ * CSRF defense: for mutating requests, require the Origin (or Referer) to
+ * match the Host serving the request. Browsers always attach Origin to
+ * cross-origin mutations, so a mismatch means the request did not originate
+ * from the admin panel. Requests without either header (non-browser clients)
+ * are allowed through — SameSite=Lax already blocks cross-site cookie sends.
+ */
+export function isSameOriginRequest(req: Request): boolean {
+  if (!MUTATING_METHODS.has((req.method || "GET").toUpperCase())) return true;
+
+  const source = req.headers.get("origin") || req.headers.get("referer");
+  if (!source) return true;
+
+  const host = req.headers.get("host");
+  if (!host) return false;
+
+  try {
+    return new URL(source).host === host;
+  } catch {
+    return false;
+  }
+}
+
 export async function getAdminSession(req: Request): Promise<AdminSession | null> {
+  if (!isSameOriginRequest(req)) return null;
+
   const token = readAdminToken(req);
   if (!token) return null;
 
   const decoded = verifyAdminToken(token);
   if (!decoded) return null;
 
+  if (!ObjectId.isValid(decoded.id)) return null;
+
   const { db } = await connectToDatabase();
   const user = await db.collection("users").findOne({ _id: new ObjectId(decoded.id) });
 
-  if (!user || user.role !== "admin" || user.status === "suspended" || user.status === "inactive") {
+  const blockedStatuses = ["suspended", "inactive", "pending"];
+  if (!user || user.role !== "admin" || blockedStatuses.includes(user.status)) {
     return null;
   }
 
@@ -34,10 +64,10 @@ export async function getAdminSession(req: Request): Promise<AdminSession | null
     firstName: user.firstName || "",
     lastName: user.lastName || "",
     role: user.role,
-    // Accounts created before the permission tier existed default to
-    // superadmin so nobody who already had full access loses it silently.
-    // New admins should be explicitly assigned "admin" by a superadmin.
-    adminLevel: (user.adminLevel === "admin" ? "admin" : "superadmin") as AdminLevel,
+    // Fail closed: only an explicit "superadmin" grants super admin access.
+    // Legacy accounts were migrated to an explicit value, and promotions set
+    // "admin" explicitly, so anything else must be a plain admin.
+    adminLevel: (user.adminLevel === "superadmin" ? "superadmin" : "admin") as AdminLevel,
   };
 }
 
