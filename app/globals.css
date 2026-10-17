@@ -51,22 +51,22 @@
 }
 
 :root {
-  /* Light — warmer and deeper than the old near-white/pure-white pairing,
-     with richer, more saturated accent colors so the UI reads as colorful
-     rather than a monochrome-plus-one-accent palette. */
+  /* Light — bright warm-white surfaces. Keeps the warm cream identity but
+     lifts the whole palette toward white so the UI reads airy and clean
+     instead of muted beige. */
   color-scheme: light;
-  --bg: #ece7d8;
-  --bg2: #f3efe2;
-  --bg3: #e2ddc9;
-  --bg4: #d6cfb5;
-  --panel: #fbf8ee;
-  --panel2: #ede7d4;
-  --border: rgba(50, 40, 15, 0.14);
-  --border2: rgba(50, 40, 15, 0.24);
+  --bg: #f6f4ec;
+  --bg2: #fbf9f1;
+  --bg3: #efebdd;
+  --bg4: #e7e2cf;
+  --panel: #fffdf7;
+  --panel2: #f4f0e2;
+  --border: rgba(50, 40, 15, 0.12);
+  --border2: rgba(50, 40, 15, 0.22);
   --ink: #241f0f;
   --ink2: rgba(36, 31, 15, 0.66);
   --ink3: rgba(36, 31, 15, 0.46);
-  --ink4: rgba(36, 31, 15, 0.14);
+  --ink4: rgba(36, 31, 15, 0.1);
   --acid: #0f7a3d;
   --acid2: #0a5c2d;
   --acid-dim: rgba(15, 122, 61, 0.1);
