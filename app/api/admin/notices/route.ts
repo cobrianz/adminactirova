@@ -42,8 +42,13 @@ export async function POST(req: Request) {
   if (!admin) return unauthorized();
 
   try {
-    const body = await req.json();
-    if (!body.message?.trim()) return badRequest("Message is required");
+    let body;
+    try {
+      body = await req.json();
+    } catch {
+      return badRequest("Invalid JSON body");
+    }
+    if (!body?.message?.trim()) return badRequest("Message is required");
 
     const { db } = await connectToDatabase();
     const now = new Date();
