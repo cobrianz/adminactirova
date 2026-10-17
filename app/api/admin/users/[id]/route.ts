@@ -30,16 +30,16 @@ export async function GET(req: Request, { params }: Params) {
     const user = await db.collection("users").findOne({ _id: new ObjectId(id) }, { projection: PROJECTION });
     if (!user) return notFound("User not found");
 
-    const [library, reports, exams, chatCount, quizzes, flashcards, enrollments, pdfs, certificates, notes, recentChats, studyPlans, studentProgress] = await Promise.all([
+    const [library, reports, exams, chatCount, quizzes, flashcards, enrollments, pdfs, certificates, notes, recentChats, studyPlans, studentProgress, counts] = await Promise.all([
       db
         .collection("library")
-        .find({ userId: user._id }, { projection: { title: 1, topic: 1, difficulty: 1, progress: 1, completed: 1, createdAt: 1 } })
+        .find({ userId: user._id }, { projection: { title: 1, topic: 1, originalTopic: 1, difficulty: 1, format: 1, progress: 1, totalModules: 1, completed: 1, createdAt: 1 } })
         .sort({ createdAt: -1 })
         .limit(20)
         .toArray(),
       db
         .collection("reports")
-        .find({ userId: user._id }, { projection: { title: 1, course: 1, status: 1, createdAt: 1 } })
+        .find({ userId: user._id }, { projection: { title: 1, courseName: 1, topic: 1, type: 1, createdAt: 1 } })
         .sort({ createdAt: -1 })
         .limit(20)
         .toArray(),
@@ -105,6 +105,29 @@ export async function GET(req: Request, { params }: Params) {
         .sort({ updatedAt: -1 })
         .limit(50)
         .toArray(),
+      Promise.all([
+        db.collection("library").countDocuments({ userId: user._id }),
+        db.collection("reports").countDocuments({ userId: user._id }),
+        db.collection("tests").countDocuments({ userId: user._id }),
+        db.collection("cardSets").countDocuments({ userId: user._id }),
+        db.collection("enrollments").countDocuments({ studentId: user._id }),
+        db.collection("pdfdocuments").countDocuments({ userId: user._id }),
+        db.collection("certificates").countDocuments({ userId: user._id }),
+        db.collection("user_notes").countDocuments({ userId: user._id }),
+        db.collection("library").countDocuments({ userId: user._id, format: "study_plan" }),
+        db.collection("studentprogresses").countDocuments({ studentId: user._id }),
+      ]).then(([library, reports, quizzes, flashcards, classes, pdfs, certificates, notes, studyPlans, assignments]) => ({
+        library,
+        reports,
+        quizzes,
+        flashcards,
+        classes,
+        pdfs,
+        certificates,
+        notes,
+        studyPlans,
+        assignments,
+      })),
     ]);
 
     // Join enrollments → classrooms → instructor names
@@ -163,9 +186,19 @@ export async function GET(req: Request, { params }: Params) {
       };
     });
 
+    // Canonical course progress lives on user.courses as a 0-100 percent;
+    // the library doc's own `progress` is a stale module counter.
+    const courseProgressMap = new Map(
+      (Array.isArray(user.courses) ? user.courses : []).map((c: { courseId?: unknown; progress?: number }) => [
+        String(c.courseId),
+        typeof c.progress === "number" ? c.progress : 0,
+      ])
+    );
+
     return ok({
       user: {
         id: String(user._id),
+        name: user.name || `${user.firstName || ""} ${user.lastName || ""}`.trim(),
         firstName: user.firstName || "",
         lastName: user.lastName || "",
         email: user.email,
@@ -198,8 +231,24 @@ export async function GET(req: Request, { params }: Params) {
         usage: user.usage || {},
         achievements: (user.achievements || []).slice(-10).reverse(),
       },
-      library,
-      reports,
+      library: library.map((c) => ({
+        _id: String(c._id),
+        title: c.title || "Untitled",
+        topic: c.originalTopic || c.topic || "",
+        difficulty: c.difficulty || "",
+        format: c.format || "course",
+        totalModules: c.totalModules || 0,
+        progress: c.format === "study_plan" ? c.progress || 0 : courseProgressMap.get(String(c._id)) || 0,
+        completed: !!c.completed,
+        createdAt: c.createdAt || null,
+      })),
+      reports: reports.map((r) => ({
+        _id: String(r._id),
+        title: r.title || "Untitled",
+        course: r.courseName || r.topic || "",
+        type: r.type || "",
+        createdAt: r.createdAt || null,
+      })),
       quizzes: quizzes.map((t) => ({
         _id: String(t._id),
         title: t.title || "Untitled quiz",
@@ -262,6 +311,7 @@ export async function GET(req: Request, { params }: Params) {
       })),
       exams,
       chatCount,
+      counts,
     });
   } catch (error) {
     console.error("Admin user detail error:", error);

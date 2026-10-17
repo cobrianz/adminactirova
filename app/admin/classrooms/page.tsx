@@ -4,7 +4,7 @@ import React, { useState, useTransition } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { toast } from "sonner";
-import { Search, Eye, Trash2, RefreshCw, Loader2 } from "lucide-react";
+import { Search, Eye, Trash2, RefreshCw, Loader2, Pencil, X } from "lucide-react";
 import { useApi, apiCall } from "@/components/useApi";
 import { PageHeader, Badge, EmptyState, Spinner, ConfirmModal } from "@/components/ui";
 import Paginate from "@/components/Paginate";
@@ -32,6 +32,17 @@ type ClassroomsData = {
   pages: number;
 };
 
+type ClassroomForm = {
+  name: string;
+  description: string;
+  subject: string;
+  academicLevel: string;
+  semester: string;
+  durationWeeks: string;
+  maxStudents: string;
+  isActive: boolean;
+};
+
 export default function ClassroomsPage() {
   const router = useRouter();
   const [isViewPending, startViewTransition] = useTransition();
@@ -45,6 +56,59 @@ export default function ClassroomsPage() {
   const { data, loading, refetch } = useApi<ClassroomsData>(`/api/admin/classrooms?${params.toString()}`);
   const [deleteTarget, setDeleteTarget] = useState<Classroom | null>(null);
   const [deleting, setDeleting] = useState(false);
+  const [editor, setEditor] = useState<{ open: boolean; row: Classroom | null }>({ open: false, row: null });
+  const [form, setForm] = useState<ClassroomForm | null>(null);
+  const [saving, setSaving] = useState(false);
+
+  const openEdit = (c: Classroom) => {
+    setForm({
+      name: c.name,
+      description: "",
+      subject: c.subject,
+      academicLevel: c.academicLevel,
+      semester: c.semester,
+      durationWeeks: String(c.durationWeeks || 0),
+      maxStudents: String(c.maxStudents || 0),
+      isActive: c.isActive,
+    });
+    setEditor({ open: true, row: c });
+  };
+
+  const setField = (k: keyof ClassroomForm, v: string | boolean) =>
+    setForm((f) => (f ? { ...f, [k]: v } : f));
+
+  const handleSave = async () => {
+    if (!editor.row || !form) return;
+    if (!form.name.trim()) {
+      toast.error("Name is required");
+      return;
+    }
+    setSaving(true);
+    try {
+      await apiCall(`/api/admin/classrooms/${editor.row.id}`, {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          name: form.name,
+          description: form.description,
+          subject: form.subject,
+          academicLevel: form.academicLevel,
+          semester: form.semester,
+          durationWeeks: Number(form.durationWeeks) || 0,
+          maxStudents: Number(form.maxStudents) || 0,
+          isActive: form.isActive,
+        }),
+      });
+      toast.success("Classroom updated");
+      setEditor({ open: false, row: null });
+      setForm(null);
+      refetch();
+    } catch (e) {
+      toast.error((e as Error).message);
+    } finally {
+      setSaving(false);
+    }
+  };
 
   const handleDelete = async () => {
     if (!deleteTarget) return;
@@ -146,6 +210,14 @@ export default function ClassroomsPage() {
                             )}
                           </button>
                           <button
+                            onClick={() => openEdit(c)}
+                            className="tb-btn"
+                            style={{ width: 30, height: 30, borderRadius: 8 }}
+                            aria-label="Edit"
+                          >
+                            <Pencil className="h-3.5 w-3.5" />
+                          </button>
+                          <button
                             onClick={() => setDeleteTarget(c)}
                             className="tb-btn"
                             style={{ width: 30, height: 30, borderRadius: 8 }}
@@ -165,6 +237,103 @@ export default function ClassroomsPage() {
           </>
         )}
       </div>
+
+      {editor.open && form && (
+        <div className="modal-overlay" onClick={() => { setEditor({ open: false, row: null }); setForm(null); }}>
+          <div className="modal" onClick={(e) => e.stopPropagation()}>
+            <div className="modal-head">
+              <div className="flex min-w-0 items-center gap-3">
+                <span className="view-icon">
+                  <Pencil className="h-4 w-4" />
+                </span>
+                <h3 className="modal-title truncate">Edit classroom</h3>
+              </div>
+              <button
+                onClick={() => { setEditor({ open: false, row: null }); setForm(null); }}
+                className="modal-close"
+                aria-label="Close"
+              >
+                <X className="h-4 w-4 text-ink3" />
+              </button>
+            </div>
+            <div className="modal-body max-h-[60vh] space-y-4 overflow-y-auto">
+              <div>
+                <label className="form-label">Name</label>
+                <input className="form-input w-full" value={form.name} onChange={(e) => setField("name", e.target.value)} />
+              </div>
+              <div>
+                <label className="form-label">Description</label>
+                <textarea
+                  className="form-textarea w-full"
+                  rows={3}
+                  value={form.description}
+                  onChange={(e) => setField("description", e.target.value)}
+                />
+              </div>
+              <div className="grid grid-cols-2 gap-4">
+                <div>
+                  <label className="form-label">Subject</label>
+                  <input className="form-input w-full" value={form.subject} onChange={(e) => setField("subject", e.target.value)} />
+                </div>
+                <div>
+                  <label className="form-label">Academic level</label>
+                  <input
+                    className="form-input w-full"
+                    value={form.academicLevel}
+                    onChange={(e) => setField("academicLevel", e.target.value)}
+                  />
+                </div>
+              </div>
+              <div className="grid grid-cols-3 gap-4">
+                <div>
+                  <label className="form-label">Semester</label>
+                  <input className="form-input w-full" value={form.semester} onChange={(e) => setField("semester", e.target.value)} />
+                </div>
+                <div>
+                  <label className="form-label">Duration (weeks)</label>
+                  <input
+                    type="number"
+                    min="0"
+                    className="form-input w-full"
+                    value={form.durationWeeks}
+                    onChange={(e) => setField("durationWeeks", e.target.value)}
+                  />
+                </div>
+                <div>
+                  <label className="form-label">Max students</label>
+                  <input
+                    type="number"
+                    min="0"
+                    className="form-input w-full"
+                    value={form.maxStudents}
+                    onChange={(e) => setField("maxStudents", e.target.value)}
+                  />
+                </div>
+              </div>
+              <label className="flex cursor-pointer items-center gap-2">
+                <input
+                  type="checkbox"
+                  className="checkbox"
+                  checked={form.isActive}
+                  onChange={(e) => setField("isActive", e.target.checked)}
+                />
+                <span className="text-sm text-ink2">Active</span>
+              </label>
+            </div>
+            <div className="modal-footer">
+              <button
+                onClick={() => { setEditor({ open: false, row: null }); setForm(null); }}
+                className="btn-modal btn-modal-cancel"
+              >
+                Cancel
+              </button>
+              <button onClick={handleSave} disabled={saving} className="btn-modal btn-modal-save">
+                {saving ? <Spinner className="h-3.5 w-3.5" /> : "Save changes"}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
 
       <ConfirmModal
         open={!!deleteTarget}

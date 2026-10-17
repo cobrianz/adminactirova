@@ -14,19 +14,6 @@ export type AuditAction =
   | "unpublish"
   | "moderate";
 
-export type AuditLogEntry = {
-  _id: string;
-  adminId: string;
-  adminEmail: string;
-  adminName: string;
-  action: string;
-  resource: string;
-  resourceId: string | null;
-  summary: string | null;
-  meta: Record<string, unknown> | null;
-  createdAt: string;
-};
-
 /**
  * Records an admin action for the activity log. Every mutation route in the
  * panel should call this after a successful write — it's the only place
@@ -54,7 +41,7 @@ export async function logAdminActivity({
     await db.collection("admin_activity_log").insertOne({
       adminId: admin.id,
       adminEmail: admin.email,
-      adminName: `${admin.firstName} ${admin.lastName}`.trim() || admin.email,
+      adminName: admin.name || admin.email,
       action,
       resource,
       resourceId: resourceId ?? null,

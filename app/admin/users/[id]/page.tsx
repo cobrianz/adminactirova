@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import React, { useState } from "react";
 import { useParams, useRouter } from "next/navigation";
@@ -7,7 +7,7 @@ import { toast } from "sonner";
 import { ArrowLeft, Mail, Calendar, Zap, Star, Flame, BadgeCheck, CreditCard, Award, ShoppingBag, Layers, School, FileText, GraduationCap } from "lucide-react";
 import { useApi, apiCall } from "@/components/useApi";
 import { Panel, Badge, EmptyState, Spinner, ConfirmModal } from "@/components/ui";
-import { formatDate, timeAgo } from "@/lib/utils";
+import { formatDate, timeAgo, formatMoney } from "@/lib/utils";
 
 type UserDetail = {
   user: {
@@ -40,13 +40,13 @@ type UserDetail = {
     dailyXpDate: string;
     settings: Record<string, unknown>;
     subscription: Record<string, unknown> | null;
-    billingHistory: { date: string; amount: number; status: string; description: string }[];
+    billingHistory: { type?: string; date?: string; paidAt?: string; createdAt?: string; amount: number; currency?: string; status?: string; description?: string; itemType?: string }[];
     usage: Record<string, number>;
-    purchasedItems: { itemType: string; purchaseDate: string; reference?: string; courseTitle?: string; accessExpiresAt?: string }[];
+    purchasedItems: { itemType: string; purchaseDate?: string; purchasedAt?: string; reference?: string; courseTitle?: string; accessExpiresAt?: string }[];
     achievements: { badgeId: string; name: string; description?: string; rarity?: string; earnedAt: string }[];
   };
-  library: { _id: string; title: string; topic: string; difficulty: string; progress: number; completed: boolean; createdAt: string }[];
-  reports: { _id: string; title: string; course: string; status: string; createdAt: string }[];
+  library: { _id: string; title: string; topic: string; difficulty: string; format: string; totalModules: number; progress: number; completed: boolean; createdAt: string }[];
+  reports: { _id: string; title: string; course: string; type: string; createdAt: string }[];
   quizzes: { _id: string; title: string; course: string; difficulty: string; createdAt: string | null; attempts: number; bestScore: number }[];
   flashcards: { _id: string; title: string; topic: string; difficulty: string; totalCards: number; progress: number; completed: boolean; createdAt: string | null; lastAccessed: string | null }[];
   classes: { id: string; classroomId: string; name: string; subject: string; instructor: string; status: string; joinedAt: string | null }[];
@@ -58,6 +58,7 @@ type UserDetail = {
   studyPlans: { _id: string; title: string; topic: string; progress: number; createdAt: string | null }[];
   exams: number;
   chatCount: number;
+  counts: { library: number; reports: number; quizzes: number; flashcards: number; classes: number; pdfs: number; certificates: number; notes: number; studyPlans: number; assignments: number };
 };
 
 const roleColor: Record<string, string> = { student: "green", instructor: "amber", admin: "done" };
@@ -71,6 +72,10 @@ const ITEM_LABELS: Record<string, string> = {
   flashcard_generation: "Flashcard generation",
   career_tools: "Career tools",
   marketplace_course: "Marketplace course",
+  credit_purchase: "Credit purchase",
+  premium_generation: "Premium generation",
+  resume_export: "Resume export",
+  classroom_billing: "Classroom billing",
 };
 
 function Chips({ items }: { items: string[] }) {
@@ -360,16 +365,20 @@ export default function UserDetailPage() {
                     </tr>
                   </thead>
                   <tbody>
-                    {u.billingHistory.map((b, i) => (
-                      <tr key={i}>
-                        <td>{b.description || "Payment"}</td>
-                        <td className="td-mono">{formatDate(b.date)}</td>
-                        <td>
-                          <Badge color={b.status === "success" ? "green" : b.status === "failed" ? "red" : "amber"}>{b.status}</Badge>
-                        </td>
-                        <td className="td-mono text-right">${b.amount}</td>
-                      </tr>
-                    ))}
+                    {u.billingHistory.map((b, i) => {
+                      const when = b.paidAt || b.createdAt || b.date;
+                      const entryStatus = b.status || "success";
+                      return (
+                        <tr key={i}>
+                          <td>{b.description || ITEM_LABELS[b.type || ""] || b.type || "Payment"}</td>
+                          <td className="td-mono">{formatDate(when)}</td>
+                          <td>
+                            <Badge color={entryStatus === "success" ? "green" : entryStatus === "failed" ? "red" : "amber"}>{entryStatus}</Badge>
+                          </td>
+                          <td className="td-mono text-right">{formatMoney(b.amount, b.currency)}</td>
+                        </tr>
+                      );
+                    })}
                   </tbody>
                 </table>
               </div>
@@ -393,7 +402,7 @@ export default function UserDetailPage() {
         </div>
 
         <div className="space-y-6">
-          <Panel title={`Courses (${data.library.length})`}>
+          <Panel title={`Courses (${data.counts.library})`}>
             {data.library.length === 0 ? (
               <EmptyState title="No courses" />
             ) : (
@@ -405,7 +414,7 @@ export default function UserDetailPage() {
                       <span className="td-mono td-sub truncate">
                         {c.topic} · {c.difficulty}
                       </span>
-                      <span className="td-mono td-acid">{Math.round((c.progress || 0) * 100)}%</span>
+                      <span className="td-mono td-acid">{Math.round(c.progress || 0)}%</span>
                     </div>
                   </li>
                 ))}
@@ -413,7 +422,7 @@ export default function UserDetailPage() {
             )}
           </Panel>
 
-          <Panel title={`Reports (${data.reports.length})`}>
+          <Panel title={`Reports (${data.counts.reports})`}>
             {data.reports.length === 0 ? (
               <EmptyState title="No reports" />
             ) : (
@@ -423,7 +432,7 @@ export default function UserDetailPage() {
                     <p className="truncate text-xs font-semibold text-ink">{r.title}</p>
                     <div className="mt-2 flex items-center justify-between gap-2">
                       <span className="td-mono td-sub truncate">{r.course || "—"}</span>
-                      <Badge color={r.status === "published" ? "green" : "amber"}>{r.status}</Badge>
+                      <span className="td-mono td-sub">{formatDate(r.createdAt)}</span>
                     </div>
                   </li>
                 ))}
@@ -460,22 +469,22 @@ export default function UserDetailPage() {
               </div>
               <div className="ms-cell">
                 <GraduationCap className="h-3.5 w-3.5 text-ink3" />
-                <p className="ms-n">{data.quizzes.length}</p>
+                <p className="ms-n">{data.counts.quizzes}</p>
                 <p className="ms-l">Quizzes</p>
               </div>
               <div className="ms-cell">
                 <Layers className="h-3.5 w-3.5 text-ink3" />
-                <p className="ms-n">{data.flashcards.length}</p>
+                <p className="ms-n">{data.counts.flashcards}</p>
                 <p className="ms-l">Card sets</p>
               </div>
               <div className="ms-cell">
                 <School className="h-3.5 w-3.5 text-ink3" />
-                <p className="ms-n">{data.classes.length}</p>
+                <p className="ms-n">{data.counts.classes}</p>
                 <p className="ms-l">Classes</p>
               </div>
               <div className="ms-cell">
                 <FileText className="h-3.5 w-3.5 text-ink3" />
-                <p className="ms-n">{data.pdfs.length}</p>
+                <p className="ms-n">{data.counts.pdfs}</p>
                 <p className="ms-l">PDFs</p>
               </div>
             </div>
@@ -519,7 +528,7 @@ export default function UserDetailPage() {
                       </p>
                     </div>
                     <div className="mt-1.5 flex flex-wrap items-center justify-between gap-2">
-                      <span className="td-mono td-sub">{formatDate(p.purchaseDate)}</span>
+                      <span className="td-mono td-sub">{formatDate(p.purchasedAt || p.purchaseDate)}</span>
                       {p.accessExpiresAt && (
                         <span className="td-mono td-sub">Expires {formatDate(p.accessExpiresAt)}</span>
                       )}
@@ -533,7 +542,7 @@ export default function UserDetailPage() {
       </div>
 
       <div className="mt-6 space-y-6">
-        <Panel title={`Classes (${data.classes.length})`} subtitle="Classrooms the user is enrolled in">
+        <Panel title={`Classes (${data.counts.classes})`} subtitle="Classrooms the user is enrolled in">
           <MiniList
             items={data.classes}
             empty="No classes"
@@ -561,7 +570,7 @@ export default function UserDetailPage() {
           />
         </Panel>
 
-        <Panel title={`Assignments (${data.assignments.length})`} subtitle="Assignment progress in classes">
+        <Panel title={`Assignments (${data.counts.assignments})`} subtitle="Assignment progress in classes">
           <MiniList
             items={data.assignments}
             empty="No assignments"
@@ -586,7 +595,7 @@ export default function UserDetailPage() {
           />
         </Panel>
 
-        <Panel title={`Quizzes (${data.quizzes.length})`} subtitle="Generated quizzes and results">
+        <Panel title={`Quizzes (${data.counts.quizzes})`} subtitle="Generated quizzes and results">
           <MiniList
             items={data.quizzes}
             empty="No quizzes"
@@ -609,7 +618,7 @@ export default function UserDetailPage() {
           />
         </Panel>
 
-        <Panel title={`Flashcards (${data.flashcards.length})`} subtitle="Flashcard sets">
+        <Panel title={`Flashcards (${data.counts.flashcards})`} subtitle="Flashcard sets">
           <MiniList
             items={data.flashcards}
             empty="No flashcard sets"
@@ -632,7 +641,7 @@ export default function UserDetailPage() {
           />
         </Panel>
 
-        <Panel title={`Study plans (${data.studyPlans.length})`}>
+        <Panel title={`Study plans (${data.counts.studyPlans})`}>
           <MiniList
             items={data.studyPlans}
             empty="No study plans"
@@ -642,7 +651,7 @@ export default function UserDetailPage() {
                 <div>
                   <div className="flex flex-wrap items-center justify-between gap-2">
                     <p className="truncate text-xs font-semibold text-ink">{s.title}</p>
-                    <span className="td-mono td-acid">{Math.round(s.progress * 100)}%</span>
+                    <span className="td-mono td-acid">{Math.round(s.progress || 0)}%</span>
                   </div>
                   {s.topic && <p className="td-mono td-sub mt-1.5 truncate">{s.topic}</p>}
                 </div>
@@ -651,7 +660,7 @@ export default function UserDetailPage() {
           />
         </Panel>
 
-        <Panel title={`PDF documents (${data.pdfs.length})`}>
+        <Panel title={`PDF documents (${data.counts.pdfs})`}>
           <MiniList
             items={data.pdfs}
             empty="No PDF documents"
@@ -671,7 +680,7 @@ export default function UserDetailPage() {
           />
         </Panel>
 
-        <Panel title={`Notes (${data.notes.length})`}>
+        <Panel title={`Notes (${data.counts.notes})`}>
           <MiniList
             items={data.notes}
             empty="No notes"
@@ -688,7 +697,7 @@ export default function UserDetailPage() {
           />
         </Panel>
 
-        <Panel title={`Certificates (${data.certificates.length})`}>
+        <Panel title={`Certificates (${data.counts.certificates})`}>
           <MiniList
             items={data.certificates}
             empty="No certificates"

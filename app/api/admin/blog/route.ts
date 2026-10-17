@@ -98,7 +98,7 @@ export async function POST(req: Request) {
       category: body.category || "General",
       tags: Array.isArray(body.tags) ? body.tags : [],
       thumbnailUrl: body.thumbnailUrl || "",
-      author: { id: admin.id, name: `${admin.firstName} ${admin.lastName}`.trim() || "Admin", role: "admin" },
+      author: { id: admin.id, name: admin.name || "Admin", role: "admin" },
       featured: !!body.featured,
       trending: !!body.trending,
       period: body.period || "weekly",

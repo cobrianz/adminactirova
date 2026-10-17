@@ -11,6 +11,7 @@ import { formatDate, timeAgo, initials } from "@/lib/utils";
 
 type AdminRow = {
   id: string;
+  name: string;
   firstName: string;
   lastName: string;
   email: string;
@@ -140,11 +141,11 @@ export default function AdminsPage() {
                     <td>
                       <div className="flex items-center gap-3">
                         <span className="sb-avatar" style={{ width: 32, height: 32 }}>
-                          {initials(a.firstName, a.lastName)}
+                          {initials(a.name.split(/\s+/)[0] || a.firstName, a.name.split(/\s+/).slice(1).join(" ") || a.lastName)}
                         </span>
                         <div className="min-w-0">
                           <p className="truncate font-medium text-ink">
-                            {`${a.firstName} ${a.lastName}`.trim() || a.email}
+                            {a.name || a.email}
                             {a.isSelf && <span className="ml-1.5 text-xs text-ink3">(you)</span>}
                           </p>
                           <p className="td-sub truncate">{a.email}</p>

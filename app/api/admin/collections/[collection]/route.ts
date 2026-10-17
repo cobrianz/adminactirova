@@ -64,8 +64,11 @@ export async function GET(req: Request, { params }: Params) {
     const sort: Record<string, 1 | -1> =
       sample && "createdAt" in sample ? { createdAt: -1 } : { _id: -1 };
 
-    const items = await coll.find(query).sort(sort).limit(limit).toArray();
-    return ok({ items, total: items.length, limit });
+    const [items, total] = await Promise.all([
+      coll.find(query).sort(sort).limit(limit).toArray(),
+      coll.countDocuments(query),
+    ]);
+    return ok({ items, total, limit });
   } catch (error) {
     console.error("Admin collection list error:", error);
     return ok({ error: "Internal server error" }, 500);

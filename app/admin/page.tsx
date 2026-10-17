@@ -6,17 +6,17 @@ import { Line, Doughnut, Bar } from "react-chartjs-2";
 import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement, BarElement, ArcElement, Tooltip, Legend, Filler } from "chart.js";
 import { useApi } from "@/components/useApi";
 import { StatCard, Panel, EmptyState, Spinner, PageHeader } from "@/components/ui";
-import { formatDate, timeAgo } from "@/lib/utils";
+import { formatDate, timeAgo, formatMoney, formatMoneyList } from "@/lib/utils";
 import { useThemeColors, hexToRgba } from "@/lib/theme-colors";
 
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, BarElement, ArcElement, Tooltip, Legend, Filler);
 
 type Stats = {
   counts: Record<string, number>;
-  revenue: { total: number; thisMonth: number };
+  revenue: { byCurrency: { currency: string; total: number; thisMonth: number }[] };
   signupsLast30Days: { _id: string; count: number }[];
-  revenueByDay: { date: string; total: number }[];
-  revenueBreakdown: { label: string; total: number; count: number }[];
+  revenueByDay: { date: string; currency: string; total: number }[];
+  revenueBreakdown: { label: string; currency: string; total: number; count: number }[];
   usageByFeature: { feature: string; count: number }[];
   recentSignups: { id: string; name: string; email: string; role: string; status: string; isPremium: boolean; createdAt: string }[];
   topTopics: { topic: string; count: number }[];
@@ -73,19 +73,30 @@ export default function OverviewPage() {
     ],
   };
 
+  const revenueDates = [...new Set(data.revenueByDay.map((r) => r.date))].sort();
+  const revenueCurrencies = [...new Set(data.revenueByDay.map((r) => r.currency))];
+  const currencyPalette: Record<string, string> = {
+    USD: colors.green,
+    KES: colors.orange,
+    EUR: colors.blue,
+    GBP: colors.purple,
+  };
+
   const revenueChart = {
-    labels: data.revenueByDay.map((r) => (r.date || "").slice(5)),
-    datasets: [
-      {
-        label: "Revenue",
-        data: data.revenueByDay.map((r) => r.total),
-        borderColor: colors.green,
-        backgroundColor: hexToRgba(colors.green, 0.12),
-        fill: true,
-        tension: 0.4,
-        pointRadius: 0,
-      },
-    ],
+    labels: revenueDates.map((d) => d.slice(5)),
+    datasets: revenueCurrencies.map((cur) => ({
+      label: cur,
+      data: revenueDates.map((d) =>
+        data.revenueByDay
+          .filter((r) => r.date === d && r.currency === cur)
+          .reduce((sum, r) => sum + r.total, 0)
+      ),
+      borderColor: currencyPalette[cur] || colors.blue,
+      backgroundColor: hexToRgba(currencyPalette[cur] || colors.blue, 0.12),
+      fill: true,
+      tension: 0.4,
+      pointRadius: 0,
+    })),
   };
 
   const doughnutChart = {
@@ -125,13 +136,13 @@ export default function OverviewPage() {
 
       <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
         <StatCard label="Total Users" value={c.totalUsers} icon={<Users />} hint={`${c.newToday} new today`} />
-        <StatCard label="Active Now" value={c.activeUsers} icon={<Activity />} hint={`${c.activeSessions} sessions`} />
-        <StatCard label="Premium" value={c.premiumUsers} icon={<GraduationCap />} />
+        <StatCard label="Active Users" value={c.activeUsers} icon={<Activity />} hint={`${c.activeSessions} sessions (24h)`} />
+        <StatCard label="Premium" value={c.premiumUsers} icon={<GraduationCap />} hint="active access" />
         <StatCard
           label="Revenue"
-          value={`$${data.revenue.total.toLocaleString(undefined, { maximumFractionDigits: 0 })}`}
+          value={formatMoneyList(data.revenue.byCurrency.map((r) => ({ currency: r.currency, amount: r.total })))}
           icon={<DollarSign />}
-          hint={`$${data.revenue.thisMonth.toLocaleString(undefined, { maximumFractionDigits: 0 })} this month`}
+          hint={`${formatMoneyList(data.revenue.byCurrency.map((r) => ({ currency: r.currency, amount: r.thisMonth })))} this month`}
         />
       </div>
 
@@ -160,12 +171,12 @@ export default function OverviewPage() {
           )}
         </Panel>
 
-        <Panel title="Revenue" subtitle="Successful payments per day, all-time">
+        <Panel title="Revenue" subtitle="Payments per day, by currency">
           {data.revenueByDay.length === 0 ? (
             <EmptyState title="No revenue yet" />
           ) : (
             <div className="chart-wrap">
-              <Line data={revenueChart} options={{ responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: chartScales(colors) }} />
+              <Line data={revenueChart} options={{ responsive: true, maintainAspectRatio: false, plugins: { legend: { display: revenueCurrencies.length > 1 } }, scales: chartScales(colors) }} />
             </div>
           )}
         </Panel>
@@ -182,10 +193,10 @@ export default function OverviewPage() {
               </div>
               <div className="donut-legend">
                 {data.revenueBreakdown.map((r) => (
-                  <div key={r.label} className="dl-row">
+                  <div key={`${r.label}-${r.currency}`} className="dl-row">
                     <span className="dl-dot" style={{ background: "var(--acid)" }} />
-                    <span className="dl-label">{r.label}</span>
-                    <span className="dl-val">${r.total.toLocaleString(undefined, { maximumFractionDigits: 0 })}</span>
+                    <span className="dl-label">{r.label} · {r.currency}</span>
+                    <span className="dl-val">{formatMoney(r.total, r.currency)}</span>
                   </div>
                 ))}
               </div>

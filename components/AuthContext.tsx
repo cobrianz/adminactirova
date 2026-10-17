@@ -6,6 +6,7 @@ import { useRouter } from "next/navigation";
 type AdminUser = {
   id: string;
   email: string;
+  name?: string;
   firstName: string;
   lastName: string;
   role: string;

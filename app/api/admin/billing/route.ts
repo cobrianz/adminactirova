@@ -44,9 +44,19 @@ export async function GET(req: Request) {
       .collection("users")
       .find(
         {},
-        { projection: { name: 1, email: 1, subscription: 1, billingHistory: 1, isPremium: 1 } }
+        {
+          projection: {
+            name: 1,
+            firstName: 1,
+            lastName: 1,
+            email: 1,
+            subscription: 1,
+            billingHistory: 1,
+            isPremium: 1,
+            premiumAccessExpiresAt: 1,
+          },
+        }
       )
-      .limit(1000)
       .toArray();
 
     const transactions: Record<string, unknown>[] = [];
@@ -55,10 +65,13 @@ export async function GET(req: Request) {
     for (const user of users) {
       const sub = user.subscription && typeof user.subscription === "object" ? user.subscription : {};
       const plan = sub.plan;
+      const premiumExpiry = user.premiumAccessExpiresAt ? toDate(user.premiumAccessExpiresAt) : null;
+      const history = Array.isArray(user.billingHistory) ? user.billingHistory : [];
+
       if (plan && plan !== "free" && plan !== "none") {
         subscriptions.push({
           userId: String(user._id),
-          name: user.name || user.email || "",
+          name: user.name || `${user.firstName || ""} ${user.lastName || ""}`.trim() || user.email || "",
           email: user.email || "",
           plan,
           tier: sub.tier || "",
@@ -70,9 +83,29 @@ export async function GET(req: Request) {
           lastPaymentDate: sub.lastPaymentDate ? String(sub.lastPaymentDate) : null,
           expiresAt: sub.expiresAt || sub.expiryDate ? String(sub.expiresAt || sub.expiryDate) : null,
         });
+      } else if (user.isPremium || user.premiumAccessExpiresAt) {
+        // The platform sells one-time premium access (7 days per purchase)
+        // rather than recurring plans, so surface it as a subscription row.
+        const premiumEntries = (history as BillingEntry[]).filter((e) => e && e.type === "premium_generation");
+        const lastEntry = premiumEntries.length > 0 ? premiumEntries[premiumEntries.length - 1] : null;
+        const lastPaymentDate = lastEntry ? toDate(lastEntry.paidAt || lastEntry.createdAt || lastEntry.date) : null;
+        const isActive = premiumExpiry ? premiumExpiry.getTime() > Date.now() : !!user.isPremium;
+        subscriptions.push({
+          userId: String(user._id),
+          name: user.name || `${user.firstName || ""} ${user.lastName || ""}`.trim() || user.email || "",
+          email: user.email || "",
+          plan: "premium",
+          tier: "premium",
+          status: isActive ? "active" : "expired",
+          autoRenew: false,
+          billingCycle: "7-day access",
+          currentPeriodStart: lastPaymentDate ? lastPaymentDate.toISOString() : null,
+          currentPeriodEnd: premiumExpiry ? premiumExpiry.toISOString() : null,
+          lastPaymentDate: lastPaymentDate ? lastPaymentDate.toISOString() : null,
+          expiresAt: premiumExpiry ? premiumExpiry.toISOString() : null,
+        });
       }
 
-      const history = Array.isArray(user.billingHistory) ? user.billingHistory : [];
       for (const entry of history as BillingEntry[]) {
         if (!entry || typeof entry !== "object") continue;
 

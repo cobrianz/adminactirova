@@ -36,7 +36,7 @@ export async function GET(req: Request) {
 
     if (search) {
       const re = new RegExp(search.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "i");
-      filter.$or = [{ firstName: re }, { lastName: re }, { email: re }];
+      filter.$or = [{ name: re }, { firstName: re }, { lastName: re }, { email: re }];
     }
 
     const [users, total] = await Promise.all([
@@ -70,7 +70,7 @@ export async function GET(req: Request) {
         id: String(u._id),
         firstName: u.firstName || "",
         lastName: u.lastName || "",
-        name: `${u.firstName || ""} ${u.lastName || ""}`.trim(),
+        name: u.name || `${u.firstName || ""} ${u.lastName || ""}`.trim(),
         email: u.email,
         role: u.role,
         status: u.status,

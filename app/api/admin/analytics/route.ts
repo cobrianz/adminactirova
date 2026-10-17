@@ -3,10 +3,11 @@ import { getAdminSession, unauthorized, ok } from "@/lib/admin";
 
 export const dynamic = "force-dynamic";
 
+// UTC-anchored day boundaries to match the UTC $dateToString buckets.
 function daysAgo(n: number) {
-  const d = new Date();
-  d.setHours(0, 0, 0, 0);
-  d.setDate(d.getDate() - n);
+  const now = new Date();
+  const d = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate()));
+  d.setUTCDate(d.getUTCDate() - n);
   return d;
 }
 

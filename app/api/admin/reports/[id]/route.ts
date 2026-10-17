@@ -23,11 +23,11 @@ export async function GET(req: Request, { params }: Params) {
     const user = report.userId
       ? await db
           .collection("users")
-          .findOne({ _id: new ObjectId(String(report.userId)) }, { projection: { firstName: 1, lastName: 1, email: 1 } })
+          .findOne({ _id: new ObjectId(String(report.userId)) }, { projection: { name: 1, firstName: 1, lastName: 1, email: 1 } })
       : null;
 
     const owner = user
-      ? `${user.firstName || ""} ${user.lastName || ""}`.trim() || user.email || "—"
+      ? user.name || `${user.firstName || ""} ${user.lastName || ""}`.trim() || user.email || "—"
       : "—";
 
     const fullContent = typeof report.fullContent === "string" ? report.fullContent : "";
@@ -54,6 +54,53 @@ export async function GET(req: Request, { params }: Params) {
     });
   } catch (error) {
     console.error("Admin report detail error:", error);
+    return ok({ error: "Internal server error" }, 500);
+  }
+}
+
+export async function PATCH(req: Request, { params }: Params) {
+  const admin = await getAdminSession(req);
+  if (!admin) return unauthorized();
+
+  const { id } = await params;
+  if (!ObjectId.isValid(id)) return notFound("Invalid report id");
+
+  try {
+    const body = await req.json();
+    const updates: Record<string, unknown> = {};
+
+    if (body.title !== undefined) {
+      const title = String(body.title).trim();
+      if (!title) return ok({ error: "Title cannot be empty" }, 400);
+      updates.title = title;
+    }
+    if (body.courseName !== undefined) updates.courseName = String(body.courseName);
+    if (body.topic !== undefined) updates.topic = String(body.topic);
+
+    if (Object.keys(updates).length === 0) return ok({ error: "No updates provided" }, 400);
+
+    const { db } = await connectToDatabase();
+    const result = await db
+      .collection("reports")
+      .findOneAndUpdate(
+        { _id: new ObjectId(id) },
+        { $set: { ...updates, updatedAt: new Date() } },
+        { returnDocument: "after", projection: { title: 1 } }
+      );
+    if (!result) return notFound("Report not found");
+
+    await logAdminActivity({
+      admin,
+      action: "update",
+      resource: "reports",
+      resourceId: id,
+      summary: `Updated report "${result.title || id}"`,
+      meta: { fields: Object.keys(updates) },
+    });
+
+    return ok({ success: true });
+  } catch (error) {
+    console.error("Admin report update error:", error);
     return ok({ error: "Internal server error" }, 500);
   }
 }

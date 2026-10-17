@@ -19,7 +19,10 @@ export default function CertificatesPage() {
           { key: "userId", label: "Recipient", mono: true, render: (r: Row) => String(r.userId ?? "—").slice(-8) },
           { key: "createdAt", label: "Issued", mono: true, render: (r: Row) => formatDate(r.createdAt) },
         ]}
-        formFields={[{ key: "title", label: "Title" }]}
+        formFields={[
+          { key: "title", label: "Title" },
+          { key: "userId", label: "Recipient user ID" },
+        ]}
       />
     </div>
   );

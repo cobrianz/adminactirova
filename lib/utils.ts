@@ -37,3 +37,31 @@ export function timeAgo(value: unknown): string {
 export function initials(firstName?: string, lastName?: string): string {
   return `${firstName?.charAt(0) || ""}${lastName?.charAt(0) || ""}`.toUpperCase() || "?";
 }
+
+export function formatMoney(amount: number, currency?: string): string {
+  const cur = (currency || "USD").toUpperCase();
+  try {
+    return new Intl.NumberFormat("en-US", {
+      style: "currency",
+      currency: cur,
+      maximumFractionDigits: cur === "KES" ? 0 : 2,
+    }).format(amount);
+  } catch {
+    return `${cur} ${amount}`;
+  }
+}
+
+export function formatMoneyList(items?: { currency: string; amount: number }[] | null): string {
+  if (!items || items.length === 0) return "—";
+  return items.map((r) => formatMoney(r.amount, r.currency)).join(" · ");
+}
+
+export function displayName(user?: { name?: string; firstName?: string; lastName?: string; email?: string } | null): string {
+  if (!user) return "—";
+  return (
+    user.name ||
+    `${user.firstName || ""} ${user.lastName || ""}`.trim() ||
+    user.email ||
+    "—"
+  );
+}

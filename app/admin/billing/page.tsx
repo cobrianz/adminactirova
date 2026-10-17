@@ -158,7 +158,7 @@ export default function BillingPage() {
         <StatCard label="Active subscriptions" value={summary.activeSubscriptions} icon={<CreditCard />} hint={`${summary.totalSubscriptions} total`} />
         <StatCard label="Paying users" value={summary.payingUsers} icon={<Users />} />
         <StatCard label="Successful payments" value={summary.successfulTransactions} icon={<ReceiptText />} hint={`${summary.totalTransactions} recorded`} />
-        <StatCard label="Revenue (30d)" value={moneyList(summary.revenueLast30Days)} icon={<TrendingUp />} hint="successful payments" />
+        <StatCard label="Revenue (30d)" value={moneyList(summary.revenueLast30Days)} icon={<TrendingUp />} hint="all currencies" />
       </div>
 
       <div className="mt-6 grid gap-6 xl:grid-cols-3">
@@ -178,7 +178,7 @@ export default function BillingPage() {
           )}
         </Panel>
 
-        <Panel title="Subscriptions" subtitle={`${filteredSubs.length} non-free plans`} className="xl:col-span-2">
+        <Panel title="Subscriptions" subtitle={`${filteredSubs.length} premium access / paid plans`} className="xl:col-span-2">
           <div className="mb-4 flex items-center gap-2">
             <div className="tb-search w-64">
               <Search className="h-3.5 w-3.5 shrink-0" />
@@ -200,7 +200,7 @@ export default function BillingPage() {
                     <th>Plan</th>
                     <th>Status</th>
                     <th>Cycle</th>
-                    <th>Renews</th>
+                    <th>Period ends</th>
                     <th>Last payment</th>
                   </tr>
                 </thead>

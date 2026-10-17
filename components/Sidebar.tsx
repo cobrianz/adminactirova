@@ -33,6 +33,7 @@ import {
   LayoutTemplate,
   CreditCard,
   History,
+  Share2,
 } from "lucide-react";
 import { useAuth } from "@/components/AuthContext";
 
@@ -72,6 +73,7 @@ const NAV_GROUPS = [
       { href: "/admin/premium", label: "Premium", icon: Crown },
       { href: "/admin/card-sets", label: "Card Sets", icon: Layers },
       { href: "/admin/careers", label: "Careers", icon: Rocket },
+      { href: "/admin/shared-plans", label: "Shared Plans", icon: Share2 },
     ],
   },
   {
@@ -123,10 +125,13 @@ function NavList({ onNavigate }: { onNavigate?: () => void }) {
 
 function SidebarFooter() {
   const { admin, logout } = useAuth();
-  const initials = admin
-    ? `${(admin.firstName || "A").charAt(0)}${(admin.lastName || "").charAt(0)}`
-    : "A";
-  const name = admin ? `${admin.firstName} ${admin.lastName}`.trim() : "Admin";
+  const name = admin ? admin.name || `${admin.firstName} ${admin.lastName}`.trim() || "Admin" : "Admin";
+  const initials = name
+    .split(/\s+/)
+    .map((word) => word.charAt(0))
+    .slice(0, 2)
+    .join("")
+    .toUpperCase();
 
   const handleLogout = async () => {
     await logout();

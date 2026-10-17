@@ -38,7 +38,7 @@ export async function GET(req: Request) {
     const users = userIds.length
       ? await db
           .collection("users")
-          .find({ _id: { $in: userIds.map((id) => new ObjectId(id)) } }, { projection: { firstName: 1, lastName: 1, email: 1 } })
+          .find({ _id: { $in: userIds.map((id) => new ObjectId(id)) } }, { projection: { name: 1, firstName: 1, lastName: 1, email: 1 } })
           .toArray()
       : [];
     const userMap = new Map(users.map((u) => [String(u._id), u]));
@@ -47,9 +47,7 @@ export async function GET(req: Request) {
       reports: reports.map((r) => {
         const user = userMap.get(String(r.userId));
         const owner = user
-          ? `${user.firstName || ""} ${user.lastName || ""}`.trim() || user.email || "—"
-          : r.userId
-          ? "—"
+          ? user.name || `${user.firstName || ""} ${user.lastName || ""}`.trim() || user.email || "—"
           : "—";
         return {
           id: String(r._id),

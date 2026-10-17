@@ -8,6 +8,7 @@ export type AdminLevel = "admin" | "superadmin";
 export type AdminSession = {
   id: string;
   email: string;
+  name: string;
   firstName: string;
   lastName: string;
   role: string;
@@ -61,6 +62,7 @@ export async function getAdminSession(req: Request): Promise<AdminSession | null
   return {
     id: String(user._id),
     email: user.email,
+    name: user.name || `${user.firstName || ""} ${user.lastName || ""}`.trim(),
     firstName: user.firstName || "",
     lastName: user.lastName || "",
     role: user.role,

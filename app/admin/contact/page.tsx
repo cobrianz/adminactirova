@@ -35,8 +35,38 @@ export default function ContactPage() {
   const [page, setPage] = useState(1);
   const { data, loading, refetch } = useApi<ContactData>(`/api/admin/contact?status=${status}&page=${page}&limit=20`);
   const [expanded, setExpanded] = useState<Message | null>(null);
+  const [notesDraft, setNotesDraft] = useState("");
+  const [savingNotes, setSavingNotes] = useState(false);
   const [deleteTarget, setDeleteTarget] = useState<Message | null>(null);
   const [deleting, setDeleting] = useState(false);
+
+  const toggleExpanded = (m: Message) => {
+    if (expanded?.id === m.id) {
+      setExpanded(null);
+      return;
+    }
+    setExpanded(m);
+    setNotesDraft(m.adminNotes || "");
+  };
+
+  const saveNotes = async () => {
+    if (!expanded) return;
+    setSavingNotes(true);
+    try {
+      await apiCall(`/api/admin/contact/${expanded.id}`, {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ adminNotes: notesDraft }),
+      });
+      toast.success("Notes saved");
+      setExpanded({ ...expanded, adminNotes: notesDraft });
+      refetch();
+    } catch (e) {
+      toast.error((e as Error).message);
+    } finally {
+      setSavingNotes(false);
+    }
+  };
 
   const updateStatus = async (m: Message, newStatus: string) => {
     try {
@@ -129,7 +159,7 @@ export default function ContactPage() {
                         <option value="closed">Closed</option>
                       </select>
                       <button
-                        onClick={() => setExpanded(expanded?.id === m.id ? null : m)}
+                        onClick={() => toggleExpanded(m)}
                         className="pa-btn"
                       >
                         {expanded?.id === m.id ? "Hide" : "View"}
@@ -142,11 +172,21 @@ export default function ContactPage() {
                   {expanded?.id === m.id && (
                     <div className="mt-3 rounded-xl border border-border bg-bg3 p-4">
                       <p className="whitespace-pre-wrap text-sm text-ink2">{m.message}</p>
-                      {m.adminNotes && (
-                        <p className="mt-3 border-t pt-3 text-xs text-ink3" style={{ borderColor: "var(--border)" }}>
-                          <span className="font-medium">Admin notes:</span> {m.adminNotes}
-                        </p>
-                      )}
+                      <div className="mt-3 border-t pt-3" style={{ borderColor: "var(--border)" }}>
+                        <label className="form-label">Admin notes</label>
+                        <textarea
+                          className="form-textarea w-full"
+                          rows={3}
+                          value={notesDraft}
+                          onChange={(e) => setNotesDraft(e.target.value)}
+                          placeholder="Internal notes about this message…"
+                        />
+                        <div className="mt-2 flex justify-end">
+                          <button onClick={saveNotes} disabled={savingNotes} className="btn-modal btn-modal-save">
+                            {savingNotes ? <Spinner className="h-3.5 w-3.5" /> : "Save notes"}
+                          </button>
+                        </div>
+                      </div>
                       <p className="mt-3 text-xs text-ink3">Received {formatDate(m.createdAt)}</p>
                     </div>
                   )}

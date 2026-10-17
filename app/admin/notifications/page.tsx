@@ -36,6 +36,7 @@ export default function NotificationsPage() {
           { key: "title", label: "Title" },
           { key: "message", label: "Message", type: "textarea" },
           { key: "type", label: "Type" },
+          { key: "userId", label: "User ID" },
           { key: "read", label: "Read", type: "boolean" },
         ]}
       />

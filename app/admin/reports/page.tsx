@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import { toast } from "sonner";
-import { Search, Trash2, RefreshCw, Eye, FileText } from "lucide-react";
+import { Search, Trash2, RefreshCw, Eye, FileText, Pencil, X } from "lucide-react";
 import { useApi, apiCall } from "@/components/useApi";
 import { PageHeader, Badge, EmptyState, Spinner, ConfirmModal } from "@/components/ui";
 import MarkdownContent from "@/components/MarkdownContent";
@@ -48,6 +48,37 @@ export default function ReportsPage() {
   const [viewTarget, setViewTarget] = useState<Report | null>(null);
   const [viewDetail, setViewDetail] = useState<Report | null>(null);
   const [viewLoading, setViewLoading] = useState(false);
+  const [editTarget, setEditTarget] = useState<Report | null>(null);
+  const [editForm, setEditForm] = useState({ title: "", courseName: "", topic: "" });
+  const [saving, setSaving] = useState(false);
+
+  const openEdit = (r: Report) => {
+    setEditForm({ title: r.title, courseName: r.course, topic: r.topic });
+    setEditTarget(r);
+  };
+
+  const handleSave = async () => {
+    if (!editTarget) return;
+    if (!editForm.title.trim()) {
+      toast.error("Title is required");
+      return;
+    }
+    setSaving(true);
+    try {
+      await apiCall(`/api/admin/reports/${editTarget.id}`, {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(editForm),
+      });
+      toast.success("Report updated");
+      setEditTarget(null);
+      refetch();
+    } catch (e) {
+      toast.error((e as Error).message);
+    } finally {
+      setSaving(false);
+    }
+  };
 
   const openView = async (report: Report) => {
     setViewTarget(report);
@@ -149,6 +180,14 @@ export default function ReportsPage() {
                           >
                             <Eye className="h-3.5 w-3.5" />
                           </button>
+                          <button
+                            onClick={() => openEdit(r)}
+                            className="tb-btn"
+                            style={{ width: 30, height: 30, borderRadius: 8 }}
+                            aria-label="Edit"
+                          >
+                            <Pencil className="h-3.5 w-3.5" />
+                          </button>
                           <button onClick={() => setDeleteTarget(r)} className="tb-btn" style={{ width: 30, height: 30, borderRadius: 8 }} aria-label="Delete">
                             <Trash2 className="h-3.5 w-3.5" />
                           </button>
@@ -240,6 +279,58 @@ export default function ReportsPage() {
             <div className="modal-footer">
               <button onClick={() => setViewTarget(null)} className="btn-modal btn-modal-cancel">
                 Close
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {editTarget && (
+        <div className="modal-overlay" onClick={() => setEditTarget(null)}>
+          <div className="modal" onClick={(e) => e.stopPropagation()}>
+            <div className="modal-head">
+              <div className="flex min-w-0 items-center gap-3">
+                <span className="view-icon">
+                  <Pencil className="h-4 w-4" />
+                </span>
+                <h3 className="modal-title truncate">Edit report</h3>
+              </div>
+              <button onClick={() => setEditTarget(null)} className="modal-close" aria-label="Close">
+                <X className="h-4 w-4 text-ink3" />
+              </button>
+            </div>
+            <div className="modal-body space-y-4">
+              <div>
+                <label className="form-label">Title</label>
+                <input
+                  className="form-input w-full"
+                  value={editForm.title}
+                  onChange={(e) => setEditForm((f) => ({ ...f, title: e.target.value }))}
+                />
+              </div>
+              <div>
+                <label className="form-label">Course</label>
+                <input
+                  className="form-input w-full"
+                  value={editForm.courseName}
+                  onChange={(e) => setEditForm((f) => ({ ...f, courseName: e.target.value }))}
+                />
+              </div>
+              <div>
+                <label className="form-label">Topic</label>
+                <input
+                  className="form-input w-full"
+                  value={editForm.topic}
+                  onChange={(e) => setEditForm((f) => ({ ...f, topic: e.target.value }))}
+                />
+              </div>
+            </div>
+            <div className="modal-footer">
+              <button onClick={() => setEditTarget(null)} className="btn-modal btn-modal-cancel">
+                Cancel
+              </button>
+              <button onClick={handleSave} disabled={saving} className="btn-modal btn-modal-save">
+                {saving ? <Spinner className="h-3.5 w-3.5" /> : "Save changes"}
               </button>
             </div>
           </div>

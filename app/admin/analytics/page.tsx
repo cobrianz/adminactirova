@@ -20,6 +20,20 @@ type Analytics = {
   recentSessions: { id: string; page: string; startTime: string; duration: number; isActive: boolean; userId: string | null }[];
 };
 
+// Session durations are stored in milliseconds (see the main app's
+// analytics routes which divide by 60000 for minutes).
+function formatDuration(ms: number): string {
+  if (!ms || ms < 1000) return "<1s";
+  const totalSeconds = Math.round(ms / 1000);
+  const minutes = Math.floor(totalSeconds / 60);
+  const seconds = totalSeconds % 60;
+  if (minutes >= 60) {
+    const hours = Math.floor(minutes / 60);
+    return `${hours}h ${minutes % 60}m`;
+  }
+  return minutes > 0 ? `${minutes}m ${seconds}s` : `${seconds}s`;
+}
+
 export default function AnalyticsPage() {
   const { data, loading, error } = useApi<Analytics>("/api/admin/analytics");
   const colors = useThemeColors();
@@ -34,9 +48,9 @@ export default function AnalyticsPage() {
 
   if (error || !data) return <EmptyState title="Failed to load analytics" subtitle={error || undefined} />;
 
-  const avgDuration = data.pageviewsLast14Days.reduce((s, d) => s + d.duration, 0);
+  const totalDurationMs = data.pageviewsLast14Days.reduce((s, d) => s + d.duration, 0);
   const totalSessions = data.pageviewsLast14Days.reduce((s, d) => s + d.sessions, 0);
-  const avgPerSession = totalSessions ? Math.round(avgDuration / totalSessions) : 0;
+  const avgMsPerSession = totalSessions ? totalDurationMs / totalSessions : 0;
 
   const sessionsChart = {
     labels: data.pageviewsLast14Days.map((d) => d.date.slice(5)),
@@ -84,7 +98,7 @@ export default function AnalyticsPage() {
         <StatCard label="Total visits" value={data.visitorCount.toLocaleString()} icon={<Globe />} />
         <StatCard label="Active now" value={data.activeNow} icon={<Radio />} />
         <StatCard label="Sessions (14d)" value={totalSessions} icon={<Activity />} />
-        <StatCard label="Avg per session" value={`${Math.floor(avgPerSession / 60)}m ${avgPerSession % 60}s`} icon={<Clock />} />
+        <StatCard label="Avg per session" value={formatDuration(avgMsPerSession)} icon={<Clock />} />
       </div>
 
       <div className="mt-6 grid gap-6 xl:grid-cols-2">
@@ -168,7 +182,7 @@ export default function AnalyticsPage() {
                       <strong>{s.page}</strong>
                     </p>
                     <p className="act-time">
-                      {timeAgo(s.startTime)} · {s.duration ? `${Math.floor(s.duration / 60)}m` : "—"}
+                      {timeAgo(s.startTime)} · {s.duration ? formatDuration(s.duration) : "—"}
                     </p>
                   </div>
                   {s.isActive ? <Badge color="green">Live</Badge> : <span className="act-time">ended</span>}

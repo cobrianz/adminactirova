@@ -116,7 +116,3 @@ export function ConfirmModal({ open, title, message, confirmLabel = "Delete", lo
     </div>
   );
 }
-
-export function tableCell() {
-  return "px-4 py-3 text-sm";
-}

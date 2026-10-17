@@ -68,6 +68,7 @@ export async function POST(req: Request) {
       admin: {
         id: String(user._id),
         email: user.email,
+        name: user.name || `${user.firstName || ""} ${user.lastName || ""}`.trim() || user.email,
         firstName: user.firstName,
         lastName: user.lastName,
         role: user.role,

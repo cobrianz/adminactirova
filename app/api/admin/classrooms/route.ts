@@ -36,13 +36,16 @@ export async function GET(req: Request) {
       ids.length
         ? db
             .collection("enrollments")
-            .aggregate([{ $match: { classroomId: { $in: ids } } }, { $group: { _id: "$classroomId", count: { $sum: 1 } } }])
+            .aggregate([
+              { $match: { classroomId: { $in: ids }, status: "active" } },
+              { $group: { _id: "$classroomId", count: { $sum: 1 } } },
+            ])
             .toArray()
         : [],
       instructorIds.length
         ? db
             .collection("users")
-            .find({ _id: { $in: instructorIds } }, { projection: { firstName: 1, lastName: 1, email: 1 } })
+            .find({ _id: { $in: instructorIds } }, { projection: { name: 1, firstName: 1, lastName: 1, email: 1 } })
             .toArray()
         : [],
     ]);
@@ -54,7 +57,7 @@ export async function GET(req: Request) {
       classrooms: classrooms.map((c) => {
         const instructor = instructorMap.get(String(c.instructorId));
         const instructorName = instructor
-          ? `${instructor.firstName || ""} ${instructor.lastName || ""}`.trim() || instructor.email || "—"
+          ? instructor.name || `${instructor.firstName || ""} ${instructor.lastName || ""}`.trim() || instructor.email || "—"
           : "—";
         return {
           id: String(c._id),

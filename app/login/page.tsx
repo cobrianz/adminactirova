@@ -46,7 +46,7 @@ export default function LoginPage() {
         toast.error(data.error || "Login failed");
         return;
       }
-      toast.success(`Welcome back, ${data.admin.firstName || "admin"}`);
+      toast.success(`Welcome back, ${data.admin.name || "admin"}`);
       await refresh();
       router.replace("/admin");
     } catch {

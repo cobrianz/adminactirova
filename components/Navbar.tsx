@@ -8,10 +8,13 @@ import { ThemeToggle } from "@/components/ThemeProvider";
 export default function Navbar({ onOpenSidebar }: { onOpenSidebar?: () => void }) {
   const { admin } = useAuth();
 
-  const initials = admin
-    ? `${(admin.firstName || "A").charAt(0)}${(admin.lastName || "").charAt(0)}`
-    : "A";
-  const name = admin ? `${admin.firstName} ${admin.lastName}`.trim() : "Admin";
+  const name = admin ? admin.name || `${admin.firstName} ${admin.lastName}`.trim() || "Admin" : "Admin";
+  const initials = name
+    .split(/\s+/)
+    .map((word) => word.charAt(0))
+    .slice(0, 2)
+    .join("")
+    .toUpperCase();
 
   return (
     <header

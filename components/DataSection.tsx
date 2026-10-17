@@ -16,6 +16,7 @@ import {
 } from "lucide-react";
 import { toast } from "sonner";
 import { useApi, apiCall } from "@/components/useApi";
+import { useAuth } from "@/components/AuthContext";
 import { Spinner, EmptyState, ConfirmModal } from "@/components/ui";
 import MarkdownContent from "@/components/MarkdownContent";
 import { COLLECTIONS } from "@/lib/collections";
@@ -234,7 +235,11 @@ export default function DataSection({
 }) {
   const meta = COLLECTIONS[collection];
   const label = meta?.label || collection;
-  const canWrite = !readOnly && !meta?.readOnly;
+  const { admin } = useAuth();
+  const canWrite =
+    !readOnly &&
+    !meta?.readOnly &&
+    (!meta?.superAdminOnly || admin?.adminLevel === "superadmin");
 
   const [search, setSearch] = useState("");
   const [page, setPage] = useState(1);
@@ -526,7 +531,10 @@ export default function DataSection({
         <p className="panel-title" style={{ margin: 0 }}>
           {label}
         </p>
-        <p className="td-mono td-sub">{items.length} records</p>
+        <p className="td-mono td-sub">
+          {data?.total ?? items.length} records
+          {(data?.total ?? items.length) > items.length ? ` · showing first ${items.length}` : ""}
+        </p>
         <div className="ml-auto flex items-center gap-2">
           <div className="tb-search w-56">
             <Search className="h-3.5 w-3.5 shrink-0" />

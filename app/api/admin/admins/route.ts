@@ -30,6 +30,7 @@ export async function GET(req: Request) {
     return ok({
       admins: admins.map((a) => ({
         id: String(a._id),
+        name: a.name || `${a.firstName || ""} ${a.lastName || ""}`.trim(),
         firstName: a.firstName || "",
         lastName: a.lastName || "",
         email: a.email,
