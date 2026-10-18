@@ -10,12 +10,14 @@ export async function GET(req: Request) {
   try {
     const url = new URL(req.url);
     const status = url.searchParams.get("status") || "";
+    const category = url.searchParams.get("category") || "";
     const page = Math.max(1, parseInt(url.searchParams.get("page") || "1", 10) || 1);
     const limit = Math.min(100, Math.max(1, parseInt(url.searchParams.get("limit") || "20", 10) || 20));
 
     const { db } = await connectToDatabase();
     const filter: Record<string, unknown> = {};
     if (status) filter.status = status;
+    if (category) filter.category = category;
 
     const [messages, total] = await Promise.all([
       db

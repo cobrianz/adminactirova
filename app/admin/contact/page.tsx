@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import React, { useState } from "react";
 import { toast } from "sonner";
@@ -32,8 +32,14 @@ const statusColor: Record<string, string> = { new: "pending", "in-progress": "am
 
 export default function ContactPage() {
   const [status, setStatus] = useState("");
+  const [category, setCategory] = useState("");
   const [page, setPage] = useState(1);
-  const { data, loading, refetch } = useApi<ContactData>(`/api/admin/contact?status=${status}&page=${page}&limit=20`);
+  const queryParams = new URLSearchParams();
+  if (status) queryParams.set("status", status);
+  if (category) queryParams.set("category", category);
+  queryParams.set("page", String(page));
+  queryParams.set("limit", "20");
+  const { data, loading, refetch } = useApi<ContactData>(`/api/admin/contact?${queryParams.toString()}`);
   const [expanded, setExpanded] = useState<Message | null>(null);
   const [notesDraft, setNotesDraft] = useState("");
   const [savingNotes, setSavingNotes] = useState(false);
@@ -110,19 +116,32 @@ export default function ContactPage() {
     <div>
       <PageHeader title="Contact messages" subtitle={`${data?.total ?? "…"} messages`} />
 
-      <div className="mb-4 flex flex-wrap items-center gap-2">
-        {tabs.map((t) => (
+      <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
+        <div className="flex flex-wrap items-center gap-2">
+          {tabs.map((t) => (
+            <button
+              key={t.key}
+              onClick={() => {
+                setStatus(t.key);
+                setPage(1);
+              }}
+              className={`pa-btn ${status === t.key ? "active" : ""}`}
+            >
+              {t.label}
+            </button>
+          ))}
+        </div>
+        <div className="flex items-center gap-2">
           <button
-            key={t.key}
             onClick={() => {
-              setStatus(t.key);
+              setCategory(category === "institution_inquiry" ? "" : "institution_inquiry");
               setPage(1);
             }}
-            className={`pa-btn ${status === t.key ? "active" : ""}`}
+            className={`pa-btn ${category === "institution_inquiry" ? "active text-emerald-600 font-bold" : ""}`}
           >
-            {t.label}
+            {category === "institution_inquiry" ? "Showing School Leads ✓" : "Filter: School Pilot Leads"}
           </button>
-        ))}
+        </div>
       </div>
 
       <div className="panel">
@@ -142,6 +161,9 @@ export default function ContactPage() {
                       <div className="flex items-center gap-2">
                         <p className="text-sm font-semibold text-ink">{m.subject || "No subject"}</p>
                         <Badge color={statusColor[m.status] || "slate"}>{m.status}</Badge>
+                        {m.category === "institution_inquiry" && (
+                          <Badge color="emerald">School Pilot Lead</Badge>
+                        )}
                       </div>
                       <p className="mt-0.5 text-xs text-ink3">
                         {m.name} · {m.email} · {m.category} · {timeAgo(m.createdAt)}
